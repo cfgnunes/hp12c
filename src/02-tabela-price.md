@@ -76,3 +76,119 @@
 |  53   |  STO 1  | 44.01     |
 
 ## Exemplos de utilização do programa
+
+### Exemplo 1
+
+**Em um empréstimo de R$500.000,00, com taxa de 2% ao mês, pelo prazo de 20 meses, pede-se:**
+
+**a) Calcule o total de juros pagos até a 13ª parcela.**
+
+Pressione as teclas:
+
+```
+20 n
+2 i
+500000 PV
+13 R/S
+```
+
+O visor exibirá: `-95.421,53` (total de juros pagos até a 13ª parcela).
+
+**b) Calcule o total pago até a 13ª parcela.**
+
+Pressione a tecla `+`
+
+O visor exibirá: `-397.518,67` (total pago até a 13ª parcela).
+
+### Exemplo 2
+
+**Em um empréstimo de R$350.000,00, com taxa de 1% ao mês, por 35 meses, pede-se:**
+
+**a) Calcule os juros pagos somente na 28ª parcela.**
+
+Acumule as amortizações até a 27ª parcela, pressionando as teclas:
+
+```
+350000 PV
+1 i
+35 n
+27 R/S
+```
+
+Em seguida, calcule somente a parcela 28, pressionando as teclas:
+
+```
+1 R/S
+```
+
+O visor exibirá: `-910,65` (juros pagos somente na 28ª parcela).
+
+
+**b) Calcule o valor da 28ª parcela.**
+
+Pressione as teclas:
+
+```
+RCL PMT
+```
+
+O visor exibirá: `-11.901,29` (valor da 28ª parcela).
+
+### Exemplo 3
+
+**Em um empréstimo de R$320.000,00, com taxa de 3% ao mês, por 42 meses, pede-se:**
+
+**a) Calcule o total de juros pagos ao longo de todo o financiamento.**
+
+Pressione as teclas:
+
+```
+320000 PV
+3 i
+42 n
+42 R/S
+```
+
+O visor exibirá: `-247.056,09` (total de juros pagos durante todo o financiamento).
+
+
+**b) Calcule o total das parcelas ao longo de todo o financiamento.**
+
+Pressione a tecla `+`
+
+O visor exibirá: `-567.056,09` (total pago em parcelas ao longo de todo o financiamento).
+
+### Exemplo 4
+
+**Em um empréstimo de R$260.000,00, com taxa de 4% ao mês, por 38 meses, pede-se:**
+
+**a) Calcule o total de juros pagos entre a 16ª e a 27ª parcela.**
+
+Primeiro, amortize até a 15ª parcela, pressionando as teclas:
+
+```
+260000 PV
+4 i
+38 n
+15 R/S
+```
+
+Em seguida, amortize da 16ª até a 27ª parcela (12 parcelas), pressionando as teclas:
+
+```
+12 R/S
+```
+
+O visor exibirá: `-79.252,16` (total de juros pagos** entre a 16ª e 27ª parcela).
+
+**b) Calcule o total de amortizações entre a 16ª e a 27ª parcela.**
+
+Pressione a tecla `x><y`
+
+O visor exibirá: `-81.839,43` (total de capital amortizado nesse período).
+
+**c) Calcule o total pago entre a 16ª e a 27ª parcela.**
+
+Pressione a tecla `+`
+
+O visor exibirá: `-161.091,59` (total pago em parcelas da 16ª à 27ª).
