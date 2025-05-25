@@ -5,7 +5,7 @@ A tabela a seguir apresenta todos os programas deste repositório instalados na 
 As linhas de 1 a 16 são reservadas para redirecionamentos rápidos aos programas específicos. Para acessar, por exemplo, o Programa 3, basta digitar `GTO 003` e pressionar `R/S`. Não é necessário memorizar a linha de início de cada programa, o que torna o uso de múltiplos programas mais prático e eficiente.
 
 A tabela abaixo inclui os programas:
-- Programa 1, início na linha 17: [Taxas de Juros Equivalentes](./01-juros-equivalentes.md)
+- Programa 1, início na linha 17: [Calculadora de Juros Equivalentes](./01-juros-equivalentes.md)
 - Programa 2, início na linha 33: [Amortização pelo Sistema Francês (Tabela Price)](./01-juros-equivalentes.md)
 - Programa 3, início na linha 88: [Amortização pelo Sistema de Amortização Constante (Tabela SAC)](./03-tabela-sac.md)
 
