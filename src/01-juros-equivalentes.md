@@ -31,7 +31,7 @@
 
 ## Fórmulas utilizadas no programa
 
-A **fórmula para calcular taxas de juros equivalentes** entre dois períodos de capitalização diferentes é:
+A fórmula para calcular taxas de juros equivalentes entre dois períodos de capitalização diferentes é:
 
 $$
 i_X = \left( \left(1 + \frac{i_n}{100} \right)^{\frac{n}{X}} - 1 \right) \times 100
