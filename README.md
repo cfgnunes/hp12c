@@ -4,9 +4,9 @@ Este repositório reúne uma coleção de programas financeiros desenvolvidos pa
 
 ## Programas
 
-1. Calculadora de Taxas de Juros Equivalentes
-2. Cálculo de Amortização pelo Sistema Francês (Tabela Price)
-3. Cálculo de Amortização pelo Sistema de Amortização Constante (Tabela SAC)
+1. [Calculadora de Taxas de Juros Equivalentes](./src/01-juros-equivalentes.md)
+2. [Cálculo de Amortização pelo Sistema Francês (Tabela Price)](./src/01-juros-equivalentes.md)
+3. [Cálculo de Amortização pelo Sistema de Amortização Constante (Tabela SAC)](./src/01-juros-equivalentes.md)
 
 ## Contribuindo
 
