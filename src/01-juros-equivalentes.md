@@ -46,8 +46,6 @@ Onde:
 
 ## Exemplos de utilização do programa
 
----
-
 ### Exemplo 1
 
 **Você possui uma taxa de 1% ao mês e deseja saber qual é a taxa anual equivalente.**
@@ -62,8 +60,6 @@ Pressione as teclas:
 
 Então o visor exibirá: `12,68` (taxa equivalente anual).
 
----
-
 ### Exemplo 2
 
 **Você possui uma taxa de 12% ao ano e deseja saber qual é a taxa mensal equivalente.**
@@ -77,5 +73,3 @@ Pressione as teclas:
 ```
 
 Então o visor exibirá: `0,95 %` (taxa equivalente mensal).
-
----
