@@ -69,8 +69,6 @@
 
 ## Exemplos de utilização do programa
 
----
-
 ### Exemplo 1
 
 **Em um empréstimo de R$500.000,00, com taxa de 2% ao mês, pelo prazo de 20 meses, pede-se:**
@@ -93,8 +91,6 @@ O visor exibirá: `-91.000,00` (total de juros pagos até a 13ª parcela).
 Pressione a tecla `+`
 
 O visor exibirá: `-416.000,00` (total pago até a 13ª parcela).
-
----
 
 ### Exemplo 2
 
@@ -130,8 +126,6 @@ RCL PMT
 
 O visor exibirá: `-10.800,00` (valor da 28ª parcela).
 
----
-
 ### Exemplo 3
 
 **Em um empréstimo de R$320.000,00, com taxa de 3% ao mês, por 42 meses, pede-se:**
@@ -155,8 +149,6 @@ O visor exibirá: `-206.400,00` (total de juros pagos durante todo o financiamen
 Pressione a tecla `+`
 
 O visor exibirá: `-526.400,00` (total pago em parcelas ao longo de todo o financiamento).
-
----
 
 ### Exemplo 4
 
@@ -192,5 +184,3 @@ O visor exibirá: `-82.105,26` (total de capital amortizado nesse período).
 Pressione a tecla `+`
 
 O visor exibirá: `-139.578,95` (total pago em parcelas da 16ª à 27ª).
-
----
