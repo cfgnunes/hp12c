@@ -1,4 +1,4 @@
-# Calculadora de Taxas de Juros Equivalentes
+# Taxas de Juros Equivalentes
 
 ## Entradas e saídas do programa
 
@@ -49,13 +49,14 @@ Onde:
 **Exemplo 1:** Você possui uma taxa de 1% ao mês e deseja saber qual é a taxa anual equivalente.
 
 Pressione as teclas:
+
 ```
 1 i
 1 n
 12 R/S
 ```
 
-Então o visor mostrará: 12,68%
+Então o visor exibirá: `12,68 %`
 
 **Exemplo 2:** Você possui uma taxa de 12% ao ano e deseja saber qual é a taxa mensal equivalente.
 
@@ -67,4 +68,4 @@ Pressione as teclas:
 1 R/S
 ```
 
-Então o visor mostrará: 0,95%
+Então o visor exibirá: `0,95 %`
