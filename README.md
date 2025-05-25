@@ -1,6 +1,6 @@
 # Programas para calculadoras HP 12c
 
-Este repositório contém uma lista programas para finanças para serem adicionados nas calculadoras HP 12c e HP 12c Platinum.
+Este repositório reúne uma coleção de programas financeiros desenvolvidos para as calculadoras HP 12C e HP 12C Platinum. Os scripts facilitam o cálculo de operações comuns do dia a dia financeiro, como amortizações e taxas de juros equivalentes.
 
 ## Programas
 
