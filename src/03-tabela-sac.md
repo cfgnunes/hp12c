@@ -135,9 +135,9 @@ O visor exibirá: `-10.800,00` (valor da 28ª parcela).
 Pressione as teclas:
 
 ```
+320000 PV
 3 i
 42 n
-320000 PV
 42 R/S
 ```
 
@@ -159,9 +159,9 @@ O visor exibirá: `-526.400,00` (total pago em parcelas ao longo de todo o finan
 Primeiro, amortize até a 15ª parcela, pressionando as teclas:
 
 ```
+260000 PV
 4 i
 38 n
-260000 PV
 15 R/S
 ```
 
