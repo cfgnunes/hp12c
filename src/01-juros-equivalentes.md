@@ -72,4 +72,4 @@ Pressione as teclas:
 1 R/S
 ```
 
-Então o visor exibirá: `0,95 %` (taxa equivalente mensal).
+Então o visor exibirá: `0,95` (taxa equivalente mensal).
