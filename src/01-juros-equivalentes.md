@@ -12,22 +12,22 @@
 
 ## Código do programa
 
-| Ordem | Teclas | Mostrador | Comentário                                                            |
-| :---: | :----: | --------- | --------------------------------------------------------------------- |
-|   1   |   1    | 01        |                                                                       |
-|   2   | RCL i  | 45.12     | Recupera o valor da taxa de juros atual armazenado no registrador i.  |
-|   3   |   %    | 25        | Converte a taxa de juros de percentual para decimal (divide por 100). |
-|   4   |   +    | 40        | Soma 1 ao valor convertido (1 + i).                                   |
-|   5   |  x><y  | 34        | Troca os elementos X e Y da pilha, preparando para divisão.           |
-|   6   | RCL n  | 45.11     | Recupera o período da taxa atual (n).                                 |
-|   7   |   /    | 10        | Divide n por X.                                                       |
-|   8   |  y^x   | 21        | Eleva (1 + i) à potência (n / X).                                     |
-|   9   |   1    | 01        | Insere 1 na pilha.                                                    |
-|  10   |   -    | 30        | Subtrai 1 do resultado  [(1 + i)^(n/X)] - 1.                          |
-|  11   |  EEX   | 26        |                                                                       |
-|  12   |   2    | 02        |                                                                       |
-|  13   |   x    | 20        | Multiplica por 100: converte o resultado de volta para porcentagem.   |
-|  14   | STO i  | 44.12     | Armazena a nova taxa de juros no registrador i.                       |
+| Ordem | Instrução | Mostrador |
+| :---: | :-------: | --------- |
+|   1   |     1     | 01        |
+|   2   |   RCL i   | 45.12     |
+|   3   |     %     | 25        |
+|   4   |     +     | 40        |
+|   5   |   x><y    | 34        |
+|   6   |   RCL n   | 45.11     |
+|   7   |     /     | 10        |
+|   8   |    y^x    | 21        |
+|   9   |     1     | 01        |
+|  10   |     -     | 30        |
+|  11   |    EEX    | 26        |
+|  12   |     2     | 02        |
+|  13   |     x     | 20        |
+|  14   |   STO i   | 44.12     |
 
 ## Fórmulas utilizadas no programa
 

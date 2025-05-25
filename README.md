@@ -7,6 +7,7 @@ Este repositório reúne uma coleção de programas financeiros desenvolvidos pa
 1. [Taxas de Juros Equivalentes](./src/01-juros-equivalentes.md)
 2. [Amortização pelo Sistema Francês (Tabela Price)](./src/01-juros-equivalentes.md)
 3. [Amortização pelo Sistema de Amortização Constante (Tabela SAC)](./src/03-tabela-sac.md)
+3. [Todos os programas na HP 12c Platinum](./src/99-todos-programas.md)
 
 ## Referências
 
