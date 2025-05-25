@@ -171,7 +171,7 @@ Em seguida, amortize da 16ª até a 27ª parcela (12 parcelas), pressionando as 
 12 R/S
 ```
 
-O visor exibirá: `-57.473,68` (total de juros pagos** entre a 16ª e 27ª parcela).
+O visor exibirá: `-57.473,68` (total de juros pagos entre a 16ª e 27ª parcela).
 
 **b) Calcule o total de amortizações entre a 16ª e a 27ª parcela.**
 
