@@ -175,4 +175,4 @@ A tabela abaixo inclui os programas:
 |  158  |    LN     | 43.23     |
 |  159  |     /     | 10        |
 |  160  |    R/S    | 31        |
-|  161  |  GTO 004  | 43.33.005 |
+|  161  |  GTO 005  | 43.33.005 |
