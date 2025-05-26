@@ -1,6 +1,6 @@
 # Cálculo de Prazo Fracionário
 
-Este programa supre uma limitação conhecida da calculadora HP 12c, que realiza o cálculo do número de períodos (n) com base apenas em valores inteiros. Este programa permite obter o prazo fracionário, fornecendo o valor exato de nn com casas decimais, o que é útil em análises financeiras que exigem precisão. O programa assume que os pagamentos periódicos (PMT) ocorrem no final de cada período (regime postecipado).
+Este programa supre uma limitação conhecida da calculadora HP 12c, que realiza o cálculo do número de períodos (n) com base apenas em valores inteiros. Este programa permite obter o prazo fracionário, fornecendo o valor exato de n com casas decimais, o que é útil em análises financeiras que exigem precisão. O programa assume que os pagamentos periódicos (PMT) ocorrem no final de cada período (regime postecipado).
 
 ## Entradas e saídas do programa
 
@@ -40,7 +40,7 @@ Este programa supre uma limitação conhecida da calculadora HP 12c, que realiza
 |  21   |     /     | 10        |
 |  22   |   STO n   | 44.11     |
 
-## Fórmulas utilizadas no programa
+## Fórmula utilizada no programa
 
 $$
 n = \frac{\ln\left(\frac{PMT + i \cdot FV}{PMT + i \cdot PV}\right)}{\ln(1 + i)}

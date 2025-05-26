@@ -31,7 +31,7 @@ Este programa realiza o cálculo de taxas de juros equivalentes entre diferentes
 |  13   |     x     | 20        |
 |  14   |   STO i   | 44.12     |
 
-## Fórmulas utilizadas no programa
+## Fórmula utilizada no programa
 
 $$
 i_X = \left(1 + i_n \right)^{\frac{n}{X}} - 1

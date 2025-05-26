@@ -32,7 +32,7 @@ Este programa calcula a taxa real de juros, isto é, a rentabilidade efetiva de 
 |  15   |     x     | 20        |
 |  16   |   STO i   | 44.12     |
 
-## Fórmulas utilizadas no programa
+## Fórmula utilizada no programa
 
 $$
 r = \frac{1 + i}{1 + f} - 1
