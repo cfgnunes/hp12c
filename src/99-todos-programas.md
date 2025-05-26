@@ -11,7 +11,7 @@ A tabela abaixo inclui os programas:
 - Programa 002 (início na linha 033): [Amortização pelo Sistema Francês (Tabela Price)](./01-juros-equivalentes.md)
 - Programa 003 (início na linha 088): [Amortização pelo Sistema de Amortização Constante (Tabela SAC)](./03-tabela-sac.md)
 - Programa 004 (início na linha 134): [Cálculo de Prazo Fracionário](./04-prazo-fracionario.md)
-- Programa 005 (início na linha 157): [Rentabilidade Real](./05-rentabilidade-real.md)
+- Programa 005 (início na linha 158): [Rentabilidade Real](./05-rentabilidade-real.md)
 
 | Linha | Instrução | Mostrador | Comentário |
 | :---: | :-------: | --------- | ---------- |
@@ -19,7 +19,7 @@ A tabela abaixo inclui os programas:
 |  002  |  GTO 033  | 43.33.033 |            |
 |  003  |  GTO 088  | 43.33.088 |            |
 |  004  |  GTO 134  | 43.33.134 |            |
-|  005  |  GTO 157  | 43.33.157 |            |
+|  005  |  GTO 158  | 43.33.158 |            |
 |  006  |  GTO 000  | 43.33.000 |            |
 |  007  |  GTO 000  | 43.33.000 |            |
 |  008  |  GTO 000  | 43.33.000 |            |
@@ -170,22 +170,23 @@ A tabela abaixo inclui os programas:
 |  153  |    LN     | 43.23     |            |
 |  154  |     /     | 10        |            |
 |  155  |   STO n   | 44.11     |            |
-|  156  |  GTO 004  | 43.33.004 |            |
-|  157  |     1     | 01        | Prog. 005  |
-|  158  |   x><y    | 34        |            |
-|  159  |     %     | 25        |            |
-|  160  |     +     | 40        |            |
-|  161  |     1     | 01        |            |
-|  162  |   RCL i   | 45.12     |            |
-|  163  |     %     | 25        |            |
-|  164  |     +     | 40        |            |
-|  165  |   x><y    | 34        |            |
-|  166  |     /     | 10        |            |
-|  167  |     1     | 01        |            |
-|  168  |     -     | 30        |            |
-|  169  |    EEX    | 26        |            |
-|  170  |     2     | 02        |            |
-|  171  |     x     | 20        |            |
-|  172  |   STO i   | 44.12     |            |
-|  173  |    R/S    | 31        |            |
-|  174  |  GTO 005  | 43.33.005 |            |
+|  156  |    R/S    | 31        |            |
+|  157  |  GTO 004  | 43.33.004 |            |
+|  158  |     1     | 01        | Prog. 005  |
+|  159  |   x><y    | 34        |            |
+|  160  |     %     | 25        |            |
+|  161  |     +     | 40        |            |
+|  162  |     1     | 01        |            |
+|  163  |   RCL i   | 45.12     |            |
+|  164  |     %     | 25        |            |
+|  165  |     +     | 40        |            |
+|  166  |   x><y    | 34        |            |
+|  167  |     /     | 10        |            |
+|  168  |     1     | 01        |            |
+|  169  |     -     | 30        |            |
+|  170  |    EEX    | 26        |            |
+|  171  |     2     | 02        |            |
+|  172  |     x     | 20        |            |
+|  173  |   STO i   | 44.12     |            |
+|  174  |    R/S    | 31        |            |
+|  175  |  GTO 005  | 43.33.005 |            |
