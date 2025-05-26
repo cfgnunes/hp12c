@@ -90,7 +90,7 @@ Pressione as teclas:
 9 i
 3000 CHS PV
 6000 FV
+R/S
 ```
 
 Então o visor exibirá: 8,04 (anos).
-

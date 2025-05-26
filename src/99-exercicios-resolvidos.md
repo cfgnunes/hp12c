@@ -88,7 +88,7 @@ FV = 6.000
 
 Resposta: n = 8,04 (anos)
 
-Nota: A calculadora HP 12c retorna o valor 9, em vez de 8,04, porque arredonda automaticamente o resultado para cima em cálculos que envolvem a determinação do número de períodos (n). Ela obtém apenas valores inteiros para n, sendo uma limitação da calculadora.
+Nota: A calculadora HP 12c retorna o valor 9, em vez de 8,04, porque arredonda automaticamente o resultado para cima em cálculos que envolvem a determinação do número de períodos (n). Ela obtém apenas valores inteiros para n, sendo uma limitação da calculadora. Para realizar o cálculo exato, utilize o programa: [Cálculo de Prazo Fracionário](./04-prazo-fracionario.md).
 
 **Você aplica R$ 1.000,00 por 10 anos em um banco que paga 5% ao ano, com pagamento no final do período. Quanto terá ao final?**
 
@@ -188,7 +188,7 @@ FV = 6.000
 
 Resposta: n = 2,37 (anos)
 
-Nota: A calculadora HP 12c retorna o valor 3, em vez de 2,37, porque arredonda automaticamente o resultado para cima em cálculos que envolvem a determinação do número de períodos (n). Ela obtém apenas valores inteiros para n, sendo uma limitação da calculadora.
+Nota: A calculadora HP 12c retorna o valor 3, em vez de 2,37, porque arredonda automaticamente o resultado para cima em cálculos que envolvem a determinação do número de períodos (n). Ela obtém apenas valores inteiros para n, sendo uma limitação da calculadora. Para realizar o cálculo exato, utilize o programa: [Cálculo de Prazo Fracionário](./04-prazo-fracionario.md).
 
 **Se João empresta R$ 1.500,00 a um amigo com taxa de 4,3% ao ano, capitalizada mensalmente, quanto de juros terá ao final de um ano?**
 

@@ -7,8 +7,8 @@ Este repositório reúne uma coleção de programas financeiros desenvolvidos pa
 1. [Juros Equivalentes](./src/01-juros-equivalentes.md)
 2. [Amortização pelo Sistema Francês (Tabela Price)](./src/02-tabela-price.md)
 3. [Amortização pelo Sistema de Amortização Constante (Tabela SAC)](./src/03-tabela-sac.md)
-4. [Rentabilidade Real](./src/04-rentabilidade-real.md)
-5. [Tempo para Dobrar Patrimônio](./src/05-tempo-dobrar-patrimonio.md)
+4. [Cálculo de Prazo Fracionário](./src/04-prazo-fracionario.md)
+5. [Rentabilidade Real](./src/05-rentabilidade-real.md)
 
 ## Dicas e utilidades
 
