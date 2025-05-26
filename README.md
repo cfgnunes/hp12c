@@ -6,15 +6,17 @@ Este repositório reúne uma coleção de programas financeiros desenvolvidos pa
 
 1. [Calculadora de Juros Equivalentes](./src/01-juros-equivalentes.md)
 2. [Amortização pelo Sistema Francês (Tabela Price)](./src/01-juros-equivalentes.md)
-3. [Amortização pelo Sistema de Amortização Constante (Tabela SAC)](./src/03-tabela-sac.md)
-3. [Todos os programas na HP 12c Platinum](./src/99-todos-programas.md)
+3. [Amortização pelo Sistema de Amortização Constante (Tabela SAC)](./src/02-tabela-price.md)
+4. [Calculadora de Rentabilidade Real](./src/04-rentabilidade-real.md)
+5. [Calculadora de Tempo para Dobrar Patrimônio](./src/05-tempo-dobrar-patrimonio.md)
+6. [Todos os programas na HP 12c Platinum](./src/99-todos-programas.md)
 
 ## Referências
 
 - [Calculadora HP 12c Platinum](https://stendec.io/ctb/rpn_finp.html)
+- [Simuladores de investimento](https://clubedospoupadores.com/simuladores)
 - [Simulação de amortização de financiamento](https://simuladoramortizacao.com.br/resultado-simulacao-de-amortizacao-de-financiamento)
-- [ Sistema de amortização SAC na HP 12c](https://www.contabilidadecotidiana.com/2016/05/sistema-de-amortizacao-sac-na-hp-12c.html)
-
+- [Sistema de amortização SAC na HP 12c](https://www.contabilidadecotidiana.com/2016/05/sistema-de-amortizacao-sac-na-hp-12c.html)
 
 ## Contribuindo
 
