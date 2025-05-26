@@ -1,4 +1,4 @@
-# Calculadora de Juros Equivalentes
+# Juros Equivalentes
 
 ## Entradas e saídas do programa
 

@@ -1,4 +1,4 @@
-# Calculadora de Tempo para Dobrar Patrimônio
+# Tempo para Dobrar Patrimônio
 
 ## Entradas e saídas do programa
 

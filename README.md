@@ -4,11 +4,11 @@ Este repositório reúne uma coleção de programas financeiros desenvolvidos pa
 
 ## Programas
 
-1. [Calculadora de Juros Equivalentes](./src/01-juros-equivalentes.md)
+1. [Juros Equivalentes](./src/01-juros-equivalentes.md)
 2. [Amortização pelo Sistema Francês (Tabela Price)](./src/02-tabela-price.md)
 3. [Amortização pelo Sistema de Amortização Constante (Tabela SAC)](./src/03-tabela-sac.md)
-4. [Calculadora de Rentabilidade Real](./src/04-rentabilidade-real.md)
-5. [Calculadora de Tempo para Dobrar Patrimônio](./src/05-tempo-dobrar-patrimonio.md)
+4. [Rentabilidade Real](./src/04-rentabilidade-real.md)
+5. [Tempo para Dobrar Patrimônio](./src/05-tempo-dobrar-patrimonio.md)
 6. [Todos os programas na HP 12c Platinum](./src/99-todos-programas.md)
 
 ## Referências

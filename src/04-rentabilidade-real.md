@@ -1,4 +1,4 @@
-# Calculadora de Rentabilidade Real
+# Rentabilidade Real
 
 ## Entradas e saídas do programa
 
