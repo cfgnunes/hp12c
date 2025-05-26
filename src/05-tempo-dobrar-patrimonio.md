@@ -23,7 +23,6 @@
 
 ## Fórmulas utilizadas no programa
 
-
 $$
 X = \frac{\ln(2)}{\ln(1 + i)}
 $$
