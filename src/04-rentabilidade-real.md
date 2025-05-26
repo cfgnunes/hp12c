@@ -43,3 +43,16 @@ Onde:
 - $f$ = taxa de inflação (em decimal).
 
 ## Exemplos de utilização do programa
+
+### Exemplo 1
+
+**Um banco informou que a rentabilidade de um determinado investimento foi de 12% ao ano, correspondendo aos juros nominais. No mesmo período, a inflação acumulada foi de 5%. Calcule os juros reais, ou seja, a rentabilidade efetiva do investimento descontando-se a inflação.**
+
+Pressione as teclas:
+
+```
+12 i
+5 R/S
+```
+
+O visor exibirá: `6,67` (taxa real de juros).
