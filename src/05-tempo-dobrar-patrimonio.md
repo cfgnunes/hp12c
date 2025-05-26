@@ -24,13 +24,13 @@
 ## Fórmulas utilizadas no programa
 
 $$
-X = \frac{\ln(2)}{\ln(1 + i)}
+t = \frac{\ln(2)}{\ln(1 + i)}
 $$
 
 Onde:
 
-- $i$ = taxa de juros por período (ex: 8% anual).
-- $X$ = tempo calculado (em períodos, ex: anos).
+- $i$ = taxa de juros por período (em decimal).
+- $t$ = tempo calculado (em períodos, ex: anos).
 
 ## Exemplos de utilização do programa
 

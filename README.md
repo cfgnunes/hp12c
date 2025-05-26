@@ -9,7 +9,11 @@ Este repositório reúne uma coleção de programas financeiros desenvolvidos pa
 3. [Amortização pelo Sistema de Amortização Constante (Tabela SAC)](./src/03-tabela-sac.md)
 4. [Rentabilidade Real](./src/04-rentabilidade-real.md)
 5. [Tempo para Dobrar Patrimônio](./src/05-tempo-dobrar-patrimonio.md)
-6. [Todos os programas na HP 12c Platinum](./src/99-todos-programas.md)
+
+## Dicas e utilidades
+
+1. [Todos os programas instalados na HP 12c Platinum](./src/99-todos-programas.md)
+2. [Exercícios resolvidos com a HP 12c](./src/99-exercicios-resolvidos.md)
 
 ## Referências
 

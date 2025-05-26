@@ -32,12 +32,12 @@
 ## Fórmulas utilizadas no programa
 
 $$
-i_X = \left( \left(1 + \frac{i_n}{100} \right)^{\frac{n}{X}} - 1 \right) \times 100
+i_X = \left(1 + i_n \right)^{\frac{n}{X}} - 1
 $$
 
 Onde:
 
-- $i_n$ = taxa de juros atual (ex: 5%).
+- $i_n$ = taxa de juros atual (em decimal).
 - $n$ = período da taxa atual (ex: 12 para taxa anual).
 - $X$ = novo período desejado (ex: 1 para taxa mensal).
 - $i_X$ =  taxa de juros equivalente para o novo período.

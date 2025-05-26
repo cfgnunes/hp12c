@@ -71,9 +71,7 @@
 
 ### Exemplo 1
 
-**Em um empréstimo de R$500.000,00, com taxa de 2% ao mês, pelo prazo de 20 meses, pede-se:**
-
-**a) Calcule o total de juros pagos até a 13ª parcela.**
+**Considere um empréstimo de R$ 500.000,00, com taxa de juros de 2% ao mês e prazo total de 20 meses. Com base nessas condições, calcule o total de juros pagos até a 13ª parcela, bem como o valor total pago até essa mesma parcela.**
 
 Pressione as teclas:
 
@@ -84,19 +82,15 @@ Pressione as teclas:
 13 R/S
 ```
 
-O visor exibirá: `-91.000,00` (total de juros pagos até a 13ª parcela).
-
-**b) Calcule o total pago até a 13ª parcela.**
+O visor exibirá: -91.000,00 (total de juros pagos até a 13ª parcela).
 
 Pressione a tecla `+`
 
-O visor exibirá: `-416.000,00` (total pago até a 13ª parcela).
+O visor exibirá: -416.000,00 (total pago até a 13ª parcela).
 
 ### Exemplo 2
 
-**Em um empréstimo de R$350.000,00, com taxa de 1% ao mês, por 35 meses, pede-se:**
-
-**a) Calcule os juros pagos somente na 28ª parcela.**
+**Considere um empréstimo no valor de R$350.000,00, com taxa de juros de 1% ao mês e prazo de 35 meses. Com base nesses dados, determine os juros pagos especificamente na 28ª parcela, bem como o valor total dessa parcela.**
 
 Acumule as amortizações até a 27ª parcela, pressionando as teclas:
 
@@ -113,10 +107,7 @@ Em seguida, calcule somente a parcela 28, pressionando as teclas:
 1 R/S
 ```
 
-O visor exibirá: `-800,00` (juros pagos somente na 28ª parcela).
-
-
-**b) Calcule o valor da 28ª parcela.**
+O visor exibirá: -800,00 (juros pagos somente na 28ª parcela).
 
 Pressione as teclas:
 
@@ -124,13 +115,11 @@ Pressione as teclas:
 RCL PMT
 ```
 
-O visor exibirá: `-10.800,00` (valor da 28ª parcela).
+O visor exibirá: -10.800,00 (valor da 28ª parcela).
 
 ### Exemplo 3
 
-**Em um empréstimo de R$320.000,00, com taxa de 3% ao mês, por 42 meses, pede-se:**
-
-**a) Calcule o total de juros pagos ao longo de todo o financiamento.**
+**Considere um empréstimo no valor de R$ 320.000,00, com taxa de juros de 3% ao mês e prazo total de 42 meses. Com base nessas condições, calcule o total de juros pagos ao longo de todo o financiamento, assim como o valor total desembolsado com o pagamento das parcelas durante todo o período.**
 
 Pressione as teclas:
 
@@ -141,20 +130,15 @@ Pressione as teclas:
 42 R/S
 ```
 
-O visor exibirá: `-206.400,00` (total de juros pagos durante todo o financiamento).
-
-
-**b) Calcule o total das parcelas ao longo de todo o financiamento.**
+O visor exibirá: -206.400,00 (total de juros pagos durante todo o financiamento).
 
 Pressione a tecla `+`
 
-O visor exibirá: `-526.400,00` (total pago em parcelas ao longo de todo o financiamento).
+O visor exibirá: -526.400,00 (total pago em parcelas ao longo de todo o financiamento).
 
 ### Exemplo 4
 
-**Em um empréstimo de R$260.000,00, com taxa de 4% ao mês, por 38 meses, pede-se:**
-
-**a) Calcule o total de juros pagos entre a 16ª e a 27ª parcela.**
+**Considere um empréstimo no valor de R$260.000,00, com taxa de juros de 4% ao mês e prazo total de 38 meses. Com base nessas condições, calcule, para o período entre a 16ª e a 27ª parcela: o total de juros pagos, o total de amortizações realizadas e o valor total desembolsado com o pagamento dessas parcelas.**
 
 Primeiro, amortize até a 15ª parcela, pressionando as teclas:
 
@@ -171,16 +155,12 @@ Em seguida, amortize da 16ª até a 27ª parcela (12 parcelas), pressionando as 
 12 R/S
 ```
 
-O visor exibirá: `-57.473,68` (total de juros pagos entre a 16ª e 27ª parcela).
-
-**b) Calcule o total de amortizações entre a 16ª e a 27ª parcela.**
+O visor exibirá: -57.473,68 (total de juros pagos entre a 16ª e 27ª parcela).
 
 Pressione a tecla `x><y`
 
-O visor exibirá: `-82.105,26` (total de capital amortizado nesse período).
-
-**c) Calcule o total pago entre a 16ª e a 27ª parcela.**
+O visor exibirá: -82.105,26 (total de capital amortizado nesse período).
 
 Pressione a tecla `+`
 
-O visor exibirá: `-139.578,95` (total pago em parcelas da 16ª à 27ª).
+O visor exibirá: -139.578,95 (total pago em parcelas da 16ª à 27ª).

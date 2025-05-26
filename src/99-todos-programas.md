@@ -1,4 +1,4 @@
-# Todos os programas na HP 12c Platinum
+# Todos os programas instalados na HP 12c Platinum
 
 A tabela a seguir apresenta todos os programas deste repositório instalados na memória RAM da calculadora HP 12c Platinum, que suporta até 399 linhas de código (em comparação com o limite de 99 linhas da versão padrão da HP 12c).
 
