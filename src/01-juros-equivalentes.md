@@ -1,5 +1,7 @@
 # Juros Equivalentes
 
+Este programa realiza o cálculo de taxas de juros equivalentes entre diferentes períodos de capitalização. A funcionalidade é especialmente útil quando se deseja converter uma taxa mensal para anual, anual para mensal, ou entre quaisquer outras periodicidades.
+
 ## Entradas e saídas do programa
 
 **Entradas:**
