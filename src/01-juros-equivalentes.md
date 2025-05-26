@@ -56,7 +56,7 @@ Pressione as teclas:
 12 R/S
 ```
 
-Então o visor exibirá: `12,68` (taxa equivalente anual).
+Então o visor exibirá: 12,68 (taxa equivalente anual).
 
 ### Exemplo 2
 
@@ -70,4 +70,4 @@ Pressione as teclas:
 1 R/S
 ```
 
-Então o visor exibirá: `0,95` (taxa equivalente mensal).
+Então o visor exibirá: 0,95 (taxa equivalente mensal).

@@ -55,4 +55,4 @@ Pressione as teclas:
 5 R/S
 ```
 
-O visor exibirá: `6,67` (taxa real de juros).
+O visor exibirá: 6,67 (taxa real de juros).
