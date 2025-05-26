@@ -10,7 +10,7 @@ A tabela abaixo inclui os programas:
 - Programa 001 (início na linha 017): [Juros Equivalentes](./01-juros-equivalentes.md)
 - Programa 002 (início na linha 033): [Amortização pelo Sistema Francês (Tabela Price)](./01-juros-equivalentes.md)
 - Programa 003 (início na linha 088): [Amortização pelo Sistema de Amortização Constante (Tabela SAC)](./03-tabela-sac.md)
-- Programa 004 (início na linha 134): [Cálculo de Prazo Fracionário](./src/04-prazo-fracionario.md)
+- Programa 004 (início na linha 134): [Cálculo de Prazo Fracionário](./04-prazo-fracionario.md)
 - Programa 005 (início na linha 157): [Rentabilidade Real](./05-rentabilidade-real.md)
 
 | Linha | Instrução | Mostrador | Comentário |
