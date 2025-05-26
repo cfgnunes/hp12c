@@ -5,13 +5,13 @@ Este programa supre uma limitação conhecida da calculadora HP 12c, que realiza
 ## Entradas e saídas do programa
 
 **Entradas:**
-- i = taxa de juros
-- PV = valor presente
-- PMT = pagamento periódico
-- FV = valor futuro
+- i = taxa de juros.
+- PV = valor presente.
+- PMT = pagamento periódico.
+- FV = valor futuro.
 
 **Saídas:**
-- n e X = prazo calculado
+- n e X = prazo calculado.
 
 ## Código do programa
 
