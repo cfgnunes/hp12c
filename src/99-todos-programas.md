@@ -2,12 +2,14 @@
 
 A tabela a seguir apresenta todos os programas deste repositório instalados na memória RAM da calculadora HP 12c Platinum, que suporta até 399 linhas de código (em comparação com o limite de 99 linhas da versão padrão da HP 12c).
 
-As linhas de 1 a 16 são reservadas para redirecionamentos rápidos aos programas específicos. Para acessar, por exemplo, o Programa 3, basta digitar `GTO 003` e pressionar `R/S`. Não é necessário memorizar a linha de início de cada programa, o que torna o uso de múltiplos programas mais prático e eficiente.
+As linhas de 1 a 16 são reservadas para atalhos de acesso rápido a cada programa. Para acessar, por exemplo, o Programa 3, basta digitar `GTO 003` e pressionar `R/S`. Esse recurso elimina a necessidade de memorizar a linha inicial de cada programa, tornando o uso de múltiplos programas mais prático e eficiente.
+
+Além disso, cada programa é configurado para retornar automaticamente à sua linha inicial após a execução. Assim, ao pressionar R/S após o término do Programa 3, por exemplo, ele será executado novamente. Esse recurso facilita a reexecução do programa selecionado.
 
 A tabela abaixo inclui os programas:
-- Programa 1, início na linha 17: [Calculadora de Juros Equivalentes](./01-juros-equivalentes.md)
-- Programa 2, início na linha 33: [Amortização pelo Sistema Francês (Tabela Price)](./01-juros-equivalentes.md)
-- Programa 3, início na linha 88: [Amortização pelo Sistema de Amortização Constante (Tabela SAC)](./03-tabela-sac.md)
+- Programa 001 (início na linha 17): [Calculadora de Juros Equivalentes](./01-juros-equivalentes.md)
+- Programa 002 (início na linha 33): [Amortização pelo Sistema Francês (Tabela Price)](./01-juros-equivalentes.md)
+- Programa 003 (início na linha 88): [Amortização pelo Sistema de Amortização Constante (Tabela SAC)](./03-tabela-sac.md)
 
 | Linha | Instrução | Mostrador |
 | :---: | :-------: | --------- |
