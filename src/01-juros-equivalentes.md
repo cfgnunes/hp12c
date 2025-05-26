@@ -37,10 +37,10 @@ $$
 
 Onde:
 
-* $i_n$ = taxa de juros atual (ex: 5%).
-* $n$ = período da taxa atual (ex: 12 para taxa anual).
-* $X$ = novo período desejado (ex: 1 para taxa mensal).
-* $i_X$ =  taxa de juros equivalente para o novo período.
+- $i_n$ = taxa de juros atual (ex: 5%).
+- $n$ = período da taxa atual (ex: 12 para taxa anual).
+- $X$ = novo período desejado (ex: 1 para taxa mensal).
+- $i_X$ =  taxa de juros equivalente para o novo período.
 
 ## Exemplos de utilização do programa
 

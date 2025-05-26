@@ -75,6 +75,40 @@
 |  52   |     +     | 40        |
 |  53   |   STO 1   | 44.01     |
 
+## Fórmulas utilizadas no programa
+
+1. Parcela (PMT):
+
+$$
+PMT = PV \cdot \frac{i(1+i)^n}{(1+i)^n - 1}
+$$
+
+2. Saldo devedor no período $t$:
+
+$$
+SD_t = PV \cdot \frac{(1+i)^n - (1+i)^t}{(1+i)^n - 1}
+$$
+
+3. Valor principal acumulados até o período $t$:
+
+$$
+Amort_t = PV - SD_t
+$$
+
+4. Valor de juros acumulados até o período $t$:
+
+$$
+J_t = PMT \cdot t - \left(PV - SD_t\right)
+$$
+
+Onde:
+
+- $i$ = taxa de juros.
+- $n$ = quantidade total de períodos.
+- $t$ = quantidade de pagamentos (períodos) a serem amortizados.
+- $PV$ = valor do empréstimo (principal).
+- $PMT$ = valor da parcela.
+
 ## Exemplos de utilização do programa
 
 ### Exemplo 1
