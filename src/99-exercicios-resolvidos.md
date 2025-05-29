@@ -265,7 +265,7 @@ Pressione as teclas:
 
 Resposta: n = 8,04 (anos).
 
-**Nota:** A calculadora HP 12c retorna o valor 9, em vez de 8,04 (valor exato), porque arredonda o resultado para cima em cálculos que envolvem a determinação do número de períodos (n). Ela obtém apenas valores inteiros para n, sendo uma limitação da calculadora. Para realizar o cálculo exato, utilize o programa: [Prazo Fracionário](./04-prazo-fracionario.md).
+**Nota:** A calculadora HP 12c retorna o valor 9, em vez de 8,04 (valor exato), porque arredonda o resultado para cima em cálculos que envolvem a determinação do número de períodos (n). Ela obtém apenas valores inteiros para n, sendo uma limitação da calculadora. Para realizar o cálculo exato, utilize o programa [Prazo Fracionário](./04-prazo-fracionario.md).
 
 **Você aplica R$ 1.000,00 por 10 anos em um banco que paga 5% ao ano, com pagamento no final do período. Quanto terá ao final?**
 
@@ -437,7 +437,7 @@ Pressione as teclas:
 
 Resposta: n = 2,37 (anos).
 
-**Nota:** A calculadora HP 12c retorna o valor 3, em vez de 2,37 (valor exato), porque arredonda o resultado para cima em cálculos que envolvem a determinação do número de períodos (n). Ela obtém apenas valores inteiros para n, sendo uma limitação da calculadora. Para realizar o cálculo exato, utilize o programa: [Prazo Fracionário](./04-prazo-fracionario.md).
+**Nota:** A calculadora HP 12c retorna o valor 3, em vez de 2,37 (valor exato), porque arredonda o resultado para cima em cálculos que envolvem a determinação do número de períodos (n). Ela obtém apenas valores inteiros para n, sendo uma limitação da calculadora. Para realizar o cálculo exato, utilize o programa [Prazo Fracionário](./04-prazo-fracionario.md).
 
 **Se João empresta R$ 1.500,00 a um amigo com taxa de 4,3% ao ano, capitalizada mensalmente, quanto de juros terá ao final de um ano?**
 
@@ -1080,7 +1080,7 @@ O visor exibirá: 4.694,53 (renda estimada para obter uma poupança de R$ 800,00
 
 **Quais as taxas de juros compostos mensal e trimestral equivalentes a 25% ao ano?**
 
-Para este exercício, utilize o programa para HP 12c [Taxas Equivalentes](./01-taxas-equivalentes.md).
+Para este exercício, utilize o programa [Taxas Equivalentes](./01-taxas-equivalentes.md).
 
 Pressione as teclas:
 
@@ -1104,7 +1104,7 @@ O visor exibirá: 5,74 (taxas de juros anual, capitalizada mensalmente).
 
 **Um aplicação financeira promete pagar 42% ao ano de juros. Sendo de um mês o prazo da aplicação, pede-se determinar a sua rentabilidade efetiva considerando os juros de 42% a. a. como taxa efetiva e taxa nominal.**
 
-Para este exercício, utilize o programa para HP 12c [Taxas Equivalentes](./01-taxas-equivalentes.md).
+Para este exercício, utilize o programa [Taxas Equivalentes](./01-taxas-equivalentes.md).
 
 Considerando 42% a.a. como taxa efetiva, pressione as teclas:
 
@@ -1129,7 +1129,7 @@ O visor exibirá: 2,97 (taxa ao mês).
 
 **Determinar a variação real do poder aquisitivo de um assalariado que obtém, em determinado semestre, um reajuste salarial de 12%, admitindo que a inflação do período tenha atingido a 8%.**
 
-Para este exercício, utilize o programa para HP 12c [Rentabilidade Real](./05-rentabilidade-real.md).
+Para este exercício, utilize o programa [Rentabilidade Real](./05-rentabilidade-real.md).
 
 
 ```
@@ -1141,7 +1141,7 @@ Resposta: 3,7% (variação real).
 
 **Um banco informou que a rentabilidade de um determinado investimento foi de 12% ao ano, correspondendo aos juros nominais. No mesmo período, a inflação acumulada foi de 5%. Calcule os juros reais, ou seja, a rentabilidade efetiva do investimento descontando-se a inflação.**
 
-Para este exercício, utilize o programa para HP 12c [Rentabilidade Real](./05-rentabilidade-real.md).
+Para este exercício, utilize o programa [Rentabilidade Real](./05-rentabilidade-real.md).
 
 Pressione as teclas:
 
@@ -1154,7 +1154,7 @@ Resposta: 6,67% (taxa real de juros).
 
 ## Financiamentos e empréstimos com parcelas decrescentes (SAC)
 
-Para os exercícios abaixo, utilize o programa para HP 12c [Sistema de Amortização Constante (SAC)](./03-tabela-sac.md).
+Para os exercícios abaixo, utilize o programa [Sistema de Amortização Constante (SAC)](./03-tabela-sac.md).
 
 **Considere um empréstimo de R$ 500.000,00, com taxa de juros de 2% ao mês e prazo total de 20 meses. Com base nessas condições, calcule o total de juros pagos até a 13ª parcela, bem como o valor total pago até essa mesma parcela. Considere o Sistema de Amortização Constante (SAC).**
 
