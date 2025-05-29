@@ -72,7 +72,7 @@ O visor exibirá: 340,00 (valor final do produto com o desconto).
 Pressione as teclas:
 
 ```
-[g] [D.MY]
+          [g] [D.MY]
 28,052025 [ENTER]
 120       [g] [DATE]
 ```
@@ -86,7 +86,7 @@ O visor exibirá: 25.09.2025 4, representando a data de 25/09/2025. O número 4 
 Pressione as teclas:
 
 ```
-[g] [D.MY]
+          [g] [D.MY]
  3,062024 [ENTER]
 14,102025 [g] [ΔDYS]
 ```
@@ -96,6 +96,37 @@ O visor exibirá: 498 (número exato de dias entre as datas)
 Para saber o número de dias baseado no ano comercial (mês de 30 dias), basta pressionar a tecla `[x><y]`.
 
 O visor exibirá: 491 (número de dias baseado no ano comercial)
+
+**Hoje é 23 de outubro de 2024. O Sr. Carlos deseja agendar os próximos três encontros com seu cliente, respeitando um intervalo fixo de 21 dias entre cada reunião. Quais serão as datas desses encontros?**
+
+Pressione as teclas:
+
+```
+          [g] [D.MY]
+23,102024 [ENTER]
+21        [g] [DATE]
+```
+
+O visor exibirá: 13.11.2024 (primeira data)
+
+Para a próxima data, pressione as teclas:
+
+```
+[g] [LSTx]
+[g] [DATE]
+```
+
+O visor exibirá: 4.12.2024 (segunda data)
+
+Para a próxima data, pressione as teclas:
+
+```
+[g] [LSTx]
+[g] [DATE]
+```
+
+O visor exibirá: 25.12.2024 (terceira data)
+
 ## Juros Simples
 
 **Um capital de R$ 80.000,00 é aplicado à taxa de 30% ao ano durante 90 dias. Determine o valor dos juros simples acumulados neste período.**
@@ -111,7 +142,7 @@ Pressione as teclas:
 80000 [CHS] [PV]
 30    [i]
 90    [n]
-[f] [INT]
+      [f] [INT]
 ```
 
 Resposta: R$ 6.000,00 (juros simples acumulados).
@@ -133,7 +164,7 @@ Pressione as teclas:
 10  [n]
 8   [i]
 100 [CHS] [PV]
-[FV]
+    [FV]
 ```
 
 Resposta: FV = 215,89
@@ -153,7 +184,7 @@ Pressione as teclas:
 3    [n]
 4    [i]
 1000 [FV]
-[PV]
+     [PV]
 ```
 
 Resposta: PV = -889,00
@@ -174,7 +205,7 @@ Pressione as teclas:
 10     [n]
 613,81 [CHS] [PV]
 1000   [FV]
-[i]
+       [i]
 ```
 
 Resposta: i = 5%
@@ -197,7 +228,7 @@ Pressione as teclas:
 8    [n]
 6    [i]
 5000 [CHS] [PV]
-[FV]
+     [FV]
 ```
 
 Resposta: FV = 7.969,24
@@ -218,7 +249,7 @@ Pressione as teclas:
 5     [n]
 7     [i]
 10000 [FV]
-[PV]
+      [PV]
 ```
 
 Resposta: PV = -7.129,86
@@ -239,7 +270,7 @@ Pressione as teclas:
 4    [n]
 2000 [PV]
 2800 [FV]
-[i]
+     [i]
 ```
 
 Resposta: i = 8,78%
@@ -260,7 +291,7 @@ Pressione as teclas:
 2,6   [i]
 1 CHS [PV]
 2     [FV]
-[R/S]
+      [R/S]
 ```
 
 O visor exibirá: 27,00 (meses para dobrar o patrimônio).
@@ -283,7 +314,7 @@ Pressione as teclas:
 9    [i]
 3000 [CHS] [PV]
 6000 [FV]
-[n]
+     [n]
 ```
 
 Resposta: n = 8,04 (anos).
@@ -306,7 +337,7 @@ Pressione as teclas:
 10   [n]
 5    [i]
 1000 [CHS] [PV]
-[FV]
+     [FV]
 ```
 
 Resposta: FV = 1.628,89
@@ -327,7 +358,7 @@ Pressione as teclas:
 5 [ENTER] 4 [x] [n]
 8 [ENTER] 4 [/] [i]
 10000 [CHS] [PV]
-[FV]
+      [FV]
 ```
 
 Resposta: FV = 14.859,47
@@ -348,7 +379,7 @@ Pressione as teclas:
 5    [g] [12x]
 6,5  [g] [12/]
 8000 [FV]
-[PV]
+     [PV]
 ```
 
 Resposta: PV = -5.785,29
@@ -369,7 +400,7 @@ Pressione as teclas:
 20 [ENTER] 2 [x] [n]
 9  [ENTER] 2 [/] [i]
 2  [EEX] 6 [FV]
-[PV]
+   [PV]
 ```
 
 Resposta: PV = -343.857,40
@@ -392,7 +423,7 @@ Pressione as teclas:
 3    [n]
 5    [i]
 7000 [CHS] [PV]
-[FV]
+     [FV]
 ```
 
 Resposta: FV = 8.103,38
@@ -413,7 +444,7 @@ Pressione as teclas:
 6     [n]
 4     [i]
 10000 [CHS] [FV]
-[PV]
+      [PV]
 ```
 
 Resposta: PV = 7.903,15
@@ -434,7 +465,7 @@ Pressione as teclas:
 2    [n]
 1500 [PV]
 1800 [CHS] [FV]
-[i]
+     [i]
 ```
 
 Resposta: i = 9,54%
@@ -455,7 +486,7 @@ Pressione as teclas:
 8    [i]
 5000 [PV]
 6000 [CHS] [FV]
-[n]
+     [n]
 ```
 
 Resposta: n = 2,37 (anos).
@@ -478,8 +509,9 @@ Pressione as teclas:
 1    [g] [12x]
 4,3  [g] [12/]
 1500 [CHS] [PV]
-[FV]
-[RCL] [PV] [+]
+     [FV]
+     [RCL] [PV]
+     [+]
 ```
 
 Resposta:
@@ -501,13 +533,13 @@ Pressione as teclas:
 2    [g] [12x]
 600  [CHS] [PV]
 2400 [FV]
-[i]
-12 [x]
+     [i]
+12   [x]
 ```
 
 Resposta: i = 5,9463 x 12 = 71,36%
 
-## Anuidade ordinária (PV = 0): investimentos
+## Anuidade ordinária: investimentos
 
 **André deposita R$ 22.000,00 ao final de cada ano por 7 anos, em uma conta que rende 6% ao ano. Quanto ele terá ao final do período?**
 
@@ -525,7 +557,7 @@ Pressione as teclas:
 7     [n]
 6     [i]
 22000 [CHS] [PMT]
-[FV]
+      [FV]
 ```
 
 Resposta: FV = 184.664,43
@@ -546,7 +578,7 @@ Pressione as teclas:
 10   [ENTER] 4 [x] [n]
 8    [ENTER] 4 [/] [i]
 1200 [CHS] [PMT]
-[FV]
+     [FV]
 ```
 
 Resposta: FV = 72.482,38
@@ -567,7 +599,7 @@ Pressione as teclas:
 20  [g] [12x]
 7,2 [g] [12/]
 200 [CHS] [PMT]
-[FV]
+    [FV]
 ```
 
 Resposta: FV = 106.752,47
@@ -588,12 +620,12 @@ Pressione as teclas:
 32 [g] [12x]
 9  [g] [12/]
 2  [EEX] 6 [FV]
-[PMT]
+   [PMT]
 ```
 
 Resposta: PMT = -902,32
 
-## Anuidade ordinária (FV = 0): aposentadorias
+## Anuidade ordinária: aposentadorias
 
 **Você pode comprar uma anuidade que paga R$ 1.000,00 no final de cada ano por 5 anos. Se você pode ganhar 6% ao ano em outros investimentos de mesmo risco, qual o valor máximo que deve pagar?**
 
@@ -611,7 +643,7 @@ Pressione as teclas:
 5    [n]
 6    [i]
 1000 [PMT]
-[PV]
+     [PV]
 ```
 
 Resposta: PV = -4.212,36
@@ -629,15 +661,15 @@ Dados do problema:
 Pressione as teclas:
 
 ```
-15 [n]
-6  [i]
+15     [n]
+6      [i]
 200000 [PV]
-[PMT]
+       [PMT]
 ```
 
 Resposta: PMT = -20.592,55
 
-## Anuidade ordinária (FV = 0): financiamentos e empréstimos
+## Anuidade ordinária: financiamentos e empréstimos
 
 **Determinado bem é vendido em 7 pagamentos mensais, iguais e consecutivos de R$ 4.000,00. Para uma taxa de juros de 2,6% a.m., até que preço compensa adquirir o aparelho a vista?**
 
@@ -655,7 +687,7 @@ Pressione as teclas:
 7    [n]
 4000 [CHS] [PMT]
 2,6  [i]
-[PV]
+     [PV]
 ```
 
 Resposta: PV = 25,301,17 (compensa comprar até esse preço, comprando a vista)
@@ -676,7 +708,7 @@ Pressione as teclas:
 20000 [PV]
 5     [n]
 4300  [CHS] [PMT]
-[i]
+      [i]
 ```
 
 Resposta: i = 2,46% (ao mês).
@@ -697,7 +729,7 @@ Pressione as teclas:
 30  [g] [12x]
 7   [g] [12/]
 190 [EEX] 3 [PV]
-[PMT]
+    [PMT]
 ```
 
 Resposta: PMT = -1.264,07
@@ -715,10 +747,10 @@ Dados do problema:
 Pressione as teclas:
 
 ```
-4 [g] [12x]
-4 [g] [12/]
+4     [g] [12x]
+4     [g] [12/]
 28000 [PV]
-[PMT]
+      [PMT]
 ```
 
 Resposta: PMT = -632,21
@@ -738,8 +770,8 @@ Pressione as teclas:
 ```
 96 [ENTER] 13 [-] [n]
 42458,51 [PV]
-1340 [CHS] [PMT]
-[i]
+1340     [CHS] [PMT]
+         [i]
 ```
 
 Resposta: i = 2,85%
@@ -755,9 +787,9 @@ Parte 2: Encontrando a nova quantidade de parcelas (amortização por tempo). Da
 Pressione as teclas:
 
 ```
-[RCL] [PV]
+     [RCL] [PV]
 1000 [-] [PV]
-[n]
+     [n]
 ```
 
 O visor exibirá: n = 76. Logo, 83-76 = 7 parcelas eliminadas (amortização por tempo).
@@ -779,7 +811,55 @@ Pressione as teclas:
 
 Resposta: PMT = -1.308,48 (novo valor da parcela após amortização por parcela).
 
-## Anuidade antecipada
+## Anuidade ordinária com carência: financiamentos e empréstimos
+
+**Um veículo pode ser comercializado em 36 prestações mensais de R$ 1.980,00 cada uma. Sabendo que a loja usa taxa de 1,45% ao mês, encontre o valor a vista do veículo, sendo a primeira prestação paga um mês após a compra.** 
+
+Pressione as teclas:
+
+```
+0    [g] [CFo]     (primeiro mês de carência)
+1980 [g] [CFj]
+36   [g] [Nj]
+1,45 [i]
+     [f] [NPV]
+```
+
+Resposta: R$ 55.226,86
+
+**Um financiamento será quitado em 12 parcelas mensais fixas de R$ 200,00, com carência de 3 meses, ou seja, o pagamento da primeira parcela ocorre no quarto mês após a liberação do crédito. Considerando uma taxa de juros de 3,5% ao mês, determine o valor presente desse financiamento no momento da liberação dos recursos.**
+
+Pressione as teclas:
+
+```
+0   [g] [CFo]     (primeiro mês de carência)
+0   [g] [CFj]
+2   [g] [Nj]      (segundo e terceiro mês de carência)
+200 [g] [CFj]
+12  [g] [Nj]
+3,5 [i]
+    [f] [NPV]
+```
+
+Resposta: R$ 1.804,17
+
+**Um professor comprou um computador em uma loja especializada em 10 prestações mensais de R$ 100,00 cada uma, sendo a primeira prestação paga 4 meses após a compra. Por ser compra a prazo, a loja cobra taxa de 36% ao ano capitalizada mensalmente. Encontre o valor à vista do computador.**
+
+Pressione as teclas:
+
+```
+0   [g] [CFo]     (primeiro mês de carência)
+0   [g] [CFj]
+3   [g] [Nj]      (segundo a quarto mês de carência)
+100 [g] [CFj]
+10  [g] [Nj]
+36  [g] [12/]
+    [f] [NPV]
+```
+
+Resposta: R$ 780,63
+
+## Anuidade antecipada: investimentos
 
 **Com uma taxa de juros de 0,75% ao mês, quanto deve ser depositado mensalmente (no início do mês) para atingir R$ 100.000,00 em 5 anos?**
 
@@ -794,11 +874,11 @@ Dados do problema:
 Pressione as teclas:
 
 ```
-[g] [BEG]
+       [g] [BEG]
 5      [g] [12x]
 0,75   [i]
 100000 [FV]
-[PMT]
+       [PMT]
 ```
 
 Resposta: PMT = -1.315,97
@@ -816,11 +896,11 @@ Dados do problema:
 Pressione as teclas:
 
 ```
-[g] [BEG]
+   [g] [BEG]
 20 [g] [12x]
 1  [i]
 1  [EEX] 6 [FV]
-[PMT]
+   [PMT]
 ```
 
 Resposta: PMT = -1.000,85
@@ -838,14 +918,36 @@ Dados do problema:
 Pressione as teclas:
 
 ```
-[g] [BEG]
+    [g] [BEG]
 7   [ENTER] 4 [x] [n]
 12  [ENTER] 4 [/] [i]
 500 [CHS] [PMT]
-[FV]
+    [FV]
 ```
 
 Resposta: FV = 22.109,43
+
+**Uma turma de Engenharia Civil, visando sua formatura, depositou R$ 10.000,00 hoje, numa instituição financeira e mais R$ 5.400,00 no inicio de cada mês a contar de hoje, durante 12 meses. Se a instituição financeira paga juro de 1,5% ao mês, quanto terá a turma no fim do contrato.**
+
+Dados do problema:
+
+- n = 12
+- i = 1,5
+- PV = -10.000
+- PMT = -5.400
+- FV = ?
+
+Pressione as teclas:
+
+```
+      [g] [BEG]
+12    [n]
+10000 [CHS] [PV]
+5400  [CHS] [PMT]
+      [FV]
+```
+
+Resposta: R$ 83.435,06
 
 ## Análise da decisão entre pagamento à vista e parcelado
 
@@ -865,7 +967,7 @@ Pressione as teclas:
 12  [n]
 0,7 [i]
 130 [CHS] [PMT]
-[PV]
+    [PV]
 ```
 
 O visor exibirá: 1491,28 (valor presente das parcelas)
@@ -881,7 +983,26 @@ O visor exibirá: 68,72 (diferença entre o valor à vista e o valor presente da
 
 A diferença entre o valor à vista e o valor presente das parcelas representa o custo de oportunidade de pagar parcelado, ou seja, o quanto você perde financeiramente por não investir os R$ 1.560 à 9% ao ano).
 
-## Análise de fluxo de caixa
+**O vendedor de uma loja, vende um aparelho eletrônico com as seguintes condições: pagamento à vista de R$ 1,300.00 ou em 3 parcelas de R$ 456.00 (sem entrada). Qual é a taxa cobrada no parcelamento?**
+
+Dados do problema:
+
+- n = 3
+- i = ?
+- PV = 1300
+- PMT = -456
+- FV = 0
+
+Pressione as teclas:
+
+```
+3    [n]
+1300 [PV]
+456  [CHS] [PMT]
+     [i]
+```
+
+O visor exibirá:  2,59 (taxa mensal)
 
 **Um veículo novo está sendo vendido por R$ 4.000,00 de entrada mais 6 pagamentos mensais, iguais e consecutivos de R$ 3.000,00. Sabendo-se que a taxa de juros de mercado é de 5,5% a.m., determinar até que preço interessa comprar o veículo a vista.**
 
@@ -892,10 +1013,14 @@ Pressione as teclas:
 3000 [g] [CFj]
 6    [g] [Nj]
 5,5  [i]
-[f] [NPV]
+     [f] [NPV]
 ```
 
 Resposta: R$ 18.986,59
+
+**Nota:** Observe neste exercício que é possível calcular o Valor Presente mesmo quando os valores dos pagamentos são diferentes, calculando o Valor Presente Líquido (VPL) por meio da análise do fluxo de caixa.
+
+## Análise de fluxo de caixa
 
 **Uma empresa está avaliando um projeto de instalação de painéis solares em uma fábrica de médio porte para reduzir os custos com eletricidade. O investimento inicial para o projeto é de R$ 500.000,00. A expectativa é que o projeto gere uma economia anual de R$ 120.000,00 em custos de energia durante os próximos 6 anos. Ao final do sexto ano, os painéis terão um valor residual de R$ 50.000,00 (valor de revenda ou sucata). A empresa definiu uma taxa mínima de atratividade (TMA) de 10% ao ano para esse tipo de projeto. Com base nas informações, calcule o Valor Presente Líquido (VPL) e diga se o investimento é viável.**
 
@@ -907,7 +1032,7 @@ Pressione as teclas:
 6      [g] [Nj]
 50000  [g] [CFj]
 10     [i]
-[f] [NPV]
+       [f] [NPV]
 ```
 
 Resposta: VPL = 48.289,19
@@ -924,7 +1049,7 @@ Pressione as teclas:
 10      [g] [Nj]
 600000  [g] [CFj]
 9       [i]
-[f] [NPV]
+        [f] [NPV]
 ```
 
 Resposta: VPL = 464.709,99
@@ -936,15 +1061,37 @@ O VPL é positivo. Isso significa que o projeto é viável financeiramente, pois
 Pressione as teclas:
 
 ```
-126900 [g] [CFo]
+126900       [g] [CFo]
 25000  [CHS] [g] [CFj]
 38000  [CHS] [g] [CFj]
 45000  [CHS] [g] [CFj]
 27000  [CHS] [g] [CFj]
-[f] [IRR]
+             [f] [IRR]
 ```
 
 Resposta: IRR = 2,47% ao mês.
+
+**Um empréstimo de R$ 5.000,00 será quitado em 4 parcelas bimestrais, conforme a tabela a seguir. Calcule a taxa de juros mensal equivalente aplicada nesse financiamento.**
+
+| Mês | Valor da Parcela (R\$) |
+| --- | ---------------------- |
+| 1º  | 1.500,00               |
+| 2º  | 1.600,00               |
+| 3º  | 1.600,00               |
+| 4º  | 1.700,00               |
+
+Pressione as teclas:
+
+```
+5000 [CHS] [g] [CFo]
+1500       [g] [CFj]
+1600       [g] [CFj]
+2          [g] [Nj]
+1700       [g] [CFj]
+           [f] [IRR]
+```
+
+Resposta: 10,44% (taxa mensal)
 
 ## Cálculo de depreciação
 
@@ -1032,7 +1179,7 @@ Pressione as teclas:
 198,75 [Σ+]
 230,10 [Σ+]
 205,80 [Σ+]
-[g] [x̄]
+       [g] [x̄]
 ```
 
 Resposta: R$ 212,51 (valor médio)
@@ -1093,7 +1240,7 @@ Pressione as teclas:
 
 O visor exibirá: 622,15 (poupança estimada caso a renda seja de R$ 4.000,00).
 
-pressione as teclas: `800 [g] [ŷ,r]`
+Pressione as teclas: `800 [g] [ŷ,r]`
 
 O visor exibirá: 4.694,53 (renda estimada para obter uma poupança de R$ 800,00).
 
@@ -1293,12 +1440,11 @@ O visor exibirá: -139.578,95 (total pago em parcelas da 16ª à 27ª).
 Pressione as teclas:
 
 ```
-[g] [D.MY]
+          [g] [D.MY]
 4,75      [i]
 6,75      [PMT]
 28,042025 [ENTER]
-14,062038
-[f] [PRICE]
+14,062038 [f] [PRICE]
 ```
 
 O visor exibirá: 119,36% (valor atual do título de dívida, como uma percentagem do valor nominal).
@@ -1312,12 +1458,11 @@ Então, o preço justo a ser pago em 28/04/2025 para obter YTM de 4,75% ao ano �
 Calculando agora  a taxa efetiva de retorno considerando que o preço de mercado para o título de dívida é de 122,125%. Pressione as teclas:
 
 ```
-[g] [D.MY]
+          [g] [D.MY]
 122,125   [PV]
 6,75      [PMT]
 28,042025 [ENTER]
-14,062038
-[f] [YTM]
+14,062038 [f] [YTM]
 ```
 
 O visor exibirá: 4,50% (A taxa efetiva do título de dívida ou *Yield To Maturity*).
