@@ -1243,3 +1243,41 @@ O visor exibirá: -82.105,26 (total de capital amortizado nesse período).
 Pressione a tecla: `[+]`
 
 O visor exibirá: -139.578,95 (total pago em parcelas da 16ª à 27ª).
+
+## Cálculos para títulos de dívida
+
+**Qual seria o preço justo a ser pago em 28 de abril de 2025 por um título público do Tesouro Nacional, que possui uma taxa nominal de juros de 6,75% ao ano e vence em 14 de junho de 2038, caso você deseje obter uma taxa efetiva de retorno (YTM) de 4,75% ao ano? Além disso, calcule a taxa efetiva de retorno correspondente ao preço de mercado do título, dado como 122,125%. Considere que o formato de data é dia-mês-ano.**
+
+Pressione as teclas:
+
+```
+[g] [D.MY]
+4,75      [i]
+6,75      [PMT]
+28,042025 [ENTER]
+14,062038
+[f] [PRICE]
+```
+
+O visor exibirá: 119,36% (valor atual do título de dívida, como uma percentagem do valor nominal).
+
+Pressione a tecla: `[+]`
+
+O visor exibirá: 121,87% (valor total, incluindo juros acumulados).
+
+Então, o preço justo a ser pago em 28/04/2025 para obter YTM de 4,75% ao ano é 121,87% do valor nominal.
+
+Calculando agora  a taxa efetiva de retorno considerando que o preço de mercado para o título de dívida é de 122,125%. Pressione as teclas:
+
+```
+[g] [D.MY]
+122,125   [PV]
+6,75      [PMT]
+28,042025 [ENTER]
+14,062038
+[f] [YTM]
+```
+
+O visor exibirá: 4,50% (A taxa efetiva do título de dívida ou *Yield To Maturity*).
+
+**Nota:** Este exercício considera a taxa efetiva do título de dívida, também conhecida como *Yield To Maturity* (YTM). A YTM reflete o rendimento (*yield*) do título de renda fixa até seu vencimento (*maturity*).
