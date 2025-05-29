@@ -78,15 +78,15 @@ Este programa calcula, com exatidão, os principais valores envolvidos na amorti
 Pressione as teclas:
 
 ```
-20 n
-2 i
-500000 PV
-13 R/S
+500 [EEX] 3 [PV]
+2   [i]
+20  [n]
+13  [R/S]
 ```
 
 O visor exibirá: -91.000,00 (total de juros pagos até a 13ª parcela).
 
-Pressione a tecla `+`
+Pressione a tecla: `[+]`
 
 O visor exibirá: -416.000,00 (total pago até a 13ª parcela).
 
@@ -97,16 +97,16 @@ O visor exibirá: -416.000,00 (total pago até a 13ª parcela).
 Acumule as amortizações até a 27ª parcela, pressionando as teclas:
 
 ```
-350000 PV
-1 i
-35 n
-27 R/S
+350 [EEX] 3 [PV]
+1   [i]
+35  [n]
+27  [R/S]
 ```
 
 Em seguida, calcule somente a parcela 28, pressionando as teclas:
 
 ```
-1 R/S
+1 [R/S]
 ```
 
 O visor exibirá: -800,00 (juros pagos somente na 28ª parcela).
@@ -114,7 +114,7 @@ O visor exibirá: -800,00 (juros pagos somente na 28ª parcela).
 Pressione as teclas:
 
 ```
-RCL PMT
+[RCL] [PMT]
 ```
 
 O visor exibirá: -10.800,00 (valor da 28ª parcela).
@@ -126,15 +126,15 @@ O visor exibirá: -10.800,00 (valor da 28ª parcela).
 Pressione as teclas:
 
 ```
-320000 PV
-3 i
-42 n
-42 R/S
+320 [EEX] 3 [PV]
+3   [i]
+42  [n]
+42  [R/S]
 ```
 
 O visor exibirá: -206.400,00 (total de juros pagos durante todo o financiamento).
 
-Pressione a tecla `+`
+Pressione a tecla: `[+]`
 
 O visor exibirá: -526.400,00 (total pago em parcelas ao longo de todo o financiamento).
 
@@ -145,24 +145,24 @@ O visor exibirá: -526.400,00 (total pago em parcelas ao longo de todo o financi
 Primeiro, amortize até a 15ª parcela, pressionando as teclas:
 
 ```
-260000 PV
-4 i
-38 n
-15 R/S
+260 [EEX] 3 [PV]
+4   [i]
+38  [n]
+15  [R/S]
 ```
 
 Em seguida, amortize da 16ª até a 27ª parcela (12 parcelas), pressionando as teclas:
 
 ```
-12 R/S
+12 [R/S]
 ```
 
 O visor exibirá: -57.473,68 (total de juros pagos entre a 16ª e 27ª parcela).
 
-Pressione a tecla `x><y`
+Pressione a tecla: `[x><y]`
 
 O visor exibirá: -82.105,26 (total de capital amortizado nesse período).
 
-Pressione a tecla `+`
+Pressione a tecla: `[+]`
 
 O visor exibirá: -139.578,95 (total pago em parcelas da 16ª à 27ª).

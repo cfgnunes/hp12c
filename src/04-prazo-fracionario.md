@@ -61,7 +61,7 @@ Pressione as teclas:
 R/S
 ```
 
-Então o visor exibirá: 9,01 (anos para dobrar o patrimônio).
+O visor exibirá: 9,01 (anos para dobrar o patrimônio).
 
 ### Exemplo 2
 
@@ -70,13 +70,13 @@ Então o visor exibirá: 9,01 (anos para dobrar o patrimônio).
 Pressione as teclas:
 
 ```
-2,6 i
-1 CHS PV
-2 FV
-R/S
+2,6   [i]
+1 CHS [PV]
+2     [FV]
+[R/S]
 ```
 
-Então o visor exibirá: 26,02 (meses para dobrar o patrimônio).
+O visor exibirá: 27,00 (meses para dobrar o patrimônio).
 
 ### Exemplo 3
 
@@ -85,10 +85,10 @@ Então o visor exibirá: 26,02 (meses para dobrar o patrimônio).
 Pressione as teclas:
 
 ```
-9 i
-3000 CHS PV
-6000 FV
-R/S
+9    [i]
+3000 [CHS] [PV]
+6000 [FV]
+[n]
 ```
 
-Então o visor exibirá: 8,04 (anos).
+Resposta: n = 8,04 (anos).

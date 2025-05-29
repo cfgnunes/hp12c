@@ -53,8 +53,8 @@ Onde:
 Pressione as teclas:
 
 ```
-12 i
-5 R/S
+12 [i]
+5  [R/S]
 ```
 
-O visor exibirá: 6,67 (taxa real de juros).
+Resposta: 6,67% (taxa real de juros).

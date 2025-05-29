@@ -53,12 +53,12 @@ Onde:
 Pressione as teclas:
 
 ```
-1 i
-1 n
-12 R/S
+1  [i]
+1  [n]
+12 [R/S]
 ```
 
-Então o visor exibirá: 12,68 (taxa equivalente anual).
+O visor exibirá: 12,68 (taxa equivalente anual).
 
 ### Exemplo 2
 
@@ -67,9 +67,9 @@ Então o visor exibirá: 12,68 (taxa equivalente anual).
 Pressione as teclas:
 
 ```
-12 i
-12 n
-1 R/S
+12 [i]
+12 [n]
+1  [R/S]
 ```
 
-Então o visor exibirá: 0,95 (taxa equivalente mensal).
+O visor exibirá: 0,95 (taxa equivalente mensal).

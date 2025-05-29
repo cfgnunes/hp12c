@@ -244,6 +244,29 @@ Pressione as teclas:
 
 Resposta: i = 8,78%
 
+**Em quanto tempo uma taxa de juros mensal de 2,6% dobraria o seu patrimônio?**
+
+Dados do problema:
+
+- n = ?
+- i = 2,6
+- PV = -1
+- PMT = 0
+- FV = 2
+
+Pressione as teclas:
+
+```
+2,6   [i]
+1 CHS [PV]
+2     [FV]
+[R/S]
+```
+
+O visor exibirá: 27,00 (meses para dobrar o patrimônio).
+
+**Nota:** A calculadora HP 12c retorna o valor 28, em vez de 27,005 (valor exato), porque arredonda o resultado para cima em cálculos que envolvem a determinação do número de períodos (n). Ela obtém apenas valores inteiros para n, sendo uma limitação da calculadora. Para realizar o cálculo exato, utilize o programa [Prazo Fracionário](./04-prazo-fracionario.md).
+
 **Você investe R$ 3.000,00 e o valor dobra para R$ 6.000,00 com juros de 9% ao ano. Quanto tempo levou?**
 
 Dados do problema:
@@ -1078,9 +1101,33 @@ O visor exibirá: 4.694,53 (renda estimada para obter uma poupança de R$ 800,00
 
 ## Taxas equivalentes
 
-**Quais as taxas de juros compostos mensal e trimestral equivalentes a 25% ao ano?**
+**Nota:** Para os exercícios a seguir, utilize o programa [Taxas Equivalentes](./01-taxas-equivalentes.md).
 
-Para este exercício, utilize o programa [Taxas Equivalentes](./01-taxas-equivalentes.md).
+**Você possui uma taxa de 1% ao mês e deseja saber qual é a taxa anual equivalente.**
+
+Pressione as teclas:
+
+```
+1  [i]
+1  [n]   (1 mês - taxa mensal)
+12 [R/S] (12 meses - taxa anual)
+```
+
+O visor exibirá: 12,68 (taxa equivalente anual).
+
+**Você possui uma taxa de 12% ao ano e deseja saber qual é a taxa mensal equivalente.**
+
+Pressione as teclas:
+
+```
+12 [i]
+12 [n]    (12 meses - taxa anual)
+1  [R/S]  (1 mês - taxa mensal)
+```
+
+O visor exibirá: 0,95 (taxa equivalente mensal).
+
+**Quais as taxas de juros compostos mensal e trimestral equivalentes a 25% ao ano?**
 
 Pressione as teclas:
 
@@ -1104,8 +1151,6 @@ O visor exibirá: 5,74 (taxas de juros anual, capitalizada mensalmente).
 
 **Um aplicação financeira promete pagar 42% ao ano de juros. Sendo de um mês o prazo da aplicação, pede-se determinar a sua rentabilidade efetiva considerando os juros de 42% a. a. como taxa efetiva e taxa nominal.**
 
-Para este exercício, utilize o programa [Taxas Equivalentes](./01-taxas-equivalentes.md).
-
 Considerando 42% a.a. como taxa efetiva, pressione as teclas:
 
 ```
@@ -1127,10 +1172,9 @@ O visor exibirá: 2,97 (taxa ao mês).
 
 ## Taxa nominal e taxa real
 
+**Nota:** Para os exercícios a seguir, utilize o programa [Rentabilidade Real](./05-rentabilidade-real.md).
+
 **Determinar a variação real do poder aquisitivo de um assalariado que obtém, em determinado semestre, um reajuste salarial de 12%, admitindo que a inflação do período tenha atingido a 8%.**
-
-Para este exercício, utilize o programa [Rentabilidade Real](./05-rentabilidade-real.md).
-
 
 ```
 12 [i]
@@ -1140,8 +1184,6 @@ Para este exercício, utilize o programa [Rentabilidade Real](./05-rentabilidade
 Resposta: 3,7% (variação real).
 
 **Um banco informou que a rentabilidade de um determinado investimento foi de 12% ao ano, correspondendo aos juros nominais. No mesmo período, a inflação acumulada foi de 5%. Calcule os juros reais, ou seja, a rentabilidade efetiva do investimento descontando-se a inflação.**
-
-Para este exercício, utilize o programa [Rentabilidade Real](./05-rentabilidade-real.md).
 
 Pressione as teclas:
 
@@ -1154,7 +1196,7 @@ Resposta: 6,67% (taxa real de juros).
 
 ## Financiamentos e empréstimos com parcelas decrescentes (SAC)
 
-Para os exercícios abaixo, utilize o programa [Sistema de Amortização Constante (SAC)](./03-tabela-sac.md).
+**Nota:** Para os exercícios a seguir, utilize o programa [Sistema de Amortização Constante (SAC)](./03-tabela-sac.md).
 
 **Considere um empréstimo de R$ 500.000,00, com taxa de juros de 2% ao mês e prazo total de 20 meses. Com base nessas condições, calcule o total de juros pagos até a 13ª parcela, bem como o valor total pago até essa mesma parcela. Considere o Sistema de Amortização Constante (SAC).**
 
