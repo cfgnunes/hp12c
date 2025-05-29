@@ -1,392 +1,1158 @@
 # Exercícios resolvidos com a HP 12c
 
+O objetivo destes exercícios é apresentar, de forma prática e aplicada, as funções da calculadora HP 12c.
+
+Antes de iniciar qualquer exercício envolvendo os registradores financeiros ou estatísticos, certifique-se de apagar os valores previamente armazenados na calculadora para evitar resultados incorretos. Para isso, pressione as teclas:
+
+```
+[f] [CLEAR REG]
+```
+
+Os registradores financeiros da calculadora HP 12c representam os principais elementos de uma operação financeira baseada no conceito de valor do dinheiro no tempo (*Time Value of Money* - TVM). São eles:
+- **n**: número de períodos da operação;
+- **i**: taxa de juros por período;
+- **PV (Present Value)**: valor presente, ou seja, o valor atual de um fluxo de caixa futuro;
+- **PMT (Payment)**: valor do pagamento periódico, utilizado em operações com séries de pagamentos;
+- **FV (Future Value)**: valor futuro, que representa o montante acumulado ao final dos períodos.
+
+## Cálculos com porcentagem
+
+**Em uma aplicação financeira, um investidor obteve um rendimento de R$ 10.000,00 sobre um capital total de R$ 250.000,00. Qual é o percentual que esse rendimento representa em relação ao valor investido?**
+
+Pressione as teclas:
+
+```
+250 [ENTER]
+10  [%T]
+```
+
+Resposta: 4% (percentual em relação ao total).
+
+**Durante um período de valorização imobiliária, uma casa adquirida por R$ 200.000,00 foi vendida por R$ 220.000,00. Qual foi o percentual de aumento no valor da casa em relação ao valor de aquisição?**
+
+Pressione as teclas:
+
+```
+200 [ENTER]
+220 [Δ%]
+```
+
+Resposta: 10% (variação percentual).
+
+**O preço de uma ação na bolsa de valores caiu de R$ 9,00 para R$ 8,00. Qual foi a variação percentual negativa (ou percentual de desvalorização) em relação ao preço inicial?**
+
+Pressione as teclas:
+
+```
+9 [ENTER]
+8 [Δ%]
+```
+
+Resposta: -11,11% (variação percentual).
+
+**Em uma loja, um produto que custa R$ 400,00 está com um desconto de 15%. Qual é o valor correspondente a esse desconto? Calcule também o valor final já com o desconto.**
+
+Pressione as teclas:
+
+```
+400 [ENTER]
+15  [%]
+```
+
+O visor exibirá: 60,00 (valor do desconto).
+
+Pressione a tecla: `[-]`
+
+O visor exibirá: 340,00 (valor final do produto com o desconto).
+
+## Cálculos com datas
+
+**Se você comprasse uma opção para um terreno em 28 de maio de 2025, válida por 120 dias, qual seria a data de vencimento?**
+
+Pressione as teclas:
+
+```
+[g] [D.MY]
+28,052025 [ENTER]
+120       [g] [DATE]
+```
+
+O visor exibirá: 25.09.2025 4, representando a data de 25/09/2025. O número 4 exibido no visor indica o dia da semana (quinta-feira).
+
+**Nota:** Na calculadora HP 12c, os dias da semana são numerados de 1 a 7, correspondendo 1 à segunda-feira e 7 ao domingo.
+
+**Qual seria o número de dias entre 3 de junho de 2024 a 14 de outubro de 2025?**
+
+Pressione as teclas:
+
+```
+[g] [D.MY]
+ 3,062024 [ENTER]
+14,102025 [g] [ΔDYS]
+```
+
+O visor exibirá: 498 (número exato de dias entre as datas)
+
+Para saber o número de dias baseado no ano comercial (mês de 30 dias), basta pressionar a tecla `[x><y]`.
+
+O visor exibirá: 491 (número de dias baseado no ano comercial)
+## Juros Simples
+
+**Um capital de R$ 80.000,00 é aplicado à taxa de 30% ao ano durante 90 dias. Determine o valor dos juros simples acumulados neste período.**
+
+Dados do problema:
+- C = -80.000
+- i = 30% ao ano
+- n = 90 dias
+
+Pressione as teclas:
+
+```
+80000 [CHS] [PV]
+30    [i]
+90    [n]
+[f] [INT]
+```
+
+Resposta: R$ 6.000,00 (juros simples acumulados).
+
 ## Pagamentos únicos
 
 **As vendas de uma empresa foram de R$ 100 milhões. Se as vendas crescerem 8% ao ano, qual será o valor em 10 anos, em milhões?**
 
+Dados do problema:
+- n = 10
+- i = 8
+- PV = -100
+- PMT = 0
+- FV = ?
+
+Pressione as teclas:
+
 ```
-n = 10
-i = 8
-PV = -100
-PMT = 0
-FV = ?
+10  [n]
+8   [i]
+100 [CHS] [PV]
+[FV]
 ```
 
 Resposta: FV = 215,89
 
 **Suponha que um título do governo pagará R$ 1.000,00 daqui a três anos. Se a taxa de juros dos títulos de 3 anos é de 4% ao ano, quanto vale esse título hoje?**
 
+Dados do problema:
+- n = 3
+- i = 4
+- PV = ?
+- PMT = 0
+- FV = 1.000
+
+Pressione as teclas:
+
 ```
-n = 3
-i = 4
-PV = ?
-PMT = 0
-FV = 1.000
+3    [n]
+4    [i]
+1000 [FV]
+[PV]
 ```
 
 Resposta: PV = -889,00
 
 **O Tesouro Nacional oferece um título por R$ 613,81. Nenhum pagamento será feito até o vencimento, em 10 anos, quando será resgatado por R$ 1.000,00. Qual a taxa de juros efetiva anual desse título?**
 
+Dados do problema:
+
+- n = 10
+- i = ?
+- PV = -613,81
+- PMT = 0
+- FV = 1.000
+
+Pressione as teclas:
+
 ```
-n = 10
-i = ?
-PV = -613,81
-PMT = 0
-FV = 1.000
+10     [n]
+613,81 [CHS] [PV]
+1000   [FV]
+[i]
 ```
 
-Resposta: i = 5
+Resposta: i = 5%
 
-## Pagamentos únicos - Investimentos
+## Pagamentos únicos: investimentos
 
 **Você investe R$ 5.000,00 em uma conta que rende 6% ao ano durante 8 anos. Qual será o valor ao final do período?**
 
+Dados do problema:
+
+- n = 8
+- i = 6
+- PV = -5.000
+- PMT = 0
+- FV = ?
+
+Pressione as teclas:
+
 ```
-n = 8
-i = 6
-PV = -5.000
-PMT = 0
-FV = ?
+8    [n]
+6    [i]
+5000 [CHS] [PV]
+[FV]
 ```
 
 Resposta: FV = 7.969,24
 
 **Você precisa de R$ 10.000,00 em 5 anos. A conta rende 7% ao ano. Quanto deve investir agora?**
 
+Dados do problema:
+
+- n = 5
+- i = 7
+- PV = ?
+- PMT = 0
+- FV = 10.000
+
+Pressione as teclas:
+
 ```
-n = 5
-i = 7
-PV = ?
-PMT = 0
-FV = 10.000
+5     [n]
+7     [i]
+10000 [FV]
+[PV]
 ```
 
 Resposta: PV = -7.129,86
 
 **Você investe R$ 2.000,00 e o valor cresce para R$ 2.800 em 4 anos. Qual foi a taxa de juros anual?**
 
+Dados do problema:
+
+- n = 4
+- i = ?
+- PV = 2.000
+- PMT = 0
+- FV = 2.800
+
+Pressione as teclas:
+
 ```
-n = 4
-i = ?
-PV = 2.000
-PMT = 0
-FV = 2.800
+4    [n]
+2000 [PV]
+2800 [FV]
+[i]
 ```
 
-Resposta: i = 8,78
+Resposta: i = 8,78%
 
 **Você investe R$ 3.000,00 e o valor dobra para R$ 6.000,00 com juros de 9% ao ano. Quanto tempo levou?**
 
+Dados do problema:
+
+- n = ?
+- i = 9
+- PV = -3.000
+- PMT = 0
+- FV = 6.000
+
+Pressione as teclas:
+
 ```
-n = ?
-i = 9
-PV = -3.000
-PMT = 0
-FV = 6.000
+9    [i]
+3000 [CHS] [PV]
+6000 [FV]
+[n]
 ```
 
-Resposta: n = 8,04 (anos)
+Resposta: n = 8,04 (anos).
 
-Nota: A calculadora HP 12c retorna o valor 9, em vez de 8,04, porque arredonda automaticamente o resultado para cima em cálculos que envolvem a determinação do número de períodos (n). Ela obtém apenas valores inteiros para n, sendo uma limitação da calculadora. Para realizar o cálculo exato, utilize o programa: [Cálculo de Prazo Fracionário](./04-prazo-fracionario.md).
+**Nota:** A calculadora HP 12c retorna o valor 9, em vez de 8,04 (valor exato), porque arredonda o resultado para cima em cálculos que envolvem a determinação do número de períodos (n). Ela obtém apenas valores inteiros para n, sendo uma limitação da calculadora. Para realizar o cálculo exato, utilize o programa: [Cálculo de Prazo Fracionário](./04-prazo-fracionario.md).
 
 **Você aplica R$ 1.000,00 por 10 anos em um banco que paga 5% ao ano, com pagamento no final do período. Quanto terá ao final?**
 
+Dados do problema:
+
+- n = 10
+- i = 5
+- PV = -1.000
+- PMT = 0
+- FV = ?
+
+Pressione as teclas:
+
 ```
-n = 10
-i = 5
-PV = -1.000
-PMT = 0
-FV = ?
+10   [n]
+5    [i]
+1000 [CHS] [PV]
+[FV]
 ```
 
 Resposta: FV = 1.628,89
 
 **O Sr. Carlos pretende investir R$ 10.000,00 em uma aplicação com juros compostos de 8% ao ano, capitalizados trimestralmente. Qual será o valor futuro após 5 anos?**
 
+Dados do problema:
+
+- n = 5 x 4
+- i = 8 / 4
+- PV = -10.000
+- PMT = 0
+- FV = ?
+
+Pressione as teclas:
+
 ```
-n = 5 x 4
-i = 8 / 4
-PV = -10.000
-PMT = 0
-FV = ?
+5 [ENTER] 4 [x] [n]
+8 [ENTER] 4 [/] [i]
+10000 [CHS] [PV]
+[FV]
 ```
 
 Resposta: FV = 14.859,47
 
 **Quanto é preciso depositar hoje para ter R$ 8.000,00 em 5 anos, com juros de 6,5% ao ano capitalizados mensalmente?**
 
+Dados do problema:
+
+- n = 5 x 12
+- i = 6,5 / 12
+- PV = ?
+- PMT = 0
+- FV = 8.000
+
+Pressione as teclas:
+
 ```
-n = 5 x 12
-i = 6,5 / 12
-PV = ?
-PMT = 0
-FV = 8.000
+5    [g] [12x]
+6,5  [g] [12/]
+8000 [FV]
+[PV]
 ```
 
 Resposta: PV = -5.785,29
 
 **O Sr. Roberto vai se aposentar em 20 anos e quer comprar uma casa de R$ 2.000.000,00. Quanto ele precisa investir hoje em um banco que paga 9% ao ano com capitalização semestral?**
 
+Dados do problema:
+
+- n = 20 x 2
+- i = 9 / 2
+- PV = ?
+- PMT = 0
+- FV = 2.000.000
+
+Pressione as teclas:
+
 ```
-n = 20 x 2
-i = 9 / 2
-PV = ?
-PMT = 0
-FV = 2.000.000
+20 [ENTER] 2 [x] [n]
+9  [ENTER] 2 [/] [i]
+2  [EEX] 6 [FV]
+[PV]
 ```
 
 Resposta: PV = -343.857,40
 
-## Pagamentos únicos - Empréstimos
+## Pagamentos únicos: empréstimos
 
 **Você toma emprestado R$ 7.000,00 a uma taxa de 5% ao ano por 3 anos. Qual será o valor total a ser pago?**
 
+Dados do problema:
+
+- n = 3
+- i = 5
+- PV = -7.000
+- PMT = 0
+- FV = ?
+
+Pressione as teclas:
+
 ```
-n = 3
-i = 5
-PV = -7.000
-PMT = 0
-FV = ?
+3    [n]
+5    [i]
+7000 [CHS] [PV]
+[FV]
 ```
 
 Resposta: FV = 8.103,38
 
 **Você deve pagar R$ 10.000,00 em 6 anos. A taxa anual juros é de 4%. Quanto pode pegar emprestado hoje?**
 
+Dados do problema:
+
+- n = 6
+- i = 4
+- PV = ?
+- PMT = 0
+- FV = -10.000
+
+Pressione as teclas:
+
 ```
-n = 6
-i = 4
-PV = ?
-PMT = 0
-FV = -10.000
+6     [n]
+4     [i]
+10000 [CHS] [FV]
+[PV]
 ```
 
 Resposta: PV = 7.903,15
 
 **Você tomou R$ 1.500,00 emprestados e pagou R$ 1.800,00 após 2 anos. Qual foi a taxa de juros?**
 
+Dados do problema:
+
+- n = 2
+- i = ?
+- PV = 1.500
+- PMT = 0
+- FV = -1.800
+
+Pressione as teclas:
+
 ```
-n = 2
-i = ?
-PV = 1.500
-PMT = 0
-FV = -1.800
+2    [n]
+1500 [PV]
+1800 [CHS] [FV]
+[i]
 ```
 
-Resposta: i = 9,54
+Resposta: i = 9,54%
 
 **Você tomou R$ 5.000,00 emprestados e pagou R$ 6.000,00 com juros anuais de 8%. Quanto tempo demorou?**
 
+Dados do problema:
+
+- n = ?
+- i = 8
+- PV = 5.000
+- PMT = 0
+- FV = -6.000
+
+Pressione as teclas:
+
 ```
-n = ?
-i = 8
-PV = 5.000
-PMT = 0
-FV = 6.000
+8    [i]
+5000 [PV]
+6000 [CHS] [FV]
+[n]
 ```
 
-Resposta: n = 2,37 (anos)
+Resposta: n = 2,37 (anos).
 
-Nota: A calculadora HP 12c retorna o valor 3, em vez de 2,37, porque arredonda automaticamente o resultado para cima em cálculos que envolvem a determinação do número de períodos (n). Ela obtém apenas valores inteiros para n, sendo uma limitação da calculadora. Para realizar o cálculo exato, utilize o programa: [Cálculo de Prazo Fracionário](./04-prazo-fracionario.md).
+**Nota:** A calculadora HP 12c retorna o valor 3, em vez de 2,37 (valor exato), porque arredonda o resultado para cima em cálculos que envolvem a determinação do número de períodos (n). Ela obtém apenas valores inteiros para n, sendo uma limitação da calculadora. Para realizar o cálculo exato, utilize o programa: [Cálculo de Prazo Fracionário](./04-prazo-fracionario.md).
 
 **Se João empresta R$ 1.500,00 a um amigo com taxa de 4,3% ao ano, capitalizada mensalmente, quanto de juros terá ao final de um ano?**
 
+Dados do problema:
+
+- n = 1 x 12
+- i = 4,3 / 12
+- PV = -1.500
+- PMT = 0
+- FV = ?
+
+Pressione as teclas:
+
 ```
-n = 1 x 12
-i = 4,3 / 12
-PV = -1.500
-PMT = 0
-FV = ?
+1    [g] [12x]
+4,3  [g] [12/]
+1500 [CHS] [PV]
+[FV]
+[RCL] [PV] [+]
 ```
 
-Resposta: FV = 1.565,79 | Juros = 65,79
+Resposta:
+Juros = 1.565,79 (FV) - 1.500,00 (PV) = 65,79
 
 **Lucas pegou R$ 600,00 emprestados no banco e esse valor quadruplicou em 2 anos, com capitalização mensal. Qual foi a taxa de juros?**
 
+Dados do problema:
+
+- n = 2 x 12
+- i = ?
+- PV = -600
+- PMT = 0
+- FV = 2.400
+
+Pressione as teclas:
+
 ```
-n = 2 x 12
-i = ?
-PV = -600
-PMT = 0
-FV = 2.400
+2    [g] [12x]
+600  [CHS] [PV]
+2400 [FV]
+[i]
+12 [x]
 ```
 
 Resposta: i = 5,9463 x 12 = 71,36%
 
-## Investimentos com depósitos periódicos
+## Anuidade ordinária (PV = 0): investimentos
 
 **André deposita R$ 22.000,00 ao final de cada ano por 7 anos, em uma conta que rende 6% ao ano. Quanto ele terá ao final do período?**
 
+Dados do problema:
+
+- n = 7
+- i = 6
+- PV = 0
+- PMT = -22.000
+- FV = ?
+
+Pressione as teclas:
+
 ```
-n = 7
-i = 6
-PV = 0
-PMT = -22.000
-FV = ?
+7     [n]
+6     [i]
+22000 [CHS] [PMT]
+[FV]
 ```
 
 Resposta: FV = 184.664,43
 
 **Marcela deposita R$ 1.200,00 no final de cada trimestre por 10 anos, em uma conta que rende 8% ao ano com capitalização trimestral. Quanto terá ao final do período?**
 
+Dados do problema:
+
+- n = 10 x 4
+- i = 8 / 4
+- PV = 0
+- PMT = -1.200
+- FV = ?
+
+Pressione as teclas:
+
 ```
-n = 10 x 4
-i = 8 / 4
-PV = 0
-PMT = -1.200
-FV = ?
+10   [ENTER] 4 [x] [n]
+8    [ENTER] 4 [/] [i]
+1200 [CHS] [PMT]
+[FV]
 ```
 
 Resposta: FV = 72.482,38
 
 **Carlos quer se aposentar em 20 anos e, para isso, deposita R$ 200,00 no final de cada mês em um fundo que rende 7,2% ao ano com capitalização mensal. Quanto terá ao se aposentar?**
 
+Dados do problema:
+
+- n = 20 x 12
+- i = 7,2 / 12
+- PV = 0
+- PMT = -200
+- FV = ?
+
+Pressione as teclas:
+
 ```
-n = 20 x 12
-i = 7,2 / 12
-PV = 0
-PMT = -200
-FV = ?
+20  [g] [12x]
+7,2 [g] [12/]
+200 [CHS] [PMT]
+[FV]
 ```
 
 Resposta: FV = 106.752,47
 
 **Juliana quer se aposentar em 32 anos e planeja investir mensalmente em uma conta que rende 9% ao ano. Quanto precisa investir por mês para acumular R$ 2.000.000,00?**
 
+Dados do problema:
+
+- n = 32 x 12
+- i = 9 / 12
+- PV = 0
+- PMT = ?
+- FV = 2.000.000
+
+Pressione as teclas:
+
 ```
-n = 32 x 12
-i = 9 / 12
-PV = 0
-PMT = ?
-FV = 2.000.000
+32 [g] [12x]
+9  [g] [12/]
+2  [EEX] 6 [FV]
+[PMT]
 ```
 
 Resposta: PMT = -902,32
 
-## Anuidade ordinária (pagamentos no final do período)
+## Anuidade ordinária (FV = 0): aposentadorias
 
 **Você pode comprar uma anuidade que paga R$ 1.000,00 no final de cada ano por 5 anos. Se você pode ganhar 6% ao ano em outros investimentos de mesmo risco, qual o valor máximo que deve pagar?**
 
+Dados do problema:
+
+- n = 5
+- i = 6
+- PV = ?
+- PMT = 1.000
+- FV = 0
+
+Pressione as teclas:
+
 ```
-n = 5
-i = 6
-PV = ?
-PMT = 1.000
-FV = 0
+5    [n]
+6    [i]
+1000 [PMT]
+[PV]
 ```
 
 Resposta: PV = -4.212,36
 
 **Você herdou R$ 200.000,00 e investe a 6% ao ano. Quanto pode sacar no final de cada um dos próximos 15 anos?**
 
+Dados do problema:
+
+- n = 15
+- i = 6
+- PV = 200.000
+- PMT = ?
+- FV = 0
+
+Pressione as teclas:
+
 ```
-n = 15
-i = 6
-PV = 200.000
-PMT = ?
-FV = 0
+15 [n]
+6  [i]
+200000 [PV]
+[PMT]
 ```
 
 Resposta: PMT = -20.592,55
 
-## Anuidade antecipada (pagamentos no início do período)
+## Anuidade ordinária (FV = 0): financiamentos e empréstimos
 
-**Com uma taxa de juros de 0,75% ao mês, quanto deve ser depositado mensalmente (no início do mês) para atingir R$ 100.000,00 em 5 anos?**
+**Determinado bem é vendido em 7 pagamentos mensais, iguais e consecutivos de R$ 4.000,00. Para uma taxa de juros de 2,6% a.m., até que preço compensa adquirir o aparelho a vista?**
 
-```
-n = 5 x 12
-i = 0,75
-PV = 0
-PMT = ?
-FV = 100.000
-```
+Dados do problema:
 
-Resposta: PMT = -1.315,97
+- n = 7
+- i = 2,6
+- PV = ?
+- PMT = -4.000
+- FV = 0
 
-**Com uma taxa de juros de 1% ao mês, quanto deve ser depositado mensalmente (no início do mês) para acumular R$ 1.000.000,00 em 20 anos?**
+Pressione as teclas:
 
 ```
-n = 20 x 12
-i = 1
-PV = 0
-PMT = ?
-FV = 1.000.000
+7    [n]
+4000 [CHS] [PMT]
+2,6  [i]
+[PV]
 ```
 
-Resposta: PMT = -1.000,85
+Resposta: PV = 25,301,17 (compensa comprar até esse preço, comprando a vista)
 
-**Ricardo deposita R$ 500,00 no início de cada trimestre durante 7 anos, em uma conta com juros de 12% ao ano, capitalizados trimestralmente. Quanto ele terá ao final do período?**
+**Um empréstimo de R$ 20.000,00 é concedido para pagamento em 5 prestações mensais, iguais e sucessivas de $ 4.300,00. Calcular o custo mensal deste empréstimo.**
+
+Dados do problema:
+
+- n = 5
+- i = ?
+- PV = 20.000
+- PMT = -4.300
+- FV = 0
+
+Pressione as teclas:
 
 ```
-n = 7 x 4
-i = 12 / 4
-PV = 0
-PMT = -500
-FV = ?
+20000 [PV]
+5     [n]
+4300  [CHS] [PMT]
+[i]
 ```
 
-Resposta: FV = 22.109,43
-
-## Financiamentos e empréstimos com parcelas fixas (tabela Price)
+Resposta: i = 2,46% (ao mês).
 
 **Você está comprando sua primeira casa por R$ 220.000,00 e pagará R$ 30.000,00 de entrada. Vai financiar os R$ 190.000,00 restantes em um empréstimo de 30 anos, com taxa nominal de 7% ao ano e parcelas fixas mensais (tabela Price). Qual será o valor das parcelas mensais?**
 
+Dados do problema:
+
+- n = 30 x 12
+- i = 7 / 12
+- PV = 190.000
+- PMT = ?
+- FV = 0
+
+Pressione as teclas:
+
 ```
-n = 30 x 12
-i = 7 / 12
-PV = 190.000
-PMT = ?
-FV = 0
+30  [g] [12x]
+7   [g] [12/]
+190 [EEX] 3 [PV]
+[PMT]
 ```
 
 Resposta: PMT = -1.264,07
 
 **Você quer comprar um carro de R$ 28.000,00. A concessionária oferece taxa de 4% ao ano para 48 meses. Quais serão as parcelas fixas mensais?**
 
+Dados do problema:
+
+- n = 4 x 12
+- i = 4 / 12
+- PV = 28.000
+- PMT = ?
+- FV = 0
+
+Pressione as teclas:
+
 ```
-n = 4 x 12
-i = 4 / 12
-PV = 28.000
-PMT = ?
-FV = 0
+4 [g] [12x]
+4 [g] [12/]
+28000 [PV]
+[PMT]
 ```
 
 Resposta: PMT = -632,21
 
 **Maria possui um empréstimo consignado, com 96 parcelas fixas (tabela Price) de R$ 1.340,00, das quais já pagou 13, restando um saldo devedor de R$ 42.458,51. Determine a taxa de juros anual com capitalização mensal e, em seguida, calcule quantas parcelas seriam eliminadas caso ela amortizasse R$ 1.000,00 hoje, utilizando amortização por tempo. Calcule também o novo valor da parcela caso ela optasse por realizar a amortização por valor da parcela.**
 
-```
-n = 83 (96 - 13)
-i = ?
-PV = 42.458,51
-PMT = -1.340,00
-FV = 0
-```
+Parte 1: Encontrando primeiro a taxa de juros. Dados do problema:
 
-Resposta: i = 2,85
+- n = 83 (96 - 13)
+- i = ?
+- PV = 42.458,51
+- PMT = -1.340,00
+- FV = 0
 
-```
-n = ?
-i = 2,85
-PV = 41.458,51 (retirado R$ 1.000,00 do saldo devedor de R$ 42.458,51)
-PMT = -1.340,00
-FV = 0
-```
-
-Resposta: n = 76. Logo, 83-76 = 7 parcelas eliminadas (amortização por tempo).
+Pressione as teclas:
 
 ```
-n = 83 (96 - 13)
-i = 2,85
-PV = 41.458,51 (retirado R$ 1.000,00 do saldo devedor de R$ 42.458,51)
-PMT = ?
-FV = 0
+96 [ENTER] 13 [-] [n]
+42458,51 [PV]
+1340 [CHS] [PMT]
+[i]
+```
+
+Resposta: i = 2,85%
+
+Parte 2: Encontrando a nova quantidade de parcelas (amortização por tempo). Dados do problema:
+
+- n = ?
+- i = 2,85
+- PV = 41.458,51 (retirado R$ 1.000,00 do saldo devedor de R$ 42.458,51)
+- PMT = -1.340,00
+- FV = 0
+
+Pressione as teclas:
+
+```
+[RCL] [PV]
+1000 [-] [PV]
+[n]
+```
+
+O visor exibirá: n = 76. Logo, 83-76 = 7 parcelas eliminadas (amortização por tempo).
+
+Parte 3: Encontrando o novo valor da parcela (amortização por valor da parcela). Dados do problema:
+
+- n = 83 (96 - 13)
+- i = 2,85
+- PV = 41.458,51 (retirado R$ 1.000,00 do saldo devedor de R$ 42.458,51)
+- PMT = ?
+- FV = 0
+
+Pressione as teclas:
+
+```
+96 [ENTER] 13 [-] [n]
+[PMT]
 ```
 
 Resposta: PMT = -1.308,48 (novo valor da parcela após amortização por parcela).
 
-## Financiamentos e empréstimos com parcelas decrescentes (tabela SAC)
+## Anuidade antecipada
+
+**Com uma taxa de juros de 0,75% ao mês, quanto deve ser depositado mensalmente (no início do mês) para atingir R$ 100.000,00 em 5 anos?**
+
+Dados do problema:
+
+- n = 5 x 12
+- i = 0,75
+- PV = 0
+- PMT = ?
+- FV = 100.000
+
+Pressione as teclas:
+
+```
+[g] [BEG]
+5      [g] [12x]
+0,75   [i]
+100000 [FV]
+[PMT]
+```
+
+Resposta: PMT = -1.315,97
+
+**Com uma taxa de juros de 1% ao mês, quanto deve ser depositado mensalmente (no início do mês) para acumular R$ 1.000.000,00 em 20 anos?**
+
+Dados do problema:
+
+- n = 20 x 12
+- i = 1
+- PV = 0
+- PMT = ?
+- FV = 1.000.000
+
+Pressione as teclas:
+
+```
+[g] [BEG]
+20 [g] [12x]
+1  [i]
+1  [EEX] 6 [FV]
+[PMT]
+```
+
+Resposta: PMT = -1.000,85
+
+**Ricardo deposita R$ 500,00 no início de cada trimestre durante 7 anos, em uma conta com juros de 12% ao ano, capitalizados trimestralmente. Quanto ele terá ao final do período?**
+
+Dados do problema:
+
+- n = 7 x 4
+- i = 12 / 4
+- PV = 0
+- PMT = -500
+- FV = ?
+
+Pressione as teclas:
+
+```
+[g] [BEG]
+7   [ENTER] 4 [x] [n]
+12  [ENTER] 4 [/] [i]
+500 [CHS] [PMT]
+[FV]
+```
+
+Resposta: FV = 22.109,43
+
+## Análise da decisão entre pagamento à vista e parcelado
+
+**Pagar a vista ou parcelar? Você tem duas opções para adquirir um plano anual de academia: pagar à vista o valor total de R$ 1.560,00 ou parcelar em 12 vezes mensais de R$ 130,00 (sem juros na parcela). Considerando que você dispõe do valor total e tem a possibilidade de investi-lo em uma aplicação com rendimento de 0,7% ao mês, qual é a vantagem financeira (ou custo de oportunidade) de optar pelo parcelamento em vez do pagamento à vista?**
+
+Dados do problema:
+
+- n = 12
+- i = 0,7
+- PV = ?
+- PMT = -130
+- FV = 0
+
+Pressione as teclas:
+
+```
+12  [n]
+0,7 [i]
+130 [CHS] [PMT]
+[PV]
+```
+
+O visor exibirá: 1491,28 (valor presente das parcelas)
+
+Para saber a diferença entre o valor à vista e o valor presente das parcelas, pressione as teclas:
+
+```
+1560
+[x><y] [-]
+```
+
+O visor exibirá: 68,72 (diferença entre o valor à vista e o valor presente das parcelas)
+
+A diferença entre o valor à vista e o valor presente das parcelas representa o custo de oportunidade de pagar parcelado, ou seja, o quanto você perde financeiramente por não investir os R$ 1.560 à 9% ao ano).
+
+## Análise de fluxo de caixa
+
+**Um veículo novo está sendo vendido por R$ 4.000,00 de entrada mais 6 pagamentos mensais, iguais e consecutivos de R$ 3.000,00. Sabendo-se que a taxa de juros de mercado é de 5,5% a.m., determinar até que preço interessa comprar o veículo a vista.**
+
+Pressione as teclas:
+
+```
+4000 [g] [CFo]
+3000 [g] [CFj]
+6    [g] [Nj]
+5,5  [i]
+[f] [NPV]
+```
+
+Resposta: R$ 18.986,59
+
+**Uma empresa está avaliando um projeto de instalação de painéis solares em uma fábrica de médio porte para reduzir os custos com eletricidade. O investimento inicial para o projeto é de R$ 500.000,00. A expectativa é que o projeto gere uma economia anual de R$ 120.000,00 em custos de energia durante os próximos 6 anos. Ao final do sexto ano, os painéis terão um valor residual de R$ 50.000,00 (valor de revenda ou sucata). A empresa definiu uma taxa mínima de atratividade (TMA) de 10% ao ano para esse tipo de projeto. Com base nas informações, calcule o Valor Presente Líquido (VPL) e diga se o investimento é viável.**
+
+Pressione as teclas:
+
+```
+500000 [CHS] [g] [CFo]
+120000 [g] [CFj]
+6      [g] [Nj]
+50000  [g] [CFj]
+10     [i]
+[f] [NPV]
+```
+
+Resposta: VPL = 48.289,19
+
+O VPL é positivo. Isso significa que o projeto é viável financeiramente, pois traz um retorno superior à taxa mínima exigida de 10% ao ano. A empresa pode prosseguir com o investimento.
+
+**O investidor Carlos está analisando a compra de um imóvel com 4 lojas comerciais, todas prontas para locação. O preço de compra do imóvel é de R$ 1.000.000,00. Carlos estima que conseguirá alugar cada loja por R$ 4.000,00 por mês, totalizando R$ 16.000,00 por mês, ou seja, R$ 192.000,00 por ano. Ele acredita que conseguirá manter a ocupação total por 10 anos, ao final dos quais planeja vender o imóvel por R$ 600.000,00. Carlos quer saber se esse investimento é viável financeiramente, considerando sua taxa mínima de atratividade (TMA) de 9% ao ano.**
+
+Pressione as teclas:
+
+```
+1000000 [CHS] [g] [CFo]
+192000  [g] [CFj]
+10      [g] [Nj]
+600000  [g] [CFj]
+9       [i]
+[f] [NPV]
+```
+
+Resposta: VPL = 464.709,99
+
+O VPL é positivo. Isso significa que o projeto é viável financeiramente, pois traz um retorno superior à taxa mínima exigida de 9% ao ano.
+
+**Determinar a taxa interna de retorno referente a um empréstimo de R$ 126.900,00 a ser liquidado em quatro pagamentos mensais e consecutivos de R$ 25.000,00, R$ 38.000,00, R$ 45.000,00 e R$ 27.000,00.**
+
+Pressione as teclas:
+
+```
+126900 [g] [CFo]
+25000  [CHS] [g] [CFj]
+38000  [CHS] [g] [CFj]
+45000  [CHS] [g] [CFj]
+27000  [CHS] [g] [CFj]
+[f] [IRR]
+```
+
+Resposta: IRR = 2,47% ao mês.
+
+## Cálculo de depreciação
+
+**Uma clínica médica adquiriu um aparelho de ultrassom por R$ 120.000,00, com vida útil estimada de 6 anos e valor de sucata de R$ 12.000,00. Deseja-se calcular, utilizando o método linear de depreciação, o valor da depreciação anual e o valor estimado do equipamento ao final do quarto ano de uso.**
+
+Pressione as teclas:
+
+```
+120000 [PV]
+12000  [FV]
+6      [n]
+4      [f] [DEPRECIATION SL]
+```
+
+O visor exibirá: R$ 18.000,00 (depreciação correspondente ao terceiro ano).
+
+Pressione as teclas:
+
+```
+[x><y]
+[RCL] [FV]
+[+]
+```
+
+O visor exibirá: R$ 48.000,00 (valor estimado do bem ao final do terceiro ano).
+
+**Uma empresa adquiriu um veículo de entrega por R$ 100.000,00 com vida útil estimada de 8 anos e valor residual de R$ 40.000,00. Deseja-se calcular, utilizando o método da soma dos dígitos dos anos, o valor da depreciação correspondente ao terceiro ano de uso, bem como o valor de revenda do veículo ao final desse ano.**
+
+Pressione as teclas:
+
+```
+100000 [PV]
+40000  [FV]
+8      [n]
+3      [f] [DEPRECIATION SOYD]
+```
+
+O visor exibirá: R$ 10.000,00 (depreciação correspondente ao terceiro ano).
+
+Pressione as teclas:
+
+```
+[x><y]
+[RCL] [FV]
+[+]
+```
+
+O visor exibirá: R$ 65.000,00 (valor de revenda do veículo ao final desse ano).
+
+**Uma máquina para trabalhar metal, comprada por R$ 10.000, é depreciada durante 5 anos. Seu valor de revenda após vida útil é estimado em R$ 500. Calcule a depreciação e o valor residual no terceiro ano da vida útil da máquina usando o método de saldos decrescentes com o dobro da taxa linear (um saldo decrescente de 200%).**
+
+**Nota:** O valor residual é o valor contábil menos o valor de revenda após vida útil (valor de sucata).
+
+Pressione as teclas:
+
+```
+10000 [PV]
+500   [FV]
+5     [n]
+200   [i]
+2     [f] [DEPRECIATION DB]
+```
+
+O visor exibirá: R$ 1.440,00 (depreciação no terceiro ano).
+
+Pressione a tecla: `[x><y]`
+
+O visor exibirá: R$ 1.660,00 (valor residual depois do terceiro ano).
+
+## Cálculos estatísticos
+
+**(estatística descritiva) Você decidiu analisar seus gastos mensais com supermercado para entender melhor seus hábitos de consumo e planejar melhor seu orçamento. Durante quatro meses, você anotou o quanto gastou em cada visita ao supermercado. Com base nos dados a seguir, calcule o gasto médio mensal com supermercado:**
+
+| Mês | Gasto (R$) |
+| --- | ---------- |
+| 1   | 215,40     |
+| 2   | 198,75     |
+| 3   | 230,10     |
+| 4   | 205,80     |
+
+Pressione as teclas:
+
+```
+215,40 [Σ+]
+198,75 [Σ+]
+230,10 [Σ+]
+205,80 [Σ+]
+[g] [x̄]
+```
+
+Resposta: R$ 212,51 (valor médio)
+
+**(estatística descritiva) Você decide analisar o comportamento de duas ações da bolsa de valores. Seu objetivo é comparar a média dos preços e a volatilidade (medida pelo desvio padrão) dessas ações em um período recente. Qual das duas apresentou maior variação de preço (ou seja, maior desvio padrão) e qual foi o preço médio de cada ação nesse período?**
+
+| Semana | Ação Y | Ação X |
+| ------ | ------ | ------ |
+| 1      | 28,50  | 65,10  |
+| 2      | 29,10  | 66,80  |
+| 3      | 27,80  | 64,90  |
+| 4      | 28,20  | 67,50  |
+
+Pressione as teclas:
+
+```
+28,50 [ENTER] 65,10 [Σ+]
+29,10 [ENTER] 66,80 [Σ+]
+27,80 [ENTER] 64,90 [Σ+]
+28,20 [ENTER] 67,50 [Σ+]
+[g] [s]
+```
+
+O visor exibirá: 1,28 (desvio padrão amostral da Ação X)
+
+Pressione a tecla: `[x><y]`
+
+O visor exibirá: 0,55 (desvio padrão amostral da Ação Y)
+
+Resposta: A ação X apresentou maior variação de preço, comparada à ação Y.
+
+Agora, para obter as médias, pressione as teclas: `[g] [x̄]`
+
+O visor exibirá: 66,08 (preço médio da Ação X)
+
+Pressione a tecla: `[x><y]`
+
+O visor exibirá: 28,40 (preço médio da Ação Y)
+
+**(regressão linear) Você deseja entender como sua renda mensal influencia o valor que consegue poupar ao final de cada mês. Nos últimos meses, registrou sua renda mensal e o valor correspondente economizado no período. Com base nesses dados, utilize um modelo de regressão linear simples para prever quanto conseguirá poupar caso sua renda seja de R$ 4.000,00. Estime também qual deveria ser sua renda para alcançar uma poupança de R$ 800,00.**
+
+| Renda (R$) | Poupança (R$) |
+| ---------- | ------------- |
+| 3.200,00   | 420,00        |
+| 3.450,00   | 480,00        |
+| 3.100,00   | 390,00        |
+| 3.600,00   | 520,00        |
+
+Pressione as teclas:
+
+```
+3200 [ENTER] 420
+3450 [ENTER] 480
+3100 [ENTER] 390
+3600 [ENTER] 520
+4000 [g] [x̂,r]
+```
+
+O visor exibirá: 622,15 (poupança estimada caso a renda seja de R$ 4.000,00).
+
+pressione as teclas: `800 [g] [ŷ,r]`
+
+O visor exibirá: 4.694,53 (renda estimada para obter uma poupança de R$ 800,00).
+
+**Nota:** Para saber se a estimativa feita pela regressão linear é confiável, é importante observar o **coeficiente de correlação**. Esse número mostra o quanto os dados seguem uma linha reta. Se ele estiver próximo de 1 ou de -1, significa que os pontos estão bem alinhados e a previsão tende a ser precisa. Mas se estiver próximo de 0, os dados estão espalhados e o modelo não é muito confiável para fazer previsões. Para visualizar o valor do coeficiente, basta pressionar a tecla `[x><y]`.
+
+## Taxas equivalentes
+
+**Quais as taxas de juros compostos mensal e trimestral equivalentes a 25% ao ano?**
+
+Para este exercício, utilize o programa para HP 12c [Juros Equivalentes](./01-juros-equivalentes.md).
+
+Pressione as teclas:
+
+```
+25 [i]
+12 [n]    (12 meses - taxa anual)
+1  [R/S]  (1 mês - taxa mensal)
+```
+
+O visor exibirá: 1,88 (taxas de juros anual, capitalizada mensalmente).
+
+Pressione as teclas:
+
+```
+25 [i]
+12 [n]    (12 meses - taxa anual)
+3  [R/S]  (3 meses - taxa trimestral)
+```
+
+O visor exibirá: 5,74 (taxas de juros anual, capitalizada mensalmente).
+
+**Um aplicação financeira promete pagar 42% ao ano de juros. Sendo de um mês o prazo da aplicação, pede-se determinar a sua rentabilidade efetiva considerando os juros de 42% a. a. como taxa efetiva e taxa nominal.**
+
+Para este exercício, utilize o programa para HP 12c [Juros Equivalentes](./01-juros-equivalentes.md).
+
+Considerando 42% a.a. como taxa efetiva, pressione as teclas:
+
+```
+42 [i]
+12 [n]    (12 meses - taxa anual)
+1  [R/S]  (1 mês - taxa mensal)
+```
+
+O visor exibirá: 2,97 (taxa ao mês).
+
+Considerando 42% a.a. como taxa nominal, pressione as teclas:
+
+```
+42 [ENTER]
+12 [/]
+```
+
+O visor exibirá: 2,97 (taxa ao mês).
+
+## Taxa nominal e taxa real
+
+**Determinar a variação real do poder aquisitivo de um assalariado que obtém, em determinado semestre, um reajuste salarial de 12%, admitindo que a inflação do período tenha atingido a 8%.**
+
+Para este exercício, utilize o programa para HP 12c [Rentabilidade Real](./05-rentabilidade-real.md).
+
+
+```
+12 [i]
+8  [R/S]
+```
+
+Resposta: 3,7% (variação real).
+
+**Um banco informou que a rentabilidade de um determinado investimento foi de 12% ao ano, correspondendo aos juros nominais. No mesmo período, a inflação acumulada foi de 5%. Calcule os juros reais, ou seja, a rentabilidade efetiva do investimento descontando-se a inflação.**
+
+Para este exercício, utilize o programa para HP 12c [Rentabilidade Real](./05-rentabilidade-real.md).
+
+Pressione as teclas:
+
+```
+12 [i]
+5  [R/S]
+```
+
+Resposta: 6,67% (taxa real de juros).
+
+## Financiamentos e empréstimos com parcelas decrescentes (SAC)
 
 Para os exercícios abaixo, utilize o programa para HP 12c [Amortização pelo Sistema de Amortização Constante (Tabela SAC)](./03-tabela-sac.md).
 
@@ -395,15 +1161,15 @@ Para os exercícios abaixo, utilize o programa para HP 12c [Amortização pelo S
 Pressione as teclas:
 
 ```
-20 n
-2 i
-500000 PV
-13 R/S
+500 [EEX] 3 [PV]
+2   [i]
+20  [n]
+13  [R/S]
 ```
 
 O visor exibirá: -91.000,00 (total de juros pagos até a 13ª parcela).
 
-Pressione a tecla `+`
+Pressione a tecla: `[+]`
 
 O visor exibirá: -416.000,00 (total pago até a 13ª parcela).
 
@@ -412,16 +1178,16 @@ O visor exibirá: -416.000,00 (total pago até a 13ª parcela).
 Acumule as amortizações até a 27ª parcela, pressionando as teclas:
 
 ```
-350000 PV
-1 i
-35 n
-27 R/S
+350 [EEX] 3 [PV]
+1   [i]
+35  [n]
+27  [R/S]
 ```
 
 Em seguida, calcule somente a parcela 28, pressionando as teclas:
 
 ```
-1 R/S
+1 [R/S]
 ```
 
 O visor exibirá: -800,00 (juros pagos somente na 28ª parcela).
@@ -429,7 +1195,7 @@ O visor exibirá: -800,00 (juros pagos somente na 28ª parcela).
 Pressione as teclas:
 
 ```
-RCL PMT
+[RCL] [PMT]
 ```
 
 O visor exibirá: -10.800,00 (valor da 28ª parcela).
@@ -439,15 +1205,15 @@ O visor exibirá: -10.800,00 (valor da 28ª parcela).
 Pressione as teclas:
 
 ```
-320000 PV
-3 i
-42 n
-42 R/S
+320 [EEX] 3 [PV]
+3   [i]
+42  [n]
+42  [R/S]
 ```
 
 O visor exibirá: -206.400,00 (total de juros pagos durante todo o financiamento).
 
-Pressione a tecla `+`
+Pressione a tecla: `[+]`
 
 O visor exibirá: -526.400,00 (total pago em parcelas ao longo de todo o financiamento).
 
@@ -456,24 +1222,24 @@ O visor exibirá: -526.400,00 (total pago em parcelas ao longo de todo o financi
 Primeiro, amortize até a 15ª parcela, pressionando as teclas:
 
 ```
-260000 PV
-4 i
-38 n
-15 R/S
+260 [EEX] 3 [PV]
+4   [i]
+38  [n]
+15  [R/S]
 ```
 
 Em seguida, amortize da 16ª até a 27ª parcela (12 parcelas), pressionando as teclas:
 
 ```
-12 R/S
+12 [R/S]
 ```
 
 O visor exibirá: -57.473,68 (total de juros pagos entre a 16ª e 27ª parcela).
 
-Pressione a tecla `x><y`
+Pressione a tecla: `[x><y]`
 
 O visor exibirá: -82.105,26 (total de capital amortizado nesse período).
 
-Pressione a tecla `+`
+Pressione a tecla: `[+]`
 
 O visor exibirá: -139.578,95 (total pago em parcelas da 16ª à 27ª).
