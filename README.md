@@ -17,7 +17,8 @@ Este repositório reúne uma coleção de programas financeiros desenvolvidos pa
 
 ## Referências
 
-- [Calculadora HP 12c Platinum](https://stendec.io/ctb/rpn_finp.html)
+- [Simulador da Calculadora HP 12c](https://stendec.io/ctb/rpn_fin.html)
+- [Simulador da Calculadora HP 12c Platinum](https://stendec.io/ctb/rpn_finp.html)
 - [Simuladores de investimento](https://clubedospoupadores.com/simuladores)
 - [Simulação de amortização de financiamento](https://simuladoramortizacao.com.br/resultado-simulacao-de-amortizacao-de-financiamento)
 - [Sistema de amortização SAC na HP 12c](https://www.contabilidadecotidiana.com/2016/05/sistema-de-amortizacao-sac-na-hp-12c.html)
