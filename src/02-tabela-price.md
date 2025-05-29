@@ -1,6 +1,6 @@
 # Sistema de Amortização Francês (SAF)
 
-Este sistema também é conhecido como "Tabela Price" ou "Sistema de Prestação Constante".
+Este sistema de amortização também é conhecido como "Tabela Price" ou "Sistema de Prestação Constante".
 
 Este programa calcula, com exatidão, os principais valores envolvidos na amortização de empréstimos pelo Sistema Francês, também conhecido como Tabela Price. Ele permite calcular o saldo devedor, o total de juros pagos, o valor amortizado e o valor total desembolsado em qualquer ponto do financiamento.
 
