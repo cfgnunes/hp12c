@@ -8,9 +8,9 @@ Além disso, cada programa é configurado para retornar automaticamente à sua l
 
 A tabela abaixo inclui os programas:
 - Programa 001 (início na linha 017): [Taxas Equivalentes](./01-taxas-equivalentes.md)
-- Programa 002 (início na linha 033): [Amortização pelo Sistema Francês (Tabela Price)](./01-taxas-equivalentes.md)
-- Programa 003 (início na linha 088): [Amortização pelo Sistema de Amortização Constante (Tabela SAC)](./03-tabela-sac.md)
-- Programa 004 (início na linha 134): [Cálculo de Prazo Fracionário](./04-prazo-fracionario.md)
+- Programa 002 (início na linha 033): [Sistema de Amortização Francês (SAF)](./01-taxas-equivalentes.md)
+- Programa 003 (início na linha 088): [Sistema de Amortização Constante (SAC)](./03-tabela-sac.md)
+- Programa 004 (início na linha 134): [Prazo Fracionário](./04-prazo-fracionario.md)
 - Programa 005 (início na linha 158): [Rentabilidade Real](./05-rentabilidade-real.md)
 
 | Linha | Instrução | Mostrador | Comentário |
