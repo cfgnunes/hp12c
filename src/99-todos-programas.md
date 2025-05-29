@@ -7,8 +7,8 @@ As linhas de 1 a 16 são reservadas para atalhos de acesso rápido a cada progra
 Além disso, cada programa é configurado para retornar automaticamente à sua linha inicial após a execução. Assim, ao pressionar R/S após o término do Programa 3, por exemplo, ele será executado novamente. Esse recurso facilita a reexecução do programa selecionado.
 
 A tabela abaixo inclui os programas:
-- Programa 001 (início na linha 017): [Juros Equivalentes](./01-juros-equivalentes.md)
-- Programa 002 (início na linha 033): [Amortização pelo Sistema Francês (Tabela Price)](./01-juros-equivalentes.md)
+- Programa 001 (início na linha 017): [Taxas Equivalentes](./01-taxas-equivalentes.md)
+- Programa 002 (início na linha 033): [Amortização pelo Sistema Francês (Tabela Price)](./01-taxas-equivalentes.md)
 - Programa 003 (início na linha 088): [Amortização pelo Sistema de Amortização Constante (Tabela SAC)](./03-tabela-sac.md)
 - Programa 004 (início na linha 134): [Cálculo de Prazo Fracionário](./04-prazo-fracionario.md)
 - Programa 005 (início na linha 158): [Rentabilidade Real](./05-rentabilidade-real.md)

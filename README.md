@@ -4,7 +4,7 @@ Este repositório reúne uma coleção de programas financeiros desenvolvidos pa
 
 ## Programas
 
-1. [Juros Equivalentes](./src/01-juros-equivalentes.md)
+1. [Taxas Equivalentes](./src/01-taxas-equivalentes.md)
 2. [Amortização pelo Sistema Francês (Tabela Price)](./src/02-tabela-price.md)
 3. [Amortização pelo Sistema de Amortização Constante (Tabela SAC)](./src/03-tabela-sac.md)
 4. [Cálculo de Prazo Fracionário](./src/04-prazo-fracionario.md)

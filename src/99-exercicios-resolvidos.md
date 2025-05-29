@@ -1080,7 +1080,7 @@ O visor exibirá: 4.694,53 (renda estimada para obter uma poupança de R$ 800,00
 
 **Quais as taxas de juros compostos mensal e trimestral equivalentes a 25% ao ano?**
 
-Para este exercício, utilize o programa para HP 12c [Juros Equivalentes](./01-juros-equivalentes.md).
+Para este exercício, utilize o programa para HP 12c [Taxas Equivalentes](./01-taxas-equivalentes.md).
 
 Pressione as teclas:
 
@@ -1104,7 +1104,7 @@ O visor exibirá: 5,74 (taxas de juros anual, capitalizada mensalmente).
 
 **Um aplicação financeira promete pagar 42% ao ano de juros. Sendo de um mês o prazo da aplicação, pede-se determinar a sua rentabilidade efetiva considerando os juros de 42% a. a. como taxa efetiva e taxa nominal.**
 
-Para este exercício, utilize o programa para HP 12c [Juros Equivalentes](./01-juros-equivalentes.md).
+Para este exercício, utilize o programa para HP 12c [Taxas Equivalentes](./01-taxas-equivalentes.md).
 
 Considerando 42% a.a. como taxa efetiva, pressione as teclas:
 
