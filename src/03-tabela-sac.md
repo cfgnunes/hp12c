@@ -78,10 +78,10 @@ Este programa calcula, com exatidão, os principais valores envolvidos na amorti
 Pressione as teclas:
 
 ```
-500 [EEX] 3 [PV]
-2   [i]
-20  [n]
-13  [R/S]
+500000 [PV]
+2      [i]
+20     [n]
+13     [R/S]
 ```
 
 O visor exibirá: -91.000,00 (total de juros pagos até a 13ª parcela).
@@ -97,10 +97,10 @@ O visor exibirá: -416.000,00 (total pago até a 13ª parcela).
 Acumule as amortizações até a 27ª parcela, pressionando as teclas:
 
 ```
-350 [EEX] 3 [PV]
-1   [i]
-35  [n]
-27  [R/S]
+350000 [PV]
+1      [i]
+35     [n]
+27     [R/S]
 ```
 
 Em seguida, calcule somente a parcela 28, pressionando as teclas:
@@ -126,10 +126,10 @@ O visor exibirá: -10.800,00 (valor da 28ª parcela).
 Pressione as teclas:
 
 ```
-320 [EEX] 3 [PV]
-3   [i]
-42  [n]
-42  [R/S]
+320000 [PV]
+3      [i]
+42     [n]
+42     [R/S]
 ```
 
 O visor exibirá: -206.400,00 (total de juros pagos durante todo o financiamento).
@@ -145,10 +145,10 @@ O visor exibirá: -526.400,00 (total pago em parcelas ao longo de todo o financi
 Primeiro, amortize até a 15ª parcela, pressionando as teclas:
 
 ```
-260 [EEX] 3 [PV]
-4   [i]
-38  [n]
-15  [R/S]
+260000 [PV]
+4      [i]
+38     [n]
+15     [R/S]
 ```
 
 Em seguida, amortize da 16ª até a 27ª parcela (12 parcelas), pressionando as teclas:
