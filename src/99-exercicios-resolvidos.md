@@ -1,6 +1,6 @@
 # Exercícios resolvidos com a HP 12c
 
-O objetivo destes exercícios é apresentar, de forma prática e aplicada, as funções da calculadora HP 12c.
+O objetivo destes exercícios é apresentar, de forma prática e aplicada, as principais funções da calculadora HP 12c. Ao resolver os exercícios propostos, o usuário não apenas se familiariza com o uso da calculadora, mas também aprende, na prática, noções básicas importantes do universo financeiro.
 
 Antes de iniciar qualquer exercício envolvendo os registradores financeiros ou estatísticos, certifique-se de apagar os valores previamente armazenados na calculadora para evitar resultados incorretos. Para isso, pressione as teclas:
 
@@ -539,6 +539,44 @@ Pressione as teclas:
 
 Resposta: i = 5,9463 x 12 = 71,36%
 
+**Uma empresa contrata um empréstimo no valor de R$ 50.000,00, com prazo de vencimento de 3,5 anos. Sabendo que a taxa de juros é de 22% ao ano, com capitalização composta anual, determine o montante a ser pago ao final do período.**
+
+Dados do problema:
+
+- n = 3,5
+- i = 22
+- PV = 50000
+- PMT = 0
+- FV = ?
+
+**Nota:** Neste exercício, o período n é fracionário (ou seja, não é um número inteiro de anos). Nesse caso, é possível adotar duas convenções distintas para o cálculo dos juros compostos:
+- Convenção linear: aplica-se juros compostos sobre a parte inteira do prazo, e juros simples sobre a fração restante.
+- Convenção exponencial: aplica-se juros compostos sobre todo o período, incluindo tanto a parte inteira quanto a fracionária.
+
+Utilizando a convenção exponencial. Pressione as teclas:
+
+```
+      [STO] [EEX]    (pressionar até aparecer o símbolo 'C' no visor)
+3,5   [n]
+22    [i]
+50000 [i]
+      [FV]
+```
+
+Resposta: FV = -100.283,48
+
+Agora, utilizando a convenção linear. Pressione as teclas:
+
+```
+      [STO] [EEX]    (pressionar até apagar o símbolo 'C' no visor)
+3,5   [n]
+22    [i]
+50000 [i]
+      [FV]
+```
+
+Resposta: FV = -100.779,56
+
 ## Anuidade ordinária: investimentos
 
 **André deposita R$ 22.000,00 ao final de cada ano por 7 anos, em uma conta que rende 6% ao ano. Quanto ele terá ao final do período?**
@@ -813,46 +851,46 @@ Resposta: PMT = -1.308,48 (novo valor da parcela após amortização por parcela
 
 ## Anuidade ordinária com carência: financiamentos e empréstimos
 
-**Um veículo pode ser comercializado em 36 prestações mensais de R$ 1.980,00 cada uma. Sabendo que a loja usa taxa de 1,45% ao mês, encontre o valor a vista do veículo, sendo a primeira prestação paga um mês após a compra.** 
+**Um veículo pode ser comercializado em 36 prestações mensais de R$ 1.980,00 cada uma. Sabendo que a loja usa taxa de 1,45% ao mês e que há 1 mês de carência antes do pagamento da primeira prestação, encontre o valor à vista do veículo.**
 
 Pressione as teclas:
 
 ```
-0    [g] [CFo]     (primeiro mês de carência)
+0    [g] [CFj]     (1 mês de carência)
 1980 [g] [CFj]
-36   [g] [Nj]
+36   [g] [Nj]      (36 parcelas)
 1,45 [i]
      [f] [NPV]
 ```
 
-Resposta: R$ 55.226,86
+Resposta: R$ 54.437,52
+
+**Nota:** Observe neste exercício que é possível calcular o Valor Presente mesmo quando os valores dos pagamentos são diferentes, calculando o Valor Presente Líquido (VPL) por meio da análise do fluxo de caixa. Quando o investimento inicial (CFo) é igual a zero, o Valor Presente Líquido (VPL) será igual ao Valor Presente, pois VPL=VP-CFo.
 
 **Um financiamento será quitado em 12 parcelas mensais fixas de R$ 200,00, com carência de 3 meses, ou seja, o pagamento da primeira parcela ocorre no quarto mês após a liberação do crédito. Considerando uma taxa de juros de 3,5% ao mês, determine o valor presente desse financiamento no momento da liberação dos recursos.**
 
 Pressione as teclas:
 
 ```
-0   [g] [CFo]     (primeiro mês de carência)
 0   [g] [CFj]
-2   [g] [Nj]      (segundo e terceiro mês de carência)
+3   [g] [Nj]      (3 meses de carência)
 200 [g] [CFj]
-12  [g] [Nj]
+12  [g] [Nj]      (12 parcelas)
 3,5 [i]
     [f] [NPV]
 ```
 
-Resposta: R$ 1.804,17
+Resposta: R$ 1.743,15
 
 **Um professor comprou um computador em uma loja especializada em 10 prestações mensais de R$ 100,00 cada uma, sendo a primeira prestação paga 4 meses após a compra. Por ser compra a prazo, a loja cobra taxa de 36% ao ano capitalizada mensalmente. Encontre o valor à vista do computador.**
 
 Pressione as teclas:
 
 ```
-0   [g] [CFo]     (primeiro mês de carência)
 0   [g] [CFj]
-3   [g] [Nj]      (segundo a quarto mês de carência)
+3   [g] [Nj]      (3 meses de carência)
 100 [g] [CFj]
-10  [g] [Nj]
+10  [g] [Nj]      (10 parcelas)
 36  [g] [12/]
     [f] [NPV]
 ```
@@ -981,7 +1019,7 @@ Para saber a diferença entre o valor à vista e o valor presente das parcelas, 
 
 O visor exibirá: 68,72 (diferença entre o valor à vista e o valor presente das parcelas)
 
-A diferença entre o valor à vista e o valor presente das parcelas representa o custo de oportunidade de pagar parcelado, ou seja, o quanto você perde financeiramente por não investir os R$ 1.560 à 9% ao ano).
+**Nota:** A diferença entre o valor à vista e o valor presente das parcelas representa o custo de oportunidade de pagar parcelado, ou seja, o quanto você perde financeiramente por não investir os R$ 1.560 à 9% ao ano).
 
 **O vendedor de uma loja, vende um aparelho eletrônico com as seguintes condições: pagamento à vista de R$ 1,300.00 ou em 3 parcelas de R$ 456.00 (sem entrada). Qual é a taxa cobrada no parcelamento?**
 
@@ -1009,7 +1047,7 @@ O visor exibirá:  2,59 (taxa mensal)
 Pressione as teclas:
 
 ```
-4000 [g] [CFo]
+4000 [g] [CFo]   (pagamento à vista, então já está no valor presente)
 3000 [g] [CFj]
 6    [g] [Nj]
 5,5  [i]
@@ -1017,8 +1055,6 @@ Pressione as teclas:
 ```
 
 Resposta: R$ 18.986,59
-
-**Nota:** Observe neste exercício que é possível calcular o Valor Presente mesmo quando os valores dos pagamentos são diferentes, calculando o Valor Presente Líquido (VPL) por meio da análise do fluxo de caixa.
 
 ## Análise de fluxo de caixa
 
@@ -1028,11 +1064,11 @@ Pressione as teclas:
 
 ```
 500000 [CHS] [g] [CFo]
-120000 [g] [CFj]
-6      [g] [Nj]
-50000  [g] [CFj]
-10     [i]
-       [f] [NPV]
+120000       [g] [CFj]
+6            [g] [Nj]
+50000        [g] [CFj]
+10           [i]
+             [f] [NPV]
 ```
 
 Resposta: VPL = 48.289,19
@@ -1045,11 +1081,11 @@ Pressione as teclas:
 
 ```
 1000000 [CHS] [g] [CFo]
-192000  [g] [CFj]
-10      [g] [Nj]
-600000  [g] [CFj]
-9       [i]
-        [f] [NPV]
+192000        [g] [CFj]
+10            [g] [Nj]
+600000        [g] [CFj]
+9             [i]
+              [f] [NPV]
 ```
 
 Resposta: VPL = 464.709,99
@@ -1071,14 +1107,14 @@ Pressione as teclas:
 
 Resposta: IRR = 2,47% ao mês.
 
-**Um empréstimo de R$ 5.000,00 será quitado em 4 parcelas bimestrais, conforme a tabela a seguir. Calcule a taxa de juros mensal equivalente aplicada nesse financiamento.**
+**Um empréstimo de R$ 5.000,00 será quitado em 4 parcelas mensais, conforme a tabela a seguir. Calcule a taxa de juros mensal equivalente aplicada nesse financiamento.**
 
-| Mês | Valor da Parcela (R\$) |
-| --- | ---------------------- |
-| 1º  | 1.500,00               |
-| 2º  | 1.600,00               |
-| 3º  | 1.600,00               |
-| 4º  | 1.700,00               |
+| Mês | Valor da Parcela (R$) |
+| --- | --------------------- |
+| 1º  | 1.500,00              |
+| 2º  | 1.600,00              |
+| 3º  | 1.600,00              |
+| 4º  | 1.700,00              |
 
 Pressione as teclas:
 
@@ -1092,6 +1128,38 @@ Pressione as teclas:
 ```
 
 Resposta: 10,44% (taxa mensal)
+
+**Você está avaliando a compra de um equipamento no valor de R$ 100.000,00 para aumentar a produção da sua empresa. Esse investimento promete um retorno anual de R$ 18.000,00 por 10 anos. Com base nessas informações, calcule o Valor Presente Líquido (VPL), a Taxa Interna de Retorno (TIR) e o *Payback* Simples (tempo necessário para recuperar o valor investido sem considerar o valor do dinheiro no tempo). A empresa considera o custo de oportunidade ou retorno requirido de 10% ao ano.**
+
+Encontrando o Valor Presente Líquido (VPL). Pressione as teclas:
+
+```
+100000 [CHS] [g] [CFo]
+18000        [g] [CFj]
+10           [g] [CFj]
+10           [i]
+             [f] [NPV]
+```
+
+Resposta: R$ 10.602,21 (valor presente líquido)
+
+Encontrando a Taxa Interna de Retorno (TIR). Pressione as teclas:
+
+```
+[f] [IRR]
+```
+
+Resposta: 12,41% (valor presente líquido)
+
+Para calcular o *Payback* Simples, basta somar os fluxos de caixa anuais até que o total acumulado iguale ou ultrapasse o valor do investimento inicial.
+No caso de fluxos de caixa constantes (iguais a cada período), o cálculo pode ser simplificado dividindo o valor investido por um único fluxo de caixa.
+
+```
+100000 [ENTER]
+18000  [/]
+```
+
+Resposta: 5,56 (anos para recuperar o valor investido)
 
 ## Cálculo de depreciação
 
@@ -1231,10 +1299,10 @@ O visor exibirá: 28,40 (preço médio da Ação Y)
 Pressione as teclas:
 
 ```
-3200 [ENTER] 420
-3450 [ENTER] 480
-3100 [ENTER] 390
-3600 [ENTER] 520
+3200 [ENTER] 420 [Σ+]
+3450 [ENTER] 480 [Σ+]
+3100 [ENTER] 390 [Σ+]
+3600 [ENTER] 520 [Σ+]
 4000 [g] [x̂,r]
 ```
 
@@ -1245,6 +1313,27 @@ Pressione as teclas: `800 [g] [ŷ,r]`
 O visor exibirá: 4.694,53 (renda estimada para obter uma poupança de R$ 800,00).
 
 **Nota:** Para saber se a estimativa feita pela regressão linear é confiável, é importante observar o **coeficiente de correlação**. Esse número mostra o quanto os dados seguem uma linha reta. Se ele estiver próximo de 1 ou de -1, significa que os pontos estão bem alinhados e a previsão tende a ser precisa. Mas se estiver próximo de 0, os dados estão espalhados e o modelo não é muito confiável para fazer previsões. Para visualizar o valor do coeficiente, basta pressionar a tecla `[x><y]`.
+
+**(média ponderada) João realizou três compras de ações de uma mesma empresa na bolsa de valores, em momentos diferentes, com preços e quantidades distintas. Agora, ele deseja saber qual foi o preço médio de aquisição das ações, para uma possível venda futura. Desconsidere outras possíveis taxas.**
+
+A tabela abaixo resume as compras feitas:
+
+| Preço (R$) | Quantidade |
+| ---------- | ---------- |
+| 15,00      | 200        |
+| 18,00      | 150        |
+| 16,50      | 250        |
+
+Pressione as teclas:
+
+```
+15,00 [ENTER] 200 [Σ+]
+18,00 [ENTER] 150 [Σ+]
+16,50 [ENTER] 250 [Σ+]
+      [g] [x̄ w]
+```
+
+O visor exibirá: 16,38 (preço médio).
 
 ## Taxas equivalentes
 
