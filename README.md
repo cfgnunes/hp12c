@@ -27,5 +27,5 @@ Este repositório reúne uma coleção de programas financeiros desenvolvidos pa
 
 Se você encontrar um problema ou quiser melhorar o código, ou até mesmo melhorar o conteúdo, você pode:
 
-- [Abrir um problema](https://github.com/cfgnunes/hp12c-programs/issues/new) descrevendo o erro ou a ideia de uma funcionalidade nova;
+- [Abrir um problema](https://github.com/cfgnunes/hp12c/issues/new) descrevendo o erro ou a ideia de uma funcionalidade nova;
 - Criar um _fork_ do projeto, realizar mudanças, e submeter um _pull request_.
