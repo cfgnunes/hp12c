@@ -14,7 +14,7 @@ Este repositório reúne uma coleção de programas financeiros desenvolvidos pa
 
 1. [Exercícios resolvidos com a HP 12c](./src/99-exercicios-resolvidos.md)
 2. [Todos os programas instalados na HP 12c Platinum](./src/99-todos-programas.md)
-3. [HP 12c - Cheat Sheet (English)](./src/99-cheat-sheet.md)
+3. [Resumo das funções da HP 12c (em inglês)](./src/99-cheat-sheet.md)
 
 ## Referências
 
