@@ -296,6 +296,27 @@ Resposta: n = 8,04 (anos).
 
 **Nota:** A calculadora HP 12c retorna o valor 9, em vez de 8,04 (valor exato), porque arredonda o resultado para cima em cálculos que envolvem a determinação do número de períodos (n). Ela obtém apenas valores inteiros para n, sendo uma limitação da calculadora. Para realizar o cálculo exato, utilize o programa [Prazo Fracionário](./04-prazo-fracionario.md).
 
+**Problema: Você deposita R$ 2.000,00 em uma conta de poupança que rende 7,2% de juros anuais, compostos anualmente. Se você não fizer nenhum outro depósito nesta conta, em quanto tempo você terá R$ 3.000,00?**
+
+Dados do problema:
+- n = ?
+- i = 7,2
+- PV = -2.000
+- PMT = 0
+- FV = 3.000
+
+Pressione as teclas:
+```
+7,2  [i]
+2000 [CHS] [PV]
+3000 [FV]
+     [n]
+```
+
+Resposta: n = 5,83 (anos)
+
+**Nota:** A calculadora HP 12c retorna o valor 6, em vez de 5,83 (valor exato), porque arredonda o resultado para cima em cálculos que envolvem a determinação do número de períodos (n). Ela obtém apenas valores inteiros para n, sendo uma limitação da calculadora. Para realizar o cálculo exato, utilize o programa [Prazo Fracionário](./04-prazo-fracionario.md).
+
 **Problema: Você aplica R$ 1.000,00 por 10 anos em um banco que paga 5% ao ano, com pagamento no final do período. Quanto terá ao final?**
 
 Dados do problema:
@@ -724,6 +745,25 @@ Pressione as teclas:
 ```
 
 Resposta: PMT = -632,21
+
+**Problema: Você está financiando a compra de um carro novo através de um empréstimo de 3 anos com juro anual de 10,5% ao ano, composto mensalmente. O preço à vista é R$ 7.250,00. Você dará uma entrada de R$ 1.500,00. Qual será o valor das prestações mensais?**
+
+Dados do problema:
+- n = 3 x 12
+- i = 10,5 / 12
+- PV = 7.250 - 1.500 (preço à vista descontando a entrada paga)
+- PMT = ?
+- FV = 0
+
+Pressione as teclas:
+```
+3    g 12x
+10,5 g 12/
+7250 ENTER 1500 - PV
+     PMT
+```
+
+Resposta: PMT = -186,89
 
 **Problema: Maria possui um empréstimo consignado, com 96 parcelas fixas (tabela Price) de R$ 1.340,00, das quais já pagou 13, restando um saldo devedor de R$ 42.458,51. Determine a taxa de juros anual com capitalização mensal e, em seguida, calcule quantas parcelas seriam eliminadas caso ela amortizasse R$ 1.000,00 hoje, utilizando amortização por tempo. Calcule também o novo valor da parcela caso ela optasse por realizar a amortização por valor da parcela.**
 
@@ -1466,3 +1506,47 @@ Calculando agora  a taxa efetiva de retorno considerando que o preço de mercado
 O visor exibirá: 4,50% (A taxa efetiva do título de dívida ou *Yield To Maturity*).
 
 **Nota:** Este exercício considera a taxa efetiva do título de dívida, também conhecida como *Yield To Maturity* (YTM). A YTM reflete o rendimento (*yield*) do título de renda fixa até seu vencimento (*maturity*).
+
+## Problemas diversos
+
+**Problema: Sua filha irá para a universidade dentro de 12 anos e você inicia uma poupança com essa finalidade. Ela precisará de R$ 5.000,00 no início de cada mês, durante cinco anos. A poupança rende juros de 1% ao mês, e você planeja efetuar depósitos mensais, começando no final do mês. Quanto você deverá depositar cada mês para poder custear as despesas com a universidade de sua filha no futuro?**
+
+**Parte 1:** Encontrar o valor presente no momento do último depósito para realizar as retiradas durante o período da faculdade (com pagamentos no início do período).
+
+Dados do problema:
+- n = 5 x 12
+- i = 1
+- PV = ?
+- PMT = 5.000
+- FV = 0
+
+Pressione as teclas:
+```
+     [g] [BEG]    (pagamentos no início dos períodos)
+5    [g] [12x]
+1    [i]
+5000 [PMT]
+     [PV]
+```
+
+O visor exibirá: -227.022,94
+
+**Parte 2:** Encontrar o valor final após os depósitos de investimento (com depósitos no final do período).
+
+Dados do problema:
+- n = 12 x 12
+- i = 1
+- PV = 0
+- PMT = ?
+- FV = 227.022,94
+
+Pressione as teclas:
+```
+     [g] [END]    (pagamentos no final dos períodos)
+     [CHS] [STO] [FV]
+0    [PV]
+12   [g] [12x]
+     [PMT]
+```
+
+Resposta: R$ 711,53 (depositar cada mês para poder custear as despesas com a universidade da filha)
