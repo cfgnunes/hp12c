@@ -757,10 +757,10 @@ Dados do problema:
 
 Pressione as teclas:
 ```
-3    g 12x
-10,5 g 12/
-7250 ENTER 1500 - PV
-     PMT
+3    [g] [12x]
+10,5 [g] [12/]
+7250 [ENTER] 1500 [-] [PV]
+     [PMT]
 ```
 
 Resposta: PMT = -186,89
