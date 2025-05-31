@@ -1058,7 +1058,7 @@ Resposta: R$ 18.986,59
 
 ## Análise de fluxo de caixa
 
-**Uma empresa está avaliando um projeto de instalação de painéis solares em uma fábrica de médio porte para reduzir os custos com eletricidade. O investimento inicial para o projeto é de R$ 500.000,00. A expectativa é que o projeto gere uma economia anual de R$ 120.000,00 em custos de energia durante os próximos 6 anos. Ao final do sexto ano, os painéis terão um valor residual de R$ 50.000,00 (valor de revenda ou sucata). A empresa definiu uma taxa mínima de atratividade (TMA) de 10% ao ano para esse tipo de projeto. Com base nas informações, calcule o Valor Presente Líquido (VPL) e diga se o investimento é viável.**
+**(análise do VPL) Uma empresa está avaliando um projeto de instalação de painéis solares em uma fábrica de médio porte para reduzir os custos com eletricidade. O investimento inicial para o projeto é de R$ 500.000,00. A expectativa é que o projeto gere uma economia anual de R$ 120.000,00 em custos de energia durante os próximos 6 anos. Ao final do sexto ano, os painéis terão um valor residual de R$ 50.000,00 (valor de revenda ou sucata). A empresa definiu uma taxa mínima de atratividade (TMA) de 10% ao ano para esse tipo de projeto. Com base nas informações, calcule o Valor Presente Líquido (VPL) e diga se o investimento é viável.**
 
 Pressione as teclas:
 
@@ -1075,7 +1075,7 @@ Resposta: VPL = 48.289,19
 
 O VPL é positivo. Isso significa que o projeto é viável financeiramente, pois traz um retorno superior à taxa mínima exigida de 10% ao ano. A empresa pode prosseguir com o investimento.
 
-**O investidor Carlos está analisando a compra de um imóvel com 4 lojas comerciais, todas prontas para locação. O preço de compra do imóvel é de R$ 1.000.000,00. Carlos estima que conseguirá alugar cada loja por R$ 4.000,00 por mês, totalizando R$ 16.000,00 por mês, ou seja, R$ 192.000,00 por ano. Ele acredita que conseguirá manter a ocupação total por 10 anos, ao final dos quais planeja vender o imóvel por R$ 600.000,00. Carlos quer saber se esse investimento é viável financeiramente, considerando sua taxa mínima de atratividade (TMA) de 9% ao ano.**
+**(análise do VPL) O investidor Carlos está analisando a compra de um imóvel com 4 lojas comerciais, todas prontas para locação. O preço de compra do imóvel é de R$ 1.000.000,00. Carlos estima que conseguirá alugar cada loja por R$ 4.000,00 por mês, totalizando R$ 16.000,00 por mês, ou seja, R$ 192.000,00 por ano. Ele acredita que conseguirá manter a ocupação total por 10 anos, ao final dos quais planeja vender o imóvel por R$ 600.000,00. Carlos quer saber se esse investimento é viável financeiramente, considerando sua taxa mínima de atratividade (TMA) de 9% ao ano.**
 
 Pressione as teclas:
 
@@ -1092,7 +1092,7 @@ Resposta: VPL = 464.709,99
 
 O VPL é positivo. Isso significa que o projeto é viável financeiramente, pois traz um retorno superior à taxa mínima exigida de 9% ao ano.
 
-**Determinar a taxa interna de retorno referente a um empréstimo de R$ 126.900,00 a ser liquidado em quatro pagamentos mensais e consecutivos de R$ 25.000,00, R$ 38.000,00, R$ 45.000,00 e R$ 27.000,00.**
+**(cálculo de TIR) Determinar a Taxa Interna de Retorno (TIR) referente a um empréstimo de R$ 126.900,00 a ser liquidado em quatro pagamentos mensais e consecutivos de R$ 25.000,00, R$ 38.000,00, R$ 45.000,00 e R$ 27.000,00.**
 
 Pressione as teclas:
 
@@ -1105,9 +1105,9 @@ Pressione as teclas:
              [f] [IRR]
 ```
 
-Resposta: IRR = 2,47% ao mês.
+Resposta: TIR = 2,47% ao mês.
 
-**Um empréstimo de R$ 5.000,00 será quitado em 4 parcelas mensais, conforme a tabela a seguir. Calcule a taxa de juros mensal equivalente aplicada nesse financiamento.**
+**(cálculo de TIR) Um empréstimo de R$ 5.000,00 será quitado em 4 parcelas mensais, conforme a tabela a seguir. Calcule a taxa de juros mensal equivalente aplicada nesse financiamento.**
 
 | Mês | Valor da Parcela (R$) |
 | --- | --------------------- |
@@ -1129,7 +1129,7 @@ Pressione as teclas:
 
 Resposta: 10,44% (taxa mensal)
 
-**Você está avaliando a compra de um equipamento no valor de R$ 100.000,00 para aumentar a produção da sua empresa. Esse investimento promete um retorno anual de R$ 18.000,00 por 10 anos. Com base nessas informações, calcule o Valor Presente Líquido (VPL), a Taxa Interna de Retorno (TIR) e o *Payback* Simples (tempo necessário para recuperar o valor investido sem considerar o valor do dinheiro no tempo). A empresa considera o custo de oportunidade ou retorno requirido de 10% ao ano.**
+**(cálculo de VPL, TIR e Payback) Você está avaliando a compra de um equipamento no valor de R$ 100.000,00 para aumentar a produção da sua empresa. Esse investimento promete um retorno anual de R$ 18.000,00 por 10 anos. Com base nessas informações, calcule o Valor Presente Líquido (VPL), a Taxa Interna de Retorno (TIR) e o *Payback* Simples (tempo necessário para recuperar o valor investido sem considerar o valor do dinheiro no tempo). A empresa considera o custo de oportunidade ou retorno requirido de 10% ao ano.**
 
 Encontrando o Valor Presente Líquido (VPL). Pressione as teclas:
 
@@ -1160,6 +1160,32 @@ No caso de fluxos de caixa constantes (iguais a cada período), o cálculo pode 
 ```
 
 Resposta: 5,56 (anos para recuperar o valor investido)
+
+**(valor futuro com pagamentos irregulares) Um investidor realiza 4 depósitos mensais consecutivos em uma aplicação financeira que rende 1% ao mês, com capitalização mensal. Cada pagamento é feito ao final de cada mês conforme os dados abaixo. Calcule o valor futuro total acumulado ao final do período, após o último depósito.**
+
+| Mês | Depósitos (R$) |
+| --- | -------------- |
+| 1   | 500,00         |
+| 2   | 700,00         |
+| 3   | 600,00         |
+| 4   | 200,00         |
+
+**Nota:** Na HP 12c, como não há uma tecla específica para calcular o valor futuro (VF) de fluxos de caixa irregulares, a solução é primeiro obter o valor presente (VP) usando a função NPV (para fluxos com valores distintos) e, em seguida, converter esse VP em VF tratando-o como um único pagamento e aplicando a taxa de juros e o prazo desejados.
+
+Pressione as teclas:
+
+```
+500 [CHS] [g] [CFj]
+700 [CHS] [g] [CFj]
+600 [CHS] [g] [CFj]
+200 [CHS] [g] [CFj]
+1         [i]
+          [f] [NPV]
+          [FV]
+          [FV]
+```
+
+Resposta: R$ 2035,22
 
 ## Cálculo de depreciação
 
