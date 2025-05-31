@@ -8,9 +8,9 @@ Antes de iniciar qualquer exercício envolvendo os registradores financeiros ou 
 ```
 
 Os registradores financeiros da calculadora HP 12c representam os principais elementos de uma operação financeira baseada no conceito de valor do dinheiro no tempo (*Time Value of Money* - TVM). São eles:
-- **n**: número de períodos da operação;
+- **n**: número de períodos;
 - **i**: taxa de juros por período;
-- **PV (Present Value)**: valor presente, ou seja, o valor atual de um fluxo de caixa futuro;
+- **PV (Present Value)**: valor presente;
 - **PMT (Payment)**: valor do pagamento periódico, utilizado em operações com séries de pagamentos;
 - **FV (Future Value)**: valor futuro, que representa o montante acumulado ao final dos períodos.
 
