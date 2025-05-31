@@ -1437,7 +1437,7 @@ Pressione as teclas:
 
 Resposta: R$ -73.408,83 (valor da liquidação ao final de quatro anos, saldo devedor)
 
-**Nota:** Como alternativa, você pode usar o programa [Sistema de Amortização Francês (SAF)](./03-tabela-price.md). Diferentemente da função AMORT da HP 12c, este programa calcula o valor exato sem realizar iterações, evitando erros de arredondamento. Além disso, não é necessário informar o valor das parcelas (PMT). Confira o procedimento a seguir:
+**Nota:** Como alternativa, você pode usar o programa [Sistema de Amortização Francês (SAF)](./02-tabela-price.md). Diferentemente da função AMORT da HP 12c, este programa calcula o valor exato sem realizar iterações, evitando erros de arredondamento. Além disso, não é necessário informar o valor das parcelas (PMT). Confira o procedimento a seguir:
 
 Pressione as teclas:
 ```
