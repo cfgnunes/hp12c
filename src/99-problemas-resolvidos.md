@@ -1573,11 +1573,11 @@ Dados do problema:
 
 Pressione as teclas:
 ```
-     [g] [END]    (pagamentos no final dos períodos)
-     [CHS] [STO] [FV]
-0    [PV]
-12   [g] [12x]
-     [PMT]
+   [g] [END]    (pagamentos no final dos períodos)
+   [CHS] [STO] [FV]
+0  [PV]
+12 [g] [12x]
+   [PMT]
 ```
 
 Resposta: R$ 711,53 (depositar cada mês para poder custear as despesas com a universidade da filha)
