@@ -129,9 +129,9 @@ Dados do problema:
 Pressione as teclas:
 ```
 80000 [CHS] [PV]
-30    [i]
-90    [n]
-      [f] [INT]
+30          [i]
+90          [n]
+            [f] [INT]
 ```
 
 Resposta: R$ 6.000,00 (juros simples acumulados).
@@ -149,10 +149,10 @@ Dados do problema:
 
 Pressione as teclas:
 ```
-10  [n]
-8   [i]
+10        [n]
+8         [i]
 100 [CHS] [PV]
-    [FV]
+          [FV]
 ```
 
 Resposta: FV = 215,89
@@ -187,10 +187,10 @@ Dados do problema:
 
 Pressione as teclas:
 ```
-10     [n]
+10           [n]
 613,81 [CHS] [PV]
-1000   [FV]
-       [i]
+1000         [FV]
+             [i]
 ```
 
 Resposta: i = 5%
@@ -208,10 +208,10 @@ Dados do problema:
 
 Pressione as teclas:
 ```
-8    [n]
-6    [i]
+8          [n]
+6          [i]
 5000 [CHS] [PV]
-     [FV]
+           [FV]
 ```
 
 Resposta: FV = 7.969,24
@@ -265,10 +265,10 @@ Dados do problema:
 
 Pressione as teclas:
 ```
-2,6   [i]
-1 CHS [PV]
-2     [FV]
-      [R/S]
+2,6       [i]
+1   [CHS] [PV]
+2         [FV]
+          [R/S]
 ```
 
 O visor exibirá: 27,00 (meses para dobrar o patrimônio).
@@ -286,10 +286,10 @@ Dados do problema:
 
 Pressione as teclas:
 ```
-9    [i]
+9          [i]
 3000 [CHS] [PV]
-6000 [FV]
-     [n]
+6000       [FV]
+           [n]
 ```
 
 Resposta: n = 8,04 (anos).
@@ -307,10 +307,10 @@ Dados do problema:
 
 Pressione as teclas:
 ```
-7,2  [i]
+7,2        [i]
 2000 [CHS] [PV]
-3000 [FV]
-     [n]
+3000       [FV]
+           [n]
 ```
 
 Resposta: n = 5,83 (anos)
@@ -328,10 +328,10 @@ Dados do problema:
 
 Pressione as teclas:
 ```
-10   [n]
-5    [i]
+10         [n]
+5          [i]
 1000 [CHS] [PV]
-     [FV]
+           [FV]
 ```
 
 Resposta: FV = 1.628,89
@@ -350,7 +350,7 @@ Pressione as teclas:
 5 [ENTER] 4 [x] [n]
 8 [ENTER] 4 [/] [i]
 10000 [CHS] [PV]
-      [FV]
+            [FV]
 ```
 
 Resposta: FV = 14.859,47
@@ -406,10 +406,10 @@ Dados do problema:
 
 Pressione as teclas:
 ```
-3    [n]
-5    [i]
+3          [n]
+5          [i]
 7000 [CHS] [PV]
-     [FV]
+           [FV]
 ```
 
 Resposta: FV = 8.103,38
@@ -425,10 +425,10 @@ Dados do problema:
 
 Pressione as teclas:
 ```
-6     [n]
-4     [i]
+6           [n]
+4           [i]
 10000 [CHS] [FV]
-      [PV]
+            [PV]
 ```
 
 Resposta: PV = 7.903,15
@@ -444,10 +444,10 @@ Dados do problema:
 
 Pressione as teclas:
 ```
-2    [n]
-1500 [PV]
+2          [n]
+1500       [PV]
 1800 [CHS] [FV]
-     [i]
+           [i]
 ```
 
 Resposta: i = 9,54%
@@ -463,10 +463,10 @@ Dados do problema:
 
 Pressione as teclas:
 ```
-8    [i]
-5000 [PV]
+8          [i]
+5000       [PV]
 6000 [CHS] [FV]
-     [n]
+           [n]
 ```
 
 Resposta: n = 2,37 (anos).
@@ -484,12 +484,12 @@ Dados do problema:
 
 Pressione as teclas:
 ```
-1    [g] [12x]
-4,3  [g] [12/]
+1          [g] [12x]
+4,3        [g] [12/]
 1500 [CHS] [PV]
-     [FV]
-     [RCL] [PV]
-     [+]
+           [FV]
+           [RCL] [PV]
+           [+]
 ```
 
 Resposta:
@@ -506,14 +506,14 @@ Dados do problema:
 
 Pressione as teclas:
 ```
-2    [g] [12x]
+2          [g] [12x]
 600  [CHS] [PV]
-2400 [FV]
-     [i]
-12   [x]
+2400       [FV]
+           [i]
+12         [x]
 ```
 
-Resposta: i = 5,9463 x 12 = 71,36%
+Resposta: i = 5,9463 x 12 = 71,36% (taxa anual capitalizada mensalmente)
 
 **Problema: Uma empresa contrata um empréstimo no valor de R$ 50.000,00, com prazo de vencimento de 3,5 anos. Sabendo que a taxa de juros é de 22% ao ano, com capitalização anual, determine o montante a ser pago ao final do período.**
 
@@ -563,10 +563,10 @@ Dados do problema:
 
 Pressione as teclas:
 ```
-7     [n]
-6     [i]
+7           [n]
+6           [i]
 22000 [CHS] [PMT]
-      [FV]
+            [FV]
 ```
 
 Resposta: FV = 184.664,43
@@ -582,10 +582,10 @@ Dados do problema:
 
 Pressione as teclas:
 ```
-10   [ENTER] 4 [x] [n]
-8    [ENTER] 4 [/] [i]
+10         [ENTER] 4 [x] [n]
+8          [ENTER] 4 [/] [i]
 1200 [CHS] [PMT]
-     [FV]
+           [FV]
 ```
 
 Resposta: FV = 72.482,38
@@ -601,10 +601,10 @@ Dados do problema:
 
 Pressione as teclas:
 ```
-20  [g] [12x]
-7,2 [g] [12/]
+20        [g] [12x]
+7,2       [g] [12/]
 200 [CHS] [PMT]
-    [FV]
+          [FV]
 ```
 
 Resposta: FV = 106.752,47
@@ -681,10 +681,10 @@ Dados do problema:
 
 Pressione as teclas:
 ```
-7    [n]
+7          [n]
 4000 [CHS] [PMT]
-2,6  [i]
-     [PV]
+2,6        [i]
+           [PV]
 ```
 
 Resposta: PV = 25,301,17 (compensa comprar até esse preço, comprando a vista)
@@ -700,10 +700,10 @@ Dados do problema:
 
 Pressione as teclas:
 ```
-20000 [PV]
-5     [n]
+20000       [PV]
+5           [n]
 4300  [CHS] [PMT]
-      [i]
+            [i]
 ```
 
 Resposta: i = 2,46% (ao mês).
@@ -778,10 +778,10 @@ Dados do problema:
 
 Pressione as teclas:
 ```
-96 [ENTER] 13 [-] [n]
-42458,51 [PV]
+96             [ENTER] 13 [-] [n]
+42458,51       [PV]
 1340     [CHS] [PMT]
-         [i]
+               [i]
 ```
 
 Resposta: i = 2,85% (taxa mensal)
@@ -834,10 +834,10 @@ Dados do problema:
 
 Pressione as teclas:
 ```
-30   [g] [12x]
-11,5 [g] [12/]
+30         [g] [12x]
+11,5       [g] [12/]
 630  [CHS] [PMT]
-     [PV]
+           [PV]
 ```
 
 O visor exibirá: PV = 63.617,64
@@ -950,11 +950,11 @@ Dados do problema:
 
 Pressione as teclas:
 ```
-    [g] [BEG]
-7   [ENTER] 4 [x] [n]
-12  [ENTER] 4 [/] [i]
+          [g] [BEG]
+7         [ENTER] 4 [x] [n]
+12        [ENTER] 4 [/] [i]
 500 [CHS] [PMT]
-    [FV]
+          [FV]
 ```
 
 Resposta: FV = 22.109,43
@@ -970,11 +970,11 @@ Dados do problema:
 
 Pressione as teclas:
 ```
-      [g] [BEG]
-12    [n]
+            [g] [BEG]
+12          [n]
 10000 [CHS] [PV]
 5400  [CHS] [PMT]
-      [FV]
+            [FV]
 ```
 
 Resposta: R$ 83.435,06
@@ -992,10 +992,10 @@ Dados do problema:
 
 Pressione as teclas:
 ```
-12  [n]
-0,7 [i]
+12        [n]
+0,7       [i]
 130 [CHS] [PMT]
-    [PV]
+          [PV]
 ```
 
 O visor exibirá: 1491,28 (valor presente das parcelas)
@@ -1021,10 +1021,10 @@ Dados do problema:
 
 Pressione as teclas:
 ```
-3    [n]
-1300 [PV]
+3          [n]
+1300       [PV]
 456  [CHS] [PMT]
-     [i]
+           [i]
 ```
 
 O visor exibirá: 2,59 (taxa mensal)
@@ -1419,7 +1419,38 @@ Pressione as teclas:
 
 Resposta: 6,67% (taxa real de juros).
 
-## Financiamentos e empréstimos com parcelas decrescentes (SAC)
+## Financiamentos e empréstimos com o Sistema de Amortização Francês (SAF)
+
+**Problema: Você assumiu, na compra de uma casa, uma hipoteca de 25 anos de R$ 75.250,00 com juros nominais de 13,8% ao ano. Você estima morar na casa por 4 anos e depois vendê-la, liquidando o empréstimo. Qual será o valor da liquidação ao final de quatro anos? (considere as parcelas fixas, usando o sistema de amortização francês)**
+
+**Nota:** Este problema consiste em encontrar o saldo devedor após 4 anos (48 meses) de financiamento.
+
+Pressione as teclas:
+```
+25          [g] [12x]
+13,8        [g] [12/]
+75250 [CHS] [PV]
+            [PMT]          (encontra o valor das parcelas fixas)
+48          [f] [AMORT]    (amortização de 48 meses)
+            [RCL] [PV]     (exibe o saldo devedor)
+```
+
+Resposta: R$ -73.408,83 (valor da liquidação ao final de quatro anos, saldo devedor)
+
+**Nota:** Como alternativa, você pode usar o programa [Sistema de Amortização Francês (SAF)](./03-tabela-price.md). Diferentemente da função AMORT da HP 12c, este programa calcula o valor exato sem realizar iterações, evitando erros de arredondamento. Além disso, não é necessário informar o valor das parcelas (PMT). Confira o procedimento a seguir:
+
+Pressione as teclas:
+```
+25          [g] [12x]
+13,8        [g] [12/]
+75250 [CHS] [PV]
+48          [R/S]          (amortização de 48 meses)
+            [RCL] [PV]     (exibe o saldo devedor)
+```
+
+Resposta: R$ -73.408,78 (valor da liquidação ao final de quatro anos, saldo devedor)
+
+## Financiamentos e empréstimos com o Sistema de Amortização Constante (SAC)
 
 **Nota:** Para os exercícios a seguir, utilize o programa [Sistema de Amortização Constante (SAC)](./03-tabela-sac.md).
 
@@ -1573,11 +1604,34 @@ Dados do problema:
 
 Pressione as teclas:
 ```
-   [g] [END]    (pagamentos no final dos períodos)
+         [g] [END]    (pagamentos no final dos períodos)
    [CHS] [STO] [FV]
-0  [PV]
-12 [g] [12x]
-   [PMT]
+0        [PV]
+12       [g] [12x]
+         [PMT]
 ```
 
 Resposta: R$ 711,53 (depositar cada mês para poder custear as despesas com a universidade da filha)
+
+**Problema: Um carro novo que custa R$ 13.500,00 pode ser adquirido através de um *leasing* de 3 anos, com a opção de compra ao final do período por R$ 7.500,00. Se a financeira quiser obter um rendimento anual nominal de 14%, qual deverá ser o valor dos pagamentos mensais, com um pagamento antecipado? Calcule o valor do pagamento sob o ponto de vista da financeira. Utilize o modo início (BEGIN), porque o primeiro pagamento é devido na assinatura do contrato.**
+
+**Nota:** O *leasing* é uma forma de financiamento onde uma empresa (a financeira) compra um bem (por exemplo, um carro) e o cede ao usuário (arrendatário) para uso, mediante pagamentos periódicos. Funciona como um aluguel com opção de compra no final do contrato. Durante o contrato, o usuário paga uma espécie de "aluguel" (as parcelas do *leasing*) e, ao final do período, pode optar por comprar o bem pagando um valor residual acordado (neste caso, R$ 7.500,00).
+
+Dados do problema:
+- n = 3 x 12
+- i = 14 / 12
+- PV = -13.500
+- PMT = ?
+- FV = 7.500
+
+Pressione as teclas:
+```
+             [g] [BEG]    (pagamentos no início dos períodos)
+3            [g] [12x]
+14           [g] [12/]
+135000 [CHS] [PMT]
+7500         [FV]
+             [PMT]
+```
+
+Resposta: PMT = 289,19
