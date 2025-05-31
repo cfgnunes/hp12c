@@ -821,6 +821,37 @@ Pressione as teclas:
 
 Resposta: PMT = -1.308,48 (novo valor da parcela após amortização por parcela).
 
+**Problema: Após uma consideração cuidadosa de suas finanças você decidiu que o pagamento máximo mensal que pode assumir é de R$ 630,00. Você pode dar uma entrada de R$ 12.000,00 e a taxa nominal de juro está fixada em 11,5% ao ano. Se você fizer um financiamento de 30 anos, qual será o valor máximo da compra que você poderá fazer?**
+
+**Parte 1:** Encontrar o valor presente desconsiderando a entrada de R$ 12.000,00.
+
+Dados do problema:
+- n = 30 x 12
+- i = 11,5 / 12
+- PV = ?
+- PMT = -630,00
+- FV = 0
+
+Pressione as teclas:
+```
+30   [g] [12x]
+11,5 [g] [12/]
+630  [CHS] [PMT]
+     [PV]
+```
+
+O visor exibirá: PV = 63.617,64
+
+**Parte 2:** Somar o valor de entrada R$ 12.000,00 ao valor presente.
+
+Pressione as teclas:
+```
+63617,64 [ENTER]
+12000,00 [+]
+```
+
+Resposta: R$ 75.617,64 (o valor máximo da compra que você poderá fazer)
+
 ## Anuidade ordinária com carência: financiamentos e empréstimos
 
 **Problema: Um veículo pode ser comercializado em 36 prestações mensais de R$ 1.980,00 cada uma. Sabendo que a loja usa taxa de 1,45% ao mês e que há 1 mês de carência antes do pagamento da primeira prestação, encontre o valor à vista do veículo.**
