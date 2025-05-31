@@ -3,7 +3,6 @@
 O objetivo destes exercícios é apresentar, de forma prática e aplicada, as principais funções da calculadora HP 12c. Ao resolver os problemas propostos, o usuário não apenas se familiariza com o uso da calculadora, mas também aprende, na prática, noções básicas importantes do universo financeiro.
 
 Antes de iniciar qualquer exercício envolvendo os registradores financeiros ou estatísticos, certifique-se de apagar os valores previamente armazenados na calculadora para evitar resultados incorretos. Para isso, pressione as teclas:
-
 ```
 [f] [CLEAR REG]
 ```
@@ -20,7 +19,6 @@ Os registradores financeiros da calculadora HP 12c representam os principais ele
 **Problema: Em uma aplicação financeira, um investidor obteve um rendimento de R$ 10.000,00 sobre um capital total de R$ 250.000,00. Qual é o percentual que esse rendimento representa em relação ao valor investido?**
 
 Pressione as teclas:
-
 ```
 250 [ENTER]
 10  [%T]
@@ -31,7 +29,6 @@ Resposta: 4% (percentual em relação ao total).
 **Problema: Durante um período de valorização imobiliária, uma casa adquirida por R$ 200.000,00 foi vendida por R$ 220.000,00. Qual foi o percentual de aumento no valor da casa em relação ao valor de aquisição?**
 
 Pressione as teclas:
-
 ```
 200 [ENTER]
 220 [Δ%]
@@ -42,7 +39,6 @@ Resposta: 10% (variação percentual).
 **Problema: O preço de uma ação na bolsa de valores caiu de R$ 9,00 para R$ 8,00. Qual foi a variação percentual negativa (ou percentual de desvalorização) em relação ao preço inicial?**
 
 Pressione as teclas:
-
 ```
 9 [ENTER]
 8 [Δ%]
@@ -53,7 +49,6 @@ Resposta: -11,11% (variação percentual).
 **Problema: Em uma loja, um produto que custa R$ 400,00 está com um desconto de 15%. Qual é o valor correspondente a esse desconto? Calcule também o valor final já com o desconto.**
 
 Pressione as teclas:
-
 ```
 400 [ENTER]
 15  [%]
@@ -70,7 +65,6 @@ O visor exibirá: 340,00 (valor final do produto com o desconto).
 **Problema: Se você comprasse uma opção para um terreno em 28 de maio de 2025, válida por 120 dias, qual seria a data de vencimento?**
 
 Pressione as teclas:
-
 ```
           [g] [D.MY]
 28,052025 [ENTER]
@@ -84,7 +78,6 @@ O visor exibirá: 25.09.2025 4, representando a data de 25/09/2025. O número 4 
 **Problema: Qual seria o número de dias entre 3 de junho de 2024 a 14 de outubro de 2025?**
 
 Pressione as teclas:
-
 ```
           [g] [D.MY]
  3,062024 [ENTER]
@@ -100,7 +93,6 @@ O visor exibirá: 491 (número de dias baseado no ano comercial)
 **Problema: Hoje é 23 de outubro de 2024. O Sr. Carlos deseja agendar os próximos três encontros com seu cliente, respeitando um intervalo fixo de 21 dias entre cada reunião. Quais serão as datas desses encontros?**
 
 Pressione as teclas:
-
 ```
           [g] [D.MY]
 23,102024 [ENTER]
@@ -110,7 +102,6 @@ Pressione as teclas:
 O visor exibirá: 13.11.2024 (primeira data)
 
 Para a próxima data, pressione as teclas:
-
 ```
 [g] [LSTx]
 [g] [DATE]
@@ -119,7 +110,6 @@ Para a próxima data, pressione as teclas:
 O visor exibirá: 4.12.2024 (segunda data)
 
 Para a próxima data, pressione as teclas:
-
 ```
 [g] [LSTx]
 [g] [DATE]
@@ -137,7 +127,6 @@ Dados do problema:
 - n = 90 dias
 
 Pressione as teclas:
-
 ```
 80000 [CHS] [PV]
 30    [i]
@@ -159,7 +148,6 @@ Dados do problema:
 - FV = ?
 
 Pressione as teclas:
-
 ```
 10  [n]
 8   [i]
@@ -179,7 +167,6 @@ Dados do problema:
 - FV = 1.000
 
 Pressione as teclas:
-
 ```
 3    [n]
 4    [i]
@@ -192,7 +179,6 @@ Resposta: PV = -889,00
 **Problema: O Tesouro Nacional oferece um título por R$ 613,81. Nenhum pagamento será feito até o vencimento, em 10 anos, quando será resgatado por R$ 1.000,00. Qual a taxa de juros efetiva anual desse título?**
 
 Dados do problema:
-
 - n = 10
 - i = ?
 - PV = -613,81
@@ -200,7 +186,6 @@ Dados do problema:
 - FV = 1.000
 
 Pressione as teclas:
-
 ```
 10     [n]
 613,81 [CHS] [PV]
@@ -215,7 +200,6 @@ Resposta: i = 5%
 **Problema: Você investe R$ 5.000,00 em uma conta que rende 6% ao ano durante 8 anos. Qual será o valor ao final do período?**
 
 Dados do problema:
-
 - n = 8
 - i = 6
 - PV = -5.000
@@ -223,7 +207,6 @@ Dados do problema:
 - FV = ?
 
 Pressione as teclas:
-
 ```
 8    [n]
 6    [i]
@@ -236,7 +219,6 @@ Resposta: FV = 7.969,24
 **Problema: Você precisa de R$ 10.000,00 em 5 anos. A conta rende 7% ao ano. Quanto deve investir agora?**
 
 Dados do problema:
-
 - n = 5
 - i = 7
 - PV = ?
@@ -244,7 +226,6 @@ Dados do problema:
 - FV = 10.000
 
 Pressione as teclas:
-
 ```
 5     [n]
 7     [i]
@@ -257,7 +238,6 @@ Resposta: PV = -7.129,86
 **Problema: Você investe R$ 2.000,00 e o valor cresce para R$ 2.800 em 4 anos. Qual foi a taxa de juros anual?**
 
 Dados do problema:
-
 - n = 4
 - i = ?
 - PV = 2.000
@@ -265,7 +245,6 @@ Dados do problema:
 - FV = 2.800
 
 Pressione as teclas:
-
 ```
 4    [n]
 2000 [PV]
@@ -278,7 +257,6 @@ Resposta: i = 8,78%
 **Problema: Em quanto tempo uma taxa de juros mensal de 2,6% dobraria o seu patrimônio?**
 
 Dados do problema:
-
 - n = ?
 - i = 2,6
 - PV = -1
@@ -286,7 +264,6 @@ Dados do problema:
 - FV = 2
 
 Pressione as teclas:
-
 ```
 2,6   [i]
 1 CHS [PV]
@@ -301,7 +278,6 @@ O visor exibirá: 27,00 (meses para dobrar o patrimônio).
 **Problema: Você investe R$ 3.000,00 e o valor dobra para R$ 6.000,00 com juros de 9% ao ano. Quanto tempo levou?**
 
 Dados do problema:
-
 - n = ?
 - i = 9
 - PV = -3.000
@@ -309,7 +285,6 @@ Dados do problema:
 - FV = 6.000
 
 Pressione as teclas:
-
 ```
 9    [i]
 3000 [CHS] [PV]
@@ -324,7 +299,6 @@ Resposta: n = 8,04 (anos).
 **Problema: Você aplica R$ 1.000,00 por 10 anos em um banco que paga 5% ao ano, com pagamento no final do período. Quanto terá ao final?**
 
 Dados do problema:
-
 - n = 10
 - i = 5
 - PV = -1.000
@@ -332,7 +306,6 @@ Dados do problema:
 - FV = ?
 
 Pressione as teclas:
-
 ```
 10   [n]
 5    [i]
@@ -345,7 +318,6 @@ Resposta: FV = 1.628,89
 **Problema: O Sr. Carlos pretende investir R$ 10.000,00 em uma aplicação com juros compostos de 8% ao ano, capitalizados trimestralmente. Qual será o valor futuro após 5 anos?**
 
 Dados do problema:
-
 - n = 5 x 4
 - i = 8 / 4
 - PV = -10.000
@@ -353,7 +325,6 @@ Dados do problema:
 - FV = ?
 
 Pressione as teclas:
-
 ```
 5 [ENTER] 4 [x] [n]
 8 [ENTER] 4 [/] [i]
@@ -366,7 +337,6 @@ Resposta: FV = 14.859,47
 **Problema: Quanto é preciso depositar hoje para ter R$ 8.000,00 em 5 anos, com juros de 6,5% ao ano capitalizados mensalmente?**
 
 Dados do problema:
-
 - n = 5 x 12
 - i = 6,5 / 12
 - PV = ?
@@ -374,7 +344,6 @@ Dados do problema:
 - FV = 8.000
 
 Pressione as teclas:
-
 ```
 5    [g] [12x]
 6,5  [g] [12/]
@@ -387,7 +356,6 @@ Resposta: PV = -5.785,29
 **Problema: O Sr. Roberto vai se aposentar em 20 anos e quer comprar uma casa de R$ 2.000.000,00. Quanto ele precisa investir hoje em um banco que paga 9% ao ano com capitalização semestral?**
 
 Dados do problema:
-
 - n = 20 x 2
 - i = 9 / 2
 - PV = ?
@@ -395,7 +363,6 @@ Dados do problema:
 - FV = 2.000.000
 
 Pressione as teclas:
-
 ```
 20 [ENTER] 2 [x] [n]
 9  [ENTER] 2 [/] [i]
@@ -410,7 +377,6 @@ Resposta: PV = -343.857,40
 **Problema: Você toma emprestado R$ 7.000,00 a uma taxa de 5% ao ano por 3 anos. Qual será o valor total a ser pago?**
 
 Dados do problema:
-
 - n = 3
 - i = 5
 - PV = -7.000
@@ -418,7 +384,6 @@ Dados do problema:
 - FV = ?
 
 Pressione as teclas:
-
 ```
 3    [n]
 5    [i]
@@ -431,7 +396,6 @@ Resposta: FV = 8.103,38
 **Problema: Você deve pagar R$ 10.000,00 em 6 anos. A taxa anual juros é de 4%. Quanto pode pegar emprestado hoje?**
 
 Dados do problema:
-
 - n = 6
 - i = 4
 - PV = ?
@@ -439,7 +403,6 @@ Dados do problema:
 - FV = -10.000
 
 Pressione as teclas:
-
 ```
 6     [n]
 4     [i]
@@ -452,7 +415,6 @@ Resposta: PV = 7.903,15
 **Problema: Você tomou R$ 1.500,00 emprestados e pagou R$ 1.800,00 após 2 anos. Qual foi a taxa de juros?**
 
 Dados do problema:
-
 - n = 2
 - i = ?
 - PV = 1.500
@@ -460,7 +422,6 @@ Dados do problema:
 - FV = -1.800
 
 Pressione as teclas:
-
 ```
 2    [n]
 1500 [PV]
@@ -473,7 +434,6 @@ Resposta: i = 9,54%
 **Problema: Você tomou R$ 5.000,00 emprestados e pagou R$ 6.000,00 com juros anuais de 8%. Quanto tempo demorou?**
 
 Dados do problema:
-
 - n = ?
 - i = 8
 - PV = 5.000
@@ -481,7 +441,6 @@ Dados do problema:
 - FV = -6.000
 
 Pressione as teclas:
-
 ```
 8    [i]
 5000 [PV]
@@ -496,7 +455,6 @@ Resposta: n = 2,37 (anos).
 **Problema: Se João empresta R$ 1.500,00 a um amigo com taxa de 4,3% ao ano, capitalizada mensalmente, quanto de juros terá ao final de um ano?**
 
 Dados do problema:
-
 - n = 1 x 12
 - i = 4,3 / 12
 - PV = -1.500
@@ -504,7 +462,6 @@ Dados do problema:
 - FV = ?
 
 Pressione as teclas:
-
 ```
 1    [g] [12x]
 4,3  [g] [12/]
@@ -520,7 +477,6 @@ Juros = 1.565,79 (FV) - 1.500,00 (PV) = 65,79
 **Problema: Lucas pegou R$ 600,00 emprestados no banco e esse valor quadruplicou em 2 anos, com capitalização mensal. Qual foi a taxa de juros?**
 
 Dados do problema:
-
 - n = 2 x 12
 - i = ?
 - PV = -600
@@ -528,7 +484,6 @@ Dados do problema:
 - FV = 2.400
 
 Pressione as teclas:
-
 ```
 2    [g] [12x]
 600  [CHS] [PV]
@@ -542,7 +497,6 @@ Resposta: i = 5,9463 x 12 = 71,36%
 **Problema: Uma empresa contrata um empréstimo no valor de R$ 50.000,00, com prazo de vencimento de 3,5 anos. Sabendo que a taxa de juros é de 22% ao ano, com capitalização composta anual, determine o montante a ser pago ao final do período.**
 
 Dados do problema:
-
 - n = 3,5
 - i = 22
 - PV = 50000
@@ -554,7 +508,6 @@ Dados do problema:
 - Convenção exponencial: aplica-se juros compostos sobre todo o período, incluindo tanto a parte inteira quanto a fracionária.
 
 Utilizando a convenção exponencial. Pressione as teclas:
-
 ```
       [STO] [EEX]    (pressionar até aparecer o símbolo 'C' no visor)
 3,5   [n]
@@ -566,7 +519,6 @@ Utilizando a convenção exponencial. Pressione as teclas:
 Resposta: FV = -100.283,48
 
 Agora, utilizando a convenção linear. Pressione as teclas:
-
 ```
       [STO] [EEX]    (pressionar até apagar o símbolo 'C' no visor)
 3,5   [n]
@@ -582,7 +534,6 @@ Resposta: FV = -100.779,56
 **Problema: André deposita R$ 22.000,00 ao final de cada ano por 7 anos, em uma conta que rende 6% ao ano. Quanto ele terá ao final do período?**
 
 Dados do problema:
-
 - n = 7
 - i = 6
 - PV = 0
@@ -590,7 +541,6 @@ Dados do problema:
 - FV = ?
 
 Pressione as teclas:
-
 ```
 7     [n]
 6     [i]
@@ -603,7 +553,6 @@ Resposta: FV = 184.664,43
 **Problema: Marcela deposita R$ 1.200,00 no final de cada trimestre por 10 anos, em uma conta que rende 8% ao ano com capitalização trimestral. Quanto terá ao final do período?**
 
 Dados do problema:
-
 - n = 10 x 4
 - i = 8 / 4
 - PV = 0
@@ -611,7 +560,6 @@ Dados do problema:
 - FV = ?
 
 Pressione as teclas:
-
 ```
 10   [ENTER] 4 [x] [n]
 8    [ENTER] 4 [/] [i]
@@ -624,7 +572,6 @@ Resposta: FV = 72.482,38
 **Problema: Carlos quer se aposentar em 20 anos e, para isso, deposita R$ 200,00 no final de cada mês em um fundo que rende 7,2% ao ano com capitalização mensal. Quanto terá ao se aposentar?**
 
 Dados do problema:
-
 - n = 20 x 12
 - i = 7,2 / 12
 - PV = 0
@@ -632,7 +579,6 @@ Dados do problema:
 - FV = ?
 
 Pressione as teclas:
-
 ```
 20  [g] [12x]
 7,2 [g] [12/]
@@ -645,7 +591,6 @@ Resposta: FV = 106.752,47
 **Problema: Juliana quer se aposentar em 32 anos e planeja investir mensalmente em uma conta que rende 9% ao ano. Quanto precisa investir por mês para acumular R$ 2.000.000,00?**
 
 Dados do problema:
-
 - n = 32 x 12
 - i = 9 / 12
 - PV = 0
@@ -653,7 +598,6 @@ Dados do problema:
 - FV = 2.000.000
 
 Pressione as teclas:
-
 ```
 32 [g] [12x]
 9  [g] [12/]
@@ -668,7 +612,6 @@ Resposta: PMT = -902,32
 **Problema: Você pode comprar uma anuidade que paga R$ 1.000,00 no final de cada ano por 5 anos. Se você pode ganhar 6% ao ano em outros investimentos de mesmo risco, qual o valor máximo que deve pagar?**
 
 Dados do problema:
-
 - n = 5
 - i = 6
 - PV = ?
@@ -676,7 +619,6 @@ Dados do problema:
 - FV = 0
 
 Pressione as teclas:
-
 ```
 5    [n]
 6    [i]
@@ -689,7 +631,6 @@ Resposta: PV = -4.212,36
 **Problema: Você herdou R$ 200.000,00 e investe a 6% ao ano. Quanto pode sacar no final de cada um dos próximos 15 anos?**
 
 Dados do problema:
-
 - n = 15
 - i = 6
 - PV = 200.000
@@ -697,7 +638,6 @@ Dados do problema:
 - FV = 0
 
 Pressione as teclas:
-
 ```
 15     [n]
 6      [i]
@@ -712,7 +652,6 @@ Resposta: PMT = -20.592,55
 **Problema: Determinado bem é vendido em 7 pagamentos mensais, iguais e consecutivos de R$ 4.000,00. Para uma taxa de juros de 2,6% a.m., até que preço compensa adquirir o aparelho a vista?**
 
 Dados do problema:
-
 - n = 7
 - i = 2,6
 - PV = ?
@@ -720,7 +659,6 @@ Dados do problema:
 - FV = 0
 
 Pressione as teclas:
-
 ```
 7    [n]
 4000 [CHS] [PMT]
@@ -733,7 +671,6 @@ Resposta: PV = 25,301,17 (compensa comprar até esse preço, comprando a vista)
 **Problema: Um empréstimo de R$ 20.000,00 é concedido para pagamento em 5 prestações mensais, iguais e sucessivas de $ 4.300,00. Calcular o custo mensal deste empréstimo.**
 
 Dados do problema:
-
 - n = 5
 - i = ?
 - PV = 20.000
@@ -741,7 +678,6 @@ Dados do problema:
 - FV = 0
 
 Pressione as teclas:
-
 ```
 20000 [PV]
 5     [n]
@@ -754,7 +690,6 @@ Resposta: i = 2,46% (ao mês).
 **Problema: Você está comprando sua primeira casa por R$ 220.000,00 e pagará R$ 30.000,00 de entrada. Vai financiar os R$ 190.000,00 restantes em um empréstimo de 30 anos, com taxa nominal de 7% ao ano e parcelas fixas mensais (tabela Price). Qual será o valor das parcelas mensais?**
 
 Dados do problema:
-
 - n = 30 x 12
 - i = 7 / 12
 - PV = 190.000
@@ -762,7 +697,6 @@ Dados do problema:
 - FV = 0
 
 Pressione as teclas:
-
 ```
 30  [g] [12x]
 7   [g] [12/]
@@ -775,7 +709,6 @@ Resposta: PMT = -1.264,07
 **Problema: Você quer comprar um carro de R$ 28.000,00. A concessionária oferece taxa de 4% ao ano para 48 meses. Quais serão as parcelas fixas mensais?**
 
 Dados do problema:
-
 - n = 4 x 12
 - i = 4 / 12
 - PV = 28.000
@@ -783,7 +716,6 @@ Dados do problema:
 - FV = 0
 
 Pressione as teclas:
-
 ```
 4     [g] [12x]
 4     [g] [12/]
@@ -796,7 +728,6 @@ Resposta: PMT = -632,21
 **Problema: Maria possui um empréstimo consignado, com 96 parcelas fixas (tabela Price) de R$ 1.340,00, das quais já pagou 13, restando um saldo devedor de R$ 42.458,51. Determine a taxa de juros anual com capitalização mensal e, em seguida, calcule quantas parcelas seriam eliminadas caso ela amortizasse R$ 1.000,00 hoje, utilizando amortização por tempo. Calcule também o novo valor da parcela caso ela optasse por realizar a amortização por valor da parcela.**
 
 Parte 1: Encontrando primeiro a taxa de juros. Dados do problema:
-
 - n = 83 (96 - 13)
 - i = ?
 - PV = 42.458,51
@@ -804,7 +735,6 @@ Parte 1: Encontrando primeiro a taxa de juros. Dados do problema:
 - FV = 0
 
 Pressione as teclas:
-
 ```
 96 [ENTER] 13 [-] [n]
 42458,51 [PV]
@@ -815,7 +745,6 @@ Pressione as teclas:
 Resposta: i = 2,85%
 
 Parte 2: Encontrando a nova quantidade de parcelas (amortização por tempo). Dados do problema:
-
 - n = ?
 - i = 2,85
 - PV = 41.458,51 (retirado R$ 1.000,00 do saldo devedor de R$ 42.458,51)
@@ -823,7 +752,6 @@ Parte 2: Encontrando a nova quantidade de parcelas (amortização por tempo). Da
 - FV = 0
 
 Pressione as teclas:
-
 ```
      [RCL] [PV]
 1000 [-] [PV]
@@ -833,7 +761,6 @@ Pressione as teclas:
 O visor exibirá: n = 76. Logo, 83-76 = 7 parcelas eliminadas (amortização por tempo).
 
 Parte 3: Encontrando o novo valor da parcela (amortização por valor da parcela). Dados do problema:
-
 - n = 83 (96 - 13)
 - i = 2,85
 - PV = 41.458,51 (retirado R$ 1.000,00 do saldo devedor de R$ 42.458,51)
@@ -841,7 +768,6 @@ Parte 3: Encontrando o novo valor da parcela (amortização por valor da parcela
 - FV = 0
 
 Pressione as teclas:
-
 ```
 96 [ENTER] 13 [-] [n]
 [PMT]
@@ -854,11 +780,10 @@ Resposta: PMT = -1.308,48 (novo valor da parcela após amortização por parcela
 **Problema: Um veículo pode ser comercializado em 36 prestações mensais de R$ 1.980,00 cada uma. Sabendo que a loja usa taxa de 1,45% ao mês e que há 1 mês de carência antes do pagamento da primeira prestação, encontre o valor à vista do veículo.**
 
 Pressione as teclas:
-
 ```
-0    [g] [CFj]     (1 mês de carência)
+0    [g] [CFj]    (1 mês de carência)
 1980 [g] [CFj]
-36   [g] [Nj]      (36 parcelas)
+36   [g] [Nj]     (36 parcelas)
 1,45 [i]
      [f] [NPV]
 ```
@@ -870,12 +795,11 @@ Resposta: R$ 54.437,52
 **Problema: Um financiamento será quitado em 12 parcelas mensais fixas de R$ 200,00, com carência de 3 meses, ou seja, o pagamento da primeira parcela ocorre no quarto mês após a liberação do crédito. Considerando uma taxa de juros de 3,5% ao mês, determine o valor presente desse financiamento no momento da liberação dos recursos.**
 
 Pressione as teclas:
-
 ```
 0   [g] [CFj]
-3   [g] [Nj]      (3 meses de carência)
+3   [g] [Nj]     (3 meses de carência)
 200 [g] [CFj]
-12  [g] [Nj]      (12 parcelas)
+12  [g] [Nj]     (12 parcelas)
 3,5 [i]
     [f] [NPV]
 ```
@@ -885,12 +809,11 @@ Resposta: R$ 1.743,15
 **Problema: Um professor comprou um computador em uma loja especializada em 10 prestações mensais de R$ 100,00 cada uma, sendo a primeira prestação paga 4 meses após a compra. Por ser compra a prazo, a loja cobra taxa de 36% ao ano capitalizada mensalmente. Encontre o valor à vista do computador.**
 
 Pressione as teclas:
-
 ```
 0   [g] [CFj]
-3   [g] [Nj]      (3 meses de carência)
+3   [g] [Nj]     (3 meses de carência)
 100 [g] [CFj]
-10  [g] [Nj]      (10 parcelas)
+10  [g] [Nj]     (10 parcelas)
 36  [g] [12/]
     [f] [NPV]
 ```
@@ -902,7 +825,6 @@ Resposta: R$ 780,63
 **Problema: Com uma taxa de juros de 0,75% ao mês, quanto deve ser depositado mensalmente (no início do mês) para atingir R$ 100.000,00 em 5 anos?**
 
 Dados do problema:
-
 - n = 5 x 12
 - i = 0,75
 - PV = 0
@@ -910,7 +832,6 @@ Dados do problema:
 - FV = 100.000
 
 Pressione as teclas:
-
 ```
        [g] [BEG]
 5      [g] [12x]
@@ -924,7 +845,6 @@ Resposta: PMT = -1.315,97
 **Problema: Com uma taxa de juros de 1% ao mês, quanto deve ser depositado mensalmente (no início do mês) para acumular R$ 1.000.000,00 em 20 anos?**
 
 Dados do problema:
-
 - n = 20 x 12
 - i = 1
 - PV = 0
@@ -932,7 +852,6 @@ Dados do problema:
 - FV = 1.000.000
 
 Pressione as teclas:
-
 ```
    [g] [BEG]
 20 [g] [12x]
@@ -946,7 +865,6 @@ Resposta: PMT = -1.000,85
 **Problema: Ricardo deposita R$ 500,00 no início de cada trimestre durante 7 anos, em uma conta com juros de 12% ao ano, capitalizados trimestralmente. Quanto ele terá ao final do período?**
 
 Dados do problema:
-
 - n = 7 x 4
 - i = 12 / 4
 - PV = 0
@@ -954,7 +872,6 @@ Dados do problema:
 - FV = ?
 
 Pressione as teclas:
-
 ```
     [g] [BEG]
 7   [ENTER] 4 [x] [n]
@@ -968,7 +885,6 @@ Resposta: FV = 22.109,43
 **Problema: Uma turma de Engenharia Civil, visando sua formatura, depositou R$ 10.000,00 hoje, numa instituição financeira e mais R$ 5.400,00 no inicio de cada mês a contar de hoje, durante 12 meses. Se a instituição financeira paga juro de 1,5% ao mês, quanto terá a turma no fim do contrato.**
 
 Dados do problema:
-
 - n = 12
 - i = 1,5
 - PV = -10.000
@@ -976,7 +892,6 @@ Dados do problema:
 - FV = ?
 
 Pressione as teclas:
-
 ```
       [g] [BEG]
 12    [n]
@@ -992,7 +907,6 @@ Resposta: R$ 83.435,06
 **Problema: Pagar a vista ou parcelar? Você tem duas opções para adquirir um plano anual de academia: pagar à vista o valor total de R$ 1.560,00 ou parcelar em 12 vezes mensais de R$ 130,00 (sem juros na parcela). Considerando que você dispõe do valor total e tem a possibilidade de investi-lo em uma aplicação com rendimento de 0,7% ao mês, qual é a vantagem financeira (ou custo de oportunidade) de optar pelo parcelamento em vez do pagamento à vista?**
 
 Dados do problema:
-
 - n = 12
 - i = 0,7
 - PV = ?
@@ -1000,7 +914,6 @@ Dados do problema:
 - FV = 0
 
 Pressione as teclas:
-
 ```
 12  [n]
 0,7 [i]
@@ -1011,7 +924,6 @@ Pressione as teclas:
 O visor exibirá: 1491,28 (valor presente das parcelas)
 
 Para saber a diferença entre o valor à vista e o valor presente das parcelas, pressione as teclas:
-
 ```
 1560
 [x><y] [-]
@@ -1024,7 +936,6 @@ O visor exibirá: 68,72 (diferença entre o valor à vista e o valor presente da
 **Problema: O vendedor de uma loja, vende um aparelho eletrônico com as seguintes condições: pagamento à vista de R$ 1,300.00 ou em 3 parcelas de R$ 456.00 (sem entrada). Qual é a taxa cobrada no parcelamento?**
 
 Dados do problema:
-
 - n = 3
 - i = ?
 - PV = 1300
@@ -1032,7 +943,6 @@ Dados do problema:
 - FV = 0
 
 Pressione as teclas:
-
 ```
 3    [n]
 1300 [PV]
@@ -1045,9 +955,8 @@ O visor exibirá:  2,59 (taxa mensal)
 **Problema: Um veículo novo está sendo vendido por R$ 4.000,00 de entrada mais 6 pagamentos mensais, iguais e consecutivos de R$ 3.000,00. Sabendo-se que a taxa de juros de mercado é de 5,5% a.m., determinar até que preço interessa comprar o veículo a vista.**
 
 Pressione as teclas:
-
 ```
-4000 [g] [CFo]   (pagamento à vista, então já está no valor presente)
+4000 [g] [CFo]    (pagamento à vista, então já está no valor presente)
 3000 [g] [CFj]
 6    [g] [Nj]
 5,5  [i]
@@ -1061,7 +970,6 @@ Resposta: R$ 18.986,59
 **Problema: (análise do VPL) Uma empresa está avaliando um projeto de instalação de painéis solares em uma fábrica de médio porte para reduzir os custos com eletricidade. O investimento inicial para o projeto é de R$ 500.000,00. A expectativa é que o projeto gere uma economia anual de R$ 120.000,00 em custos de energia durante os próximos 6 anos. Ao final do sexto ano, os painéis terão um valor residual de R$ 50.000,00 (valor de revenda ou sucata). A empresa definiu uma taxa mínima de atratividade (TMA) de 10% ao ano para esse tipo de projeto. Com base nas informações, calcule o Valor Presente Líquido (VPL) e diga se o investimento é viável.**
 
 Pressione as teclas:
-
 ```
 500000 [CHS] [g] [CFo]
 120000       [g] [CFj]
@@ -1078,7 +986,6 @@ O VPL é positivo. Isso significa que o projeto é viável financeiramente, pois
 **Problema: (análise do VPL) O investidor Carlos está analisando a compra de um imóvel com 4 lojas comerciais, todas prontas para locação. O preço de compra do imóvel é de R$ 1.000.000,00. Carlos estima que conseguirá alugar cada loja por R$ 4.000,00 por mês, totalizando R$ 16.000,00 por mês, ou seja, R$ 192.000,00 por ano. Ele acredita que conseguirá manter a ocupação total por 10 anos, ao final dos quais planeja vender o imóvel por R$ 600.000,00. Carlos quer saber se esse investimento é viável financeiramente, considerando sua taxa mínima de atratividade (TMA) de 9% ao ano.**
 
 Pressione as teclas:
-
 ```
 1000000 [CHS] [g] [CFo]
 192000        [g] [CFj]
@@ -1095,7 +1002,6 @@ O VPL é positivo. Isso significa que o projeto é viável financeiramente, pois
 **Problema: (cálculo de TIR) Determinar a Taxa Interna de Retorno (TIR) referente a um empréstimo de R$ 126.900,00 a ser liquidado em quatro pagamentos mensais e consecutivos de R$ 25.000,00, R$ 38.000,00, R$ 45.000,00 e R$ 27.000,00.**
 
 Pressione as teclas:
-
 ```
 126900       [g] [CFo]
 25000  [CHS] [g] [CFj]
@@ -1117,7 +1023,6 @@ Resposta: TIR = 2,47% ao mês.
 | 4º  | 1.700,00              |
 
 Pressione as teclas:
-
 ```
 5000 [CHS] [g] [CFo]
 1500       [g] [CFj]
@@ -1132,7 +1037,6 @@ Resposta: 10,44% (taxa mensal)
 **Problema: (cálculo de VPL, TIR e Payback) Você está avaliando a compra de um equipamento no valor de R$ 100.000,00 para aumentar a produção da sua empresa. Esse investimento promete um retorno anual de R$ 18.000,00 por 10 anos. Com base nessas informações, calcule o Valor Presente Líquido (VPL), a Taxa Interna de Retorno (TIR) e o *Payback* Simples (tempo necessário para recuperar o valor investido sem considerar o valor do dinheiro no tempo). A empresa considera o custo de oportunidade ou retorno requirido de 10% ao ano.**
 
 Encontrando o Valor Presente Líquido (VPL). Pressione as teclas:
-
 ```
 100000 [CHS] [g] [CFo]
 18000        [g] [CFj]
@@ -1144,7 +1048,6 @@ Encontrando o Valor Presente Líquido (VPL). Pressione as teclas:
 Resposta: R$ 10.602,21 (valor presente líquido)
 
 Encontrando a Taxa Interna de Retorno (TIR). Pressione as teclas:
-
 ```
 [f] [IRR]
 ```
@@ -1173,7 +1076,6 @@ Resposta: 5,56 (anos para recuperar o valor investido)
 **Nota:** Na HP 12c, como não há uma tecla específica para calcular o valor futuro (VF) de fluxos de caixa irregulares, a solução é primeiro obter o valor presente (VP) usando a função NPV (para fluxos com valores distintos) e, em seguida, converter esse VP em VF tratando-o como um único pagamento e aplicando a taxa de juros e o prazo desejados.
 
 Pressione as teclas:
-
 ```
 500 [CHS] [g] [CFj]
 700 [CHS] [g] [CFj]
@@ -1192,7 +1094,6 @@ Resposta: R$ 2035,22
 **Problema: Uma clínica médica adquiriu um aparelho de ultrassom por R$ 120.000,00, com vida útil estimada de 6 anos e valor de sucata de R$ 12.000,00. Deseja-se calcular, utilizando o método linear de depreciação, o valor da depreciação anual e o valor estimado do equipamento ao final do quarto ano de uso.**
 
 Pressione as teclas:
-
 ```
 120000 [PV]
 12000  [FV]
@@ -1203,7 +1104,6 @@ Pressione as teclas:
 O visor exibirá: R$ 18.000,00 (depreciação correspondente ao terceiro ano).
 
 Pressione as teclas:
-
 ```
 [x><y]
 [RCL] [FV]
@@ -1215,7 +1115,6 @@ O visor exibirá: R$ 48.000,00 (valor estimado do bem ao final do terceiro ano).
 **Problema: Uma empresa adquiriu um veículo de entrega por R$ 100.000,00 com vida útil estimada de 8 anos e valor residual de R$ 40.000,00. Deseja-se calcular, utilizando o método da soma dos dígitos dos anos, o valor da depreciação correspondente ao terceiro ano de uso, bem como o valor de revenda do veículo ao final desse ano.**
 
 Pressione as teclas:
-
 ```
 100000 [PV]
 40000  [FV]
@@ -1226,7 +1125,6 @@ Pressione as teclas:
 O visor exibirá: R$ 10.000,00 (depreciação correspondente ao terceiro ano).
 
 Pressione as teclas:
-
 ```
 [x><y]
 [RCL] [FV]
@@ -1240,7 +1138,6 @@ O visor exibirá: R$ 65.000,00 (valor de revenda do veículo ao final desse ano)
 **Nota:** O valor residual é o valor contábil menos o valor de revenda após vida útil (valor de sucata).
 
 Pressione as teclas:
-
 ```
 10000 [PV]
 500   [FV]
@@ -1267,7 +1164,6 @@ O visor exibirá: R$ 1.660,00 (valor residual depois do terceiro ano).
 | 4   | 205,80     |
 
 Pressione as teclas:
-
 ```
 215,40 [Σ+]
 198,75 [Σ+]
@@ -1288,7 +1184,6 @@ Resposta: R$ 212,51 (valor médio)
 | 4      | 28,20  | 67,50  |
 
 Pressione as teclas:
-
 ```
 28,50 [ENTER] 65,10 [Σ+]
 29,10 [ENTER] 66,80 [Σ+]
@@ -1323,7 +1218,6 @@ O visor exibirá: 28,40 (preço médio da Ação Y)
 | 3.600,00   | 520,00        |
 
 Pressione as teclas:
-
 ```
 3200 [ENTER] 420 [Σ+]
 3450 [ENTER] 480 [Σ+]
@@ -1351,7 +1245,6 @@ A tabela abaixo resume as compras feitas:
 | 16,50      | 250        |
 
 Pressione as teclas:
-
 ```
 15,00 [ENTER] 200 [Σ+]
 18,00 [ENTER] 150 [Σ+]
@@ -1368,11 +1261,10 @@ O visor exibirá: 16,38 (preço médio).
 **Problema: Você possui uma taxa de 1% ao mês e deseja saber qual é a taxa anual equivalente.**
 
 Pressione as teclas:
-
 ```
 1  [i]
-1  [n]   (1 mês - taxa mensal)
-12 [R/S] (12 meses - taxa anual)
+1  [n]      (1 mês - taxa mensal)
+12 [R/S]    (12 meses - taxa anual)
 ```
 
 O visor exibirá: 12,68 (taxa equivalente anual).
@@ -1380,11 +1272,10 @@ O visor exibirá: 12,68 (taxa equivalente anual).
 **Problema: Você possui uma taxa de 12% ao ano e deseja saber qual é a taxa mensal equivalente.**
 
 Pressione as teclas:
-
 ```
 12 [i]
-12 [n]    (12 meses - taxa anual)
-1  [R/S]  (1 mês - taxa mensal)
+12 [n]      (12 meses - taxa anual)
+1  [R/S]    (1 mês - taxa mensal)
 ```
 
 O visor exibirá: 0,95 (taxa equivalente mensal).
@@ -1392,21 +1283,19 @@ O visor exibirá: 0,95 (taxa equivalente mensal).
 **Problema: Quais as taxas de juros compostos mensal e trimestral equivalentes a 25% ao ano?**
 
 Pressione as teclas:
-
 ```
 25 [i]
-12 [n]    (12 meses - taxa anual)
-1  [R/S]  (1 mês - taxa mensal)
+12 [n]      (12 meses - taxa anual)
+1  [R/S]    (1 mês - taxa mensal)
 ```
 
 O visor exibirá: 1,88 (taxas de juros anual, capitalizada mensalmente).
 
 Pressione as teclas:
-
 ```
 25 [i]
-12 [n]    (12 meses - taxa anual)
-3  [R/S]  (3 meses - taxa trimestral)
+12 [n]      (12 meses - taxa anual)
+3  [R/S]    (3 meses - taxa trimestral)
 ```
 
 O visor exibirá: 5,74 (taxas de juros anual, capitalizada mensalmente).
@@ -1414,17 +1303,15 @@ O visor exibirá: 5,74 (taxas de juros anual, capitalizada mensalmente).
 **Problema: Um aplicação financeira promete pagar 42% ao ano de juros. Sendo de um mês o prazo da aplicação, pede-se determinar a sua rentabilidade efetiva considerando os juros de 42% a. a. como taxa efetiva e taxa nominal.**
 
 Considerando 42% a.a. como taxa efetiva, pressione as teclas:
-
 ```
 42 [i]
-12 [n]    (12 meses - taxa anual)
-1  [R/S]  (1 mês - taxa mensal)
+12 [n]      (12 meses - taxa anual)
+1  [R/S]    (1 mês - taxa mensal)
 ```
 
 O visor exibirá: 2,97 (taxa ao mês).
 
 Considerando 42% a.a. como taxa nominal, pressione as teclas:
-
 ```
 42 [ENTER]
 12 [/]
@@ -1448,7 +1335,6 @@ Resposta: 3,7% (variação real).
 **Problema: Um banco informou que a rentabilidade de um determinado investimento foi de 12% ao ano, correspondendo aos juros nominais. No mesmo período, a inflação acumulada foi de 5%. Calcule os juros reais, ou seja, a rentabilidade efetiva do investimento descontando-se a inflação.**
 
 Pressione as teclas:
-
 ```
 12 [i]
 5  [R/S]
@@ -1463,7 +1349,6 @@ Resposta: 6,67% (taxa real de juros).
 **Problema: Considere um empréstimo de R$ 500.000,00, com taxa de juros de 2% ao mês e prazo total de 20 meses. Com base nessas condições, calcule o total de juros pagos até a 13ª parcela, bem como o valor total pago até essa mesma parcela. Considere o Sistema de Amortização Constante (SAC).**
 
 Pressione as teclas:
-
 ```
 500000 [PV]
 2      [i]
@@ -1480,7 +1365,6 @@ O visor exibirá: -416.000,00 (total pago até a 13ª parcela).
 **Problema: Considere um empréstimo no valor de R$350.000,00, com taxa de juros de 1% ao mês e prazo de 35 meses. Com base nesses dados, determine os juros pagos especificamente na 28ª parcela, bem como o valor total dessa parcela. Considere o Sistema de Amortização Constante (SAC).**
 
 Acumule as amortizações até a 27ª parcela, pressionando as teclas:
-
 ```
 350000 [PV]
 1      [i]
@@ -1489,7 +1373,6 @@ Acumule as amortizações até a 27ª parcela, pressionando as teclas:
 ```
 
 Em seguida, calcule somente a parcela 28, pressionando as teclas:
-
 ```
 1 [R/S]
 ```
@@ -1497,7 +1380,6 @@ Em seguida, calcule somente a parcela 28, pressionando as teclas:
 O visor exibirá: -800,00 (juros pagos somente na 28ª parcela).
 
 Pressione as teclas:
-
 ```
 [RCL] [PMT]
 ```
@@ -1507,7 +1389,6 @@ O visor exibirá: -10.800,00 (valor da 28ª parcela).
 **Problema: Considere um empréstimo no valor de R$ 320.000,00, com taxa de juros de 3% ao mês e prazo total de 42 meses. Com base nessas condições, calcule o total de juros pagos ao longo de todo o financiamento, assim como o valor total desembolsado com o pagamento das parcelas durante todo o período. Considere o Sistema de Amortização Constante (SAC).**
 
 Pressione as teclas:
-
 ```
 320000 [PV]
 3      [i]
@@ -1524,7 +1405,6 @@ O visor exibirá: -526.400,00 (total pago em parcelas ao longo de todo o financi
 **Problema: Considere um empréstimo no valor de R$260.000,00, com taxa de juros de 4% ao mês e prazo total de 38 meses. Com base nessas condições, calcule, para o período entre a 16ª e a 27ª parcela: o total de juros pagos, o total de amortizações realizadas e o valor total desembolsado com o pagamento dessas parcelas. Considere o Sistema de Amortização Constante (SAC).**
 
 Primeiro, amortize até a 15ª parcela, pressionando as teclas:
-
 ```
 260000 [PV]
 4      [i]
@@ -1533,7 +1413,6 @@ Primeiro, amortize até a 15ª parcela, pressionando as teclas:
 ```
 
 Em seguida, amortize da 16ª até a 27ª parcela (12 parcelas), pressionando as teclas:
-
 ```
 12 [R/S]
 ```
@@ -1553,7 +1432,6 @@ O visor exibirá: -139.578,95 (total pago em parcelas da 16ª à 27ª).
 **Problema: Qual seria o preço justo a ser pago em 28 de abril de 2025 por um título público do Tesouro Nacional, que possui uma taxa nominal de juros de 6,75% ao ano e vence em 14 de junho de 2038, caso você deseje obter uma taxa efetiva de retorno (YTM) de 4,75% ao ano? Além disso, calcule a taxa efetiva de retorno correspondente ao preço de mercado do título, dado como 122,125%. Considere que o formato de data é dia-mês-ano.**
 
 Pressione as teclas:
-
 ```
           [g] [D.MY]
 4,75      [i]
@@ -1571,7 +1449,6 @@ O visor exibirá: 121,87% (valor total, incluindo juros acumulados).
 Então, o preço justo a ser pago em 28/04/2025 para obter YTM de 4,75% ao ano é 121,87% do valor nominal.
 
 Calculando agora  a taxa efetiva de retorno considerando que o preço de mercado para o título de dívida é de 122,125%. Pressione as teclas:
-
 ```
           [g] [D.MY]
 122,125   [PV]
