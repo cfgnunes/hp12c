@@ -494,7 +494,7 @@ Pressione as teclas:
 
 Resposta: i = 5,9463 x 12 = 71,36%
 
-**Problema: Uma empresa contrata um empréstimo no valor de R$ 50.000,00, com prazo de vencimento de 3,5 anos. Sabendo que a taxa de juros é de 22% ao ano, com capitalização composta anual, determine o montante a ser pago ao final do período.**
+**Problema: Uma empresa contrata um empréstimo no valor de R$ 50.000,00, com prazo de vencimento de 3,5 anos. Sabendo que a taxa de juros é de 22% ao ano, com capitalização anual, determine o montante a ser pago ao final do período.**
 
 Dados do problema:
 - n = 3,5
@@ -507,7 +507,7 @@ Dados do problema:
 - Convenção linear: aplica-se juros compostos sobre a parte inteira do prazo, e juros simples sobre a fração restante.
 - Convenção exponencial: aplica-se juros compostos sobre todo o período, incluindo tanto a parte inteira quanto a fracionária.
 
-Utilizando a convenção exponencial. Pressione as teclas:
+Resolvendo o problema com a convenção exponencial. Pressione as teclas:
 ```
       [STO] [EEX]    (pressionar até aparecer o símbolo 'C' no visor)
 3,5   [n]
@@ -518,7 +518,7 @@ Utilizando a convenção exponencial. Pressione as teclas:
 
 Resposta: FV = -100.283,48
 
-Agora, utilizando a convenção linear. Pressione as teclas:
+Resolvendo o problema com a convenção linear. Pressione as teclas:
 ```
       [STO] [EEX]    (pressionar até apagar o símbolo 'C' no visor)
 3,5   [n]
@@ -588,7 +588,7 @@ Pressione as teclas:
 
 Resposta: FV = 106.752,47
 
-**Problema: Juliana quer se aposentar em 32 anos e planeja investir mensalmente em uma conta que rende 9% ao ano. Quanto precisa investir por mês para acumular R$ 2.000.000,00?**
+**Problema: Juliana quer se aposentar em 32 anos e planeja investir mensalmente em uma conta que rende 9% ao ano com capitalização mensal. Quanto precisa investir por mês para acumular R$ 2.000.000,00?**
 
 Dados do problema:
 - n = 32 x 12
@@ -706,10 +706,10 @@ Pressione as teclas:
 
 Resposta: PMT = -1.264,07
 
-**Problema: Você quer comprar um carro de R$ 28.000,00. A concessionária oferece taxa de 4% ao ano para 48 meses. Quais serão as parcelas fixas mensais?**
+**Problema: Você quer comprar um carro de R$ 28.000,00. A concessionária oferece uma taxa de 4% ao ano, com capitalização mensal, para 48 meses. Quais serão as parcelas fixas mensais?**
 
 Dados do problema:
-- n = 4 x 12
+- n = 48
 - i = 4 / 12
 - PV = 28.000
 - PMT = ?
@@ -717,7 +717,7 @@ Dados do problema:
 
 Pressione as teclas:
 ```
-4     [g] [12x]
+48    [n]
 4     [g] [12/]
 28000 [PV]
       [PMT]
@@ -744,7 +744,7 @@ Pressione as teclas:
          [i]
 ```
 
-Resposta: i = 2,85%
+Resposta: i = 2,85% (taxa mensal)
 
 **Parte 2:** Encontrar a nova quantidade de parcelas (amortização por tempo).
 
@@ -956,7 +956,7 @@ Pressione as teclas:
      [i]
 ```
 
-O visor exibirá:  2,59 (taxa mensal)
+O visor exibirá: 2,59 (taxa mensal)
 
 **Problema: Um veículo novo está sendo vendido por R$ 4.000,00 de entrada mais 6 pagamentos mensais, iguais e consecutivos de R$ 3.000,00. Sabendo-se que a taxa de juros de mercado é de 5,5% a.m., determinar até que preço interessa comprar o veículo a vista.**
 
