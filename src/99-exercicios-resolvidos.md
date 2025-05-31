@@ -1,6 +1,6 @@
-# Exercícios resolvidos com a HP 12c
+# Problemas resolvidos com a HP 12c
 
-O objetivo destes exercícios é apresentar, de forma prática e aplicada, as principais funções da calculadora HP 12c. Ao resolver os exercícios propostos, o usuário não apenas se familiariza com o uso da calculadora, mas também aprende, na prática, noções básicas importantes do universo financeiro.
+O objetivo destes exercícios é apresentar, de forma prática e aplicada, as principais funções da calculadora HP 12c. Ao resolver os problemas propostos, o usuário não apenas se familiariza com o uso da calculadora, mas também aprende, na prática, noções básicas importantes do universo financeiro.
 
 Antes de iniciar qualquer exercício envolvendo os registradores financeiros ou estatísticos, certifique-se de apagar os valores previamente armazenados na calculadora para evitar resultados incorretos. Para isso, pressione as teclas:
 
@@ -17,7 +17,7 @@ Os registradores financeiros da calculadora HP 12c representam os principais ele
 
 ## Cálculos com porcentagem
 
-**Em uma aplicação financeira, um investidor obteve um rendimento de R$ 10.000,00 sobre um capital total de R$ 250.000,00. Qual é o percentual que esse rendimento representa em relação ao valor investido?**
+**Problema: Em uma aplicação financeira, um investidor obteve um rendimento de R$ 10.000,00 sobre um capital total de R$ 250.000,00. Qual é o percentual que esse rendimento representa em relação ao valor investido?**
 
 Pressione as teclas:
 
@@ -28,7 +28,7 @@ Pressione as teclas:
 
 Resposta: 4% (percentual em relação ao total).
 
-**Durante um período de valorização imobiliária, uma casa adquirida por R$ 200.000,00 foi vendida por R$ 220.000,00. Qual foi o percentual de aumento no valor da casa em relação ao valor de aquisição?**
+**Problema: Durante um período de valorização imobiliária, uma casa adquirida por R$ 200.000,00 foi vendida por R$ 220.000,00. Qual foi o percentual de aumento no valor da casa em relação ao valor de aquisição?**
 
 Pressione as teclas:
 
@@ -39,7 +39,7 @@ Pressione as teclas:
 
 Resposta: 10% (variação percentual).
 
-**O preço de uma ação na bolsa de valores caiu de R$ 9,00 para R$ 8,00. Qual foi a variação percentual negativa (ou percentual de desvalorização) em relação ao preço inicial?**
+**Problema: O preço de uma ação na bolsa de valores caiu de R$ 9,00 para R$ 8,00. Qual foi a variação percentual negativa (ou percentual de desvalorização) em relação ao preço inicial?**
 
 Pressione as teclas:
 
@@ -50,7 +50,7 @@ Pressione as teclas:
 
 Resposta: -11,11% (variação percentual).
 
-**Em uma loja, um produto que custa R$ 400,00 está com um desconto de 15%. Qual é o valor correspondente a esse desconto? Calcule também o valor final já com o desconto.**
+**Problema: Em uma loja, um produto que custa R$ 400,00 está com um desconto de 15%. Qual é o valor correspondente a esse desconto? Calcule também o valor final já com o desconto.**
 
 Pressione as teclas:
 
@@ -67,7 +67,7 @@ O visor exibirá: 340,00 (valor final do produto com o desconto).
 
 ## Cálculos com datas
 
-**Se você comprasse uma opção para um terreno em 28 de maio de 2025, válida por 120 dias, qual seria a data de vencimento?**
+**Problema: Se você comprasse uma opção para um terreno em 28 de maio de 2025, válida por 120 dias, qual seria a data de vencimento?**
 
 Pressione as teclas:
 
@@ -81,7 +81,7 @@ O visor exibirá: 25.09.2025 4, representando a data de 25/09/2025. O número 4 
 
 **Nota:** Na calculadora HP 12c, os dias da semana são numerados de 1 a 7, correspondendo 1 à segunda-feira e 7 ao domingo.
 
-**Qual seria o número de dias entre 3 de junho de 2024 a 14 de outubro de 2025?**
+**Problema: Qual seria o número de dias entre 3 de junho de 2024 a 14 de outubro de 2025?**
 
 Pressione as teclas:
 
@@ -97,7 +97,7 @@ Para saber o número de dias baseado no ano comercial (mês de 30 dias), basta p
 
 O visor exibirá: 491 (número de dias baseado no ano comercial)
 
-**Hoje é 23 de outubro de 2024. O Sr. Carlos deseja agendar os próximos três encontros com seu cliente, respeitando um intervalo fixo de 21 dias entre cada reunião. Quais serão as datas desses encontros?**
+**Problema: Hoje é 23 de outubro de 2024. O Sr. Carlos deseja agendar os próximos três encontros com seu cliente, respeitando um intervalo fixo de 21 dias entre cada reunião. Quais serão as datas desses encontros?**
 
 Pressione as teclas:
 
@@ -129,7 +129,7 @@ O visor exibirá: 25.12.2024 (terceira data)
 
 ## Juros Simples
 
-**Um capital de R$ 80.000,00 é aplicado à taxa de 30% ao ano durante 90 dias. Determine o valor dos juros simples acumulados neste período.**
+**Problema: Um capital de R$ 80.000,00 é aplicado à taxa de 30% ao ano durante 90 dias. Determine o valor dos juros simples acumulados neste período.**
 
 Dados do problema:
 - C = -80.000
@@ -149,7 +149,7 @@ Resposta: R$ 6.000,00 (juros simples acumulados).
 
 ## Pagamentos únicos
 
-**As vendas de uma empresa foram de R$ 100 milhões. Se as vendas crescerem 8% ao ano, qual será o valor em 10 anos, em milhões?**
+**Problema: As vendas de uma empresa foram de R$ 100 milhões. Se as vendas crescerem 8% ao ano, qual será o valor em 10 anos, em milhões?**
 
 Dados do problema:
 - n = 10
@@ -169,7 +169,7 @@ Pressione as teclas:
 
 Resposta: FV = 215,89
 
-**Suponha que um título do governo pagará R$ 1.000,00 daqui a três anos. Se a taxa de juros dos títulos de 3 anos é de 4% ao ano, quanto vale esse título hoje?**
+**Problema: Suponha que um título do governo pagará R$ 1.000,00 daqui a três anos. Se a taxa de juros dos títulos de 3 anos é de 4% ao ano, quanto vale esse título hoje?**
 
 Dados do problema:
 - n = 3
@@ -189,7 +189,7 @@ Pressione as teclas:
 
 Resposta: PV = -889,00
 
-**O Tesouro Nacional oferece um título por R$ 613,81. Nenhum pagamento será feito até o vencimento, em 10 anos, quando será resgatado por R$ 1.000,00. Qual a taxa de juros efetiva anual desse título?**
+**Problema: O Tesouro Nacional oferece um título por R$ 613,81. Nenhum pagamento será feito até o vencimento, em 10 anos, quando será resgatado por R$ 1.000,00. Qual a taxa de juros efetiva anual desse título?**
 
 Dados do problema:
 
@@ -212,7 +212,7 @@ Resposta: i = 5%
 
 ## Pagamentos únicos: investimentos
 
-**Você investe R$ 5.000,00 em uma conta que rende 6% ao ano durante 8 anos. Qual será o valor ao final do período?**
+**Problema: Você investe R$ 5.000,00 em uma conta que rende 6% ao ano durante 8 anos. Qual será o valor ao final do período?**
 
 Dados do problema:
 
@@ -233,7 +233,7 @@ Pressione as teclas:
 
 Resposta: FV = 7.969,24
 
-**Você precisa de R$ 10.000,00 em 5 anos. A conta rende 7% ao ano. Quanto deve investir agora?**
+**Problema: Você precisa de R$ 10.000,00 em 5 anos. A conta rende 7% ao ano. Quanto deve investir agora?**
 
 Dados do problema:
 
@@ -254,7 +254,7 @@ Pressione as teclas:
 
 Resposta: PV = -7.129,86
 
-**Você investe R$ 2.000,00 e o valor cresce para R$ 2.800 em 4 anos. Qual foi a taxa de juros anual?**
+**Problema: Você investe R$ 2.000,00 e o valor cresce para R$ 2.800 em 4 anos. Qual foi a taxa de juros anual?**
 
 Dados do problema:
 
@@ -275,7 +275,7 @@ Pressione as teclas:
 
 Resposta: i = 8,78%
 
-**Em quanto tempo uma taxa de juros mensal de 2,6% dobraria o seu patrimônio?**
+**Problema: Em quanto tempo uma taxa de juros mensal de 2,6% dobraria o seu patrimônio?**
 
 Dados do problema:
 
@@ -298,7 +298,7 @@ O visor exibirá: 27,00 (meses para dobrar o patrimônio).
 
 **Nota:** A calculadora HP 12c retorna o valor 28, em vez de 27,005 (valor exato), porque arredonda o resultado para cima em cálculos que envolvem a determinação do número de períodos (n). Ela obtém apenas valores inteiros para n, sendo uma limitação da calculadora. Para realizar o cálculo exato, utilize o programa [Prazo Fracionário](./04-prazo-fracionario.md).
 
-**Você investe R$ 3.000,00 e o valor dobra para R$ 6.000,00 com juros de 9% ao ano. Quanto tempo levou?**
+**Problema: Você investe R$ 3.000,00 e o valor dobra para R$ 6.000,00 com juros de 9% ao ano. Quanto tempo levou?**
 
 Dados do problema:
 
@@ -321,7 +321,7 @@ Resposta: n = 8,04 (anos).
 
 **Nota:** A calculadora HP 12c retorna o valor 9, em vez de 8,04 (valor exato), porque arredonda o resultado para cima em cálculos que envolvem a determinação do número de períodos (n). Ela obtém apenas valores inteiros para n, sendo uma limitação da calculadora. Para realizar o cálculo exato, utilize o programa [Prazo Fracionário](./04-prazo-fracionario.md).
 
-**Você aplica R$ 1.000,00 por 10 anos em um banco que paga 5% ao ano, com pagamento no final do período. Quanto terá ao final?**
+**Problema: Você aplica R$ 1.000,00 por 10 anos em um banco que paga 5% ao ano, com pagamento no final do período. Quanto terá ao final?**
 
 Dados do problema:
 
@@ -342,7 +342,7 @@ Pressione as teclas:
 
 Resposta: FV = 1.628,89
 
-**O Sr. Carlos pretende investir R$ 10.000,00 em uma aplicação com juros compostos de 8% ao ano, capitalizados trimestralmente. Qual será o valor futuro após 5 anos?**
+**Problema: O Sr. Carlos pretende investir R$ 10.000,00 em uma aplicação com juros compostos de 8% ao ano, capitalizados trimestralmente. Qual será o valor futuro após 5 anos?**
 
 Dados do problema:
 
@@ -363,7 +363,7 @@ Pressione as teclas:
 
 Resposta: FV = 14.859,47
 
-**Quanto é preciso depositar hoje para ter R$ 8.000,00 em 5 anos, com juros de 6,5% ao ano capitalizados mensalmente?**
+**Problema: Quanto é preciso depositar hoje para ter R$ 8.000,00 em 5 anos, com juros de 6,5% ao ano capitalizados mensalmente?**
 
 Dados do problema:
 
@@ -384,7 +384,7 @@ Pressione as teclas:
 
 Resposta: PV = -5.785,29
 
-**O Sr. Roberto vai se aposentar em 20 anos e quer comprar uma casa de R$ 2.000.000,00. Quanto ele precisa investir hoje em um banco que paga 9% ao ano com capitalização semestral?**
+**Problema: O Sr. Roberto vai se aposentar em 20 anos e quer comprar uma casa de R$ 2.000.000,00. Quanto ele precisa investir hoje em um banco que paga 9% ao ano com capitalização semestral?**
 
 Dados do problema:
 
@@ -407,7 +407,7 @@ Resposta: PV = -343.857,40
 
 ## Pagamentos únicos: empréstimos
 
-**Você toma emprestado R$ 7.000,00 a uma taxa de 5% ao ano por 3 anos. Qual será o valor total a ser pago?**
+**Problema: Você toma emprestado R$ 7.000,00 a uma taxa de 5% ao ano por 3 anos. Qual será o valor total a ser pago?**
 
 Dados do problema:
 
@@ -428,7 +428,7 @@ Pressione as teclas:
 
 Resposta: FV = 8.103,38
 
-**Você deve pagar R$ 10.000,00 em 6 anos. A taxa anual juros é de 4%. Quanto pode pegar emprestado hoje?**
+**Problema: Você deve pagar R$ 10.000,00 em 6 anos. A taxa anual juros é de 4%. Quanto pode pegar emprestado hoje?**
 
 Dados do problema:
 
@@ -449,7 +449,7 @@ Pressione as teclas:
 
 Resposta: PV = 7.903,15
 
-**Você tomou R$ 1.500,00 emprestados e pagou R$ 1.800,00 após 2 anos. Qual foi a taxa de juros?**
+**Problema: Você tomou R$ 1.500,00 emprestados e pagou R$ 1.800,00 após 2 anos. Qual foi a taxa de juros?**
 
 Dados do problema:
 
@@ -470,7 +470,7 @@ Pressione as teclas:
 
 Resposta: i = 9,54%
 
-**Você tomou R$ 5.000,00 emprestados e pagou R$ 6.000,00 com juros anuais de 8%. Quanto tempo demorou?**
+**Problema: Você tomou R$ 5.000,00 emprestados e pagou R$ 6.000,00 com juros anuais de 8%. Quanto tempo demorou?**
 
 Dados do problema:
 
@@ -493,7 +493,7 @@ Resposta: n = 2,37 (anos).
 
 **Nota:** A calculadora HP 12c retorna o valor 3, em vez de 2,37 (valor exato), porque arredonda o resultado para cima em cálculos que envolvem a determinação do número de períodos (n). Ela obtém apenas valores inteiros para n, sendo uma limitação da calculadora. Para realizar o cálculo exato, utilize o programa [Prazo Fracionário](./04-prazo-fracionario.md).
 
-**Se João empresta R$ 1.500,00 a um amigo com taxa de 4,3% ao ano, capitalizada mensalmente, quanto de juros terá ao final de um ano?**
+**Problema: Se João empresta R$ 1.500,00 a um amigo com taxa de 4,3% ao ano, capitalizada mensalmente, quanto de juros terá ao final de um ano?**
 
 Dados do problema:
 
@@ -517,7 +517,7 @@ Pressione as teclas:
 Resposta:
 Juros = 1.565,79 (FV) - 1.500,00 (PV) = 65,79
 
-**Lucas pegou R$ 600,00 emprestados no banco e esse valor quadruplicou em 2 anos, com capitalização mensal. Qual foi a taxa de juros?**
+**Problema: Lucas pegou R$ 600,00 emprestados no banco e esse valor quadruplicou em 2 anos, com capitalização mensal. Qual foi a taxa de juros?**
 
 Dados do problema:
 
@@ -539,7 +539,7 @@ Pressione as teclas:
 
 Resposta: i = 5,9463 x 12 = 71,36%
 
-**Uma empresa contrata um empréstimo no valor de R$ 50.000,00, com prazo de vencimento de 3,5 anos. Sabendo que a taxa de juros é de 22% ao ano, com capitalização composta anual, determine o montante a ser pago ao final do período.**
+**Problema: Uma empresa contrata um empréstimo no valor de R$ 50.000,00, com prazo de vencimento de 3,5 anos. Sabendo que a taxa de juros é de 22% ao ano, com capitalização composta anual, determine o montante a ser pago ao final do período.**
 
 Dados do problema:
 
@@ -579,7 +579,7 @@ Resposta: FV = -100.779,56
 
 ## Anuidade ordinária: investimentos
 
-**André deposita R$ 22.000,00 ao final de cada ano por 7 anos, em uma conta que rende 6% ao ano. Quanto ele terá ao final do período?**
+**Problema: André deposita R$ 22.000,00 ao final de cada ano por 7 anos, em uma conta que rende 6% ao ano. Quanto ele terá ao final do período?**
 
 Dados do problema:
 
@@ -600,7 +600,7 @@ Pressione as teclas:
 
 Resposta: FV = 184.664,43
 
-**Marcela deposita R$ 1.200,00 no final de cada trimestre por 10 anos, em uma conta que rende 8% ao ano com capitalização trimestral. Quanto terá ao final do período?**
+**Problema: Marcela deposita R$ 1.200,00 no final de cada trimestre por 10 anos, em uma conta que rende 8% ao ano com capitalização trimestral. Quanto terá ao final do período?**
 
 Dados do problema:
 
@@ -621,7 +621,7 @@ Pressione as teclas:
 
 Resposta: FV = 72.482,38
 
-**Carlos quer se aposentar em 20 anos e, para isso, deposita R$ 200,00 no final de cada mês em um fundo que rende 7,2% ao ano com capitalização mensal. Quanto terá ao se aposentar?**
+**Problema: Carlos quer se aposentar em 20 anos e, para isso, deposita R$ 200,00 no final de cada mês em um fundo que rende 7,2% ao ano com capitalização mensal. Quanto terá ao se aposentar?**
 
 Dados do problema:
 
@@ -642,7 +642,7 @@ Pressione as teclas:
 
 Resposta: FV = 106.752,47
 
-**Juliana quer se aposentar em 32 anos e planeja investir mensalmente em uma conta que rende 9% ao ano. Quanto precisa investir por mês para acumular R$ 2.000.000,00?**
+**Problema: Juliana quer se aposentar em 32 anos e planeja investir mensalmente em uma conta que rende 9% ao ano. Quanto precisa investir por mês para acumular R$ 2.000.000,00?**
 
 Dados do problema:
 
@@ -665,7 +665,7 @@ Resposta: PMT = -902,32
 
 ## Anuidade ordinária: aposentadorias
 
-**Você pode comprar uma anuidade que paga R$ 1.000,00 no final de cada ano por 5 anos. Se você pode ganhar 6% ao ano em outros investimentos de mesmo risco, qual o valor máximo que deve pagar?**
+**Problema: Você pode comprar uma anuidade que paga R$ 1.000,00 no final de cada ano por 5 anos. Se você pode ganhar 6% ao ano em outros investimentos de mesmo risco, qual o valor máximo que deve pagar?**
 
 Dados do problema:
 
@@ -686,7 +686,7 @@ Pressione as teclas:
 
 Resposta: PV = -4.212,36
 
-**Você herdou R$ 200.000,00 e investe a 6% ao ano. Quanto pode sacar no final de cada um dos próximos 15 anos?**
+**Problema: Você herdou R$ 200.000,00 e investe a 6% ao ano. Quanto pode sacar no final de cada um dos próximos 15 anos?**
 
 Dados do problema:
 
@@ -709,7 +709,7 @@ Resposta: PMT = -20.592,55
 
 ## Anuidade ordinária: financiamentos e empréstimos
 
-**Determinado bem é vendido em 7 pagamentos mensais, iguais e consecutivos de R$ 4.000,00. Para uma taxa de juros de 2,6% a.m., até que preço compensa adquirir o aparelho a vista?**
+**Problema: Determinado bem é vendido em 7 pagamentos mensais, iguais e consecutivos de R$ 4.000,00. Para uma taxa de juros de 2,6% a.m., até que preço compensa adquirir o aparelho a vista?**
 
 Dados do problema:
 
@@ -730,7 +730,7 @@ Pressione as teclas:
 
 Resposta: PV = 25,301,17 (compensa comprar até esse preço, comprando a vista)
 
-**Um empréstimo de R$ 20.000,00 é concedido para pagamento em 5 prestações mensais, iguais e sucessivas de $ 4.300,00. Calcular o custo mensal deste empréstimo.**
+**Problema: Um empréstimo de R$ 20.000,00 é concedido para pagamento em 5 prestações mensais, iguais e sucessivas de $ 4.300,00. Calcular o custo mensal deste empréstimo.**
 
 Dados do problema:
 
@@ -751,7 +751,7 @@ Pressione as teclas:
 
 Resposta: i = 2,46% (ao mês).
 
-**Você está comprando sua primeira casa por R$ 220.000,00 e pagará R$ 30.000,00 de entrada. Vai financiar os R$ 190.000,00 restantes em um empréstimo de 30 anos, com taxa nominal de 7% ao ano e parcelas fixas mensais (tabela Price). Qual será o valor das parcelas mensais?**
+**Problema: Você está comprando sua primeira casa por R$ 220.000,00 e pagará R$ 30.000,00 de entrada. Vai financiar os R$ 190.000,00 restantes em um empréstimo de 30 anos, com taxa nominal de 7% ao ano e parcelas fixas mensais (tabela Price). Qual será o valor das parcelas mensais?**
 
 Dados do problema:
 
@@ -772,7 +772,7 @@ Pressione as teclas:
 
 Resposta: PMT = -1.264,07
 
-**Você quer comprar um carro de R$ 28.000,00. A concessionária oferece taxa de 4% ao ano para 48 meses. Quais serão as parcelas fixas mensais?**
+**Problema: Você quer comprar um carro de R$ 28.000,00. A concessionária oferece taxa de 4% ao ano para 48 meses. Quais serão as parcelas fixas mensais?**
 
 Dados do problema:
 
@@ -793,7 +793,7 @@ Pressione as teclas:
 
 Resposta: PMT = -632,21
 
-**Maria possui um empréstimo consignado, com 96 parcelas fixas (tabela Price) de R$ 1.340,00, das quais já pagou 13, restando um saldo devedor de R$ 42.458,51. Determine a taxa de juros anual com capitalização mensal e, em seguida, calcule quantas parcelas seriam eliminadas caso ela amortizasse R$ 1.000,00 hoje, utilizando amortização por tempo. Calcule também o novo valor da parcela caso ela optasse por realizar a amortização por valor da parcela.**
+**Problema: Maria possui um empréstimo consignado, com 96 parcelas fixas (tabela Price) de R$ 1.340,00, das quais já pagou 13, restando um saldo devedor de R$ 42.458,51. Determine a taxa de juros anual com capitalização mensal e, em seguida, calcule quantas parcelas seriam eliminadas caso ela amortizasse R$ 1.000,00 hoje, utilizando amortização por tempo. Calcule também o novo valor da parcela caso ela optasse por realizar a amortização por valor da parcela.**
 
 Parte 1: Encontrando primeiro a taxa de juros. Dados do problema:
 
@@ -851,7 +851,7 @@ Resposta: PMT = -1.308,48 (novo valor da parcela após amortização por parcela
 
 ## Anuidade ordinária com carência: financiamentos e empréstimos
 
-**Um veículo pode ser comercializado em 36 prestações mensais de R$ 1.980,00 cada uma. Sabendo que a loja usa taxa de 1,45% ao mês e que há 1 mês de carência antes do pagamento da primeira prestação, encontre o valor à vista do veículo.**
+**Problema: Um veículo pode ser comercializado em 36 prestações mensais de R$ 1.980,00 cada uma. Sabendo que a loja usa taxa de 1,45% ao mês e que há 1 mês de carência antes do pagamento da primeira prestação, encontre o valor à vista do veículo.**
 
 Pressione as teclas:
 
@@ -867,7 +867,7 @@ Resposta: R$ 54.437,52
 
 **Nota:** Observe neste exercício que é possível calcular o Valor Presente mesmo quando os valores dos pagamentos são diferentes, calculando o Valor Presente Líquido (VPL) por meio da análise do fluxo de caixa. Quando o investimento inicial (CFo) é igual a zero, o Valor Presente Líquido (VPL) será igual ao Valor Presente, pois VPL=VP-CFo.
 
-**Um financiamento será quitado em 12 parcelas mensais fixas de R$ 200,00, com carência de 3 meses, ou seja, o pagamento da primeira parcela ocorre no quarto mês após a liberação do crédito. Considerando uma taxa de juros de 3,5% ao mês, determine o valor presente desse financiamento no momento da liberação dos recursos.**
+**Problema: Um financiamento será quitado em 12 parcelas mensais fixas de R$ 200,00, com carência de 3 meses, ou seja, o pagamento da primeira parcela ocorre no quarto mês após a liberação do crédito. Considerando uma taxa de juros de 3,5% ao mês, determine o valor presente desse financiamento no momento da liberação dos recursos.**
 
 Pressione as teclas:
 
@@ -882,7 +882,7 @@ Pressione as teclas:
 
 Resposta: R$ 1.743,15
 
-**Um professor comprou um computador em uma loja especializada em 10 prestações mensais de R$ 100,00 cada uma, sendo a primeira prestação paga 4 meses após a compra. Por ser compra a prazo, a loja cobra taxa de 36% ao ano capitalizada mensalmente. Encontre o valor à vista do computador.**
+**Problema: Um professor comprou um computador em uma loja especializada em 10 prestações mensais de R$ 100,00 cada uma, sendo a primeira prestação paga 4 meses após a compra. Por ser compra a prazo, a loja cobra taxa de 36% ao ano capitalizada mensalmente. Encontre o valor à vista do computador.**
 
 Pressione as teclas:
 
@@ -899,7 +899,7 @@ Resposta: R$ 780,63
 
 ## Anuidade antecipada: investimentos
 
-**Com uma taxa de juros de 0,75% ao mês, quanto deve ser depositado mensalmente (no início do mês) para atingir R$ 100.000,00 em 5 anos?**
+**Problema: Com uma taxa de juros de 0,75% ao mês, quanto deve ser depositado mensalmente (no início do mês) para atingir R$ 100.000,00 em 5 anos?**
 
 Dados do problema:
 
@@ -921,7 +921,7 @@ Pressione as teclas:
 
 Resposta: PMT = -1.315,97
 
-**Com uma taxa de juros de 1% ao mês, quanto deve ser depositado mensalmente (no início do mês) para acumular R$ 1.000.000,00 em 20 anos?**
+**Problema: Com uma taxa de juros de 1% ao mês, quanto deve ser depositado mensalmente (no início do mês) para acumular R$ 1.000.000,00 em 20 anos?**
 
 Dados do problema:
 
@@ -943,7 +943,7 @@ Pressione as teclas:
 
 Resposta: PMT = -1.000,85
 
-**Ricardo deposita R$ 500,00 no início de cada trimestre durante 7 anos, em uma conta com juros de 12% ao ano, capitalizados trimestralmente. Quanto ele terá ao final do período?**
+**Problema: Ricardo deposita R$ 500,00 no início de cada trimestre durante 7 anos, em uma conta com juros de 12% ao ano, capitalizados trimestralmente. Quanto ele terá ao final do período?**
 
 Dados do problema:
 
@@ -965,7 +965,7 @@ Pressione as teclas:
 
 Resposta: FV = 22.109,43
 
-**Uma turma de Engenharia Civil, visando sua formatura, depositou R$ 10.000,00 hoje, numa instituição financeira e mais R$ 5.400,00 no inicio de cada mês a contar de hoje, durante 12 meses. Se a instituição financeira paga juro de 1,5% ao mês, quanto terá a turma no fim do contrato.**
+**Problema: Uma turma de Engenharia Civil, visando sua formatura, depositou R$ 10.000,00 hoje, numa instituição financeira e mais R$ 5.400,00 no inicio de cada mês a contar de hoje, durante 12 meses. Se a instituição financeira paga juro de 1,5% ao mês, quanto terá a turma no fim do contrato.**
 
 Dados do problema:
 
@@ -989,7 +989,7 @@ Resposta: R$ 83.435,06
 
 ## Análise da decisão entre pagamento à vista e parcelado
 
-**Pagar a vista ou parcelar? Você tem duas opções para adquirir um plano anual de academia: pagar à vista o valor total de R$ 1.560,00 ou parcelar em 12 vezes mensais de R$ 130,00 (sem juros na parcela). Considerando que você dispõe do valor total e tem a possibilidade de investi-lo em uma aplicação com rendimento de 0,7% ao mês, qual é a vantagem financeira (ou custo de oportunidade) de optar pelo parcelamento em vez do pagamento à vista?**
+**Problema: Pagar a vista ou parcelar? Você tem duas opções para adquirir um plano anual de academia: pagar à vista o valor total de R$ 1.560,00 ou parcelar em 12 vezes mensais de R$ 130,00 (sem juros na parcela). Considerando que você dispõe do valor total e tem a possibilidade de investi-lo em uma aplicação com rendimento de 0,7% ao mês, qual é a vantagem financeira (ou custo de oportunidade) de optar pelo parcelamento em vez do pagamento à vista?**
 
 Dados do problema:
 
@@ -1021,7 +1021,7 @@ O visor exibirá: 68,72 (diferença entre o valor à vista e o valor presente da
 
 **Nota:** A diferença entre o valor à vista e o valor presente das parcelas representa o custo de oportunidade de pagar parcelado, ou seja, o quanto você perde financeiramente por não investir os R$ 1.560 à 9% ao ano).
 
-**O vendedor de uma loja, vende um aparelho eletrônico com as seguintes condições: pagamento à vista de R$ 1,300.00 ou em 3 parcelas de R$ 456.00 (sem entrada). Qual é a taxa cobrada no parcelamento?**
+**Problema: O vendedor de uma loja, vende um aparelho eletrônico com as seguintes condições: pagamento à vista de R$ 1,300.00 ou em 3 parcelas de R$ 456.00 (sem entrada). Qual é a taxa cobrada no parcelamento?**
 
 Dados do problema:
 
@@ -1042,7 +1042,7 @@ Pressione as teclas:
 
 O visor exibirá:  2,59 (taxa mensal)
 
-**Um veículo novo está sendo vendido por R$ 4.000,00 de entrada mais 6 pagamentos mensais, iguais e consecutivos de R$ 3.000,00. Sabendo-se que a taxa de juros de mercado é de 5,5% a.m., determinar até que preço interessa comprar o veículo a vista.**
+**Problema: Um veículo novo está sendo vendido por R$ 4.000,00 de entrada mais 6 pagamentos mensais, iguais e consecutivos de R$ 3.000,00. Sabendo-se que a taxa de juros de mercado é de 5,5% a.m., determinar até que preço interessa comprar o veículo a vista.**
 
 Pressione as teclas:
 
@@ -1058,7 +1058,7 @@ Resposta: R$ 18.986,59
 
 ## Análise de fluxo de caixa
 
-**(análise do VPL) Uma empresa está avaliando um projeto de instalação de painéis solares em uma fábrica de médio porte para reduzir os custos com eletricidade. O investimento inicial para o projeto é de R$ 500.000,00. A expectativa é que o projeto gere uma economia anual de R$ 120.000,00 em custos de energia durante os próximos 6 anos. Ao final do sexto ano, os painéis terão um valor residual de R$ 50.000,00 (valor de revenda ou sucata). A empresa definiu uma taxa mínima de atratividade (TMA) de 10% ao ano para esse tipo de projeto. Com base nas informações, calcule o Valor Presente Líquido (VPL) e diga se o investimento é viável.**
+**Problema: (análise do VPL) Uma empresa está avaliando um projeto de instalação de painéis solares em uma fábrica de médio porte para reduzir os custos com eletricidade. O investimento inicial para o projeto é de R$ 500.000,00. A expectativa é que o projeto gere uma economia anual de R$ 120.000,00 em custos de energia durante os próximos 6 anos. Ao final do sexto ano, os painéis terão um valor residual de R$ 50.000,00 (valor de revenda ou sucata). A empresa definiu uma taxa mínima de atratividade (TMA) de 10% ao ano para esse tipo de projeto. Com base nas informações, calcule o Valor Presente Líquido (VPL) e diga se o investimento é viável.**
 
 Pressione as teclas:
 
@@ -1075,7 +1075,7 @@ Resposta: VPL = 48.289,19
 
 O VPL é positivo. Isso significa que o projeto é viável financeiramente, pois traz um retorno superior à taxa mínima exigida de 10% ao ano. A empresa pode prosseguir com o investimento.
 
-**(análise do VPL) O investidor Carlos está analisando a compra de um imóvel com 4 lojas comerciais, todas prontas para locação. O preço de compra do imóvel é de R$ 1.000.000,00. Carlos estima que conseguirá alugar cada loja por R$ 4.000,00 por mês, totalizando R$ 16.000,00 por mês, ou seja, R$ 192.000,00 por ano. Ele acredita que conseguirá manter a ocupação total por 10 anos, ao final dos quais planeja vender o imóvel por R$ 600.000,00. Carlos quer saber se esse investimento é viável financeiramente, considerando sua taxa mínima de atratividade (TMA) de 9% ao ano.**
+**Problema: (análise do VPL) O investidor Carlos está analisando a compra de um imóvel com 4 lojas comerciais, todas prontas para locação. O preço de compra do imóvel é de R$ 1.000.000,00. Carlos estima que conseguirá alugar cada loja por R$ 4.000,00 por mês, totalizando R$ 16.000,00 por mês, ou seja, R$ 192.000,00 por ano. Ele acredita que conseguirá manter a ocupação total por 10 anos, ao final dos quais planeja vender o imóvel por R$ 600.000,00. Carlos quer saber se esse investimento é viável financeiramente, considerando sua taxa mínima de atratividade (TMA) de 9% ao ano.**
 
 Pressione as teclas:
 
@@ -1092,7 +1092,7 @@ Resposta: VPL = 464.709,99
 
 O VPL é positivo. Isso significa que o projeto é viável financeiramente, pois traz um retorno superior à taxa mínima exigida de 9% ao ano.
 
-**(cálculo de TIR) Determinar a Taxa Interna de Retorno (TIR) referente a um empréstimo de R$ 126.900,00 a ser liquidado em quatro pagamentos mensais e consecutivos de R$ 25.000,00, R$ 38.000,00, R$ 45.000,00 e R$ 27.000,00.**
+**Problema: (cálculo de TIR) Determinar a Taxa Interna de Retorno (TIR) referente a um empréstimo de R$ 126.900,00 a ser liquidado em quatro pagamentos mensais e consecutivos de R$ 25.000,00, R$ 38.000,00, R$ 45.000,00 e R$ 27.000,00.**
 
 Pressione as teclas:
 
@@ -1107,7 +1107,7 @@ Pressione as teclas:
 
 Resposta: TIR = 2,47% ao mês.
 
-**(cálculo de TIR) Um empréstimo de R$ 5.000,00 será quitado em 4 parcelas mensais, conforme a tabela a seguir. Calcule a taxa de juros mensal equivalente aplicada nesse financiamento.**
+**Problema: (cálculo de TIR) Um empréstimo de R$ 5.000,00 será quitado em 4 parcelas mensais, conforme a tabela a seguir. Calcule a taxa de juros mensal equivalente aplicada nesse financiamento.**
 
 | Mês | Valor da Parcela (R$) |
 | --- | --------------------- |
@@ -1129,7 +1129,7 @@ Pressione as teclas:
 
 Resposta: 10,44% (taxa mensal)
 
-**(cálculo de VPL, TIR e Payback) Você está avaliando a compra de um equipamento no valor de R$ 100.000,00 para aumentar a produção da sua empresa. Esse investimento promete um retorno anual de R$ 18.000,00 por 10 anos. Com base nessas informações, calcule o Valor Presente Líquido (VPL), a Taxa Interna de Retorno (TIR) e o *Payback* Simples (tempo necessário para recuperar o valor investido sem considerar o valor do dinheiro no tempo). A empresa considera o custo de oportunidade ou retorno requirido de 10% ao ano.**
+**Problema: (cálculo de VPL, TIR e Payback) Você está avaliando a compra de um equipamento no valor de R$ 100.000,00 para aumentar a produção da sua empresa. Esse investimento promete um retorno anual de R$ 18.000,00 por 10 anos. Com base nessas informações, calcule o Valor Presente Líquido (VPL), a Taxa Interna de Retorno (TIR) e o *Payback* Simples (tempo necessário para recuperar o valor investido sem considerar o valor do dinheiro no tempo). A empresa considera o custo de oportunidade ou retorno requirido de 10% ao ano.**
 
 Encontrando o Valor Presente Líquido (VPL). Pressione as teclas:
 
@@ -1161,7 +1161,7 @@ No caso de fluxos de caixa constantes (iguais a cada período), o cálculo pode 
 
 Resposta: 5,56 (anos para recuperar o valor investido)
 
-**(valor futuro com pagamentos irregulares) Um investidor realiza 4 depósitos mensais consecutivos em uma aplicação financeira que rende 1% ao mês, com capitalização mensal. Cada pagamento é feito ao final de cada mês conforme os dados abaixo. Calcule o valor futuro total acumulado ao final do período, após o último depósito.**
+**Problema: (valor futuro com pagamentos irregulares) Um investidor realiza 4 depósitos mensais consecutivos em uma aplicação financeira que rende 1% ao mês, com capitalização mensal. Cada pagamento é feito ao final de cada mês conforme os dados abaixo. Calcule o valor futuro total acumulado ao final do período, após o último depósito.**
 
 | Mês | Depósitos (R$) |
 | --- | -------------- |
@@ -1189,7 +1189,7 @@ Resposta: R$ 2035,22
 
 ## Cálculo de depreciação
 
-**Uma clínica médica adquiriu um aparelho de ultrassom por R$ 120.000,00, com vida útil estimada de 6 anos e valor de sucata de R$ 12.000,00. Deseja-se calcular, utilizando o método linear de depreciação, o valor da depreciação anual e o valor estimado do equipamento ao final do quarto ano de uso.**
+**Problema: Uma clínica médica adquiriu um aparelho de ultrassom por R$ 120.000,00, com vida útil estimada de 6 anos e valor de sucata de R$ 12.000,00. Deseja-se calcular, utilizando o método linear de depreciação, o valor da depreciação anual e o valor estimado do equipamento ao final do quarto ano de uso.**
 
 Pressione as teclas:
 
@@ -1212,7 +1212,7 @@ Pressione as teclas:
 
 O visor exibirá: R$ 48.000,00 (valor estimado do bem ao final do terceiro ano).
 
-**Uma empresa adquiriu um veículo de entrega por R$ 100.000,00 com vida útil estimada de 8 anos e valor residual de R$ 40.000,00. Deseja-se calcular, utilizando o método da soma dos dígitos dos anos, o valor da depreciação correspondente ao terceiro ano de uso, bem como o valor de revenda do veículo ao final desse ano.**
+**Problema: Uma empresa adquiriu um veículo de entrega por R$ 100.000,00 com vida útil estimada de 8 anos e valor residual de R$ 40.000,00. Deseja-se calcular, utilizando o método da soma dos dígitos dos anos, o valor da depreciação correspondente ao terceiro ano de uso, bem como o valor de revenda do veículo ao final desse ano.**
 
 Pressione as teclas:
 
@@ -1235,7 +1235,7 @@ Pressione as teclas:
 
 O visor exibirá: R$ 65.000,00 (valor de revenda do veículo ao final desse ano).
 
-**Uma máquina para trabalhar metal, comprada por R$ 10.000, é depreciada durante 5 anos. Seu valor de revenda após vida útil é estimado em R$ 500. Calcule a depreciação e o valor residual no terceiro ano da vida útil da máquina usando o método de saldos decrescentes com o dobro da taxa linear (um saldo decrescente de 200%).**
+**Problema: Uma máquina para trabalhar metal, comprada por R$ 10.000, é depreciada durante 5 anos. Seu valor de revenda após vida útil é estimado em R$ 500. Calcule a depreciação e o valor residual no terceiro ano da vida útil da máquina usando o método de saldos decrescentes com o dobro da taxa linear (um saldo decrescente de 200%).**
 
 **Nota:** O valor residual é o valor contábil menos o valor de revenda após vida útil (valor de sucata).
 
@@ -1257,7 +1257,7 @@ O visor exibirá: R$ 1.660,00 (valor residual depois do terceiro ano).
 
 ## Cálculos estatísticos
 
-**(estatística descritiva) Você decidiu analisar seus gastos mensais com supermercado para entender melhor seus hábitos de consumo e planejar melhor seu orçamento. Durante quatro meses, você anotou o quanto gastou em cada visita ao supermercado. Com base nos dados a seguir, calcule o gasto médio mensal com supermercado:**
+**Problema: (estatística descritiva) Você decidiu analisar seus gastos mensais com supermercado para entender melhor seus hábitos de consumo e planejar melhor seu orçamento. Durante quatro meses, você anotou o quanto gastou em cada visita ao supermercado. Com base nos dados a seguir, calcule o gasto médio mensal com supermercado:**
 
 | Mês | Gasto (R$) |
 | --- | ---------- |
@@ -1278,7 +1278,7 @@ Pressione as teclas:
 
 Resposta: R$ 212,51 (valor médio)
 
-**(estatística descritiva) Você decide analisar o comportamento de duas ações da bolsa de valores. Seu objetivo é comparar a média dos preços e a volatilidade (medida pelo desvio padrão) dessas ações em um período recente. Qual das duas apresentou maior variação de preço (ou seja, maior desvio padrão) e qual foi o preço médio de cada ação nesse período?**
+**Problema: (estatística descritiva) Você decide analisar o comportamento de duas ações da bolsa de valores. Seu objetivo é comparar a média dos preços e a volatilidade (medida pelo desvio padrão) dessas ações em um período recente. Qual das duas apresentou maior variação de preço (ou seja, maior desvio padrão) e qual foi o preço médio de cada ação nesse período?**
 
 | Semana | Ação Y | Ação X |
 | ------ | ------ | ------ |
@@ -1313,7 +1313,7 @@ Pressione a tecla: `[x><y]`
 
 O visor exibirá: 28,40 (preço médio da Ação Y)
 
-**(regressão linear) Você deseja entender como sua renda mensal influencia o valor que consegue poupar ao final de cada mês. Nos últimos meses, registrou sua renda mensal e o valor correspondente economizado no período. Com base nesses dados, utilize um modelo de regressão linear simples para prever quanto conseguirá poupar caso sua renda seja de R$ 4.000,00. Estime também qual deveria ser sua renda para alcançar uma poupança de R$ 800,00.**
+**Problema: (regressão linear) Você deseja entender como sua renda mensal influencia o valor que consegue poupar ao final de cada mês. Nos últimos meses, registrou sua renda mensal e o valor correspondente economizado no período. Com base nesses dados, utilize um modelo de regressão linear simples para prever quanto conseguirá poupar caso sua renda seja de R$ 4.000,00. Estime também qual deveria ser sua renda para alcançar uma poupança de R$ 800,00.**
 
 | Renda (R$) | Poupança (R$) |
 | ---------- | ------------- |
@@ -1340,7 +1340,7 @@ O visor exibirá: 4.694,53 (renda estimada para obter uma poupança de R$ 800,00
 
 **Nota:** Para saber se a estimativa feita pela regressão linear é confiável, é importante observar o **coeficiente de correlação**. Esse número mostra o quanto os dados seguem uma linha reta. Se ele estiver próximo de 1 ou de -1, significa que os pontos estão bem alinhados e a previsão tende a ser precisa. Mas se estiver próximo de 0, os dados estão espalhados e o modelo não é muito confiável para fazer previsões. Para visualizar o valor do coeficiente, basta pressionar a tecla `[x><y]`.
 
-**(média ponderada) João realizou três compras de ações de uma mesma empresa na bolsa de valores, em momentos diferentes, com preços e quantidades distintas. Agora, ele deseja saber qual foi o preço médio de aquisição das ações, para uma possível venda futura. Desconsidere outras possíveis taxas.**
+**Problema: (média ponderada) João realizou três compras de ações de uma mesma empresa na bolsa de valores, em momentos diferentes, com preços e quantidades distintas. Agora, ele deseja saber qual foi o preço médio de aquisição das ações, para uma possível venda futura. Desconsidere outras possíveis taxas.**
 
 A tabela abaixo resume as compras feitas:
 
@@ -1365,7 +1365,7 @@ O visor exibirá: 16,38 (preço médio).
 
 **Nota:** Para os exercícios a seguir, utilize o programa [Taxas Equivalentes](./01-taxas-equivalentes.md).
 
-**Você possui uma taxa de 1% ao mês e deseja saber qual é a taxa anual equivalente.**
+**Problema: Você possui uma taxa de 1% ao mês e deseja saber qual é a taxa anual equivalente.**
 
 Pressione as teclas:
 
@@ -1377,7 +1377,7 @@ Pressione as teclas:
 
 O visor exibirá: 12,68 (taxa equivalente anual).
 
-**Você possui uma taxa de 12% ao ano e deseja saber qual é a taxa mensal equivalente.**
+**Problema: Você possui uma taxa de 12% ao ano e deseja saber qual é a taxa mensal equivalente.**
 
 Pressione as teclas:
 
@@ -1389,7 +1389,7 @@ Pressione as teclas:
 
 O visor exibirá: 0,95 (taxa equivalente mensal).
 
-**Quais as taxas de juros compostos mensal e trimestral equivalentes a 25% ao ano?**
+**Problema: Quais as taxas de juros compostos mensal e trimestral equivalentes a 25% ao ano?**
 
 Pressione as teclas:
 
@@ -1411,7 +1411,7 @@ Pressione as teclas:
 
 O visor exibirá: 5,74 (taxas de juros anual, capitalizada mensalmente).
 
-**Um aplicação financeira promete pagar 42% ao ano de juros. Sendo de um mês o prazo da aplicação, pede-se determinar a sua rentabilidade efetiva considerando os juros de 42% a. a. como taxa efetiva e taxa nominal.**
+**Problema: Um aplicação financeira promete pagar 42% ao ano de juros. Sendo de um mês o prazo da aplicação, pede-se determinar a sua rentabilidade efetiva considerando os juros de 42% a. a. como taxa efetiva e taxa nominal.**
 
 Considerando 42% a.a. como taxa efetiva, pressione as teclas:
 
@@ -1436,7 +1436,7 @@ O visor exibirá: 2,97 (taxa ao mês).
 
 **Nota:** Para os exercícios a seguir, utilize o programa [Rentabilidade Real](./05-rentabilidade-real.md).
 
-**Determinar a variação real do poder aquisitivo de um assalariado que obtém, em determinado semestre, um reajuste salarial de 12%, admitindo que a inflação do período tenha atingido a 8%.**
+**Problema: Determinar a variação real do poder aquisitivo de um assalariado que obtém, em determinado semestre, um reajuste salarial de 12%, admitindo que a inflação do período tenha atingido a 8%.**
 
 ```
 12 [i]
@@ -1445,7 +1445,7 @@ O visor exibirá: 2,97 (taxa ao mês).
 
 Resposta: 3,7% (variação real).
 
-**Um banco informou que a rentabilidade de um determinado investimento foi de 12% ao ano, correspondendo aos juros nominais. No mesmo período, a inflação acumulada foi de 5%. Calcule os juros reais, ou seja, a rentabilidade efetiva do investimento descontando-se a inflação.**
+**Problema: Um banco informou que a rentabilidade de um determinado investimento foi de 12% ao ano, correspondendo aos juros nominais. No mesmo período, a inflação acumulada foi de 5%. Calcule os juros reais, ou seja, a rentabilidade efetiva do investimento descontando-se a inflação.**
 
 Pressione as teclas:
 
@@ -1460,7 +1460,7 @@ Resposta: 6,67% (taxa real de juros).
 
 **Nota:** Para os exercícios a seguir, utilize o programa [Sistema de Amortização Constante (SAC)](./03-tabela-sac.md).
 
-**Considere um empréstimo de R$ 500.000,00, com taxa de juros de 2% ao mês e prazo total de 20 meses. Com base nessas condições, calcule o total de juros pagos até a 13ª parcela, bem como o valor total pago até essa mesma parcela. Considere o Sistema de Amortização Constante (SAC).**
+**Problema: Considere um empréstimo de R$ 500.000,00, com taxa de juros de 2% ao mês e prazo total de 20 meses. Com base nessas condições, calcule o total de juros pagos até a 13ª parcela, bem como o valor total pago até essa mesma parcela. Considere o Sistema de Amortização Constante (SAC).**
 
 Pressione as teclas:
 
@@ -1477,7 +1477,7 @@ Pressione a tecla: `[+]`
 
 O visor exibirá: -416.000,00 (total pago até a 13ª parcela).
 
-**Considere um empréstimo no valor de R$350.000,00, com taxa de juros de 1% ao mês e prazo de 35 meses. Com base nesses dados, determine os juros pagos especificamente na 28ª parcela, bem como o valor total dessa parcela. Considere o Sistema de Amortização Constante (SAC).**
+**Problema: Considere um empréstimo no valor de R$350.000,00, com taxa de juros de 1% ao mês e prazo de 35 meses. Com base nesses dados, determine os juros pagos especificamente na 28ª parcela, bem como o valor total dessa parcela. Considere o Sistema de Amortização Constante (SAC).**
 
 Acumule as amortizações até a 27ª parcela, pressionando as teclas:
 
@@ -1504,7 +1504,7 @@ Pressione as teclas:
 
 O visor exibirá: -10.800,00 (valor da 28ª parcela).
 
-**Considere um empréstimo no valor de R$ 320.000,00, com taxa de juros de 3% ao mês e prazo total de 42 meses. Com base nessas condições, calcule o total de juros pagos ao longo de todo o financiamento, assim como o valor total desembolsado com o pagamento das parcelas durante todo o período. Considere o Sistema de Amortização Constante (SAC).**
+**Problema: Considere um empréstimo no valor de R$ 320.000,00, com taxa de juros de 3% ao mês e prazo total de 42 meses. Com base nessas condições, calcule o total de juros pagos ao longo de todo o financiamento, assim como o valor total desembolsado com o pagamento das parcelas durante todo o período. Considere o Sistema de Amortização Constante (SAC).**
 
 Pressione as teclas:
 
@@ -1521,7 +1521,7 @@ Pressione a tecla: `[+]`
 
 O visor exibirá: -526.400,00 (total pago em parcelas ao longo de todo o financiamento).
 
-**Considere um empréstimo no valor de R$260.000,00, com taxa de juros de 4% ao mês e prazo total de 38 meses. Com base nessas condições, calcule, para o período entre a 16ª e a 27ª parcela: o total de juros pagos, o total de amortizações realizadas e o valor total desembolsado com o pagamento dessas parcelas. Considere o Sistema de Amortização Constante (SAC).**
+**Problema: Considere um empréstimo no valor de R$260.000,00, com taxa de juros de 4% ao mês e prazo total de 38 meses. Com base nessas condições, calcule, para o período entre a 16ª e a 27ª parcela: o total de juros pagos, o total de amortizações realizadas e o valor total desembolsado com o pagamento dessas parcelas. Considere o Sistema de Amortização Constante (SAC).**
 
 Primeiro, amortize até a 15ª parcela, pressionando as teclas:
 
@@ -1550,7 +1550,7 @@ O visor exibirá: -139.578,95 (total pago em parcelas da 16ª à 27ª).
 
 ## Cálculos para títulos de dívida
 
-**Qual seria o preço justo a ser pago em 28 de abril de 2025 por um título público do Tesouro Nacional, que possui uma taxa nominal de juros de 6,75% ao ano e vence em 14 de junho de 2038, caso você deseje obter uma taxa efetiva de retorno (YTM) de 4,75% ao ano? Além disso, calcule a taxa efetiva de retorno correspondente ao preço de mercado do título, dado como 122,125%. Considere que o formato de data é dia-mês-ano.**
+**Problema: Qual seria o preço justo a ser pago em 28 de abril de 2025 por um título público do Tesouro Nacional, que possui uma taxa nominal de juros de 6,75% ao ano e vence em 14 de junho de 2038, caso você deseje obter uma taxa efetiva de retorno (YTM) de 4,75% ao ano? Além disso, calcule a taxa efetiva de retorno correspondente ao preço de mercado do título, dado como 122,125%. Considere que o formato de data é dia-mês-ano.**
 
 Pressione as teclas:
 
