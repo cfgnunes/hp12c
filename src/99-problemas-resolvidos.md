@@ -1,6 +1,6 @@
 # Problemas resolvidos com a HP 12c
 
-O objetivo destes exercícios é apresentar, de forma prática e aplicada, as principais funções da calculadora HP 12c. Ao resolver os problemas propostos, o usuário não apenas se familiariza com o uso da calculadora, mas também aprende, na prática, noções básicas importantes do universo financeiro.
+O objetivo destes exercícios é apresentar, de forma prática e aplicada, as principais funções da calculadora HP 12c. Ao resolver os problemas propostos, o usuário não apenas se familiariza com o uso da calculadora, mas também aprende, na prática, noções básicas do universo financeiro.
 
 Antes de iniciar qualquer exercício envolvendo os registradores financeiros ou estatísticos, certifique-se de apagar os valores previamente armazenados na calculadora para evitar resultados incorretos. Para isso, pressione as teclas:
 ```
