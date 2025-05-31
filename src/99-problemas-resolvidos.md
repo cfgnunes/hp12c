@@ -347,8 +347,8 @@ Dados do problema:
 
 Pressione as teclas:
 ```
-5 [ENTER] 4 [x] [n]
-8 [ENTER] 4 [/] [i]
+5           [ENTER] 4 [x] [n]
+8           [ENTER] 4 [/] [i]
 10000 [CHS] [PV]
             [FV]
 ```
@@ -385,10 +385,10 @@ Dados do problema:
 
 Pressione as teclas:
 ```
-20 [ENTER] 2 [x] [n]
-9  [ENTER] 2 [/] [i]
-2  [EEX] 6 [FV]
-   [PV]
+20      [ENTER] 2 [x] [n]
+9       [ENTER] 2 [/] [i]
+2000000 [FV]
+        [PV]
 ```
 
 Resposta: PV = -343.857,40
