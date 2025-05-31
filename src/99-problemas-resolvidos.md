@@ -767,7 +767,7 @@ Resposta: PMT = -186,89
 
 **Problema: Maria possui um empréstimo consignado, com 96 parcelas fixas (tabela Price) de R$ 1.340,00, das quais já pagou 13, restando um saldo devedor de R$ 42.458,51. Determine a taxa de juros anual com capitalização mensal e, em seguida, calcule quantas parcelas seriam eliminadas caso ela amortizasse R$ 1.000,00 hoje, utilizando amortização por tempo. Calcule também o novo valor da parcela caso ela optasse por realizar a amortização por valor da parcela.**
 
-**Parte 1:** Encontrar a taxa de juros.
+**Etapa 1:** Encontrar a taxa de juros.
 
 Dados do problema:
 - n = 83 (96 - 13)
@@ -786,7 +786,7 @@ Pressione as teclas:
 
 Resposta: i = 2,85% (taxa mensal)
 
-**Parte 2:** Encontrar a nova quantidade de parcelas (amortização por tempo).
+**Etapa 2:** Encontrar a nova quantidade de parcelas (amortização por tempo).
 
 Dados do problema:
 - n = ?
@@ -804,7 +804,7 @@ Pressione as teclas:
 
 O visor exibirá: n = 76. Logo, 83-76 = 7 parcelas eliminadas (amortização por tempo).
 
-**Parte 3:** Encontrar o novo valor da parcela (amortização por valor da parcela).
+**Etapa 3:** Encontrar o novo valor da parcela (amortização por valor da parcela).
 
 Dados do problema:
 - n = 83 (96 - 13)
@@ -823,7 +823,7 @@ Resposta: PMT = -1.308,48 (novo valor da parcela após amortização por parcela
 
 **Problema: Após uma consideração cuidadosa de suas finanças você decidiu que o pagamento máximo mensal que pode assumir é de R$ 630,00. Você pode dar uma entrada de R$ 12.000,00 e a taxa nominal de juro está fixada em 11,5% ao ano. Se você fizer um financiamento de 30 anos, qual será o valor máximo da compra que você poderá fazer?**
 
-**Parte 1:** Encontrar o valor presente desconsiderando a entrada de R$ 12.000,00.
+**Etapa 1:** Encontrar o valor presente desconsiderando a entrada de R$ 12.000,00.
 
 Dados do problema:
 - n = 30 x 12
@@ -842,7 +842,7 @@ Pressione as teclas:
 
 O visor exibirá: PV = 63.617,64
 
-**Parte 2:** Somar o valor de entrada R$ 12.000,00 ao valor presente.
+**Etapa 2:** Somar o valor de entrada R$ 12.000,00 ao valor presente.
 
 Pressione as teclas:
 ```
@@ -1111,6 +1111,29 @@ Pressione as teclas:
 
 Resposta: 10,44% (taxa mensal)
 
+**Problema: (cálculo de TIR) Você recebeu uma oferta para investir R$ 20.000,00. O investimento oferece um retorno de pagamentos trimestrais durante quatro anos, conforme a tabela abaixo. Calcule a taxa anual nominal de retorno para este investimento.**
+
+| Ano | Pagamentos | Valor por Pagamento |
+| --- | ---------- | ------------------- |
+| 1   | 4          | R$ 500,00           |
+| 2   | 4          | R$ 1.000,00         |
+| 3   | 4          | R$ 2.000,00         |
+| 4   | 4          | R$ 3.000,00         |
+
+Pressione as teclas:
+```
+20000 [CHS] [g] [CFo]
+500         [g] [CFj]
+4           [g] [Nj]
+1000        [g] [CFj]
+4           [g] [Nj]
+3000        [g] [CFj]
+4           [g] [Nj]
+            [f] [IRR]
+```
+
+Resposta TIR = 2,43% (taxa trimestral) x 4 = 9,72% (taxa anual nominal)
+
 **Problema: (cálculo de VPL, TIR e Payback) Você está avaliando a compra de um equipamento no valor de R$ 100.000,00 para aumentar a produção da sua empresa. Esse investimento promete um retorno anual de R$ 18.000,00 por 10 anos. Com base nessas informações, calcule o Valor Presente Líquido (VPL), a Taxa Interna de Retorno (TIR) e o *Payback* Simples (tempo necessário para recuperar o valor investido sem considerar o valor do dinheiro no tempo). A empresa considera o custo de oportunidade ou retorno requirido de 10% ao ano.**
 
 Encontrando o Valor Presente Líquido (VPL). Pressione as teclas:
@@ -1175,7 +1198,7 @@ Pressione as teclas:
 120000 [PV]
 12000  [FV]
 6      [n]
-4      [f] [DEPRECIATION SL]
+4      [f] [DEPREC. SL]
 ```
 
 O visor exibirá: R$ 18.000,00 (depreciação correspondente ao terceiro ano).
@@ -1196,7 +1219,7 @@ Pressione as teclas:
 100000 [PV]
 40000  [FV]
 8      [n]
-3      [f] [DEPRECIATION SOYD]
+3      [f] [DEPREC. SOYD]
 ```
 
 O visor exibirá: R$ 10.000,00 (depreciação correspondente ao terceiro ano).
@@ -1210,6 +1233,20 @@ Pressione as teclas:
 
 O visor exibirá: R$ 65.000,00 (valor de revenda do veículo ao final desse ano).
 
+**Problema: Uma câmera cinematográfica comprada por R$ 12.000,00 tem uma vida útil de 10 anos com um valor residual de R$ 500,00. Utilizando o método da soma dos dígitos dos anos, calcule o valor da depreciação para o quarto ano.**
+
+**Etapa 1:** Encontrar a depreciação do quarto ano.
+
+Pressione as teclas:
+```
+12000 [PV]
+500   [FV]
+10    [n]
+4     [f] [DEPREC. SOYD]
+```
+
+O visor exibirá: R$ 1.463,64 (depreciação no quarto ano).
+
 **Problema: Uma máquina para trabalhar metal, comprada por R$ 10.000, é depreciada durante 5 anos. Seu valor de revenda após vida útil é estimado em R$ 500. Calcule a depreciação e o valor residual no terceiro ano da vida útil da máquina usando o método de saldos decrescentes com o dobro da taxa linear (um saldo decrescente de 200%).**
 
 **Nota:** O valor residual é o valor contábil menos o valor de revenda após vida útil (valor de sucata).
@@ -1220,7 +1257,7 @@ Pressione as teclas:
 500   [FV]
 5     [n]
 200   [i]
-2     [f] [DEPRECIATION DB]
+2     [f] [DEPREC. DB]
 ```
 
 O visor exibirá: R$ 1.440,00 (depreciação no terceiro ano).
@@ -1330,6 +1367,19 @@ Pressione as teclas:
 ```
 
 O visor exibirá: 16,38 (preço médio).
+
+**Problema: (média ponderada) Uma pesquisa de preço de aluguel de 266 apartamentos de um quarto revelou que 54 estavam alugados por R$ 200,00 por mês, 32 por R$ 205,00, 88 por R$ 210,00 e 92 por R$ 216,00. Qual é a media de aluguel mensal?**
+
+Pressione as teclas:
+```
+200 [ENTER] 54 [Σ+]
+205 [ENTER] 32 [Σ+]
+210 [ENTER] 88 [Σ+]
+216 [ENTER] 92 [Σ+]
+    [g] [x̄ w]
+```
+
+O visor exibirá: 209,44 (media de aluguel).
 
 ## Taxas equivalentes
 
@@ -1573,7 +1623,7 @@ O visor exibirá: 4,50% (A taxa efetiva do título de dívida ou *Yield To Matur
 
 **Problema: Sua filha irá para a universidade dentro de 12 anos e você inicia uma poupança com essa finalidade. Ela precisará de R$ 5.000,00 no início de cada mês, durante cinco anos. A poupança rende juros de 1% ao mês, e você planeja efetuar depósitos mensais, começando no final do mês. Quanto você deverá depositar cada mês para poder custear as despesas com a universidade de sua filha no futuro?**
 
-**Parte 1:** Encontrar o valor presente no momento do último depósito para realizar as retiradas durante o período da faculdade (com pagamentos no início do período).
+**Etapa 1:** Encontrar o valor presente no momento do último depósito para realizar as retiradas durante o período da faculdade (com pagamentos no início do período).
 
 Dados do problema:
 - n = 5 x 12
@@ -1593,7 +1643,7 @@ Pressione as teclas:
 
 O visor exibirá: -227.022,94
 
-**Parte 2:** Encontrar o valor final após os depósitos de investimento (com depósitos no final do período).
+**Etapa 2:** Encontrar o valor final após os depósitos de investimento (com depósitos no final do período).
 
 Dados do problema:
 - n = 12 x 12
