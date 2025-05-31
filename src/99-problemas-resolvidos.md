@@ -727,7 +727,9 @@ Resposta: PMT = -632,21
 
 **Problema: Maria possui um empréstimo consignado, com 96 parcelas fixas (tabela Price) de R$ 1.340,00, das quais já pagou 13, restando um saldo devedor de R$ 42.458,51. Determine a taxa de juros anual com capitalização mensal e, em seguida, calcule quantas parcelas seriam eliminadas caso ela amortizasse R$ 1.000,00 hoje, utilizando amortização por tempo. Calcule também o novo valor da parcela caso ela optasse por realizar a amortização por valor da parcela.**
 
-Parte 1: Encontrando primeiro a taxa de juros. Dados do problema:
+**Parte 1:** Encontrar a taxa de juros.
+
+Dados do problema:
 - n = 83 (96 - 13)
 - i = ?
 - PV = 42.458,51
@@ -744,7 +746,9 @@ Pressione as teclas:
 
 Resposta: i = 2,85%
 
-Parte 2: Encontrando a nova quantidade de parcelas (amortização por tempo). Dados do problema:
+**Parte 2:** Encontrar a nova quantidade de parcelas (amortização por tempo).
+
+Dados do problema:
 - n = ?
 - i = 2,85
 - PV = 41.458,51 (retirado R$ 1.000,00 do saldo devedor de R$ 42.458,51)
@@ -760,7 +764,9 @@ Pressione as teclas:
 
 O visor exibirá: n = 76. Logo, 83-76 = 7 parcelas eliminadas (amortização por tempo).
 
-Parte 3: Encontrando o novo valor da parcela (amortização por valor da parcela). Dados do problema:
+**Parte 3:** Encontrar o novo valor da parcela (amortização por valor da parcela).
+
+Dados do problema:
 - n = 83 (96 - 13)
 - i = 2,85
 - PV = 41.458,51 (retirado R$ 1.000,00 do saldo devedor de R$ 42.458,51)
