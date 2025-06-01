@@ -1134,7 +1134,7 @@ Pressione as teclas:
 
 Resposta TIR = 2,43% (taxa trimestral) x 4 = 9,72% (taxa anual)
 
-**Problema: (cálculo de VPL, TIR e Payback) Você está avaliando a compra de um equipamento no valor de R$ 100.000,00 para aumentar a produção da sua empresa. Esse investimento promete um retorno anual de R$ 18.000,00 por 10 anos. Com base nessas informações, calcule o Valor Presente Líquido (VPL), a Taxa Interna de Retorno (TIR) e o *Payback* Simples (tempo necessário para recuperar o valor investido sem considerar o valor do dinheiro no tempo). A empresa considera o custo de oportunidade ou retorno requirido de 10% ao ano.**
+**Problema: (cálculo de VPL, TIR e Payback) Você está avaliando a compra de um equipamento no valor de R$ 100.000,00 para aumentar a produção da sua empresa. Esse investimento promete um retorno anual de R$ 18.000,00 por 10 anos. Com base nessas informações, calcule o Valor Presente Líquido (VPL), a Taxa Interna de Retorno (TIR) e o *Payback* Simples[^7] (tempo necessário para recuperar o valor investido sem considerar o valor do dinheiro no tempo). A empresa considera o custo de oportunidade ou retorno requirido de 10% ao ano.**
 
 Encontrando o Valor Presente Líquido (VPL). Pressione as teclas:
 ```
@@ -1729,3 +1729,5 @@ Resposta: PMT = 289,19
 [^5]: **Leasing.** O *leasing* é uma forma de financiamento onde uma empresa (a financeira) compra um bem (por exemplo, um carro) e o cede ao usuário (arrendatário) para uso, mediante pagamentos periódicos. Funciona como um aluguel com opção de compra no final do contrato. Durante o contrato, o usuário paga uma espécie de "aluguel" (as parcelas do *leasing*) e, ao final do período, pode optar por comprar o bem pagando um valor residual acordado.
 
 [^6]: **Anuidade ordinária**. Uma anuidade ordinária é um tipo de investimento ou empréstimo em que pagamentos iguais são feitos em intervalos regulares, como todo mês ou todo ano, e esses pagamentos acontecem no final de cada período. Por exemplo, se você fizer um pagamento todo mês no fim do mês por um certo tempo, isso é uma anuidade ordinária. Ela é muito usada para calcular valores de empréstimos, financiamentos e investimentos que envolvem pagamentos periódicos.
+
+[^7]: **Payback simples**. O *payback* simples é uma forma fácil de calcular quanto tempo leva para um investimento recuperar o dinheiro que foi gasto nele. Basicamente, ele mostra em quantos meses ou anos o valor investido volta, considerando apenas os ganhos ou economias gerados pelo projeto, sem descontar juros ou inflação. Além do *payback* simples, existe também o *payback* descontado, que leva em conta o valor do dinheiro no tempo, ou seja, considera os juros para fazer uma análise mais precisa do retorno do investimento.
