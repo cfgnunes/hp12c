@@ -550,7 +550,7 @@ Resolvendo o problema com a convenção linear. Pressione as teclas:
 
 Resposta: FV = -100.779,56
 
-## Anuidade ordinária: investimentos
+## Anuidade ordinária[^6]: investimentos
 
 **Problema: André deposita R$ 22.000,00 ao final de cada ano por 7 anos, em uma conta que rende 6% ao ano. Quanto ele terá ao final do período?**
 
@@ -1727,3 +1727,5 @@ Resposta: PMT = 289,19
 [^4]: **Yield To Maturity.** A *Yield To Maturity* (YTM) representa a taxa efetiva do título de dívida. Ela reflete o rendimento (*yield*) do título de renda fixa até seu vencimento (*maturity*).
 
 [^5]: **Leasing.** O *leasing* é uma forma de financiamento onde uma empresa (a financeira) compra um bem (por exemplo, um carro) e o cede ao usuário (arrendatário) para uso, mediante pagamentos periódicos. Funciona como um aluguel com opção de compra no final do contrato. Durante o contrato, o usuário paga uma espécie de "aluguel" (as parcelas do *leasing*) e, ao final do período, pode optar por comprar o bem pagando um valor residual acordado.
+
+[^6]: **Anuidade ordinária**. Uma anuidade ordinária é um tipo de investimento ou empréstimo em que pagamentos iguais são feitos em intervalos regulares, como todo mês ou todo ano, e esses pagamentos acontecem no final de cada período. Por exemplo, se você fizer um pagamento todo mês no fim do mês por um certo tempo, isso é uma anuidade ordinária. Ela é muito usada para calcular valores de empréstimos, financiamentos e investimentos que envolvem pagamentos periódicos.
