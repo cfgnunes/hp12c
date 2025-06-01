@@ -1510,34 +1510,53 @@ Resposta: 6,67% (taxa real de juros).
 
 ## Financiamentos e empréstimos com o Sistema de Amortização Francês (SAF)
 
+**Problema: Qual é o pagamento mensal necessário para amortizar completamente uma hipoteca no valor de R$ 30.000,00, por um prazo de 30 anos, se a taxa nominal de juro é de 12%?**
+
+Dados do problema:
+- n = 30 x 12
+- i = 12 / 12
+- PV = 30.000
+- PMT = ?
+- FV = 0
+
+Pressione as teclas:
+```
+30    [g] [12x]
+12    [g] [12/]
+30000 [PV]
+      [PMT]        (encontra o valor das parcelas fixas)
+```
+
+Resposta: PMT = -308,58 (valor das parcelas fixas).
+
 **Problema: Você assumiu, na compra de uma casa, uma hipoteca[^5] de 25 anos de R$ 75.250,00 com juros nominais de 13,8% ao ano. Você estima morar na casa por 4 anos e depois vendê-la, liquidando o empréstimo. Qual será o valor da liquidação ao final de quatro anos? (considere as parcelas fixas, usando o sistema de amortização francês)**
 
 **Nota:** Este problema consiste em encontrar o saldo devedor após 4 anos (48 meses) de financiamento.
 
 Pressione as teclas:
 ```
-25          [g] [12x]
-13,8        [g] [12/]
-75250 [CHS] [PV]
-            [PMT]          (encontra o valor das parcelas fixas)
-48          [f] [AMORT]    (amortização de 48 meses)
-            [RCL] [PV]     (exibe o saldo devedor)
+25    [g] [12x]
+13,8  [g] [12/]
+75250 [PV]
+      [PMT]          (encontra o valor das parcelas fixas)
+48    [f] [AMORT]    (amortização de 48 meses)
+      [RCL] [PV]     (exibe o saldo devedor)
 ```
 
-Resposta: R$ -73.408,83 (valor da liquidação ao final de quatro anos, saldo devedor)
+Resposta: R$ 73.408,83 (valor da liquidação ao final de quatro anos, saldo devedor)
 
 **Nota:** Como alternativa, você pode usar o programa [Sistema de Amortização Francês (SAF)](./02-tabela-price.md). Diferentemente da função AMORT da HP 12c, este programa calcula o valor exato sem realizar iterações, evitando erros de arredondamento. Além disso, não é necessário informar o valor das parcelas (PMT). Confira o procedimento a seguir:
 
 Pressione as teclas:
 ```
-25          [g] [12x]
-13,8        [g] [12/]
-75250 [CHS] [PV]
-48          [R/S]          (amortização de 48 meses)
-            [RCL] [PV]     (exibe o saldo devedor)
+25    [g] [12x]
+13,8  [g] [12/]
+75250 [PV]
+48    [R/S]          (amortização de 48 meses)
+      [RCL] [PV]     (exibe o saldo devedor)
 ```
 
-Resposta: R$ -73.408,78 (valor da liquidação ao final de quatro anos, saldo devedor)
+Resposta: R$ 73.408,78 (valor da liquidação ao final de quatro anos, saldo devedor)
 
 ## Financiamentos e empréstimos com o Sistema de Amortização Constante (SAC)
 
