@@ -1346,7 +1346,7 @@ Pressione as teclas: `800 [g] [ŷ,r]`
 
 O visor exibirá: 4.694,53 (renda estimada para obter uma poupança de R$ 800,00).
 
-Para visualizar o valor do coeficiente de correlação[^5], basta pressionar a tecla `[x><y]`.
+Para visualizar o valor do coeficiente de correlação[^2], basta pressionar a tecla `[x><y]`.
 
 **Problema: (média ponderada) João realizou três compras de ações de uma mesma empresa na bolsa de valores, em momentos diferentes, com preços e quantidades distintas. Agora, ele deseja saber qual foi o preço médio de aquisição das ações, para uma possível venda futura. Desconsidere outras possíveis taxas.**
 
@@ -1507,7 +1507,7 @@ Resposta: 6,67% (taxa real de juros).
 
 ## Financiamentos e empréstimos com o Sistema de Amortização Francês (SAF)
 
-**Problema: Você assumiu, na compra de uma casa, uma hipoteca[^2] de 25 anos de R$ 75.250,00 com juros nominais de 13,8% ao ano. Você estima morar na casa por 4 anos e depois vendê-la, liquidando o empréstimo. Qual será o valor da liquidação ao final de quatro anos? (considere as parcelas fixas, usando o sistema de amortização francês)**
+**Problema: Você assumiu, na compra de uma casa, uma hipoteca[^3] de 25 anos de R$ 75.250,00 com juros nominais de 13,8% ao ano. Você estima morar na casa por 4 anos e depois vendê-la, liquidando o empréstimo. Qual será o valor da liquidação ao final de quatro anos? (considere as parcelas fixas, usando o sistema de amortização francês)**
 
 **Nota:** Este problema consiste em encontrar o saldo devedor após 4 anos (48 meses) de financiamento.
 
@@ -1623,7 +1623,7 @@ O visor exibirá: -139.578,95 (total pago em parcelas da 16ª à 27ª).
 
 ## Cálculos para títulos de dívida
 
-**Problema: Qual seria o preço justo a ser pago em 28 de abril de 2025 por um título público do Tesouro Nacional, que possui uma taxa nominal de juros de 6,75% ao ano e vence em 14 de junho de 2038, caso você deseje obter uma taxa efetiva de retorno (YTM)[^3] de 4,75% ao ano? Além disso, calcule a taxa efetiva de retorno correspondente ao preço de mercado do título, dado como 122,125%. Considere que o formato de data é dia-mês-ano.**
+**Problema: Qual seria o preço justo a ser pago em 28 de abril de 2025 por um título público do Tesouro Nacional, que possui uma taxa nominal de juros de 6,75% ao ano e vence em 14 de junho de 2038, caso você deseje obter uma taxa efetiva de retorno (YTM)[^4] de 4,75% ao ano? Além disso, calcule a taxa efetiva de retorno correspondente ao preço de mercado do título, dado como 122,125%. Considere que o formato de data é dia-mês-ano.**
 
 Pressione as teclas:
 ```
@@ -1697,7 +1697,7 @@ Pressione as teclas:
 
 Resposta: R$ 711,53 (depositar cada mês para poder custear as despesas com a universidade da filha)
 
-**Problema: Um carro novo que custa R$ 13.500,00 pode ser adquirido através de um *leasing*[^4] de 3 anos, com a opção de compra ao final do período por R$ 7.500,00. Se a financeira quiser obter um rendimento anual nominal de 14%, qual deverá ser o valor dos pagamentos mensais, com um pagamento antecipado? Calcule o valor do pagamento sob o ponto de vista da financeira. Utilize o modo início (BEGIN), porque o primeiro pagamento é devido na assinatura do contrato.**
+**Problema: Um carro novo que custa R$ 13.500,00 pode ser adquirido através de um *leasing*[^5] de 3 anos, com a opção de compra ao final do período por R$ 7.500,00. Se a financeira quiser obter um rendimento anual nominal de 14%, qual deverá ser o valor dos pagamentos mensais, com um pagamento antecipado? Calcule o valor do pagamento sob o ponto de vista da financeira. Utilize o modo início (BEGIN), porque o primeiro pagamento é devido na assinatura do contrato.**
 
 Dados do problema:
 - n = 3 x 12
@@ -1720,10 +1720,10 @@ Resposta: PMT = 289,19
 
 [^1]: **Taxa nominal e taxa efetiva.** A taxa nominal é a taxa de juros divulgada numa base anual, mas que considera capitalização periódica (como mensal ou trimestral). Já a taxa efetiva representa o juro real acumulado, levando em conta a frequência com que os juros são capitalizados durante o ano. Por exemplo, uma taxa nominal de 12% ao ano com capitalização mensal significa que os juros são aplicados mensalmente. Existem esses dois tipos porque a taxa nominal facilita a divulgação e a comparação de ofertas financeiras, simplificando contratos que têm capitalização em períodos menores.
 
-[^2]: **Hipoteca e Alienação Fiduciária.** A hipoteca e a alienação fiduciária são formas de garantia usadas em financiamentos. Na hipoteca, o bem fica no nome do devedor, e o credor precisa entrar com ação judicial se o pagamento não for feito. Já na alienação fiduciária, o bem é transferido ao credor em caráter provisório até a quitação da dívida, o que facilita a retomada do bem em caso de inadimplência, sem necessidade de processo judicial. No Brasil, a alienação fiduciária é a forma mais usada por ser mais rápida e segura para os credores.
+[^2]: **Coeficiente de correlação.** Para saber se a estimativa feita pela regressão linear é confiável, é importante observar o coeficiente de correlação. Esse número mostra o quanto os dados seguem uma linha reta. Se ele estiver próximo de 1 ou de -1, significa que os pontos estão bem alinhados e a previsão tende a ser precisa. Mas se estiver próximo de 0, os dados estão espalhados e o modelo não é muito confiável para fazer previsões.
 
-[^3]: **Yield To Maturity.** A *Yield To Maturity* (YTM) representa a taxa efetiva do título de dívida. Ela reflete o rendimento (*yield*) do título de renda fixa até seu vencimento (*maturity*).
+[^3]: **Hipoteca e Alienação Fiduciária.** A hipoteca e a alienação fiduciária são formas de garantia usadas em financiamentos. Na hipoteca, o bem fica no nome do devedor, e o credor precisa entrar com ação judicial se o pagamento não for feito. Já na alienação fiduciária, o bem é transferido ao credor em caráter provisório até a quitação da dívida, o que facilita a retomada do bem em caso de inadimplência, sem necessidade de processo judicial. No Brasil, a alienação fiduciária é a forma mais usada por ser mais rápida e segura para os credores.
 
-[^4]: **Leasing.** O *leasing* é uma forma de financiamento onde uma empresa (a financeira) compra um bem (por exemplo, um carro) e o cede ao usuário (arrendatário) para uso, mediante pagamentos periódicos. Funciona como um aluguel com opção de compra no final do contrato. Durante o contrato, o usuário paga uma espécie de "aluguel" (as parcelas do *leasing*) e, ao final do período, pode optar por comprar o bem pagando um valor residual acordado.
+[^4]: **Yield To Maturity.** A *Yield To Maturity* (YTM) representa a taxa efetiva do título de dívida. Ela reflete o rendimento (*yield*) do título de renda fixa até seu vencimento (*maturity*).
 
-[^5]: **Coeficiente de correlação.** Para saber se a estimativa feita pela regressão linear é confiável, é importante observar o coeficiente de correlação. Esse número mostra o quanto os dados seguem uma linha reta. Se ele estiver próximo de 1 ou de -1, significa que os pontos estão bem alinhados e a previsão tende a ser precisa. Mas se estiver próximo de 0, os dados estão espalhados e o modelo não é muito confiável para fazer previsões.
+[^5]: **Leasing.** O *leasing* é uma forma de financiamento onde uma empresa (a financeira) compra um bem (por exemplo, um carro) e o cede ao usuário (arrendatário) para uso, mediante pagamentos periódicos. Funciona como um aluguel com opção de compra no final do contrato. Durante o contrato, o usuário paga uma espécie de "aluguel" (as parcelas do *leasing*) e, ao final do período, pode optar por comprar o bem pagando um valor residual acordado.
