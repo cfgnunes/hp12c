@@ -62,7 +62,7 @@ Pressione as teclas:
 2,6       [i]
 1   [CHS] [PV]
 2         [FV]
-          [R/S]
+          [R/S]    (executa o programa)
 ```
 
 O visor exibirá: 27,00 (meses para dobrar o patrimônio).
@@ -81,7 +81,7 @@ Pressione as teclas:
 9          [i]
 3000 [CHS] [PV]
 6000       [FV]
-           [n]
+           [R/S]    (executa o programa)
 ```
 
 Resposta: n = 8,04 (anos).

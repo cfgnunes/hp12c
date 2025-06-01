@@ -51,7 +51,8 @@ Onde:
 Pressione as teclas:
 ```
 12 [i]
-5  [R/S]
+5
+   [R/S]    (executa o programa)
 ```
 
 Resposta: 6,67% (taxa real de juros).

@@ -268,7 +268,7 @@ Pressione as teclas:
 2,6       [i]
 1   [CHS] [PV]
 2         [FV]
-          [R/S]
+          [n]
 ```
 
 O visor exibirá: 27,00 (meses para dobrar o patrimônio).
@@ -1288,7 +1288,7 @@ Pressione as teclas:
 
 Resposta: R$ 212,51 (valor médio)
 
-**Problema: (estatística descritiva) Você decide analisar o comportamento de duas ações da bolsa de valores. Seu objetivo é comparar a média dos preços e a volatilidade (medida pelo desvio padrão) dessas ações em um período recente. Qual das duas apresentou maior variação de preço (ou seja, maior desvio padrão) e qual foi o preço médio de cada ação nesse período?**
+**Problema: (estatística descritiva) Você decide analisar o comportamento de duas ações da bolsa de valores. Seu objetivo é comparar a média dos preços e a volatilidade (medida pelo desvio padrão) dessas ações em um período recente. Qual das duas apresentou maior variação de preço e qual foi o preço médio de cada ação nesse período?**
 
 | Semana | Ação Y | Ação X |
 | ------ | ------ | ------ |
@@ -1391,7 +1391,8 @@ Pressione as teclas:
 ```
 1  [i]
 1  [n]      (1 mês: período mensal)
-12 [R/S]    (12 meses: período anual)
+12          (12 meses: período anual)
+   [R/S]    (executa o programa)
 ```
 
 O visor exibirá: 12,68 (taxa equivalente anual).
@@ -1402,7 +1403,8 @@ Pressione as teclas:
 ```
 12 [i]
 12 [n]      (12 meses: período anual)
-1  [R/S]    (1 mês: período mensal)
+1           (1 mês: período mensal)
+   [R/S]    (executa o programa)
 ```
 
 O visor exibirá: 0,95 (taxa equivalente mensal).
@@ -1413,7 +1415,8 @@ Pressione as teclas:
 ```
 25 [i]
 12 [n]      (12 meses: período anual)
-1  [R/S]    (1 mês: período mensal)
+1           (1 mês: período mensal)
+   [R/S]    (executa o programa)
 ```
 
 O visor exibirá: 1,88 (taxas de juros anual, capitalizada mensalmente).
@@ -1422,7 +1425,8 @@ Pressione as teclas:
 ```
 25 [i]
 12 [n]      (12 meses: período anual)
-3  [R/S]    (3 meses: período trimestral)
+3           (3 meses: período trimestral)
+   [R/S]    (executa o programa)
 ```
 
 O visor exibirá: 5,74 (taxas de juros anual, capitalizada mensalmente).
@@ -1433,7 +1437,8 @@ Considerando 42% a.a. como taxa efetiva, pressione as teclas:
 ```
 42 [i]
 12 [n]      (12 meses: período anual)
-1  [R/S]    (1 mês: período mensal)
+1           (1 mês: período mensal)
+   [R/S]    (executa o programa)
 ```
 
 O visor exibirá: 2,97 (taxa ao mês).
@@ -1458,7 +1463,8 @@ Para obter a taxa efetiva anual do Banco A, pressione as teclas:
 ```
 6,70 [ENTER] 4 [/] [i] (converte a taxa nominal para taxa efetiva trimestral)
 3    [n]               (3 meses: período trimestral)
-12   [R/S]             (12 meses: período anual)
+12                     (12 meses: período anual)
+   [R/S]               (executa o programa)
 ```
 
 O visor exibirá: 6,87 (taxa efetiva anual do Banco A).
@@ -1467,7 +1473,8 @@ Para obter a taxa efetiva anual do Banco B, pressione as teclas:
 ```
 6,65 [ENTER] 12 [/] [i] (converte a taxa nominal para taxa efetiva mensal)
 1    [n]                (1 mês: período mensal)
-12   [R/S]              (12 meses: período anual)
+12                      (12 meses: período anual)
+   [R/S]                (executa o programa)
 ```
 
 O visor exibirá: 6,86 (taxa efetiva anual do Banco B).
@@ -1493,7 +1500,7 @@ Os cálculos mostram que o Banco C oferece a taxa mais favorável (maior taxa).
 
 ```
 12 [i]
-8  [R/S]
+8  [R/S]    (executa o programa)
 ```
 
 Resposta: 3,7% (variação real).
@@ -1503,7 +1510,8 @@ Resposta: 3,7% (variação real).
 Pressione as teclas:
 ```
 12 [i]
-5  [R/S]
+5
+   [R/S]    (executa o programa)
 ```
 
 Resposta: 6,67% (taxa real de juros).
@@ -1552,7 +1560,8 @@ Pressione as teclas:
 25    [g] [12x]
 13,8  [g] [12/]
 75250 [PV]
-48    [R/S]          (amortização de 48 meses)
+48                   (amortização de 48 meses)
+      [R/S]          (executa o programa)
       [RCL] [PV]     (exibe o saldo devedor)
 ```
 
@@ -1569,7 +1578,8 @@ Pressione as teclas:
 500000 [PV]
 2      [i]
 20     [n]
-13     [R/S]
+13
+       [R/S]    (executa o programa)
 ```
 
 O visor exibirá: -91.000,00 (total de juros pagos até a 13ª parcela).
@@ -1585,7 +1595,8 @@ Acumule as amortizações até a 27ª parcela, pressionando as teclas:
 350000 [PV]
 1      [i]
 35     [n]
-27     [R/S]
+27
+       [R/S]    (executa o programa)
 ```
 
 Em seguida, calcule somente a parcela 28, pressionando as teclas:
@@ -1609,7 +1620,8 @@ Pressione as teclas:
 320000 [PV]
 3      [i]
 42     [n]
-42     [R/S]
+42
+       [R/S]    (executa o programa)
 ```
 
 O visor exibirá: -206.400,00 (total de juros pagos durante todo o financiamento).
@@ -1625,7 +1637,8 @@ Primeiro, amortize até a 15ª parcela, pressionando as teclas:
 260000 [PV]
 4      [i]
 38     [n]
-15     [R/S]
+15
+       [R/S]    (executa o programa)
 ```
 
 Em seguida, amortize da 16ª até a 27ª parcela (12 parcelas), pressionando as teclas:

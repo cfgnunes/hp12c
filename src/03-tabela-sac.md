@@ -94,7 +94,8 @@ Acumule as amortizações até a 27ª parcela, pressionando as teclas:
 350000 [PV]
 1      [i]
 35     [n]
-27     [R/S]
+27
+       [R/S]    (executa o programa)
 ```
 
 Em seguida, calcule somente a parcela 28, pressionando as teclas:
@@ -118,7 +119,8 @@ Pressione as teclas:
 320000 [PV]
 3      [i]
 42     [n]
-42     [R/S]
+42
+       [R/S]    (executa o programa)
 ```
 
 O visor exibirá: -206.400,00 (total de juros pagos durante todo o financiamento).
@@ -134,7 +136,8 @@ Primeiro, amortize até a 15ª parcela, pressionando as teclas:
 260000 [PV]
 4      [i]
 38     [n]
-15     [R/S]
+15
+       [R/S]    (executa o programa)
 ```
 
 Em seguida, amortize da 16ª até a 27ª parcela (12 parcelas), pressionando as teclas:
