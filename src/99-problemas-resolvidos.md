@@ -1448,11 +1448,11 @@ O visor exibirá: 2,97 (taxa ao mês).
 
 **Problema: Você considera abrir uma conta de poupança em um destes três bancos. Qual deles lhe oferece a melhor taxa de juros?**
 
-| Banco | Juros anuais (%) | Tipo de composição                |
-| ----- | ---------------- | --------------------------------- |
-| A     | 6,70%            | Trimestral                        |
-| B     | 6,65%            | Mensal                            |
-| C     | 6,65%            | Contínua (capitalização contínua) |
+| Banco | Juros anuais (%) | Tipo de composição                    |
+| ----- | ---------------- | ------------------------------------- |
+| A     | 6,70%            | Trimestral                            |
+| B     | 6,65%            | Mensal                                |
+| C     | 6,65%            | Contínua[^8] (capitalização contínua) |
 
 Para obter a taxa efetiva anual do Banco A, pressione as teclas:
 ```
@@ -1474,13 +1474,16 @@ O visor exibirá: 6,86 (taxa efetiva anual do Banco B).
 
 Para obter a taxa efetiva anual do Banco C, pressione as teclas:
 ```
-6,65 [i]
-1    [n]      (1 meses: período trimestral)
-12   [R/S]    (12 meses: período anual)
+1    [ENTER]
+6,65 [%]
+     [e^x]
+1    [-]
+100  [x]
 ```
 
 O visor exibirá: 6,88 (taxa efetiva anual do Banco C).
 
+Os cálculos mostram que o Banco C oferece a taxa mais favorável (maior taxa).
 
 ## Taxa nominal e taxa real
 
@@ -1731,3 +1734,5 @@ Resposta: PMT = 289,19
 [^6]: **Yield To Maturity.** A *Yield To Maturity* (YTM) representa a taxa efetiva do título de dívida. Ela reflete o rendimento (*yield*) do título de renda fixa até seu vencimento (*maturity*).
 
 [^7]: **Leasing.** O *leasing* é uma forma de financiamento onde uma empresa (a financeira) compra um bem (por exemplo, um carro) e o cede ao usuário (arrendatário) para uso, mediante pagamentos periódicos. Funciona como um aluguel com opção de compra no final do contrato. Durante o contrato, o usuário paga uma espécie de "aluguel" (as parcelas do *leasing*) e, ao final do período, pode optar por comprar o bem pagando um valor residual acordado.
+
+[^8]: **Taxa contínua.** A taxa contínua é uma taxa de juros usada em contextos financeiros e matemáticos onde a capitalização ocorre de forma ininterrupta, ou seja, os juros são aplicados continuamente ao saldo. Diferente das taxas com capitalização em períodos discretos (como mensal ou anual), a taxa contínua usa uma fórmula baseada em exponenciais, onde $e$ é a base dos logaritmos naturais. Esse tipo de taxa é comum em modelos financeiros mais avançados, como no cálculo de crescimento exponencial ou precificação de ativos.
