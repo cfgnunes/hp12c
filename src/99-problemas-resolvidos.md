@@ -1183,7 +1183,7 @@ Pressione as teclas:
 200 [CHS] [g] [CFj]
 1         [i]
           [f] [NPV]
-          [FV]
+4         [n]
           [FV]
 ```
 
