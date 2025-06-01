@@ -1346,7 +1346,7 @@ Pressione as teclas: `800 [g] [ŷ,r]`
 
 O visor exibirá: 4.694,53 (renda estimada para obter uma poupança de R$ 800,00).
 
-**Nota:** Para saber se a estimativa feita pela regressão linear é confiável, é importante observar o **coeficiente de correlação**. Esse número mostra o quanto os dados seguem uma linha reta. Se ele estiver próximo de 1 ou de -1, significa que os pontos estão bem alinhados e a previsão tende a ser precisa. Mas se estiver próximo de 0, os dados estão espalhados e o modelo não é muito confiável para fazer previsões. Para visualizar o valor do coeficiente, basta pressionar a tecla `[x><y]`.
+Para visualizar o valor do coeficiente de correlação[^5], basta pressionar a tecla `[x><y]`.
 
 **Problema: (média ponderada) João realizou três compras de ações de uma mesma empresa na bolsa de valores, em momentos diferentes, com preços e quantidades distintas. Agora, ele deseja saber qual foi o preço médio de aquisição das ações, para uma possível venda futura. Desconsidere outras possíveis taxas.**
 
@@ -1725,3 +1725,5 @@ Resposta: PMT = 289,19
 [^3]: **Yield To Maturity.** A *Yield To Maturity* (YTM) representa a taxa efetiva do título de dívida. Ela reflete o rendimento (*yield*) do título de renda fixa até seu vencimento (*maturity*).
 
 [^4]: **Leasing.** O *leasing* é uma forma de financiamento onde uma empresa (a financeira) compra um bem (por exemplo, um carro) e o cede ao usuário (arrendatário) para uso, mediante pagamentos periódicos. Funciona como um aluguel com opção de compra no final do contrato. Durante o contrato, o usuário paga uma espécie de "aluguel" (as parcelas do *leasing*) e, ao final do período, pode optar por comprar o bem pagando um valor residual acordado.
+
+[^5]: **Coeficiente de correlação.** Para saber se a estimativa feita pela regressão linear é confiável, é importante observar o coeficiente de correlação. Esse número mostra o quanto os dados seguem uma linha reta. Se ele estiver próximo de 1 ou de -1, significa que os pontos estão bem alinhados e a previsão tende a ser precisa. Mas se estiver próximo de 0, os dados estão espalhados e o modelo não é muito confiável para fazer previsões.
