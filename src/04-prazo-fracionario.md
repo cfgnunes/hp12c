@@ -48,47 +48,40 @@ $$
 
 ## Exemplos de utilização do programa
 
-### Exemplo 1
+**Problema: Em quanto tempo uma taxa de juros mensal de 2,6% dobraria o seu patrimônio?**
 
-**Em quanto tempo uma taxa de juros anual de 8% dobraria o seu patrimônio?**
-
-Pressione as teclas:
-
-```
-8 i
-1 CHS PV
-2 FV
-R/S
-```
-
-O visor exibirá: 9,01 (anos para dobrar o patrimônio).
-
-### Exemplo 2
-
-**Em quanto tempo uma taxa de juros mensal de 2,6% dobraria o seu patrimônio?**
+Dados do problema:
+- n = ?
+- i = 2,6
+- PV = -1
+- PMT = 0
+- FV = 2
 
 Pressione as teclas:
-
 ```
-2,6   [i]
-1 CHS [PV]
-2     [FV]
-[R/S]
+2,6       [i]
+1   [CHS] [PV]
+2         [FV]
+          [R/S]
 ```
 
 O visor exibirá: 27,00 (meses para dobrar o patrimônio).
 
-### Exemplo 3
+**Problema: Você investe R$ 3.000,00 e o valor dobra para R$ 6.000,00 com juros de 9% ao ano. Quanto tempo levou?**
 
-**Você investe R$ 3.000,00 e o valor dobra para R$ 6.000,00 com juros de 9% ao ano. Quanto tempo levou?**
+Dados do problema:
+- n = ?
+- i = 9
+- PV = -3.000
+- PMT = 0
+- FV = 6.000
 
 Pressione as teclas:
-
 ```
-9    [i]
+9          [i]
 3000 [CHS] [PV]
-6000 [FV]
-[n]
+6000       [FV]
+           [n]
 ```
 
 Resposta: n = 8,04 (anos).

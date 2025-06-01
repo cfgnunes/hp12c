@@ -46,30 +46,24 @@ Onde:
 
 ## Exemplos de utilização do programa
 
-### Exemplo 1
-
-**Você possui uma taxa de 1% ao mês e deseja saber qual é a taxa anual equivalente.**
+**Problema: Você possui uma taxa de 1% ao mês e deseja saber qual é a taxa anual equivalente.**
 
 Pressione as teclas:
-
 ```
 1  [i]
-1  [n]
-12 [R/S]
+1  [n]      (1 mês: período mensal)
+12 [R/S]    (12 meses: período anual)
 ```
 
 O visor exibirá: 12,68 (taxa equivalente anual).
 
-### Exemplo 2
-
-**Você possui uma taxa de 12% ao ano e deseja saber qual é a taxa mensal equivalente.**
+**Problema: Você possui uma taxa de 12% ao ano e deseja saber qual é a taxa mensal equivalente.**
 
 Pressione as teclas:
-
 ```
 12 [i]
-12 [n]
-1  [R/S]
+12 [n]      (12 meses: período anual)
+1  [R/S]    (1 mês: período mensal)
 ```
 
 O visor exibirá: 0,95 (taxa equivalente mensal).

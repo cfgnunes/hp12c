@@ -115,12 +115,9 @@ Onde:
 
 ## Exemplos de utilização do programa
 
-### Exemplo 1
-
-**Considere um empréstimo de R$ 500.000,00, com taxa de juros de 2% ao mês e prazo total de 20 meses. Com base nessas condições, calcule o total de juros pagos até a 13ª parcela, bem como o valor total pago até essa mesma parcela.**
+**Problema: Considere um empréstimo de R$ 500.000,00, com taxa de juros de 2% ao mês e prazo total de 20 meses. Com base nessas condições, calcule o total de juros pagos até a 13ª parcela, bem como o valor total pago até essa mesma parcela.**
 
 Pressione as teclas:
-
 ```
 500000 [PV]
 2      [i]
@@ -134,12 +131,9 @@ Pressione a tecla: `[+]`
 
 O visor exibirá: -397.518,67 (total pago até a 13ª parcela).
 
-### Exemplo 2
-
-**Considere um empréstimo no valor de R$350.000,00, com taxa de juros de 1% ao mês e prazo de 35 meses. Com base nesses dados, determine os juros pagos especificamente na 28ª parcela, bem como o valor total dessa parcela.**
+**Problema: Considere um empréstimo no valor de R$350.000,00, com taxa de juros de 1% ao mês e prazo de 35 meses. Com base nesses dados, determine os juros pagos especificamente na 28ª parcela, bem como o valor total dessa parcela.**
 
 Acumule as amortizações até a 27ª parcela, pressionando as teclas:
-
 ```
 350000 [PV]
 1      [i]
@@ -148,7 +142,6 @@ Acumule as amortizações até a 27ª parcela, pressionando as teclas:
 ```
 
 Em seguida, calcule somente a parcela 28, pressionando as teclas:
-
 ```
 1 [R/S]
 ```
@@ -156,19 +149,15 @@ Em seguida, calcule somente a parcela 28, pressionando as teclas:
 O visor exibirá: -910,65 (juros pagos somente na 28ª parcela).
 
 Pressione as teclas:
-
 ```
 [RCL] [PMT]
 ```
 
 O visor exibirá: -11.901,29 (valor da 28ª parcela).
 
-### Exemplo 3
-
-**Considere um empréstimo no valor de R$ 320.000,00, com taxa de juros de 3% ao mês e prazo total de 42 meses. Com base nessas condições, calcule o total de juros pagos ao longo de todo o financiamento, assim como o valor total desembolsado com o pagamento das parcelas durante todo o período.**
+**Problema: Considere um empréstimo no valor de R$ 320.000,00, com taxa de juros de 3% ao mês e prazo total de 42 meses. Com base nessas condições, calcule o total de juros pagos ao longo de todo o financiamento, assim como o valor total desembolsado com o pagamento das parcelas durante todo o período.**
 
 Pressione as teclas:
-
 ```
 320000 [PV]
 3      [i]
@@ -182,12 +171,9 @@ Pressione a tecla: `[+]`
 
 O visor exibirá: -567.056,09 (total pago em parcelas ao longo de todo o financiamento).
 
-### Exemplo 4
-
-**Considere um empréstimo no valor de R$260.000,00, com taxa de juros de 4% ao mês e prazo total de 38 meses. Com base nessas condições, calcule, para o período entre a 16ª e a 27ª parcela: o total de juros pagos, o total de amortizações realizadas e o valor total desembolsado com o pagamento dessas parcelas.**
+**Problema: Considere um empréstimo no valor de R$260.000,00, com taxa de juros de 4% ao mês e prazo total de 38 meses. Com base nessas condições, calcule, para o período entre a 16ª e a 27ª parcela: o total de juros pagos, o total de amortizações realizadas e o valor total desembolsado com o pagamento dessas parcelas.**
 
 Primeiro, amortize até a 15ª parcela, pressionando as teclas:
-
 ```
 260000 [PV]
 4      [i]
@@ -196,7 +182,6 @@ Primeiro, amortize até a 15ª parcela, pressionando as teclas:
 ```
 
 Em seguida, amortize da 16ª até a 27ª parcela (12 parcelas), pressionando as teclas:
-
 ```
 12 [R/S]
 ```
