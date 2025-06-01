@@ -1288,7 +1288,7 @@ Pressione as teclas:
 
 Resposta: R$ 212,51 (valor médio)
 
-**Problema: (estatística descritiva) Você decide analisar o comportamento de duas ações da bolsa de valores. Seu objetivo é comparar a média dos preços e a volatilidade (medida pelo desvio padrão) dessas ações em um período recente. Qual das duas apresentou maior variação de preço e qual foi o preço médio de cada ação nesse período?**
+**Problema: (estatística descritiva) Você decide analisar o comportamento de duas ações da bolsa de valores. Seu objetivo é comparar a média dos preços e a volatilidade (medida pelo desvio padrão[^9]) dessas ações em um período recente. Qual das duas apresentou maior variação de preço e qual foi o preço médio de cada ação nesse período?**
 
 | Semana | Ação Y | Ação X |
 | ------ | ------ | ------ |
@@ -1768,3 +1768,5 @@ Resposta: PMT = 289,19
 [^7]: **Leasing.** O *leasing* é uma forma de financiamento onde uma empresa (a financeira) compra um bem (por exemplo, um carro) e o cede ao usuário (arrendatário) para uso, mediante pagamentos periódicos. Funciona como um aluguel com opção de compra no final do contrato. Durante o contrato, o usuário paga uma espécie de "aluguel" (as parcelas do *leasing*) e, ao final do período, pode optar por comprar o bem pagando um valor residual acordado.
 
 [^8]: **Taxa contínua.** A taxa contínua é uma taxa de juros usada em contextos financeiros e matemáticos onde a capitalização ocorre de forma ininterrupta, ou seja, os juros são aplicados continuamente ao saldo. Diferente das taxas com capitalização em períodos discretos (como mensal ou anual), a taxa contínua usa uma fórmula baseada em exponenciais, onde *e* é a base dos logaritmos naturais. Esse tipo de taxa é comum em modelos financeiros mais avançados, como no cálculo de crescimento exponencial ou precificação de ativos.
+
+[^9]: **Desvio padrão.** O desvio padrão mede o quanto os dados variam em relação à média. O *desvio padrão da população* é usado quando temos todos os dados disponíveis e mostra a variação real. Já o *desvio padrão da amostra* é usado quando temos apenas uma parte dos dados (uma amostra) e serve para estimar a variação da população inteira, sendo um pouco maior para compensar a incerteza. Em finanças, geralmente usamos o desvio da amostra, pois raramente temos todos os dados possíveis.
