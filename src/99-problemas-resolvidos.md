@@ -1187,7 +1187,7 @@ Pressione as teclas:
           [FV]
 ```
 
-Resposta: R$ 2035,22
+Resposta: R$ 2.035,22
 
 ## Cálculo de depreciação
 
