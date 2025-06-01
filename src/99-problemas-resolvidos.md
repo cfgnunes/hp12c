@@ -708,7 +708,7 @@ Pressione as teclas:
 
 Resposta: i = 2,46% (ao mês).
 
-**Problema: Você está comprando sua primeira casa por R$ 220.000,00 e pagará R$ 30.000,00 de entrada. Vai financiar os R$ 190.000,00 restantes em um empréstimo de 30 anos, com taxa nominal de 7% ao ano e parcelas fixas mensais (tabela Price). Qual será o valor das parcelas mensais?**
+**Problema: Você está comprando sua primeira casa por R$ 220.000,00 e pagará R$ 30.000,00 de entrada. Vai financiar os R$ 190.000,00 restantes em um empréstimo de 30 anos, com taxa nominal[^1] de 7% ao ano e parcelas fixas mensais (tabela Price). Qual será o valor das parcelas mensais?**
 
 Dados do problema:
 - n = 30 x 12
@@ -1132,7 +1132,7 @@ Pressione as teclas:
             [f] [IRR]
 ```
 
-Resposta TIR = 2,43% (taxa trimestral) x 4 = 9,72% (taxa anual nominal)
+Resposta TIR = 2,43% (taxa trimestral) x 4 = 9,72% (taxa anual)
 
 **Problema: (cálculo de VPL, TIR e Payback) Você está avaliando a compra de um equipamento no valor de R$ 100.000,00 para aumentar a produção da sua empresa. Esse investimento promete um retorno anual de R$ 18.000,00 por 10 anos. Com base nessas informações, calcule o Valor Presente Líquido (VPL), a Taxa Interna de Retorno (TIR) e o *Payback* Simples (tempo necessário para recuperar o valor investido sem considerar o valor do dinheiro no tempo). A empresa considera o custo de oportunidade ou retorno requirido de 10% ao ano.**
 
@@ -1381,7 +1381,7 @@ Pressione as teclas:
 
 O visor exibirá: 209,44 (media de aluguel).
 
-## Taxas equivalentes
+## Taxas efetivas equivalentes
 
 **Nota:** Para os exercícios a seguir, utilize o programa [Taxas Equivalentes](./01-taxas-equivalentes.md).
 
@@ -1390,8 +1390,8 @@ O visor exibirá: 209,44 (media de aluguel).
 Pressione as teclas:
 ```
 1  [i]
-1  [n]      (1 mês - taxa mensal)
-12 [R/S]    (12 meses - taxa anual)
+1  [n]      (1 mês: período mensal)
+12 [R/S]    (12 meses: período anual)
 ```
 
 O visor exibirá: 12,68 (taxa equivalente anual).
@@ -1401,8 +1401,8 @@ O visor exibirá: 12,68 (taxa equivalente anual).
 Pressione as teclas:
 ```
 12 [i]
-12 [n]      (12 meses - taxa anual)
-1  [R/S]    (1 mês - taxa mensal)
+12 [n]      (12 meses: período anual)
+1  [R/S]    (1 mês: período mensal)
 ```
 
 O visor exibirá: 0,95 (taxa equivalente mensal).
@@ -1412,8 +1412,8 @@ O visor exibirá: 0,95 (taxa equivalente mensal).
 Pressione as teclas:
 ```
 25 [i]
-12 [n]      (12 meses - taxa anual)
-1  [R/S]    (1 mês - taxa mensal)
+12 [n]      (12 meses: período anual)
+1  [R/S]    (1 mês: período mensal)
 ```
 
 O visor exibirá: 1,88 (taxas de juros anual, capitalizada mensalmente).
@@ -1421,8 +1421,8 @@ O visor exibirá: 1,88 (taxas de juros anual, capitalizada mensalmente).
 Pressione as teclas:
 ```
 25 [i]
-12 [n]      (12 meses - taxa anual)
-3  [R/S]    (3 meses - taxa trimestral)
+12 [n]      (12 meses: período anual)
+3  [R/S]    (3 meses: período trimestral)
 ```
 
 O visor exibirá: 5,74 (taxas de juros anual, capitalizada mensalmente).
@@ -1432,8 +1432,8 @@ O visor exibirá: 5,74 (taxas de juros anual, capitalizada mensalmente).
 Considerando 42% a.a. como taxa efetiva, pressione as teclas:
 ```
 42 [i]
-12 [n]      (12 meses - taxa anual)
-1  [R/S]    (1 mês - taxa mensal)
+12 [n]      (12 meses: período anual)
+1  [R/S]    (1 mês: período mensal)
 ```
 
 O visor exibirá: 2,97 (taxa ao mês).
@@ -1445,6 +1445,42 @@ Considerando 42% a.a. como taxa nominal, pressione as teclas:
 ```
 
 O visor exibirá: 2,97 (taxa ao mês).
+
+**Problema: Você considera abrir uma conta de poupança em um destes três bancos. Qual deles lhe oferece a melhor taxa de juros?**
+
+| Banco | Juros anuais (%) | Tipo de composição                |
+| ----- | ---------------- | --------------------------------- |
+| A     | 6,70%            | Trimestral                        |
+| B     | 6,65%            | Mensal                            |
+| C     | 6,65%            | Contínua (capitalização contínua) |
+
+Para obter a taxa efetiva anual do Banco A, pressione as teclas:
+```
+6,70 [ENTER] 4 [/] [i] (converte a taxa nominal para taxa efetiva trimestral)
+3    [n]               (3 meses: período trimestral)
+12   [R/S]             (12 meses: período anual)
+```
+
+O visor exibirá: 6,87 (taxa efetiva anual do Banco A).
+
+Para obter a taxa efetiva anual do Banco B, pressione as teclas:
+```
+6,65 [ENTER] 12 [/] [i] (converte a taxa nominal para taxa efetiva mensal)
+1    [n]                (1 mês: período mensal)
+12   [R/S]              (12 meses: período anual)
+```
+
+O visor exibirá: 6,86 (taxa efetiva anual do Banco B).
+
+Para obter a taxa efetiva anual do Banco C, pressione as teclas:
+```
+6,65 [i]
+1    [n]      (1 meses: período trimestral)
+12   [R/S]    (12 meses: período anual)
+```
+
+O visor exibirá: 6,88 (taxa efetiva anual do Banco C).
+
 
 ## Taxa nominal e taxa real
 
@@ -1587,7 +1623,7 @@ O visor exibirá: -139.578,95 (total pago em parcelas da 16ª à 27ª).
 
 ## Cálculos para títulos de dívida
 
-**Problema: Qual seria o preço justo a ser pago em 28 de abril de 2025 por um título público do Tesouro Nacional, que possui uma taxa nominal de juros de 6,75% ao ano e vence em 14 de junho de 2038, caso você deseje obter uma taxa efetiva de retorno (YTM) de 4,75% ao ano? Além disso, calcule a taxa efetiva de retorno correspondente ao preço de mercado do título, dado como 122,125%. Considere que o formato de data é dia-mês-ano.**
+**Problema: Qual seria o preço justo a ser pago em 28 de abril de 2025 por um título público do Tesouro Nacional, que possui uma taxa nominal de juros de 6,75% ao ano e vence em 14 de junho de 2038, caso você deseje obter uma taxa efetiva de retorno (YTM)[^2] de 4,75% ao ano? Além disso, calcule a taxa efetiva de retorno correspondente ao preço de mercado do título, dado como 122,125%. Considere que o formato de data é dia-mês-ano.**
 
 Pressione as teclas:
 ```
@@ -1616,8 +1652,6 @@ Calculando agora  a taxa efetiva de retorno considerando que o preço de mercado
 ```
 
 O visor exibirá: 4,50% (A taxa efetiva do título de dívida ou *Yield To Maturity*).
-
-**Nota:** Este exercício considera a taxa efetiva do título de dívida, também conhecida como *Yield To Maturity* (YTM). A YTM reflete o rendimento (*yield*) do título de renda fixa até seu vencimento (*maturity*).
 
 ## Problemas diversos
 
@@ -1663,9 +1697,7 @@ Pressione as teclas:
 
 Resposta: R$ 711,53 (depositar cada mês para poder custear as despesas com a universidade da filha)
 
-**Problema: Um carro novo que custa R$ 13.500,00 pode ser adquirido através de um *leasing* de 3 anos, com a opção de compra ao final do período por R$ 7.500,00. Se a financeira quiser obter um rendimento anual nominal de 14%, qual deverá ser o valor dos pagamentos mensais, com um pagamento antecipado? Calcule o valor do pagamento sob o ponto de vista da financeira. Utilize o modo início (BEGIN), porque o primeiro pagamento é devido na assinatura do contrato.**
-
-**Nota:** O *leasing* é uma forma de financiamento onde uma empresa (a financeira) compra um bem (por exemplo, um carro) e o cede ao usuário (arrendatário) para uso, mediante pagamentos periódicos. Funciona como um aluguel com opção de compra no final do contrato. Durante o contrato, o usuário paga uma espécie de "aluguel" (as parcelas do *leasing*) e, ao final do período, pode optar por comprar o bem pagando um valor residual acordado (neste caso, R$ 7.500,00).
+**Problema: Um carro novo que custa R$ 13.500,00 pode ser adquirido através de um *leasing*[^3] de 3 anos, com a opção de compra ao final do período por R$ 7.500,00. Se a financeira quiser obter um rendimento anual nominal de 14%, qual deverá ser o valor dos pagamentos mensais, com um pagamento antecipado? Calcule o valor do pagamento sob o ponto de vista da financeira. Utilize o modo início (BEGIN), porque o primeiro pagamento é devido na assinatura do contrato.**
 
 Dados do problema:
 - n = 3 x 12
@@ -1685,3 +1717,11 @@ Pressione as teclas:
 ```
 
 Resposta: PMT = 289,19
+
+## Notas
+
+[^1]: **Taxa nominal e taxa efetiva.** A taxa nominal é a taxa de juros divulgada numa base anual, mas que considera capitalização periódica (como mensal ou trimestral). Já a taxa efetiva representa o juro real acumulado, levando em conta a frequência com que os juros são capitalizados durante o ano. Por exemplo, uma taxa nominal de 12% ao ano com capitalização mensal significa que os juros são aplicados mensalmente. Existem esses dois tipos porque a taxa nominal facilita a divulgação e a comparação de ofertas financeiras, simplificando contratos que têm capitalização em períodos menores.
+
+[^2]: **Yield To Maturity.** A *Yield To Maturity* (YTM) representa a taxa efetiva do título de dívida. Ela reflete o rendimento (*yield*) do título de renda fixa até seu vencimento (*maturity*).
+
+[^3]: **Leasing.** O *leasing* é uma forma de financiamento onde uma empresa (a financeira) compra um bem (por exemplo, um carro) e o cede ao usuário (arrendatário) para uso, mediante pagamentos periódicos. Funciona como um aluguel com opção de compra no final do contrato. Durante o contrato, o usuário paga uma espécie de "aluguel" (as parcelas do *leasing*) e, ao final do período, pode optar por comprar o bem pagando um valor residual acordado.
