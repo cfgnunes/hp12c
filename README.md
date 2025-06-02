@@ -7,10 +7,10 @@ Apesar de sua versatilidade e popularidade entre profissionais da área, a HP 12
 - Sistema de Amortização Constante (SAC);
 - Cálculo de prazo fracionário;
 - Cálculo de rentabilidade real;
+- Inserção de fluxo de caixa com datas;
 - Cálculo de payback simples e descontado;
 - Cálculo de desvio padrão populacional (a HP 12c oferece apenas o amostral);
-- Cálculo da Taxa Interna de Retorno Modificada (MIRR);
-- Inserção de fluxo de caixa com datas.
+- Cálculo da Taxa Interna de Retorno Modificada (MIRR).
 
 Esses programas visam suprir lacunas da calculadora, tornando-a ainda mais útil em análises financeiras.
 
@@ -21,6 +21,7 @@ Esses programas visam suprir lacunas da calculadora, tornando-a ainda mais útil
 3. [Sistema de Amortização Constante (SAC)](./src/03-tabela-sac.md)
 4. [Cálculo de prazo fracionário](./src/04-prazo-fracionario.md)
 5. [Cálculo de rentabilidade real](./src/05-rentabilidade-real.md)
+6. [Inserção de fluxo de caixa com datas](./src/06-fluxo-caixa-data.md)
 
 ## Dicas e utilidades
 
