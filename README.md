@@ -1,6 +1,18 @@
 # Programas para a calculadora HP 12c
 
-Este repositório reúne uma coleção de programas financeiros desenvolvidos para as calculadoras HP 12C e HP 12C Platinum.
+Este repositório reúne uma coleção de programas financeiros desenvolvidos para as calculadoras HP 12C e HP 12C Platinum, com o objetivo de ampliar suas funcionalidades e suprir algumas limitações presentes.
+
+Apesar de sua versatilidade e popularidade entre profissionais da área, a HP 12c não oferece suporte nativo para certos cálculos financeiros recorrentes no dia a dia. Entre as funcionalidades estão:
+- Conversão entre taxas equivalentes;
+- Sistema de Amortização Constante (SAC);
+- Cálculo de prazo fracionário;
+- Cálculo de rentabilidade real;
+- Cálculo de payback simples e descontado;
+- Cálculo de desvio padrão populacional (a HP 12c oferece apenas o amostral);
+- Cálculo da Taxa Interna de Retorno Modificada (MIRR);
+- Inserção de fluxo de caixa com datas.
+
+Esses programas visam suprir lacunas da calculadora, tornando-a ainda mais útil em análises financeiras.
 
 ## Programas
 
