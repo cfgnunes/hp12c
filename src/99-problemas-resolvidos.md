@@ -858,11 +858,11 @@ Resposta: R$ 75.617,64 (o valor máximo da compra que você poderá fazer)
 
 Pressione as teclas:
 ```
-0    [g] [CFj]    (1 mês de carência)
-1980 [g] [CFj]
-36   [g] [Nj]     (36 parcelas)
-1,45 [i]
-     [f] [NPV]
+0    [g] [CFj]    (CF1 = 0, mês de carência)
+1980 [g] [CFj]    (CF2 = 1.980, parcelas)
+36   [g] [Nj]     (indica que CF2 se repete 36 vezes)
+1,45 [i]          (i = 1,45%)
+     [f] [NPV]    (calcula o VPL)
 ```
 
 Resposta: R$ 54.437,52
@@ -873,12 +873,12 @@ Resposta: R$ 54.437,52
 
 Pressione as teclas:
 ```
-0   [g] [CFj]
-3   [g] [Nj]     (3 meses de carência)
-200 [g] [CFj]
-12  [g] [Nj]     (12 parcelas)
-3,5 [i]
-    [f] [NPV]
+0   [g] [CFj]    (CF1 = 0, mês de carência)
+3   [g] [Nj]     (indica que CF1 se repete 3 vezes)
+200 [g] [CFj]    (CF2 = 200, parcelas)
+12  [g] [Nj]     (indica que CF2 se repete 12 vezes)
+3,5 [i]          (i = 3,5%)
+    [f] [NPV]    (calcula o VPL)
 ```
 
 Resposta: R$ 1.743,15
@@ -887,12 +887,12 @@ Resposta: R$ 1.743,15
 
 Pressione as teclas:
 ```
-0   [g] [CFj]
-3   [g] [Nj]     (3 meses de carência)
-100 [g] [CFj]
-10  [g] [Nj]     (10 parcelas)
-36  [g] [12/]
-    [f] [NPV]
+0   [g] [CFj]    (CF1 = 0, mês de carência)
+3   [g] [Nj]     (indica que CF1 se repete 3 vezes)
+100 [g] [CFj]    (CF2 = 100, parcelas)
+10  [g] [Nj]     (indica que CF2 se repete 10 vezes)
+36  [g] [12/]    (i = 36/12)
+    [f] [NPV]    (calcula o VPL)
 ```
 
 Resposta: R$ 780,63
@@ -1034,10 +1034,10 @@ O visor exibirá: 2,59 (taxa mensal)
 Pressione as teclas:
 ```
 4000 [g] [CFo]    (pagamento à vista, então já está no valor presente)
-3000 [g] [CFj]
-6    [g] [Nj]
-5,5  [i]
-     [f] [NPV]
+3000 [g] [CFj]    (CF1 = 3.000)
+6    [g] [Nj]     (indica que CF1 se repete 6 vezes)
+5,5  [i]          (i = 5,5%)
+     [f] [NPV]    (calcula o VPL)
 ```
 
 Resposta: R$ 18.986,59
@@ -1101,12 +1101,12 @@ Resposta: TIR = 2,47% ao mês.
 
 Pressione as teclas:
 ```
-5000 [CHS] [g] [CFo]
-1500       [g] [CFj]
-1600       [g] [CFj]
-2          [g] [Nj]
-1700       [g] [CFj]
-           [f] [IRR]
+5000 [CHS] [g] [CFo]    (CF0 = -5.000)
+1500       [g] [CFj]    (CF1 = 1.500)
+1600       [g] [CFj]    (CF2 = 1.600)
+2          [g] [Nj]     (indica que CF2 se repete 2 vezes)
+1700       [g] [CFj]    (CF3 = 1.700)
+           [f] [IRR]    (calcula a TIR)
 ```
 
 Resposta: 10,44% (taxa mensal)
@@ -1122,14 +1122,16 @@ Resposta: 10,44% (taxa mensal)
 
 Pressione as teclas:
 ```
-20000 [CHS] [g] [CFo]
-500         [g] [CFj]
-4           [g] [Nj]
-1000        [g] [CFj]
-4           [g] [Nj]
-3000        [g] [CFj]
-4           [g] [Nj]
-            [f] [IRR]
+20000 [CHS] [g] [CFo]    (CF0 = -20.000)
+500         [g] [CFj]    (CF1 = 500)
+4           [g] [Nj]     (indica que CF1 se repete 4 vezes)
+1000        [g] [CFj]    (CF2 = 1.000)
+4           [g] [Nj]     (indica que CF2 se repete 4 vezes)
+2000        [g] [CFj]    (CF3 = 2.000)
+4           [g] [Nj]     (indica que CF3 se repete 4 vezes)
+3000        [g] [CFj]    (CF4 = 3.000)
+4           [g] [Nj]     (indica que CF4 se repete 4 vezes)
+            [f] [IRR]    (calcula a TIR)
 ```
 
 Resposta TIR = 2,43% (taxa trimestral) x 4 = 9,72% (taxa anual)
@@ -1138,11 +1140,11 @@ Resposta TIR = 2,43% (taxa trimestral) x 4 = 9,72% (taxa anual)
 
 Encontrando o Valor Presente Líquido (VPL). Pressione as teclas:
 ```
-100000 [CHS] [g] [CFo]
-18000        [g] [CFj]
-10           [g] [CFj]
-10           [i]
-             [f] [NPV]
+100000 [CHS] [g] [CFo]    (CF0 = -100.000)
+18000        [g] [CFj]    (CF1 = 18.000)
+10           [g] [CFj]    (indica que CF1 se repete 10 vezes)
+10           [i]          (i = 10%)
+             [f] [NPV]    (calcula o VPL)
 ```
 
 Resposta: R$ 10.602,21 (valor presente líquido)
@@ -1163,6 +1165,35 @@ No caso de fluxos de caixa constantes (iguais a cada período), o cálculo pode 
 ```
 
 Resposta: 5,56 (anos para recuperar o valor investido)
+
+**Problema: (cálculo de XTIR, TIR com datas) José depositou R$ 50.000,00 em sua conta no dia 1º de maio de 2005 e mais R$ 40.000,00 no dia 1º de julho de 2005. A carteira também recebeu e reinvestiu dividendos de R$ 30.000,00 no dia 1º de julho, além de mais R$ 30.000,00 em 31 de dezembro. Sua conta possuía valores (incluindo dividendos e aportes) de R$ 2.375.000,00 e R$ 2.460.000,00 em 1º de maio e 1º de julho, respectivamente. A conta foi avaliada em R$ 2.225.000,00 em 1º de janeiro de 2005 e em R$ 2.445.000,00 em 31 de dezembro de 2005. Qual é a taxa interna de retorno mensal?**
+
+Primeiro, devemos identificar as informações importantes, ou seja, os fluxos de caixa que devem ser considerados no cálculo da taxa interna de retorno (TIR):
+
+- 01/01/2005: Valor inicial da carteira: R$ 2.225.000,00
+- 01/05/2005: Aporte de R$ 50.000,00
+- 01/07/2005: Aporte de R$ 40.000,00
+- 31/12/2005: Valor final da carteira: R$ 2.445.000,00
+
+Os dividendos recebidos podem ser ignorados, pois foram reinvestidos, ou seja, permaneceram na carteira e não são entradas ou saídas externas de dinheiro. Se não tivessem sido reinvestidos, deveriam ser tratados como saques. Também podemos desconsiderar outras avaliações intermediárias, porque, no cálculo da TIR, só precisamos do valor inicial, dos aportes e do valor final.
+
+Para usar a calculadora financeira, os fluxos de caixa devem estar espaçados regularmente. Os meses sem fluxo de caixa recebem valor zero: 01/02, 01/03, 01/04, 01/08, 01/09, 01/10, 01/11 e 01/12. Por aproximação, pode-se considerar que o valor final da carteira foi obtido em 01/01/2006 (em vez de 31/12/2005).
+
+Pressione as teclas:
+```
+2225000 [CHS] [g] [CF0]    (CF0 = -2.225.000)
+0             [g] [CFj]    (CF1 = 0)
+3             [g] [Nj]     (indica que CF1 se repete 3 vezes)
+50000   [CHS] [g] [CFj]    (CF2 = -50.000)
+0             [g] [CFj]    (CF3 = 0)
+40000   [CHS] [g] [CFj]    (CF4 = -40.000)
+0             [g] [CFj]    (CF5 = 0)
+5             [g] [Nj]     (indica que CF5 se repete 5 vezes)
+2445000       [g] [CFj]    (CF6 = 2.445.000)
+              [f] [IRR]    (calcula a TIR)
+```
+
+Resposta: TIR = 0,47% (taxa interna de retorno mensal)
 
 **Problema: (valor futuro com pagamentos irregulares) Um investidor realiza 4 depósitos mensais consecutivos em uma aplicação financeira que rende 1% ao mês, com capitalização mensal. Cada pagamento é feito ao final de cada mês conforme os dados abaixo. Calcule o valor futuro total acumulado ao final do período, após o último depósito.**
 
