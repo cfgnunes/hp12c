@@ -1,4 +1,4 @@
-# Rentabilidade Real
+# Cálculo de rentabilidade real
 
 Este programa calcula a taxa real de juros, isto é, a rentabilidade efetiva de um investimento após descontar os efeitos da inflação.
 

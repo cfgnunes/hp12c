@@ -16,11 +16,11 @@ Esses programas visam suprir lacunas da calculadora, tornando-a ainda mais útil
 
 ## Programas
 
-1. [Taxas Equivalentes](./src/01-taxas-equivalentes.md)
+1. [Conversão entre taxas equivalentes](./src/01-taxas-equivalentes.md)
 2. [Sistema de Amortização Francês (SAF)](./src/02-tabela-price.md)
 3. [Sistema de Amortização Constante (SAC)](./src/03-tabela-sac.md)
-4. [Prazo Fracionário](./src/04-prazo-fracionario.md)
-5. [Rentabilidade Real](./src/05-rentabilidade-real.md)
+4. [Cálculo de prazo fracionário](./src/04-prazo-fracionario.md)
+5. [Cálculo de rentabilidade real](./src/05-rentabilidade-real.md)
 
 ## Dicas e utilidades
 

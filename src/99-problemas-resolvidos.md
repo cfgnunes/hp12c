@@ -273,7 +273,7 @@ Pressione as teclas:
 
 O visor exibirá: 27,00 (meses para dobrar o patrimônio).
 
-**Nota:** A calculadora HP 12c retorna o valor 28, em vez de 27,005 (valor exato), porque arredonda o resultado para cima em cálculos que envolvem a determinação do número de períodos (n). Ela obtém apenas valores inteiros para n, sendo uma limitação da calculadora. Para realizar o cálculo exato, utilize o programa [Prazo Fracionário](./04-prazo-fracionario.md).
+**Nota:** A calculadora HP 12c retorna o valor 28, em vez de 27,005 (valor exato), porque arredonda o resultado para cima em cálculos que envolvem a determinação do número de períodos (n). Ela obtém apenas valores inteiros para n, sendo uma limitação da calculadora. Para realizar o cálculo exato, utilize o programa [Cálculo de prazo fracionário](./04-prazo-fracionario.md).
 
 **Problema: Você investe R$ 3.000,00 e o valor dobra para R$ 6.000,00 com juros de 9% ao ano. Quanto tempo levou?**
 
@@ -294,7 +294,7 @@ Pressione as teclas:
 
 Resposta: n = 8,04 (anos).
 
-**Nota:** A calculadora HP 12c retorna o valor 9, em vez de 8,04 (valor exato), porque arredonda o resultado para cima em cálculos que envolvem a determinação do número de períodos (n). Ela obtém apenas valores inteiros para n, sendo uma limitação da calculadora. Para realizar o cálculo exato, utilize o programa [Prazo Fracionário](./04-prazo-fracionario.md).
+**Nota:** A calculadora HP 12c retorna o valor 9, em vez de 8,04 (valor exato), porque arredonda o resultado para cima em cálculos que envolvem a determinação do número de períodos (n). Ela obtém apenas valores inteiros para n, sendo uma limitação da calculadora. Para realizar o cálculo exato, utilize o programa [Cálculo de prazo fracionário](./04-prazo-fracionario.md).
 
 **Problema: Você deposita R$ 2.000,00 em uma conta de poupança que rende 7,2% de juros anuais, compostos anualmente. Se você não fizer nenhum outro depósito nesta conta, em quanto tempo você terá R$ 3.000,00?**
 
@@ -315,7 +315,7 @@ Pressione as teclas:
 
 Resposta: n = 5,83 (anos)
 
-**Nota:** A calculadora HP 12c retorna o valor 6, em vez de 5,83 (valor exato), porque arredonda o resultado para cima em cálculos que envolvem a determinação do número de períodos (n). Ela obtém apenas valores inteiros para n, sendo uma limitação da calculadora. Para realizar o cálculo exato, utilize o programa [Prazo Fracionário](./04-prazo-fracionario.md).
+**Nota:** A calculadora HP 12c retorna o valor 6, em vez de 5,83 (valor exato), porque arredonda o resultado para cima em cálculos que envolvem a determinação do número de períodos (n). Ela obtém apenas valores inteiros para n, sendo uma limitação da calculadora. Para realizar o cálculo exato, utilize o programa [Cálculo de prazo fracionário](./04-prazo-fracionario.md).
 
 **Problema: Você aplica R$ 1.000,00 por 10 anos em um banco que paga 5% ao ano, com pagamento no final do período. Quanto terá ao final?**
 
@@ -471,7 +471,7 @@ Pressione as teclas:
 
 Resposta: n = 2,37 (anos).
 
-**Nota:** A calculadora HP 12c retorna o valor 3, em vez de 2,37 (valor exato), porque arredonda o resultado para cima em cálculos que envolvem a determinação do número de períodos (n). Ela obtém apenas valores inteiros para n, sendo uma limitação da calculadora. Para realizar o cálculo exato, utilize o programa [Prazo Fracionário](./04-prazo-fracionario.md).
+**Nota:** A calculadora HP 12c retorna o valor 3, em vez de 2,37 (valor exato), porque arredonda o resultado para cima em cálculos que envolvem a determinação do número de períodos (n). Ela obtém apenas valores inteiros para n, sendo uma limitação da calculadora. Para realizar o cálculo exato, utilize o programa [Cálculo de prazo fracionário](./04-prazo-fracionario.md).
 
 **Problema: Se João empresta R$ 1.500,00 a um amigo com taxa de 4,3% ao ano, capitalizada mensalmente, quanto de juros terá ao final de um ano?**
 
@@ -1414,7 +1414,7 @@ O visor exibirá: 209,44 (media de aluguel).
 
 ## Taxas efetivas equivalentes
 
-**Nota:** Para os exercícios a seguir, utilize o programa [Taxas Equivalentes](./01-taxas-equivalentes.md).
+**Nota:** Para os exercícios a seguir, utilize o programa [Conversão entre taxas equivalentes](./01-taxas-equivalentes.md).
 
 **Problema: Você possui uma taxa de 1% ao mês e deseja saber qual é a taxa anual equivalente.**
 
@@ -1525,7 +1525,7 @@ Os cálculos mostram que o Banco C oferece a taxa mais favorável (maior taxa).
 
 ## Taxa nominal e taxa real
 
-**Nota:** Para os exercícios a seguir, utilize o programa [Rentabilidade Real](./05-rentabilidade-real.md).
+**Nota:** Para os exercícios a seguir, utilize o programa [Cálculo de rentabilidade real](./05-rentabilidade-real.md).
 
 **Problema: Determinar a variação real do poder aquisitivo de um assalariado que obtém, em determinado semestre, um reajuste salarial de 12%, admitindo que a inflação do período tenha atingido a 8%.**
 
