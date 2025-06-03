@@ -12,7 +12,6 @@ A tabela abaixo inclui os programas:
 - Programa 003 (início na linha 096): [Sistema de Amortização Constante (SAC)](./03-tabela-sac.md)
 - Programa 004 (início na linha 146): [Cálculo de prazo fracionário](./04-prazo-fracionario.md)
 - Programa 005 (início na linha 174): [Cálculo de rentabilidade real](./05-rentabilidade-real.md)
-- Programa 006 (início na linha 194): [Inserção de fluxo de caixa com datas](./src/06-fluxo-caixa-data.md)
 
 | Linha | Instrução | Mostrador | Comentário |
 | :---: | :-------: | --------- | ---------- |
@@ -21,7 +20,7 @@ A tabela abaixo inclui os programas:
 |  003  |  GTO 096  | 43.33.096 |            |
 |  004  |  GTO 146  | 43.33.146 |            |
 |  005  |  GTO 174  | 43.33.174 |            |
-|  006  |  GTO 194  | 43.33.194 |            |
+|  006  |  GTO 000  | 43.33.000 |            |
 |  007  |  GTO 000  | 43.33.000 |            |
 |  008  |  GTO 000  | 43.33.000 |            |
 |  009  |  GTO 000  | 43.33.000 |            |
@@ -209,63 +208,3 @@ A tabela abaixo inclui os programas:
 |  191  |   STO i   | 44.12     |            |
 |  192  |    R/S    | 31        |            |
 |  193  |  GTO 005  | 43.33.005 |            |
-|  194  |   RCL n   | 45.11     | Prog. 006  |
-|  195  |    x=0    | 43.35     |            |
-|  196  |  GTO 250  | 43.33.250 |            |
-|  197  |  STO PMT  | 44.14     |            |
-|  198  |  RCL CFj  | 45.43.14  |            |
-|  199  |   RCL n   | 45.11     |            |
-|  200  |    x=0    | 43.35     |            |
-|  201  |  GTO 236  | 43.33.236 |            |
-|  202  |     1     | 01        |            |
-|  203  |     -     | 30        |            |
-|  204  |   STO n   | 44.11     |            |
-|  205  |  R down   | 33        |            |
-|  206  |  RCL CFj  | 45.43.14  |            |
-|  207  |   x><y    | 34        |            |
-|  208  |   ENTER   | 36        |            |
-|  209  |   FRAC    | 43.24     |            |
-|  210  |    x=0    | 43.35     |            |
-|  211  |  GTO 252  | 43.33.252 |            |
-|  212  |  R down   | 33        |            |
-|  213  |    DYS    | 43.26     |            |
-|  214  |     1     | 01        |            |
-|  215  |     -     | 30        |            |
-|  216  |   RCL n   | 45.11     |            |
-|  217  |     1     | 01        |            |
-|  218  |     +     | 40        |            |
-|  219  |   STO n   | 44.11     |            |
-|  220  |  R down   | 33        |            |
-|  221  |    Nj     | 43.15     |            |
-|  222  |   RCL n   | 45.11     |            |
-|  223  |     2     | 02        |            |
-|  224  |     +     | 40        |            |
-|  225  |   STO n   | 44.11     |            |
-|  226  |  RCL Nj   | 45.43.15  |            |
-|  227  |  RCL CFj  | 45.43.14  |            |
-|  228  |  R down   | 33        |            |
-|  229  |     0     | 00        |            |
-|  230  |    CFj    | 43.14     |            |
-|  231  |  R down   | 33        |            |
-|  232  |    Nj     | 43.15     |            |
-|  233  |  RCL CFj  | 45.43.14  |            |
-|  234  |  RCL CFj  | 45.43.14  |            |
-|  235  |  GTO 198  | 43.33.198 |            |
-|  236  |     1     | 01        |            |
-|  237  |   STO n   | 44.11     |            |
-|  238  |  RCL Nj   | 45.43.15  |            |
-|  239  |     0     | 00        |            |
-|  240  |   STO n   | 44.11     |            |
-|  241  |    CFj    | 43.14     |            |
-|  242  |  R down   | 33        |            |
-|  243  |    Nj     | 43.15     |            |
-|  244  |  RCL PMT  | 45.14     |            |
-|  245  |     1     | 01        |            |
-|  246  |     -     | 30        |            |
-|  247  |   STO n   | 44.11     |            |
-|  248  |     0     | 00        |            |
-|  249  |  STO PMT  | 44.14     |            |
-|  250  |    R/S    | 31        |            |
-|  251  |  GTO 006  | 43.33.006 |            |
-|  252  |  RCL PMT  | 45.14     |            |
-|  253  |  GTO 247  | 43.33.247 |            |

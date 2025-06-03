@@ -21,7 +21,6 @@ Esses programas visam suprir lacunas da calculadora, tornando-a ainda mais útil
 3. [Sistema de Amortização Constante (SAC)](./src/03-tabela-sac.md)
 4. [Cálculo de prazo fracionário](./src/04-prazo-fracionario.md)
 5. [Cálculo de rentabilidade real](./src/05-rentabilidade-real.md)
-6. [Inserção de fluxo de caixa com datas](./src/06-fluxo-caixa-data.md)
 
 ## Dicas e utilidades
 
