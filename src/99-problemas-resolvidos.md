@@ -119,7 +119,7 @@ O visor exibirá: 25.12.2024 (terceira data)
 
 ## Juros Simples
 
-**Problema: Um capital de R$ 80.000,00 é aplicado à taxa de 30% ao ano durante 90 dias. Determine o valor dos juros simples acumulados neste período.**
+**Problema: Um capital de R$ 80.000,00 é aplicado à taxa de 30% ao ano, durante 90 dias. Utilizando o ano comercial de 360 dias, determine o valor dos juros simples acumulados no período e o montante total ao final da aplicação.**
 
 Dados do problema:
 - C = -80.000
@@ -134,7 +134,11 @@ Pressione as teclas:
             [f] [INT]
 ```
 
-Resposta: R$ 6.000,00 (juros simples acumulados).
+O visor exibirá: 6.000,00 (valor dos juros simples acumulados).
+
+Pressione a tecla: `[+]`
+
+O visor exibirá: 86.000,00 (montante total ao final da aplicação).
 
 ## Pagamentos únicos
 
