@@ -7,13 +7,13 @@ Este programa calcula, com exatidão, os principais valores envolvidos na amorti
 ## Entradas e saídas do programa
 
 **Entradas:**
-- n = quantidade total de períodos.
+- n = número total de parcelas.
 - i = taxa de juros.
 - PV = valor do empréstimo (principal).
-- X = quantidade de pagamentos (períodos) a serem amortizados.
+- X = número de parcelas a amortizar.
 
 **Saídas:**
-- n = quantidade de períodos restantes.
+- n = número de parcelas restantes.
 - PV = saldo devedor restante.
 - PMT = valor da parcela.
 - Y e R2 = total do principal até o período amortizado.
