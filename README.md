@@ -26,7 +26,8 @@ Esses programas visam suprir lacunas da calculadora, tornando-a ainda mais útil
 
 1. [Problemas resolvidos com a HP 12c](./src/99-problemas-resolvidos.md)
 2. [Todos os programas instalados na HP 12c Platinum](./src/99-todos-programas.md)
-3. [Resumo das funções da HP 12c (em inglês)](./src/99-cheat-sheet.md)
+4. [Resumo das funções da HP 12c](./src/99-cheat-sheet-pt.md)
+5. [Resumo das funções da HP 12c (em inglês)](./src/99-cheat-sheet.md)
 
 ## Referências
 
