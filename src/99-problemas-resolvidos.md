@@ -119,7 +119,7 @@ O visor exibirá: 25.12.2024 (terceira data)
 
 ## Juros Simples
 
-**Problema: Um capital de R$ 80.000,00 é aplicado à taxa de 30% ao ano durante 90 dias. Determine o valor dos juros simples acumulados neste período.**
+**Problema: Um capital de R$ 80.000,00 é aplicado à taxa de 30% ao ano, durante 90 dias. Utilizando o ano comercial de 360 dias, determine o valor dos juros simples acumulados no período e o montante total ao final da aplicação.**
 
 Dados do problema:
 - C = -80.000
@@ -134,7 +134,11 @@ Pressione as teclas:
             [f] [INT]
 ```
 
-Resposta: R$ 6.000,00 (juros simples acumulados).
+O visor exibirá: 6.000,00 (valor dos juros simples acumulados).
+
+Pressione a tecla: `[+]`
+
+O visor exibirá: 86.000,00 (montante total ao final da aplicação).
 
 ## Pagamentos únicos
 
@@ -1195,7 +1199,7 @@ Pressione as teclas:
 
 Resposta: TIR = 0,47% (taxa interna de retorno mensal)
 
-**Problema: (valor futuro com pagamentos irregulares) Um investidor realiza 4 depósitos mensais consecutivos em uma aplicação financeira que rende 1% ao mês, com capitalização mensal. Cada pagamento é feito ao final de cada mês conforme os dados abaixo. Calcule o valor futuro total acumulado ao final do período, após o último depósito.**
+**Problema: (valor futuro com pagamentos irregulares) Um investidor realiza 5 depósitos mensais consecutivos em uma aplicação financeira que rende 1% ao mês, com capitalização mensal. Cada pagamento é feito ao final de cada mês conforme os dados abaixo. Calcule o valor futuro total acumulado ao final do período, após o último depósito.**
 
 | Mês | Depósitos (R$) |
 | --- | -------------- |
@@ -1203,8 +1207,9 @@ Resposta: TIR = 0,47% (taxa interna de retorno mensal)
 | 2   | 700,00         |
 | 3   | 600,00         |
 | 4   | 200,00         |
+| 5   | 200,00         |
 
-**Nota:** Na HP 12c, como não há uma tecla específica para calcular o valor futuro (VF) de fluxos de caixa irregulares, a solução é primeiro obter o valor presente (VP) usando a função NPV (para fluxos com valores distintos) e, em seguida, converter esse VP em VF tratando-o como um único pagamento e aplicando a taxa de juros e o prazo desejados.
+**Nota:** Na HP 12c, como não há uma função específica para calcular o valor futuro (VF) de fluxos de caixa irregulares, a solução é primeiro obter o valor presente (VP) usando a função NPV (para fluxos com valores distintos) e, em seguida, converter esse VP em VF tratando-o como um único pagamento e aplicando a taxa de juros e o prazo desejados.
 
 Pressione as teclas:
 ```
@@ -1212,13 +1217,40 @@ Pressione as teclas:
 700 [CHS] [g] [CFj]
 600 [CHS] [g] [CFj]
 200 [CHS] [g] [CFj]
+2         [g] [Nj]
 1         [i]
           [f] [NPV]
-4         [n]
+5         [n]
           [FV]
 ```
 
 Resposta: R$ 2.035,22
+
+**Uma empresa avalia um investimento de R$ 20.000,00 que gera os seguintes fluxos de caixa ao longo de 4 anos, com uma taxa mínima de atratividade de 10% ao ano, e deseja saber qual é a Série Uniforme Líquida[^10] (*Net Uniform Series*) equivalente.**
+
+| Ano | Fluxo de Caixa (R$) |
+| --- | ------------------- |
+| 1   | 5.000,00            |
+| 2   | 6.000,00            |
+| 3   | 7.000,00            |
+| 4   | 8.000,00            |
+
+**Nota:** Na HP 12c, não há uma função direta para calcular a Série Uniforme Líquida a partir de fluxos de caixa não uniformes. Para isso, deve-se inicialmente calcular o Valor Presente Líquido (VPL) utilizando a função de fluxo de caixa. Em seguida, esse valor presente deve ser convertido em uma série uniforme equivalente por meio do cálculo do PMT, tratando o problema como uma operação de valor do dinheiro no tempo (TVM), com os mesmos prazo e taxa de juros utilizados no cálculo do VPL.
+
+Pressione as teclas:
+```
+20000 [CHS] [g] [CFj]
+5000        [g] [CFj]
+6000        [g] [CFj]
+7000        [g] [CFj]
+8000        [g] [CFj]
+10          [i]
+            [f] [NPV]
+4           [n]
+            [PMT]
+```
+
+Resposta: R$ 71,75
 
 ## Cálculo de depreciação
 
@@ -1801,3 +1833,5 @@ Resposta: PMT = 289,19
 [^8]: **Taxa contínua.** A taxa contínua é uma taxa de juros usada em contextos financeiros e matemáticos onde a capitalização ocorre de forma ininterrupta, ou seja, os juros são aplicados continuamente ao saldo. Diferente das taxas com capitalização em períodos discretos (como mensal ou anual), a taxa contínua usa uma fórmula baseada em exponenciais, onde *e* é a base dos logaritmos naturais. Esse tipo de taxa é comum em modelos financeiros mais avançados, como no cálculo de crescimento exponencial ou precificação de ativos.
 
 [^9]: **Desvio padrão.** O desvio padrão mede o quanto os dados variam em relação à média. O *desvio padrão da população* é usado quando temos todos os dados disponíveis e mostra a variação real. Já o *desvio padrão da amostra* é usado quando temos apenas uma parte dos dados (uma amostra) e serve para estimar a variação da população inteira, sendo um pouco maior para compensar a incerteza. Em finanças, geralmente usamos o desvio da amostra, pois raramente temos todos os dados possíveis.
+
+[^10]: **Série Uniforme Líquida** A Série Uniforme Líquida (Net Uniform Series), ou Valor Uniforme Líquido, representa uma sequência de pagamentos ou recebimentos iguais que ocorrem em intervalos regulares ao longo do tempo, considerada em termos líquidos.
