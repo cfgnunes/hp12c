@@ -1814,7 +1814,7 @@ Pressione as teclas:
 
 Resposta: PMT = 289,19
 
-## Notas de rodapé
+## Glossário
 
 [^1]: **Anuidade ordinária**. Uma anuidade ordinária é um tipo de investimento ou empréstimo em que pagamentos iguais são feitos em intervalos regulares, como todo mês ou todo ano, e esses pagamentos acontecem no final de cada período. Por exemplo, se você fizer um pagamento todo mês no fim do mês por um certo tempo, isso é uma anuidade ordinária. Ela é muito usada para calcular valores de empréstimos, financiamentos e investimentos que envolvem pagamentos periódicos.
 
