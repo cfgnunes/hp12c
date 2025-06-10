@@ -15,30 +15,34 @@ Este programa supre uma limitação conhecida da calculadora HP 12c, que realiza
 
 ## Código do programa
 
-| Ordem | Instrução | Mostrador |
-| :---: | :-------: | --------- |
-|  01   |  RCL FV   | 45.15     |
-|  02   |    CHS    | 16        |
-|  03   |   RCL i   | 45.12     |
-|  04   |     %     | 25        |
-|  05   |  RCL PMT  | 45.14     |
-|  06   |     +     | 40        |
-|  07   |  RCL PV   | 45.13     |
-|  08   |   RCL i   | 45.12     |
-|  09   |     %     | 25        |
-|  10   |  RCL PMT  | 45.14     |
-|  11   |     +     | 40        |
-|  12   |   x><y    | 34        |
-|  13   |  R down   | 33        |
-|  14   |     /     | 10        |
-|  15   |    LN     | 43.23     |
-|  16   |     1     | 01        |
-|  17   |   RCL i   | 45.12     |
-|  18   |     %     | 25        |
-|  19   |     +     | 40        |
-|  20   |    LN     | 43.23     |
-|  21   |     /     | 10        |
-|  22   |   STO n   | 44.11     |
+| Linha | Instrução | Mostrador | Comentário                                   |
+| :---: | :-------: | --------- | -------------------------------------------- |
+|  01   |  RCL FV   | 45.15     |                                              |
+|  02   |    CHS    | 16        |                                              |
+|  03   |   RCL i   | 45.12     |                                              |
+|  04   |     %     | 25        |                                              |
+|  05   |  RCL PMT  | 45.14     |                                              |
+|  06   |     +     | 40        |                                              |
+|  07   |  RCL PV   | 45.13     |                                              |
+|  08   |   RCL i   | 45.12     |                                              |
+|  09   |     %     | 25        |                                              |
+|  10   |  RCL PMT  | 45.14     |                                              |
+|  11   |     +     | 40        |                                              |
+|  12   |   x><y    | 34        |                                              |
+|  13   |  R down   | 33        |                                              |
+|  14   |    x=0    | 43.35     |                                              |
+|  15   |  GTO 00   | 43.33.00  | Evita divisão por zero.                      |
+|  16   |     /     | 10        |                                              |
+|  17   |    LN     | 43.23     |                                              |
+|  18   |     1     | 01        |                                              |
+|  19   |   RCL i   | 45.12     |                                              |
+|  20   |     %     | 25        |                                              |
+|  21   |     +     | 40        |                                              |
+|  22   |    LN     | 43.23     |                                              |
+|  23   |    x=0    | 43.35     |                                              |
+|  24   |  GTO 00   | 43.33.00  | Evita divisão por zero.                      |
+|  25   |     /     | 10        |                                              |
+|  26   |   STO n   | 44.11     | Armazena o prazo calculado no registrador n. |
 
 ## Fórmula utilizada no programa
 

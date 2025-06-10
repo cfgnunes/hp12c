@@ -14,27 +14,31 @@ Este programa realiza o cálculo de taxas de juros equivalentes entre diferentes
 
 ## Código do programa
 
-| Ordem | Instrução | Mostrador |
-| :---: | :-------: | --------- |
-|   1   |     1     | 01        |
-|   2   |   RCL i   | 45.12     |
-|   3   |     %     | 25        |
-|   4   |     +     | 40        |
-|   5   |   x><y    | 34        |
-|   6   |   RCL n   | 45.11     |
-|   7   |     /     | 10        |
-|   8   |    y^x    | 21        |
-|   9   |     1     | 01        |
-|  10   |     -     | 30        |
-|  11   |    EEX    | 26        |
-|  12   |     2     | 02        |
-|  13   |     x     | 20        |
-|  14   |   STO i   | 44.12     |
+| Linha | Instrução | Mostrador | Comentário                             |
+| :---: | :-------: | --------- | -------------------------------------- |
+|  01   |    x=0    | 43.35     |                                        |
+|  02   |  GTO 00   | 43.33.00  | Termina o programa se X = 0.           |
+|  03   |     1     | 01        |                                        |
+|  04   |   RCL i   | 45.12     |                                        |
+|  05   |     %     | 25        |                                        |
+|  06   |     +     | 40        |                                        |
+|  07   |   x><y    | 34        |                                        |
+|  08   |   RCL n   | 45.11     |                                        |
+|  09   |    x=0    | 43.35     |                                        |
+|  10   |  GTO 00   | 43.33.00  | Evita divisão por zero.                |
+|  11   |     /     | 10        |                                        |
+|  12   |    y^x    | 21        |                                        |
+|  13   |     1     | 01        |                                        |
+|  14   |     -     | 30        |                                        |
+|  15   |    EEX    | 26        | Insere o valor 100 na pilha.           |
+|  16   |     2     | 02        |                                        |
+|  17   |     x     | 20        | Multiplica a taxa por 100.             |
+|  18   |   STO i   | 44.12     | Armazena a nova taxa no registrador i. |
 
 ## Fórmula utilizada no programa
 
 $$
-i_X = \left(1 + i_n \right)^{\frac{n}{X}} - 1
+i_X = \left(1 + i_n \right)^{\frac{X}{n}} - 1
 $$
 
 Onde:
