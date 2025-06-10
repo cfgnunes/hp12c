@@ -18,7 +18,7 @@ Este programa calcula, com exatidão, os principais valores envolvidos na amorti
 - X e R1 = total de juros até o período amortizado.
 - R0 = valor da amortização constante.
 
-**Nota:** Pressione + para exibir o valor total pago (principal + juros).
+**Nota:** pressione a tecla `[+]` para exibir o valor total pago  até o período amortizado (principal + juros).
 
 ## Código do programa
 

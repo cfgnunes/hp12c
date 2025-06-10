@@ -19,7 +19,7 @@ Este programa calcula, com exatidão, os principais valores envolvidos na amorti
 - Y e R2 = total do principal até o período amortizado.
 - X e R1 = total de juros até o período amortizado.
 
-**Nota:** Pressione + para exibir o valor total pago (principal + juros).
+**Nota:** pressione a tecla `[+]` para exibir o valor total pago  até o período amortizado (principal + juros).
 
 ## Código do programa
 
