@@ -25,7 +25,7 @@ Este programa calcula, com exatidão, os principais valores envolvidos na amorti
 
 | Linha | Instrução | Mostrador | Comentário                                                               |
 | :---: | :-------: | --------- | ------------------------------------------------------------------------ |
-|  01   |   STO 3   | 44.03     | R3 armazena o número de parcelas a amortizar.                            |
+|  01   |   STO 3   | 44.03     | Armazena o número de parcelas a amortizar em R3.                         |
 |  02   |     1     | 01        |                                                                          |
 |  03   |   RCL i   | 45.12     |                                                                          |
 |  04   |     %     | 25        |                                                                          |
@@ -34,7 +34,7 @@ Este programa calcula, com exatidão, os principais valores envolvidos na amorti
 |  07   |    y^x    | 21        |                                                                          |
 |  08   |   STO 4   | 44.04     | R4 = (i%+1)^n                                                            |
 |  09   |  RCL PV   | 45.13     |                                                                          |
-|  10   |   STO 0   | 44.00     | R0 armazena o valor do empréstimo (principal).                           |
+|  10   |   STO 0   | 44.00     | Armazena o valor do empréstimo (principal) em R0.                        |
 |  11   |   RCL i   | 45.12     |                                                                          |
 |  12   |     %     | 25        |                                                                          |
 |  13   |   RCL 4   | 45.04     |                                                                          |
