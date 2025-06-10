@@ -28,12 +28,10 @@ Esses programas visam suprir lacunas da calculadora, tornando-a ainda mais útil
 4. [Resumo das funções da HP 12c](./src/99-cheat-sheet-pt.md)
 5. [Resumo das funções da HP 12c (em inglês)](./src/99-cheat-sheet.md)
 
-## Referências
+## Links externos
 
 - [Simulador da Calculadora HP 12c](https://stendec.io/ctb/rpn_fin.html)
 - [Simulador da Calculadora HP 12c Platinum](https://stendec.io/ctb/rpn_finp.html)
-- [Simuladores de investimento](https://clubedospoupadores.com/simuladores)
-- [Simulação de amortização de financiamento](https://simuladoramortizacao.com.br/resultado-simulacao-de-amortizacao-de-financiamento)
 
 ## Contribuindo
 
