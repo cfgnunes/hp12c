@@ -23,61 +23,65 @@ Este programa calcula, com exatidão, os principais valores envolvidos na amorti
 
 ## Código do programa
 
-| Ordem | Instrução | Mostrador |
-| :---: | :-------: | --------- |
-|   1   |   STO 3   | 44.03     |
-|   2   |     1     | 01        |
-|   3   |   RCL i   | 45.12     |
-|   4   |     %     | 25        |
-|   5   |     +     | 40        |
-|   6   |   RCL n   | 45.11     |
-|   7   |    y^x    | 21        |
-|   8   |   STO 4   | 44.04     |
-|   9   |  RCL PV   | 45.13     |
-|  10   |   STO 0   | 44.00     |
-|  11   |   RCL i   | 45.12     |
-|  12   |     %     | 25        |
-|  13   |   RCL 4   | 45.04     |
-|  14   |     x     | 20        |
-|  15   |   RCL 4   | 45.04     |
-|  16   |     1     | 01        |
-|  17   |     -     | 30        |
-|  18   |     /     | 10        |
-|  19   |    CHS    | 16        |
-|  20   |  STO PMT  | 44.14     |
-|  21   |     1     | 01        |
-|  22   |   RCL i   | 45.12     |
-|  23   |     %     | 25        |
-|  24   |     +     | 40        |
-|  25   |   RCL 3   | 45.03     |
-|  26   |    y^x    | 21        |
-|  27   |   RCL 4   | 45.04     |
-|  28   |   x><y    | 34        |
-|  29   |     -     | 30        |
-|  30   |   RCL 4   | 45.04     |
-|  31   |     1     | 01        |
-|  32   |     -     | 30        |
-|  33   |     /     | 10        |
-|  34   |   RCL 0   | 45.00     |
-|  35   |     x     | 20        |
-|  36   |  STO PV   | 44.13     |
-|  37   |   RCL n   | 45.11     |
-|  38   |   RCL 3   | 45.03     |
-|  39   |     -     | 30        |
-|  40   |   STO n   | 44.11     |
-|  41   |   RCL 0   | 45.00     |
-|  42   |    CHS    | 16        |
-|  43   |  RCL PV   | 45.13     |
-|  44   |     +     | 40        |
-|  45   |   STO 2   | 44.02     |
-|  46   |  RCL PMT  | 45.14     |
-|  47   |   RCL 3   | 45.03     |
-|  48   |     x     | 20        |
-|  49   |   RCL 0   | 45.00     |
-|  50   |  RCL PV   | 45.13     |
-|  51   |     -     | 30        |
-|  52   |     +     | 40        |
-|  53   |   STO 1   | 44.01     |
+| Linha | Instrução | Mostrador | Comentário                                                               |
+| :---: | :-------: | --------- | ------------------------------------------------------------------------ |
+|  01   |   STO 3   | 44.03     | R3 armazena o número de parcelas a amortizar.                            |
+|  02   |     1     | 01        |                                                                          |
+|  03   |   RCL i   | 45.12     |                                                                          |
+|  04   |     %     | 25        |                                                                          |
+|  05   |     +     | 40        |                                                                          |
+|  06   |   RCL n   | 45.11     |                                                                          |
+|  07   |    y^x    | 21        |                                                                          |
+|  08   |   STO 4   | 44.04     | R4 = (i%+1)^n                                                            |
+|  09   |  RCL PV   | 45.13     |                                                                          |
+|  10   |   STO 0   | 44.00     | R0 armazena o valor do empréstimo (principal).                           |
+|  11   |   RCL i   | 45.12     |                                                                          |
+|  12   |     %     | 25        |                                                                          |
+|  13   |   RCL 4   | 45.04     |                                                                          |
+|  14   |     x     | 20        |                                                                          |
+|  15   |   RCL 4   | 45.04     |                                                                          |
+|  16   |     1     | 01        |                                                                          |
+|  17   |     -     | 30        |                                                                          |
+|  18   |    x=0    | 43.35     |                                                                          |
+|  19   |  GTO 00   | 43.33.00  | Evita divisão por zero.                                                  |
+|  20   |     /     | 10        |                                                                          |
+|  21   |    CHS    | 16        |                                                                          |
+|  22   |  STO PMT  | 44.14     | Armazena o valor da parcela: PMT = - (i% * R0 * R4) / (R4 - 1)           |
+|  23   |     1     | 01        |                                                                          |
+|  24   |   RCL i   | 45.12     |                                                                          |
+|  25   |     %     | 25        |                                                                          |
+|  26   |     +     | 40        |                                                                          |
+|  27   |   RCL 3   | 45.03     |                                                                          |
+|  28   |    y^x    | 21        |                                                                          |
+|  29   |   RCL 4   | 45.04     |                                                                          |
+|  30   |   x><y    | 34        |                                                                          |
+|  31   |     -     | 30        |                                                                          |
+|  32   |   RCL 4   | 45.04     |                                                                          |
+|  33   |     1     | 01        |                                                                          |
+|  34   |     -     | 30        |                                                                          |
+|  35   |    x=0    | 43.35     |                                                                          |
+|  36   |  GTO 00   | 43.33.00  | Evita divisão por zero.                                                  |
+|  37   |     /     | 10        |                                                                          |
+|  38   |   RCL 0   | 45.00     |                                                                          |
+|  39   |     x     | 20        |                                                                          |
+|  40   |  STO PV   | 44.13     | Armazena o saldo devedor restante: PV = (R4 - (i%+1)^R3) / (R4 - 1) * R0 |
+|  41   |   RCL n   | 45.11     |                                                                          |
+|  42   |   RCL 3   | 45.03     |                                                                          |
+|  43   |     -     | 30        |                                                                          |
+|  44   |   STO n   | 44.11     | Armazena o número de períodos restantes: n = n - R3                      |
+|  45   |   RCL 0   | 45.00     |                                                                          |
+|  46   |    CHS    | 16        |                                                                          |
+|  47   |  RCL PV   | 45.13     |                                                                          |
+|  48   |     +     | 40        | Empilha no registrador Y o valor do principal.                           |
+|  49   |   STO 2   | 44.02     | Também armazena em R2 = -R0 + PV                                         |
+|  50   |  RCL PMT  | 45.14     |                                                                          |
+|  51   |   RCL 3   | 45.03     |                                                                          |
+|  52   |     x     | 20        |                                                                          |
+|  53   |   RCL 0   | 45.00     |                                                                          |
+|  54   |  RCL PV   | 45.13     |                                                                          |
+|  55   |     -     | 30        |                                                                          |
+|  56   |     +     | 40        | Empilha no registrador X o valor dos juros.                              |
+|  57   |   STO 1   | 44.01     | Também armazena em R1 = -PMT * R3 + (R0 - PV)                            |
 
 ## Fórmulas utilizadas no programa
 
