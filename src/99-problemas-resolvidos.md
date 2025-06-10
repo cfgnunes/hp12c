@@ -167,7 +167,7 @@ Pressione as teclas:
      [+]
 ```
 
-O visor exibirá: 1.337,50 (montante total que você terá que pagar).
+O visor exibirá: -1.337,50 (montante total que você terá que pagar).
 
 ## Pagamentos únicos: investimentos
 
@@ -1853,6 +1853,30 @@ Pressione as teclas:
 ```
 
 Resposta: PMT = 289,19
+
+## Utilização da pilha como constante
+
+**Problema: Para os próximos dez anos, as vendas anuais de uma pequena firma de material eletrônico têm a perspectiva de serem dobradas uma vez por ano. Sendo as vendas atuais de R$ 84.000, quais serão as vendas em cada um dos próximos dez anos?**
+
+Pressione as teclas:
+```
+2     [ENTER] [ENTER] [ENTER]    (preenche toda a pilha com o valor 2)
+84000 [x]
+```
+
+O visor exibirá: 168.000,00 (venda do primeiro ano)
+
+Para exibir a venda dos próximos anos, basta pressionar repetidamente a tecla: `[x]`
+
+**Problema: Um trabalhador autônomo pretende economizar R$ 1.213,50 por ano. Se ele mantiver essa meta, quanto ele terá acumulado ao final de cada um dos próximos cinco anos, começando com uma economia inicial de R$ 1.213,50?**
+
+Pressione as teclas:
+
+```
+1213,50 [ENTER] [ENTER] [ENTER]    (preenche toda a pilha com o valor 1.213,50)
+```
+
+Para exibir os valores acumulados dos anos seguintes, basta pressionar repetidamente a tecla: `[+]`
 
 ## Glossário
 
