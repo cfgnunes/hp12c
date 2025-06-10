@@ -1506,7 +1506,7 @@ Para obter a taxa efetiva anual do Banco A, pressione as teclas:
 6,70 [ENTER] 4 [/] [i] (converte a taxa nominal para taxa efetiva trimestral)
 3    [n]               (3 meses: período trimestral)
 12                     (12 meses: período anual)
-   [R/S]               (executa o programa)
+     [R/S]             (executa o programa)
 ```
 
 O visor exibirá: 6,87 (taxa efetiva anual do Banco A).
@@ -1516,7 +1516,7 @@ Para obter a taxa efetiva anual do Banco B, pressione as teclas:
 6,65 [ENTER] 12 [/] [i] (converte a taxa nominal para taxa efetiva mensal)
 1    [n]                (1 mês: período mensal)
 12                      (12 meses: período anual)
-   [R/S]                (executa o programa)
+     [R/S]              (executa o programa)
 ```
 
 O visor exibirá: 6,86 (taxa efetiva anual do Banco B).
