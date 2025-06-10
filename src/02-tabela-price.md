@@ -72,16 +72,16 @@ Este programa calcula, com exatidão, os principais valores envolvidos na amorti
 |  45   |   RCL 0   | 45.00     |                                                                          |
 |  46   |    CHS    | 16        |                                                                          |
 |  47   |  RCL PV   | 45.13     |                                                                          |
-|  48   |     +     | 40        | Empilha no registrador Y o valor do principal.                           |
-|  49   |   STO 2   | 44.02     | Também armazena em R2 = -R0 + PV                                         |
+|  48   |     +     | 40        | Empilha no registrador Y o valor do principal: -R0 + PV                  |
+|  49   |   STO 2   | 44.02     | Também armazena em R2.                                                   |
 |  50   |  RCL PMT  | 45.14     |                                                                          |
 |  51   |   RCL 3   | 45.03     |                                                                          |
 |  52   |     x     | 20        |                                                                          |
 |  53   |   RCL 0   | 45.00     |                                                                          |
 |  54   |  RCL PV   | 45.13     |                                                                          |
 |  55   |     -     | 30        |                                                                          |
-|  56   |     +     | 40        | Empilha no registrador X o valor dos juros.                              |
-|  57   |   STO 1   | 44.01     | Também armazena em R1 = -PMT * R3 + (R0 - PV)                            |
+|  56   |     +     | 40        | Empilha no registrador X o valor dos juros: -PMT * R3 + (R0 - PV)        |
+|  57   |   STO 1   | 44.01     | Também armazena em R1.                                                   |
 
 ## Fórmulas utilizadas no programa
 
