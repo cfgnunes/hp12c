@@ -10,9 +10,9 @@ Antes de iniciar qualquer exercício envolvendo os registradores financeiros ou 
 Os registradores financeiros da calculadora HP 12c representam os principais elementos de uma operação financeira baseada no conceito de valor do dinheiro no tempo (*Time Value of Money* - TVM). São eles:
 - **n**: número de períodos;
 - **i**: taxa de juros por período;
-- **PV (Present Value)**: valor presente;
+- **PV (Present Value)**: valor presente (capital);
 - **PMT (Payment)**: valor do pagamento periódico, utilizado em operações com séries de pagamentos;
-- **FV (Future Value)**: valor futuro, que representa o montante acumulado ao final dos períodos.
+- **FV (Future Value)**: valor futuro (montante), que representa o valor acumulado ao final dos períodos.
 
 ## Cálculos com porcentagem
 
@@ -140,65 +140,6 @@ Pressione a tecla: `[+]`
 
 O visor exibirá: 86.000,00 (montante total ao final da aplicação).
 
-## Pagamentos únicos
-
-**Problema: As vendas de uma empresa foram de R$ 100 milhões. Se as vendas crescerem 8% ao ano, qual será o valor em 10 anos, em milhões?**
-
-Dados do problema:
-- n = 10
-- i = 8
-- PV = -100
-- PMT = 0
-- FV = ?
-
-Pressione as teclas:
-```
-10        [n]
-8         [i]
-100 [CHS] [PV]
-          [FV]
-```
-
-Resposta: FV = 215,89
-
-**Problema: Suponha que um título do governo pagará R$ 1.000,00 daqui a três anos. Se a taxa de juros dos títulos de 3 anos é de 4% ao ano, quanto vale esse título hoje?**
-
-Dados do problema:
-- n = 3
-- i = 4
-- PV = ?
-- PMT = 0
-- FV = 1.000
-
-Pressione as teclas:
-```
-3    [n]
-4    [i]
-1000 [FV]
-     [PV]
-```
-
-Resposta: PV = -889,00
-
-**Problema: O Tesouro Nacional oferece um título por R$ 613,81. Nenhum pagamento será feito até o vencimento, em 10 anos, quando será resgatado por R$ 1.000,00. Qual a taxa de juros efetiva anual desse título?**
-
-Dados do problema:
-- n = 10
-- i = ?
-- PV = -613,81
-- PMT = 0
-- FV = 1.000
-
-Pressione as teclas:
-```
-10           [n]
-613,81 [CHS] [PV]
-1000         [FV]
-             [i]
-```
-
-Resposta: i = 5%
-
 ## Pagamentos únicos: investimentos
 
 **Problema: Você investe R$ 5.000,00 em uma conta que rende 6% ao ano durante 8 anos. Qual será o valor ao final do período?**
@@ -257,6 +198,44 @@ Pressione as teclas:
 ```
 
 Resposta: i = 8,78%
+
+**Problema: Suponha que um título do governo pagará R$ 1.000,00 daqui a três anos. Se a taxa de juros dos títulos de 3 anos é de 4% ao ano, quanto vale esse título hoje?**
+
+Dados do problema:
+- n = 3
+- i = 4
+- PV = ?
+- PMT = 0
+- FV = 1.000
+
+Pressione as teclas:
+```
+3    [n]
+4    [i]
+1000 [FV]
+     [PV]
+```
+
+Resposta: PV = -889,00
+
+**Problema: O Tesouro Nacional oferece um título por R$ 613,81. Nenhum pagamento será feito até o vencimento, em 10 anos, quando será resgatado por R$ 1.000,00. Qual a taxa de juros efetiva anual desse título?**
+
+Dados do problema:
+- n = 10
+- i = ?
+- PV = -613,81
+- PMT = 0
+- FV = 1.000
+
+Pressione as teclas:
+```
+10           [n]
+613,81 [CHS] [PV]
+1000         [FV]
+             [i]
+```
+
+Resposta: i = 5%
 
 **Problema: Em quanto tempo uma taxa de juros mensal de 2,6% dobraria o seu patrimônio?**
 
@@ -1226,7 +1205,7 @@ Pressione as teclas:
 
 Resposta: R$ 2.035,22
 
-**Uma empresa avalia um investimento de R$ 20.000,00 que gera os seguintes fluxos de caixa ao longo de 4 anos, com uma taxa mínima de atratividade de 10% ao ano, e deseja saber qual é a Série Uniforme Líquida[^10] (*Net Uniform Series*) equivalente.**
+**Uma empresa avalia um investimento de R$ 20.000,00 que gera os seguintes fluxos de caixa ao longo de 4 anos, com uma taxa mínima de atratividade de 10% ao ano, e deseja saber qual é a Série Uniforme Líquida[^4] (*Net Uniform Series*) equivalente.**
 
 | Ano | Fluxo de Caixa (R$) |
 | --- | ------------------- |
@@ -1351,7 +1330,7 @@ Pressione as teclas:
 
 Resposta: R$ 212,51 (valor médio)
 
-**Problema: (estatística descritiva) Você decide analisar o comportamento de duas ações da bolsa de valores. Seu objetivo é comparar a média dos preços e a volatilidade (medida pelo desvio padrão[^9]) dessas ações em um período recente. Qual das duas apresentou maior variação de preço e qual foi o preço médio de cada ação nesse período?**
+**Problema: (estatística descritiva) Você decide analisar o comportamento de duas ações da bolsa de valores. Seu objetivo é comparar a média dos preços e a volatilidade (medida pelo desvio padrão[^5]) dessas ações em um período recente. Qual das duas apresentou maior variação de preço e qual foi o preço médio de cada ação nesse período?**
 
 | Semana | Ação Y | Ação X |
 | ------ | ------ | ------ |
@@ -1409,7 +1388,7 @@ Pressione as teclas: `800 [g] [ŷ,r]`
 
 O visor exibirá: 4.694,53 (renda estimada para obter um poupança de R$ 800,00).
 
-Para visualizar o valor do coeficiente de correlação[^4], basta pressionar a tecla `[x><y]`.
+Para visualizar o valor do coeficiente de correlação[^6], basta pressionar a tecla `[x><y]`.
 
 **Problema: (média ponderada) João realizou três compras de ações de uma mesma empresa na bolsa de valores, em momentos diferentes, com preços e quantidades distintas. Agora, ele deseja saber qual foi o preço médio de aquisição das ações, para uma possível venda futura. Desconsidere outras possíveis taxas.**
 
@@ -1520,7 +1499,7 @@ O visor exibirá: 2,97 (taxa ao mês).
 | ----- | ---------------- | ------------------------------------- |
 | A     | 6,70%            | Trimestral                            |
 | B     | 6,65%            | Mensal                                |
-| C     | 6,65%            | Contínua[^8] (capitalização contínua) |
+| C     | 6,65%            | Contínua[^7] (capitalização contínua) |
 
 Para obter a taxa efetiva anual do Banco A, pressione as teclas:
 ```
@@ -1600,7 +1579,7 @@ Pressione as teclas:
 
 Resposta: PMT = -308,58 (valor das parcelas fixas).
 
-**Problema: Você assumiu, na compra de uma casa, uma hipoteca[^5] de 25 anos de R$ 75.250,00 com juros nominais de 13,8% ao ano. Você estima morar na casa por 4 anos e depois vendê-la, liquidando o empréstimo. Qual será o valor da liquidação ao final de quatro anos? (considere as parcelas fixas, usando o sistema de amortização francês)**
+**Problema: Você assumiu, na compra de uma casa, uma hipoteca[^8] de 25 anos de R$ 75.250,00 com juros nominais de 13,8% ao ano. Você estima morar na casa por 4 anos e depois vendê-la, liquidando o empréstimo. Qual será o valor da liquidação ao final de quatro anos? (considere as parcelas fixas, usando o sistema de amortização francês)**
 
 **Nota:** Este problema consiste em encontrar o saldo devedor após 4 anos (48 meses) de financiamento.
 
@@ -1721,7 +1700,7 @@ O visor exibirá: -139.578,95 (total pago em parcelas da 16ª à 27ª).
 
 ## Cálculos para títulos de dívida
 
-**Problema: Qual seria o preço justo a ser pago em 28 de abril de 2025 por um título público do Tesouro Nacional, que possui uma taxa nominal de juros de 6,75% ao ano e vence em 14 de junho de 2038, caso você deseje obter uma taxa efetiva de retorno (YTM)[^6] de 4,75% ao ano? Além disso, calcule a taxa efetiva de retorno correspondente ao preço de mercado do título, dado como 122,125%. Considere que o formato de data é dia-mês-ano.**
+**Problema: Qual seria o preço justo a ser pago em 28 de abril de 2025 por um título público do Tesouro Nacional, que possui uma taxa nominal de juros de 6,75% ao ano e vence em 14 de junho de 2038, caso você deseje obter uma taxa efetiva de retorno (YTM)[^10] de 4,75% ao ano? Além disso, calcule a taxa efetiva de retorno correspondente ao preço de mercado do título, dado como 122,125%. Considere que o formato de data é dia-mês-ano.**
 
 Pressione as teclas:
 ```
@@ -1752,6 +1731,25 @@ Calculando agora  a taxa efetiva de retorno considerando que o preço de mercado
 O visor exibirá: 4,50% (A taxa efetiva do título de dívida ou *Yield To Maturity*).
 
 ## Problemas diversos
+
+**Problema: As vendas de uma empresa foram de R$ 100 milhões no ano inicial. Considerando um crescimento anual composto (CAGR[^9]) de 8% ao ano, qual será o valor das vendas ao final de 10 anos, em milhões de reais?**
+
+Dados do problema:
+- n = 10
+- i = 8
+- PV = -100
+- PMT = 0
+- FV = ?
+
+Pressione as teclas:
+```
+10        [n]
+8         [i]
+100 [CHS] [PV]
+          [FV]
+```
+
+Resposta: FV = 215,89
 
 **Problema: Sua filha irá para a universidade dentro de 12 anos e você inicia uma poupança com essa finalidade. Ela precisará de R$ 5.000,00 no início de cada mês, durante cinco anos. A poupança rende juros de 1% ao mês, e você planeja efetuar depósitos mensais, começando no final do mês. Quanto você deverá depositar cada mês para poder custear as despesas com a universidade de sua filha no futuro?**
 
@@ -1795,7 +1793,7 @@ Pressione as teclas:
 
 Resposta: R$ 711,53 (depositar cada mês para poder custear as despesas com a universidade da filha)
 
-**Problema: Um carro novo que custa R$ 13.500,00 pode ser adquirido através de um *leasing*[^7] de 3 anos, com a opção de compra ao final do período por R$ 7.500,00. Se a financeira quiser obter um rendimento anual nominal de 14%, qual deverá ser o valor dos pagamentos mensais, com um pagamento antecipado? Calcule o valor do pagamento sob o ponto de vista da financeira. Utilize o modo início (BEGIN), porque o primeiro pagamento é devido na assinatura do contrato.**
+**Problema: Um carro novo que custa R$ 13.500,00 pode ser adquirido através de um *leasing*[^11] de 3 anos, com a opção de compra ao final do período por R$ 7.500,00. Se a financeira quiser obter um rendimento anual nominal de 14%, qual deverá ser o valor dos pagamentos mensais, com um pagamento antecipado? Calcule o valor do pagamento sob o ponto de vista da financeira. Utilize o modo início (BEGIN), porque o primeiro pagamento é devido na assinatura do contrato.**
 
 Dados do problema:
 - n = 3 x 12
@@ -1816,22 +1814,26 @@ Pressione as teclas:
 
 Resposta: PMT = 289,19
 
+## Notas de rodapé
+
 [^1]: **Anuidade ordinária**. Uma anuidade ordinária é um tipo de investimento ou empréstimo em que pagamentos iguais são feitos em intervalos regulares, como todo mês ou todo ano, e esses pagamentos acontecem no final de cada período. Por exemplo, se você fizer um pagamento todo mês no fim do mês por um certo tempo, isso é uma anuidade ordinária. Ela é muito usada para calcular valores de empréstimos, financiamentos e investimentos que envolvem pagamentos periódicos.
 
 [^2]: **Taxa nominal e taxa efetiva.** A taxa nominal é a taxa de juros divulgada numa base anual, mas que considera capitalização periódica (como mensal ou trimestral). Já a taxa efetiva representa o juro real acumulado, levando em conta a frequência com que os juros são capitalizados durante o ano. Por exemplo, uma taxa nominal de 12% ao ano com capitalização mensal significa que os juros são aplicados mensalmente. Existem esses dois tipos porque a taxa nominal facilita a divulgação e a comparação de ofertas financeiras, simplificando contratos que têm capitalização em períodos menores.
 
 [^3]: **Payback simples**. O *payback* simples é uma forma fácil de calcular quanto tempo leva para um investimento recuperar o dinheiro que foi gasto nele. Basicamente, ele mostra em quantos meses ou anos o valor investido volta, considerando apenas os ganhos ou economias gerados pelo projeto, sem descontar juros ou inflação. Além do *payback* simples, existe também o *payback* descontado, que leva em conta o valor do dinheiro no tempo, ou seja, considera os juros para fazer uma análise mais precisa do retorno do investimento.
 
-[^4]: **Coeficiente de correlação.** Para saber se a estimativa feita pela regressão linear é confiável, é importante observar o coeficiente de correlação. Esse número mostra o quanto os dados seguem uma linha reta. Se ele estiver próximo de 1 ou de -1, significa que os pontos estão bem alinhados e a previsão tende a ser precisa. Mas se estiver próximo de 0, os dados estão espalhados e o modelo não é muito confiável para fazer previsões.
+[^4]: **Série Uniforme Líquida.** A Série Uniforme Líquida (*Net Uniform Series*), ou Valor Uniforme Líquido, representa uma sequência de pagamentos ou recebimentos iguais que ocorrem em intervalos regulares ao longo do tempo, considerada em termos líquidos.
 
-[^5]: **Hipoteca e Alienação Fiduciária.** A hipoteca e a alienação fiduciária são formas de garantia usadas em financiamentos. Na hipoteca, o bem fica no nome do devedor, e o credor precisa entrar com ação judicial se o pagamento não for feito. Já na alienação fiduciária, o bem é transferido ao credor em caráter provisório até a quitação da dívida, o que facilita a retomada do bem em caso de inadimplência, sem necessidade de processo judicial. No Brasil, a alienação fiduciária é a forma mais usada por ser mais rápida e segura para os credores.
+[^5]: **Desvio padrão.** O desvio padrão mede o quanto os dados variam em relação à média. O *desvio padrão da população* é usado quando temos todos os dados disponíveis e mostra a variação real. Já o *desvio padrão da amostra* é usado quando temos apenas uma parte dos dados (uma amostra) e serve para estimar a variação da população inteira, sendo um pouco maior para compensar a incerteza. Em finanças, geralmente usamos o desvio da amostra, pois raramente temos todos os dados possíveis.
 
-[^6]: **Yield To Maturity.** A *Yield To Maturity* (YTM) representa a taxa efetiva do título de dívida. Ela reflete o rendimento (*yield*) do título de renda fixa até seu vencimento (*maturity*).
+[^6]: **Coeficiente de correlação.** Para saber se a estimativa feita pela regressão linear é confiável, é importante observar o coeficiente de correlação. Esse número mostra o quanto os dados seguem uma linha reta. Se ele estiver próximo de 1 ou de -1, significa que os pontos estão bem alinhados e a previsão tende a ser precisa. Mas se estiver próximo de 0, os dados estão espalhados e o modelo não é muito confiável para fazer previsões.
 
-[^7]: **Leasing.** O *leasing* é uma forma de financiamento onde uma empresa (a financeira) compra um bem (por exemplo, um carro) e o cede ao usuário (arrendatário) para uso, mediante pagamentos periódicos. Funciona como um aluguel com opção de compra no final do contrato. Durante o contrato, o usuário paga uma espécie de "aluguel" (as parcelas do *leasing*) e, ao final do período, pode optar por comprar o bem pagando um valor residual acordado.
+[^7]: **Taxa contínua.** A taxa contínua é uma taxa de juros usada em contextos financeiros e matemáticos onde a capitalização ocorre de forma ininterrupta, ou seja, os juros são aplicados continuamente ao saldo. Diferente das taxas com capitalização em períodos discretos (como mensal ou anual), a taxa contínua usa uma fórmula baseada em exponenciais, onde *e* é a base dos logaritmos naturais. Esse tipo de taxa é comum em modelos financeiros mais avançados, como no cálculo de crescimento exponencial ou precificação de ativos.
 
-[^8]: **Taxa contínua.** A taxa contínua é uma taxa de juros usada em contextos financeiros e matemáticos onde a capitalização ocorre de forma ininterrupta, ou seja, os juros são aplicados continuamente ao saldo. Diferente das taxas com capitalização em períodos discretos (como mensal ou anual), a taxa contínua usa uma fórmula baseada em exponenciais, onde *e* é a base dos logaritmos naturais. Esse tipo de taxa é comum em modelos financeiros mais avançados, como no cálculo de crescimento exponencial ou precificação de ativos.
+[^8]: **Hipoteca e Alienação Fiduciária.** A hipoteca e a alienação fiduciária são formas de garantia usadas em financiamentos. Na hipoteca, o bem fica no nome do devedor, e o credor precisa entrar com ação judicial se o pagamento não for feito. Já na alienação fiduciária, o bem é transferido ao credor em caráter provisório até a quitação da dívida, o que facilita a retomada do bem em caso de inadimplência, sem necessidade de processo judicial. No Brasil, a alienação fiduciária é a forma mais usada por ser mais rápida e segura para os credores.
 
-[^9]: **Desvio padrão.** O desvio padrão mede o quanto os dados variam em relação à média. O *desvio padrão da população* é usado quando temos todos os dados disponíveis e mostra a variação real. Já o *desvio padrão da amostra* é usado quando temos apenas uma parte dos dados (uma amostra) e serve para estimar a variação da população inteira, sendo um pouco maior para compensar a incerteza. Em finanças, geralmente usamos o desvio da amostra, pois raramente temos todos os dados possíveis.
+[^9]: **Taxa de Crescimento Anual Composta.** A CAGR (*Compound Annual Growth Rate*), é uma medida que mostra a taxa média de crescimento de um investimento ou negócio durante um período específico, considerando o efeito dos juros compostos. Ele indica quanto algo cresceu, em média, por ano, partindo do valor inicial até o valor final, mesmo que o crescimento tenha variado a cada ano. Isso ajuda a entender o desempenho real ao longo do tempo.
 
-[^10]: **Série Uniforme Líquida** A Série Uniforme Líquida (Net Uniform Series), ou Valor Uniforme Líquido, representa uma sequência de pagamentos ou recebimentos iguais que ocorrem em intervalos regulares ao longo do tempo, considerada em termos líquidos.
+[^10]: **Yield To Maturity.** A *Yield To Maturity* (YTM) representa a taxa efetiva do título de dívida. Ela reflete o rendimento (*yield*) do título de renda fixa até seu vencimento (*maturity*).
+
+[^11]: **Leasing.** O *leasing* é uma forma de financiamento onde uma empresa (a financeira) compra um bem (por exemplo, um carro) e o cede ao usuário (arrendatário) para uso, mediante pagamentos periódicos. Funciona como um aluguel com opção de compra no final do contrato. Durante o contrato, o usuário paga uma espécie de "aluguel" (as parcelas do *leasing*) e, ao final do período, pode optar por comprar o bem pagando um valor residual acordado.
