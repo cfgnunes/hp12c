@@ -60,6 +60,17 @@ Pressione a tecla: `[-]`
 
 O visor exibirá: 340,00 (valor final do produto com o desconto).
 
+**Problema: Uma cooperativa de alimentos compra caixas de sopa enlatada a um custo faturado de R$ 9,60 por caixa. Se a cooperativa utilizar rotineiramente uma margem de 15% sobre o custo, qual será o preço de venda de cada caixa de sopa?**
+
+Pressione as teclas:
+```
+9,60 [ENTER]
+15   [%]
+     [+]
+```
+
+O visor exibirá: 11,04 (preço de venda).
+
 ## Cálculos com datas
 
 **Problema: Se você comprasse uma opção para um terreno em 28 de maio de 2025, válida por 120 dias, qual seria a data de vencimento?**
@@ -122,7 +133,7 @@ O visor exibirá: 25.12.2024 (terceira data)
 **Problema: Um capital de R$ 80.000,00 é aplicado à taxa de 30% ao ano, durante 90 dias. Utilizando o ano comercial de 360 dias, determine o valor dos juros simples acumulados no período e o montante total ao final da aplicação.**
 
 Dados do problema:
-- C = -80.000
+- PV = -80.000
 - i = 30% ao ano
 - n = 90 dias
 
@@ -139,6 +150,24 @@ O visor exibirá: 6.000,00 (valor dos juros simples acumulados).
 Pressione a tecla: `[+]`
 
 O visor exibirá: 86.000,00 (montante total ao final da aplicação).
+
+**Problema: Você toma emprestado R$ 1.250,00 de um parente e concorda em devolver o dinheiro em um ano, com juro simples de 7%. Que importância você terá que pagar?**
+
+Dados do problema:
+- PV = 1.250
+- i = 7% ao ano
+- n = 360 dias
+
+Pressione as teclas:
+```
+1250 [PV]
+7    [i]
+360  [n]
+     [f] [INT]
+     [+]
+```
+
+O visor exibirá: 1.337,50 (montante total que você terá que pagar).
 
 ## Pagamentos únicos: investimentos
 
@@ -729,7 +758,7 @@ Pressione as teclas:
 
 Resposta: PMT = -632,21
 
-**Problema: Você está financiando a compra de um carro novo através de um empréstimo de 3 anos com juro anual de 10,5% ao ano, composto mensalmente. O preço à vista é R$ 7.250,00. Você dará uma entrada de R$ 1.500,00. Qual será o valor das prestações mensais?**
+**Problema: Você está financiando a compra de um carro novo através de um empréstimo de 3 anos com juro anual de 10,5% ao ano, composto mensalmente. O preço à vista é R$ 7.250,00. Você dará uma entrada de R$ 1.500,00. Qual será o valor das prestações mensais? Que taxa de juro reduziria seu pagamento mensal em R$ 10,00?**
 
 Dados do problema:
 - n = 3 x 12
@@ -747,6 +776,17 @@ Pressione as teclas:
 ```
 
 Resposta: PMT = -186,89
+
+Para calcular a taxa de juro que reduz o pagamento em  R$ 10,00, adicione 10 para reduzir o valor negativo de PMT.
+
+Pressione as teclas:
+```
+10  [+] [PMT]
+    [i]
+12  [x]
+```
+
+Resposta: 6,75% (taxa nominal anual)
 
 **Problema: Maria possui um empréstimo consignado, com 96 parcelas fixas (tabela Price) de R$ 1.340,00, das quais já pagou 13, restando um saldo devedor de R$ 42.458,51. Determine a taxa de juros anual com capitalização mensal e, em seguida, calcule quantas parcelas seriam eliminadas caso ela amortizasse R$ 1.000,00 hoje, utilizando amortização por tempo. Calcule também o novo valor da parcela caso ela optasse por realizar a amortização por valor da parcela.**
 
@@ -1421,7 +1461,7 @@ Pressione as teclas:
     [g] [x̄ w]
 ```
 
-O visor exibirá: 209,44 (media de aluguel).
+O visor exibirá: 209,44 (aluguel médio mensal).
 
 ## Taxas efetivas equivalentes
 
