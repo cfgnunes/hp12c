@@ -142,7 +142,7 @@ Pressione as teclas:
 80000 [CHS] [PV]
 30          [i]
 90          [n]
-            [f] [INT]
+            [f] [INT]    (cacula os juros simples)
 ```
 
 O visor exibirá: 6.000,00 (valor dos juros simples acumulados).
@@ -163,11 +163,33 @@ Pressione as teclas:
 1250 [PV]
 7    [i]
 360  [n]
-     [f] [INT]
-     [+]
+     [f] [INT]    (cacula os juros simples)
+     [+]          (calcula o montante, soma os juros com o capital)
 ```
 
 O visor exibirá: -1.337,50 (montante total que você terá que pagar).
+
+**Problema: Você emprestou a um amigo que queria começar um novo negócio R$ 450,00 por 60 dias, cobrando juro anual simples de 7% (calculado na base de 365 dias). Quanto de juro ele estará lhe devendo em 60 dias e qual o montante total da dívida?**
+
+Dados do problema:
+- PV = -450
+- i = 7% ao ano
+- n = 60 dias
+
+Pressione as teclas:
+```
+450 [CHS] [PV]
+7   [i]
+60  [n]
+    [f] [INT]          (cacula os juros simples)
+    [R down] [x><y]    (descarta o valor de juro na base de 360 dias)
+```
+
+O visor exibirá: 5,18 (quanto de juro ele estará lhe devendo).
+
+Pressione a tecla: `[+]`
+
+O visor exibirá: 455,18 (montante total da dívida).
 
 ## Pagamentos únicos: investimentos
 
