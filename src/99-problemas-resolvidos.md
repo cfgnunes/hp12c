@@ -584,7 +584,7 @@ Resolvendo o problema com a convenção linear. Pressione as teclas:
 
 Resposta: FV = -100.779,56
 
-## Anuidade ordinária[^1]: investimentos
+## Anuidade[^1]: investimentos
 
 **Problema: André deposita R$ 22.000,00 ao final de cada ano por 7 anos, em uma conta que rende 6% ao ano. Quanto ele terá ao final do período?**
 
@@ -662,7 +662,89 @@ Pressione as teclas:
 
 Resposta: PMT = -902,32
 
-## Anuidade ordinária: aposentadorias
+**Problema: Com uma taxa de juros de 0,75% ao mês, quanto deve ser depositado mensalmente (no início do mês) para atingir R$ 100.000,00 em 5 anos?**
+
+Dados do problema:
+- n = 5 x 12
+- i = 0,75
+- PV = 0
+- PMT = ?
+- FV = 100.000
+
+Pressione as teclas:
+```
+       [g] [BEG]    (pagamentos feitos no início dos períodos)
+5      [g] [12x]
+0,75   [i]
+100000 [FV]
+       [PMT]
+```
+
+Resposta: PMT = -1.315,97
+
+**Problema: Com uma taxa de juros de 1% ao mês, quanto deve ser depositado mensalmente (no início do mês) para acumular R$ 1.000.000,00 em 20 anos?**
+
+Dados do problema:
+- n = 20 x 12
+- i = 1
+- PV = 0
+- PMT = ?
+- FV = 1.000.000
+
+Pressione as teclas:
+```
+   [g] [BEG]    (pagamentos feitos no início dos períodos)
+20 [g] [12x]
+1  [i]
+1  [EEX] 6 [FV]
+   [PMT]
+```
+
+Resposta: PMT = -1.000,85
+
+**Problema: Ricardo deposita R$ 500,00 no início de cada trimestre durante 7 anos, em uma conta com juros de 12% ao ano, capitalizados trimestralmente. Quanto ele terá ao final do período?**
+
+Dados do problema:
+- n = 7 x 4
+- i = 12 / 4
+- PV = 0
+- PMT = -500
+- FV = ?
+
+Pressione as teclas:
+```
+          [g] [BEG]    (pagamentos feitos no início dos períodos)
+7         [ENTER] 4 [x] [n]
+12        [ENTER] 4 [/] [i]
+500 [CHS] [PMT]
+          [FV]
+```
+
+Resposta: FV = 22.109,43
+
+**Problema: (Conta de Aposentadoria Tributada) Se você investir R$ 3.000,00 a cada ano, durante 35 anos, quanto você terá na conta ao aposentar-se? Suponha uma taxa de dividendo anual de 8,175% e a taxa de impostos de 28%, e que os pagamentos começam no dia de hoje. Qual será, em valores monetários de hoje, o poder aquisitivo de tal montante, admitindo-se um índice de inflação de 8% ao ano?**
+
+Pressione as teclas:
+```
+      [g] [BEG]    (pagamentos feitos no início dos períodos)
+3000  [CHS] [PMT]
+35    [n]
+8.175 [ENTER] 28 [%] [-] [i]
+      [VF]
+```
+
+Resposta: VF = -345.505,61 (valor na conta ao aposentar-se)
+
+Pressione as teclas:
+```
+0 [PMT]
+8 [i]
+  [PV]
+```
+
+Resposta: PV = -23.368,11 (poder aquisitivo de tal montante, admitindo-se um índice de inflação de 8% ao ano)
+
+## Anuidade: aposentadorias
 
 **Problema: Você pode comprar uma anuidade que paga R$ 1.000,00 no final de cada ano por 5 anos. Se você pode ganhar 6% ao ano em outros investimentos de mesmo risco, qual o valor máximo que deve pagar?**
 
@@ -702,7 +784,7 @@ Pressione as teclas:
 
 Resposta: PMT = -20.592,55
 
-## Anuidade ordinária: financiamentos e empréstimos
+## Anuidade: financiamentos e empréstimos
 
 **Problema: Determinado bem é vendido em 7 pagamentos mensais, iguais e consecutivos de R$ 4.000,00. Para uma taxa de juros de 2,6% a.m., até que preço compensa adquirir o aparelho a vista?**
 
@@ -897,7 +979,7 @@ Pressione as teclas:
 
 Resposta: R$ 75.617,64 (o valor máximo da compra que você poderá fazer)
 
-## Anuidade ordinária com carência: financiamentos e empréstimos
+## Anuidade com carência: financiamentos e empréstimos
 
 **Problema: Um veículo pode ser comercializado em 36 prestações mensais de R$ 1.980,00 cada uma. Sabendo que a loja usa taxa de 1,45% ao mês e que há 1 mês de carência antes do pagamento da primeira prestação, encontre o valor à vista do veículo.**
 
@@ -941,88 +1023,6 @@ Pressione as teclas:
 ```
 
 Resposta: R$ 780,63
-
-## Anuidade antecipada: investimentos
-
-**Problema: Com uma taxa de juros de 0,75% ao mês, quanto deve ser depositado mensalmente (no início do mês) para atingir R$ 100.000,00 em 5 anos?**
-
-Dados do problema:
-- n = 5 x 12
-- i = 0,75
-- PV = 0
-- PMT = ?
-- FV = 100.000
-
-Pressione as teclas:
-```
-       [g] [BEG]
-5      [g] [12x]
-0,75   [i]
-100000 [FV]
-       [PMT]
-```
-
-Resposta: PMT = -1.315,97
-
-**Problema: Com uma taxa de juros de 1% ao mês, quanto deve ser depositado mensalmente (no início do mês) para acumular R$ 1.000.000,00 em 20 anos?**
-
-Dados do problema:
-- n = 20 x 12
-- i = 1
-- PV = 0
-- PMT = ?
-- FV = 1.000.000
-
-Pressione as teclas:
-```
-   [g] [BEG]
-20 [g] [12x]
-1  [i]
-1  [EEX] 6 [FV]
-   [PMT]
-```
-
-Resposta: PMT = -1.000,85
-
-**Problema: Ricardo deposita R$ 500,00 no início de cada trimestre durante 7 anos, em uma conta com juros de 12% ao ano, capitalizados trimestralmente. Quanto ele terá ao final do período?**
-
-Dados do problema:
-- n = 7 x 4
-- i = 12 / 4
-- PV = 0
-- PMT = -500
-- FV = ?
-
-Pressione as teclas:
-```
-          [g] [BEG]
-7         [ENTER] 4 [x] [n]
-12        [ENTER] 4 [/] [i]
-500 [CHS] [PMT]
-          [FV]
-```
-
-Resposta: FV = 22.109,43
-
-**Problema: Uma turma de Engenharia Civil, visando sua formatura, depositou R$ 10.000,00 hoje, numa instituição financeira e mais R$ 5.400,00 no inicio de cada mês a contar de hoje, durante 12 meses. Se a instituição financeira paga juro de 1,5% ao mês, quanto terá a turma no fim do contrato.**
-
-Dados do problema:
-- n = 12
-- i = 1,5
-- PV = -10.000
-- PMT = -5.400
-- FV = ?
-
-Pressione as teclas:
-```
-            [g] [BEG]
-12          [n]
-10000 [CHS] [PV]
-5400  [CHS] [PMT]
-            [FV]
-```
-
-Resposta: R$ 83.435,06
 
 ## Análise da decisão entre pagamento à vista e parcelado
 
@@ -1826,7 +1826,7 @@ Dados do problema:
 
 Pressione as teclas:
 ```
-     [g] [BEG]    (pagamentos no início dos períodos)
+     [g] [BEG]    (pagamentos feitos no início dos períodos)
 5    [g] [12x]
 1    [i]
 5000 [PMT]
@@ -1866,7 +1866,7 @@ Dados do problema:
 
 Pressione as teclas:
 ```
-             [g] [BEG]    (pagamentos no início dos períodos)
+             [g] [BEG]    (pagamentos feitos no início dos períodos)
 3            [g] [12x]
 14           [g] [12/]
 135000 [CHS] [PMT]
@@ -1902,7 +1902,7 @@ Para exibir os valores acumulados dos anos seguintes, basta pressionar repetidam
 
 ## Glossário
 
-[^1]: **Anuidade ordinária**. Uma anuidade ordinária é um tipo de investimento ou empréstimo em que pagamentos iguais são feitos em intervalos regulares, como todo mês ou todo ano, e esses pagamentos acontecem no final de cada período. Por exemplo, se você fizer um pagamento todo mês no fim do mês por um certo tempo, isso é uma anuidade ordinária. Ela é muito usada para calcular valores de empréstimos, financiamentos e investimentos que envolvem pagamentos periódicos.
+[^1]: **Anuidade**. Uma anuidade é um tipo de investimento ou empréstimo em que pagamentos iguais são feitos em intervalos regulares, como todo mês ou todo ano. Esses pagamentos podem ocorrer no início ou no final de cada período, dependendo do tipo de anuidade. Por exemplo, se você fizer um pagamento mensal durante um certo tempo, isso caracteriza uma anuidade. Esse conceito é muito usado para calcular valores de empréstimos, financiamentos e investimentos que envolvem pagamentos periódicos. Existem dois tipos principais de anuidade: a ordinária, em que os pagamentos são feitos no final de cada período, e a antecipada, em que os pagamentos são feitos no início dos períodos.
 
 [^2]: **Taxa nominal e taxa efetiva.** A taxa nominal é a taxa de juros divulgada numa base anual, mas que considera capitalização periódica (como mensal ou trimestral). Já a taxa efetiva representa o juro real acumulado, levando em conta a frequência com que os juros são capitalizados durante o ano. Por exemplo, uma taxa nominal de 12% ao ano com capitalização mensal significa que os juros são aplicados mensalmente. Existem esses dois tipos porque a taxa nominal facilita a divulgação e a comparação de ofertas financeiras, simplificando contratos que têm capitalização em períodos menores.
 
