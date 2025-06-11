@@ -744,47 +744,7 @@ Pressione as teclas:
 
 Resposta: PV = -23.368,11 (poder aquisitivo de tal montante, admitindo-se um índice de inflação de 8% ao ano)
 
-## Anuidade: aposentadorias
-
-**Problema: Você pode comprar uma anuidade que paga R$ 1.000,00 no final de cada ano por 5 anos. Se você pode ganhar 6% ao ano em outros investimentos de mesmo risco, qual o valor máximo que deve pagar?**
-
-Dados do problema:
-- n = 5
-- i = 6
-- PV = ?
-- PMT = 1.000
-- FV = 0
-
-Pressione as teclas:
-```
-5    [n]
-6    [i]
-1000 [PMT]
-     [PV]
-```
-
-Resposta: PV = -4.212,36
-
-**Problema: Você herdou R$ 200.000,00 e investe a 6% ao ano. Quanto pode sacar no final de cada um dos próximos 15 anos?**
-
-Dados do problema:
-- n = 15
-- i = 6
-- PV = 200.000
-- PMT = ?
-- FV = 0
-
-Pressione as teclas:
-```
-15     [n]
-6      [i]
-200000 [PV]
-       [PMT]
-```
-
-Resposta: PMT = -20.592,55
-
-## Anuidade: financiamentos e empréstimos
+## Anuidade: empréstimos e financiamentos
 
 **Problema: Determinado bem é vendido em 7 pagamentos mensais, iguais e consecutivos de R$ 4.000,00. Para uma taxa de juros de 2,6% a.m., até que preço compensa adquirir o aparelho a vista?**
 
@@ -978,6 +938,46 @@ Pressione as teclas:
 ```
 
 Resposta: R$ 75.617,64 (o valor máximo da compra que você poderá fazer)
+
+## Anuidade: aposentadorias
+
+**Problema: Você pode comprar uma anuidade que paga R$ 1.000,00 no final de cada ano por 5 anos. Se você pode ganhar 6% ao ano em outros investimentos de mesmo risco, qual o valor máximo que deve pagar?**
+
+Dados do problema:
+- n = 5
+- i = 6
+- PV = ?
+- PMT = 1.000
+- FV = 0
+
+Pressione as teclas:
+```
+5    [n]
+6    [i]
+1000 [PMT]
+     [PV]
+```
+
+Resposta: PV = -4.212,36
+
+**Problema: Você herdou R$ 200.000,00 e investe a 6% ao ano. Quanto pode sacar no final de cada um dos próximos 15 anos?**
+
+Dados do problema:
+- n = 15
+- i = 6
+- PV = 200.000
+- PMT = ?
+- FV = 0
+
+Pressione as teclas:
+```
+15     [n]
+6      [i]
+200000 [PV]
+       [PMT]
+```
+
+Resposta: PMT = -20.592,55
 
 ## Anuidade com carência: financiamentos e empréstimos
 
