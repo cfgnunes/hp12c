@@ -1089,7 +1089,7 @@ Resposta: R$ 18.986,59
 
 ## Análise de fluxo de caixa
 
-**Problema: (análise do VPL) Uma empresa está avaliando um projeto de instalação de painéis solares em uma fábrica de médio porte para reduzir os custos com eletricidade. O investimento inicial para o projeto é de R$ 500.000,00. A expectativa é que o projeto gere uma economia anual de R$ 120.000,00 em custos de energia durante os próximos 6 anos. Ao final do sexto ano, os painéis terão um valor residual de R$ 50.000,00 (valor de revenda ou sucata). A empresa definiu uma taxa mínima de atratividade (TMA) de 10% ao ano para esse tipo de projeto. Com base nas informações, calcule o Valor Presente Líquido (VPL) e diga se o investimento é viável.**
+**Problema: (Análise do VPL) Uma empresa está avaliando um projeto de instalação de painéis solares em uma fábrica de médio porte para reduzir os custos com eletricidade. O investimento inicial para o projeto é de R$ 500.000,00. A expectativa é que o projeto gere uma economia anual de R$ 120.000,00 em custos de energia durante os próximos 6 anos. Ao final do sexto ano, os painéis terão um valor residual de R$ 50.000,00 (valor de revenda ou sucata). A empresa definiu uma taxa mínima de atratividade (TMA) de 10% ao ano para esse tipo de projeto. Com base nas informações, calcule o Valor Presente Líquido (VPL) e diga se o investimento é viável.**
 
 Pressione as teclas:
 ```
@@ -1105,7 +1105,7 @@ Resposta: VPL = 48.289,19
 
 O VPL é positivo. Isso significa que o projeto é viável financeiramente, pois traz um retorno superior à taxa mínima exigida de 10% ao ano. A empresa pode prosseguir com o investimento.
 
-**Problema: (análise do VPL) O investidor Carlos está analisando a compra de um imóvel com 4 lojas comerciais, todas prontas para locação. O preço de compra do imóvel é de R$ 1.000.000,00. Carlos estima que conseguirá alugar cada loja por R$ 4.000,00 por mês, totalizando R$ 16.000,00 por mês, ou seja, R$ 192.000,00 por ano. Ele acredita que conseguirá manter a ocupação total por 10 anos, ao final dos quais planeja vender o imóvel por R$ 600.000,00. Carlos quer saber se esse investimento é viável financeiramente, considerando sua taxa mínima de atratividade (TMA) de 9% ao ano.**
+**Problema: (Análise do VPL) O investidor Carlos está analisando a compra de um imóvel com 4 lojas comerciais, todas prontas para locação. O preço de compra do imóvel é de R$ 1.000.000,00. Carlos estima que conseguirá alugar cada loja por R$ 4.000,00 por mês, totalizando R$ 16.000,00 por mês, ou seja, R$ 192.000,00 por ano. Ele acredita que conseguirá manter a ocupação total por 10 anos, ao final dos quais planeja vender o imóvel por R$ 600.000,00. Carlos quer saber se esse investimento é viável financeiramente, considerando sua taxa mínima de atratividade (TMA) de 9% ao ano.**
 
 Pressione as teclas:
 ```
@@ -1121,7 +1121,7 @@ Resposta: VPL = 464.709,99
 
 O VPL é positivo. Isso significa que o projeto é viável financeiramente, pois traz um retorno superior à taxa mínima exigida de 9% ao ano.
 
-**Problema: (cálculo de TIR) Determinar a Taxa Interna de Retorno (TIR) referente a um empréstimo de R$ 126.900,00 a ser liquidado em quatro pagamentos mensais e consecutivos de R$ 25.000,00, R$ 38.000,00, R$ 45.000,00 e R$ 27.000,00.**
+**Problema: (Cálculo de TIR) Determinar a Taxa Interna de Retorno (TIR) referente a um empréstimo de R$ 126.900,00 a ser liquidado em quatro pagamentos mensais e consecutivos de R$ 25.000,00, R$ 38.000,00, R$ 45.000,00 e R$ 27.000,00.**
 
 Pressione as teclas:
 ```
@@ -1135,7 +1135,7 @@ Pressione as teclas:
 
 Resposta: TIR = 2,47% ao mês.
 
-**Problema: (cálculo de TIR) Um empréstimo de R$ 5.000,00 será quitado em 4 parcelas mensais, conforme a tabela a seguir. Calcule a taxa de juros mensal equivalente aplicada nesse financiamento.**
+**Problema: (Cálculo de TIR) Um empréstimo de R$ 5.000,00 será quitado em 4 parcelas mensais, conforme a tabela a seguir. Calcule a taxa de juros mensal equivalente aplicada nesse financiamento.**
 
 | Mês | Valor da Parcela (R$) |
 | --- | --------------------- |
@@ -1156,7 +1156,7 @@ Pressione as teclas:
 
 Resposta: 10,44% (taxa mensal)
 
-**Problema: (cálculo de TIR) Você recebeu uma oferta para investir R$ 20.000,00. O investimento oferece um retorno de pagamentos trimestrais durante quatro anos, conforme a tabela abaixo. Calcule a taxa anual nominal de retorno para este investimento.**
+**Problema: (Cálculo de TIR) Você recebeu uma oferta para investir R$ 20.000,00. O investimento oferece um retorno de pagamentos trimestrais durante quatro anos, conforme a tabela abaixo. Calcule a taxa anual nominal de retorno para este investimento.**
 
 | Ano | Pagamentos | Valor por Pagamento |
 | --- | ---------- | ------------------- |
@@ -1181,7 +1181,7 @@ Pressione as teclas:
 
 Resposta TIR = 2,43% (taxa trimestral) x 4 = 9,72% (taxa anual)
 
-**Problema: (cálculo de VPL, TIR e Payback) Você está avaliando a compra de um equipamento no valor de R$ 100.000,00 para aumentar a produção da sua empresa. Esse investimento promete um retorno anual de R$ 18.000,00 por 10 anos. Com base nessas informações, calcule o Valor Presente Líquido (VPL), a Taxa Interna de Retorno (TIR) e o *Payback* Simples[^3] (tempo necessário para recuperar o valor investido sem considerar o valor do dinheiro no tempo). A empresa considera o custo de oportunidade ou retorno requirido de 10% ao ano.**
+**Problema: (Cálculo de VPL, TIR e Payback) Você está avaliando a compra de um equipamento no valor de R$ 100.000,00 para aumentar a produção da sua empresa. Esse investimento promete um retorno anual de R$ 18.000,00 por 10 anos. Com base nessas informações, calcule o Valor Presente Líquido (VPL), a Taxa Interna de Retorno (TIR) e o *Payback* Simples[^3] (tempo necessário para recuperar o valor investido sem considerar o valor do dinheiro no tempo). A empresa considera o custo de oportunidade ou retorno requirido de 10% ao ano.**
 
 Encontrando o Valor Presente Líquido (VPL). Pressione as teclas:
 ```
@@ -1211,7 +1211,7 @@ No caso de fluxos de caixa constantes (iguais a cada período), o cálculo pode 
 
 Resposta: 5,56 (anos para recuperar o valor investido)
 
-**Problema: (cálculo de XTIR, TIR com datas) José depositou R$ 50.000,00 em sua conta no dia 1º de maio de 2005 e mais R$ 40.000,00 no dia 1º de julho de 2005. A carteira também recebeu e reinvestiu dividendos de R$ 30.000,00 no dia 1º de julho, além de mais R$ 30.000,00 em 31 de dezembro. Sua conta possuía valores (incluindo dividendos e aportes) de R$ 2.375.000,00 e R$ 2.460.000,00 em 1º de maio e 1º de julho, respectivamente. A conta foi avaliada em R$ 2.225.000,00 em 1º de janeiro de 2005 e em R$ 2.445.000,00 em 31 de dezembro de 2005. Qual é a taxa interna de retorno mensal?**
+**Problema: (Cálculo de TIR com datas) José depositou R$ 50.000,00 em sua conta no dia 1º de maio de 2005 e mais R$ 40.000,00 no dia 1º de julho de 2005. A carteira também recebeu e reinvestiu dividendos de R$ 30.000,00 no dia 1º de julho, além de mais R$ 30.000,00 em 31 de dezembro. Sua conta possuía valores (incluindo dividendos e aportes) de R$ 2.375.000,00 e R$ 2.460.000,00 em 1º de maio e 1º de julho, respectivamente. A conta foi avaliada em R$ 2.225.000,00 em 1º de janeiro de 2005 e em R$ 2.445.000,00 em 31 de dezembro de 2005. Qual é a taxa interna de retorno mensal?**
 
 Primeiro, devemos identificar as informações importantes, ou seja, os fluxos de caixa que devem ser considerados no cálculo da taxa interna de retorno (TIR):
 
@@ -1240,7 +1240,7 @@ Pressione as teclas:
 
 Resposta: TIR = 0,47% (taxa interna de retorno mensal)
 
-**Problema: (valor futuro com pagamentos irregulares) Um investidor realiza 5 depósitos mensais consecutivos em uma aplicação financeira que rende 1% ao mês, com capitalização mensal. Cada pagamento é feito ao final de cada mês conforme os dados abaixo. Calcule o valor futuro total acumulado ao final do período, após o último depósito.**
+**Problema: (Valor futuro com pagamentos irregulares) Um investidor realiza 5 depósitos mensais consecutivos em uma aplicação financeira que rende 1% ao mês, com capitalização mensal. Cada pagamento é feito ao final de cada mês conforme os dados abaixo. Calcule o valor futuro total acumulado ao final do período, após o último depósito.**
 
 | Mês | Depósitos (R$) |
 | --- | -------------- |
@@ -1372,7 +1372,7 @@ O visor exibirá: R$ 1.660,00 (valor residual depois do terceiro ano).
 
 ## Cálculos estatísticos
 
-**Problema: (estatística descritiva) Você decidiu analisar seus gastos mensais com supermercado para entender melhor seus hábitos de consumo e planejar melhor seu orçamento. Durante quatro meses, você anotou o quanto gastou em cada visita ao supermercado. Com base nos dados a seguir, calcule o gasto médio mensal com supermercado:**
+**Problema: (Estatística descritiva) Você decidiu analisar seus gastos mensais com supermercado para entender melhor seus hábitos de consumo e planejar melhor seu orçamento. Durante quatro meses, você anotou o quanto gastou em cada visita ao supermercado. Com base nos dados a seguir, calcule o gasto médio mensal com supermercado:**
 
 | Mês | Gasto (R$) |
 | --- | ---------- |
@@ -1392,7 +1392,7 @@ Pressione as teclas:
 
 Resposta: R$ 212,51 (valor médio)
 
-**Problema: (estatística descritiva) Você decide analisar o comportamento de duas ações da bolsa de valores. Seu objetivo é comparar a média dos preços e a volatilidade (medida pelo desvio padrão[^5]) dessas ações em um período recente. Qual das duas apresentou maior variação de preço e qual foi o preço médio de cada ação nesse período?**
+**Problema: (Estatística descritiva) Você decide analisar o comportamento de duas ações da bolsa de valores. Seu objetivo é comparar a média dos preços e a volatilidade (medida pelo desvio padrão[^5]) dessas ações em um período recente. Qual das duas apresentou maior variação de preço e qual foi o preço médio de cada ação nesse período?**
 
 | Semana | Ação Y | Ação X |
 | ------ | ------ | ------ |
@@ -1426,7 +1426,7 @@ Pressione a tecla: `[x><y]`
 
 O visor exibirá: 28,40 (preço médio da Ação Y)
 
-**Problema: (regressão linear) Você deseja entender como sua renda mensal influencia o valor que consegue poupar ao final de cada mês. Nos últimos meses, registrou sua renda mensal e o valor correspondente economizado no período. Com base nesses dados, utilize um modelo de regressão linear simples para prever quanto conseguirá poupar caso sua renda seja de R$ 4.000,00. Estime também qual deveria ser sua renda para alcançar uma poupança de R$ 800,00.**
+**Problema: (Regressão linear) Você deseja entender como sua renda mensal influencia o valor que consegue poupar ao final de cada mês. Nos últimos meses, registrou sua renda mensal e o valor correspondente economizado no período. Com base nesses dados, utilize um modelo de regressão linear simples para prever quanto conseguirá poupar caso sua renda seja de R$ 4.000,00. Estime também qual deveria ser sua renda para alcançar uma poupança de R$ 800,00.**
 
 | Renda (R$) | Poupança (R$) |
 | ---------- | ------------- |
@@ -1452,7 +1452,7 @@ O visor exibirá: 4.694,53 (renda estimada para obter um poupança de R$ 800,00)
 
 Para visualizar o valor do coeficiente de correlação[^6], basta pressionar a tecla `[x><y]`.
 
-**Problema: (média ponderada) João realizou três compras de ações de uma mesma empresa na bolsa de valores, em momentos diferentes, com preços e quantidades distintas. Agora, ele deseja saber qual foi o preço médio de aquisição das ações, para uma possível venda futura. Desconsidere outras possíveis taxas.**
+**Problema: (Média ponderada) João realizou três compras de ações de uma mesma empresa na bolsa de valores, em momentos diferentes, com preços e quantidades distintas. Agora, ele deseja saber qual foi o preço médio de aquisição das ações, para uma possível venda futura. Desconsidere outras possíveis taxas.**
 
 A tabela abaixo resume as compras feitas:
 
@@ -1472,7 +1472,7 @@ Pressione as teclas:
 
 O visor exibirá: 16,38 (preço médio).
 
-**Problema: (média ponderada) Uma pesquisa de preço de aluguel de 266 apartamentos de um quarto revelou que 54 estavam alugados por R$ 200,00 por mês, 32 por R$ 205,00, 88 por R$ 210,00 e 92 por R$ 216,00. Qual é a media de aluguel mensal?**
+**Problema: (Média ponderada) Uma pesquisa de preço de aluguel de 266 apartamentos de um quarto revelou que 54 estavam alugados por R$ 200,00 por mês, 32 por R$ 205,00, 88 por R$ 210,00 e 92 por R$ 216,00. Qual é a media de aluguel mensal?**
 
 Pressione as teclas:
 ```
