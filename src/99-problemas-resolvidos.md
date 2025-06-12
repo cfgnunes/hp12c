@@ -979,6 +979,29 @@ Pressione as teclas:
 
 Resposta: PMT = -20.592,55
 
+## Arrendamento
+
+**Problema: Um carro novo que custa R$ 13.500,00 pode ser adquirido através de um *leasing*[^11] de 3 anos, com a opção de compra ao final do período por R$ 7.500,00. Se a financeira quiser obter um rendimento anual nominal de 14%, qual deverá ser o valor dos pagamentos mensais, com um pagamento antecipado? Calcule o valor do pagamento sob o ponto de vista da financeira. Utilize o modo início (BEGIN), porque o primeiro pagamento é devido na assinatura do contrato.**
+
+Dados do problema:
+- n = 3 x 12
+- i = 14 / 12
+- PV = -13.500
+- PMT = ?
+- FV = 7.500
+
+Pressione as teclas:
+```
+             [g] [BEG]    (pagamentos feitos no início dos períodos)
+3            [g] [12x]
+14           [g] [12/]
+135000 [CHS] [PMT]
+7500         [FV]
+             [PMT]
+```
+
+Resposta: PMT = 289,19
+
 ## Anuidade com carência: financiamentos e empréstimos
 
 **Problema: Um veículo pode ser comercializado em 36 prestações mensais de R$ 1.980,00 cada uma. Sabendo que a loja usa taxa de 1,45% ao mês e que há 1 mês de carência antes do pagamento da primeira prestação, encontre o valor à vista do veículo.**
@@ -1855,27 +1878,6 @@ Pressione as teclas:
 
 Resposta: R$ 711,53 (depositar cada mês para poder custear as despesas com a universidade da filha)
 
-**Problema: Um carro novo que custa R$ 13.500,00 pode ser adquirido através de um *leasing*[^11] de 3 anos, com a opção de compra ao final do período por R$ 7.500,00. Se a financeira quiser obter um rendimento anual nominal de 14%, qual deverá ser o valor dos pagamentos mensais, com um pagamento antecipado? Calcule o valor do pagamento sob o ponto de vista da financeira. Utilize o modo início (BEGIN), porque o primeiro pagamento é devido na assinatura do contrato.**
-
-Dados do problema:
-- n = 3 x 12
-- i = 14 / 12
-- PV = -13.500
-- PMT = ?
-- FV = 7.500
-
-Pressione as teclas:
-```
-             [g] [BEG]    (pagamentos feitos no início dos períodos)
-3            [g] [12x]
-14           [g] [12/]
-135000 [CHS] [PMT]
-7500         [FV]
-             [PMT]
-```
-
-Resposta: PMT = 289,19
-
 ## Utilização da pilha como constante
 
 **Problema: Para os próximos dez anos, as vendas anuais de uma pequena firma de material eletrônico têm a perspectiva de serem dobradas uma vez por ano. Sendo as vendas atuais de R$ 84.000, quais serão as vendas em cada um dos próximos dez anos?**
@@ -1922,4 +1924,4 @@ Para exibir os valores acumulados dos anos seguintes, basta pressionar repetidam
 
 [^10]: **Taxa de Crescimento Anual Composta.** A CAGR (*Compound Annual Growth Rate*), é uma medida que mostra a taxa média de crescimento de um investimento ou negócio durante um período específico, considerando o efeito dos juros compostos. Ele indica quanto algo cresceu, em média, por ano, partindo do valor inicial até o valor final, mesmo que o crescimento tenha variado a cada ano. Isso ajuda a entender o desempenho real ao longo do tempo.
 
-[^11]: **Leasing.** O *leasing* é uma forma de financiamento onde uma empresa (a financeira) compra um bem (por exemplo, um carro) e o cede ao usuário (arrendatário) para uso, mediante pagamentos periódicos. Funciona como um aluguel com opção de compra no final do contrato. Durante o contrato, o usuário paga uma espécie de "aluguel" (as parcelas do *leasing*) e, ao final do período, pode optar por comprar o bem pagando um valor residual acordado.
+[^11]: **Leasing.** O arrendamento mercantil, *leasing*, é uma modalidade de financiamento onde uma empresa (a financeira) compra um bem (por exemplo, um carro) e o cede ao usuário (arrendatário) para uso, mediante pagamentos periódicos. Funciona como um aluguel com opção de compra no final do contrato. Durante o contrato, o usuário paga uma espécie de "aluguel" (as parcelas do *leasing*) e, ao final do período, pode optar por comprar o bem pagando um valor residual acordado.
