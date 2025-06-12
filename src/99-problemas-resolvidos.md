@@ -1762,7 +1762,7 @@ O visor exibirá: -139.578,95 (total pago em parcelas da 16ª à 27ª).
 
 ## Cálculos para títulos de dívida
 
-**Problema: Qual seria o preço justo a ser pago em 28 de abril de 2025 por um título público do Tesouro Nacional, que possui uma taxa nominal de juros de 6,75% ao ano e vence em 14 de junho de 2038, caso você deseje obter uma taxa efetiva de retorno (YTM)[^10] de 4,75% ao ano? Além disso, calcule a taxa efetiva de retorno correspondente ao preço de mercado do título, dado como 122,125%. Considere que o formato de data é dia-mês-ano.**
+**Problema: Qual seria o preço justo a ser pago em 28 de abril de 2025 por um título público do Tesouro Nacional, que possui uma taxa nominal de juros de 6,75% ao ano e vence em 14 de junho de 2038, caso você deseje obter uma taxa efetiva de retorno (YTM)[^9] de 4,75% ao ano? Além disso, calcule a taxa efetiva de retorno correspondente ao preço de mercado do título, dado como 122,125%. Considere que o formato de data é dia-mês-ano.**
 
 Pressione as teclas:
 ```
@@ -1794,7 +1794,7 @@ O visor exibirá: 4,50% (A taxa efetiva do título de dívida ou *Yield To Matur
 
 ## Problemas diversos
 
-**Problema: As vendas de uma empresa foram de R$ 100 milhões no ano inicial. Considerando um crescimento anual composto (CAGR[^9]) de 8% ao ano, qual será o valor das vendas ao final de 10 anos, em milhões de reais?**
+**Problema: As vendas de uma empresa foram de R$ 100 milhões no ano inicial. Considerando um crescimento anual composto (CAGR[^10]) de 8% ao ano, qual será o valor das vendas ao final de 10 anos, em milhões de reais?**
 
 Dados do problema:
 - n = 10
@@ -1918,8 +1918,8 @@ Para exibir os valores acumulados dos anos seguintes, basta pressionar repetidam
 
 [^8]: **Hipoteca e Alienação Fiduciária.** A hipoteca e a alienação fiduciária são formas de garantia usadas em financiamentos. Na hipoteca, o bem fica no nome do devedor, e o credor precisa entrar com ação judicial se o pagamento não for feito. Já na alienação fiduciária, o bem é transferido ao credor em caráter provisório até a quitação da dívida, o que facilita a retomada do bem em caso de inadimplência, sem necessidade de processo judicial. No Brasil, a alienação fiduciária é a forma mais usada por ser mais rápida e segura para os credores.
 
-[^9]: **Taxa de Crescimento Anual Composta.** A CAGR (*Compound Annual Growth Rate*), é uma medida que mostra a taxa média de crescimento de um investimento ou negócio durante um período específico, considerando o efeito dos juros compostos. Ele indica quanto algo cresceu, em média, por ano, partindo do valor inicial até o valor final, mesmo que o crescimento tenha variado a cada ano. Isso ajuda a entender o desempenho real ao longo do tempo.
+[^9]: **Yield To Maturity.** A *Yield To Maturity* (YTM) representa a taxa efetiva do título de dívida. Ela reflete o rendimento (*yield*) do título de renda fixa até seu vencimento (*maturity*).
 
-[^10]: **Yield To Maturity.** A *Yield To Maturity* (YTM) representa a taxa efetiva do título de dívida. Ela reflete o rendimento (*yield*) do título de renda fixa até seu vencimento (*maturity*).
+[^10]: **Taxa de Crescimento Anual Composta.** A CAGR (*Compound Annual Growth Rate*), é uma medida que mostra a taxa média de crescimento de um investimento ou negócio durante um período específico, considerando o efeito dos juros compostos. Ele indica quanto algo cresceu, em média, por ano, partindo do valor inicial até o valor final, mesmo que o crescimento tenha variado a cada ano. Isso ajuda a entender o desempenho real ao longo do tempo.
 
 [^11]: **Leasing.** O *leasing* é uma forma de financiamento onde uma empresa (a financeira) compra um bem (por exemplo, um carro) e o cede ao usuário (arrendatário) para uso, mediante pagamentos periódicos. Funciona como um aluguel com opção de compra no final do contrato. Durante o contrato, o usuário paga uma espécie de "aluguel" (as parcelas do *leasing*) e, ao final do período, pode optar por comprar o bem pagando um valor residual acordado.
