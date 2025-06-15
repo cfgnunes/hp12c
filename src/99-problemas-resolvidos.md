@@ -1508,7 +1508,7 @@ Pressione as teclas:
 
 O visor exibirá: 209,44 (aluguel médio mensal).
 
-## Taxas efetivas equivalentes
+## Taxas equivalentes
 
 **Nota:** Para os exercícios a seguir, utilize o programa [Conversão entre taxas equivalentes](./01-taxas-equivalentes.md).
 
@@ -1619,7 +1619,7 @@ O visor exibirá: 6,88 (taxa efetiva anual do Banco C).
 
 Os cálculos mostram que o Banco C oferece a taxa mais favorável (maior taxa).
 
-## Taxa nominal e taxa real
+## Taxa real
 
 **Nota:** Para os exercícios a seguir, utilize o programa [Cálculo de rentabilidade real](./05-rentabilidade-real.md).
 
