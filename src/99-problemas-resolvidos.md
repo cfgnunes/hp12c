@@ -1783,7 +1783,7 @@ Pressione a tecla: `[+]`
 
 O visor exibirá: -139.578,95 (total pago em parcelas da 16ª à 27ª).
 
-## Cálculos para títulos de dívida
+## Títulos de dívida
 
 **Problema: Qual seria o preço justo a ser pago em 28 de abril de 2025 por um título público do Tesouro Nacional, que possui uma taxa nominal de juros de 6,75% ao ano e vence em 14 de junho de 2038, caso você deseje obter uma taxa efetiva de retorno (YTM)[^9] de 4,75% ao ano? Além disso, calcule a taxa efetiva de retorno correspondente ao preço de mercado do título, dado como 122,125%. Considere que o formato de data é dia-mês-ano.**
 
