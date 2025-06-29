@@ -1902,8 +1902,6 @@ Pressione as teclas:
 
 Para exibir os valores acumulados dos anos seguintes, basta pressionar repetidamente a tecla: `[+]`
 
-## Glossário
-
 [^1]: **Anuidade**. Uma anuidade é um tipo de investimento ou empréstimo em que pagamentos iguais são feitos em intervalos regulares, como todo mês ou todo ano. Esses pagamentos podem ocorrer no início ou no final de cada período, dependendo do tipo de anuidade. Por exemplo, se você fizer um pagamento mensal durante um certo tempo, isso caracteriza uma anuidade. Esse conceito é muito usado para calcular valores de empréstimos, financiamentos e investimentos que envolvem pagamentos periódicos. Existem dois tipos principais de anuidade: a ordinária, em que os pagamentos são feitos no final de cada período, e a antecipada, em que os pagamentos são feitos no início dos períodos.
 
 [^2]: **Taxa nominal e taxa efetiva.** A taxa nominal é a taxa de juros divulgada numa base anual, mas que considera capitalização periódica (como mensal ou trimestral). Já a taxa efetiva representa o juro real acumulado, levando em conta a frequência com que os juros são capitalizados durante o ano. Por exemplo, uma taxa nominal de 12% ao ano com capitalização mensal significa que os juros são aplicados mensalmente. Existem esses dois tipos porque a taxa nominal facilita a divulgação e a comparação de ofertas financeiras, simplificando contratos que têm capitalização em períodos menores.
