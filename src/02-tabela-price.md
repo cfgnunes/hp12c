@@ -1,4 +1,4 @@
-# Sistema de Amortização Francês (SAF)
+# Sistema de Amortização Francês (SAF) - Tabela Price
 
 Este sistema de amortização também é conhecido como "Tabela Price" ou "Sistema de Prestação Constante".
 

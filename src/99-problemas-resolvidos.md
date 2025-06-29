@@ -1643,7 +1643,7 @@ Pressione as teclas:
 
 Resposta: 6,67% (taxa real de juros).
 
-## Financiamentos e empréstimos com o Sistema de Amortização Francês (SAF)
+## Financiamentos e empréstimos com o Sistema de Amortização Francês (SAF) - Tabela Price
 
 **Problema: Qual é o pagamento mensal necessário para amortizar completamente uma hipoteca no valor de R$ 30.000,00, por um prazo de 30 anos, se a taxa nominal de juro é de 12%?**
 
@@ -1680,7 +1680,7 @@ Pressione as teclas:
 
 Resposta: R$ 73.408,83 (valor da liquidação ao final de quatro anos, saldo devedor)
 
-**Nota:** Como alternativa, você pode usar o programa [Sistema de Amortização Francês (SAF)](./02-tabela-price.md). Diferentemente da função AMORT da HP 12c, este programa calcula o valor exato sem realizar iterações, evitando erros de arredondamento. Além disso, não é necessário informar o valor das parcelas (PMT). Confira o procedimento a seguir:
+**Nota:** Como alternativa, você pode usar o programa [Sistema de Amortização Francês (SAF) - Tabela Price](./02-tabela-price.md). Diferentemente da função AMORT da HP 12c, este programa calcula o valor exato sem realizar iterações, evitando erros de arredondamento. Além disso, não é necessário informar o valor das parcelas (PMT). Confira o procedimento a seguir:
 
 Pressione as teclas:
 ```
