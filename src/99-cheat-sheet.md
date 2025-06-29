@@ -123,16 +123,3 @@ You can store multiple programs in memory, but each must be separated by the ins
 To run a specific program, press `[g] [GTO]`, enter the program's starting line number, then press `[R/S]` to execute it.
 
 To make it easier to rerun a program without manually setting the start line each time, end your program with the instructions `R/S` followed by `GTO XX`, where `XX` is the program's starting line. For example, if your program starts at line 22 and ends at line 35, use `R/S` and `GTO 22` as the final two instructions. This makes the calculator return to the beginning of your program after each run, streamlining repeated executions.
-
-## HP 12c and HP 12c Platinum/Prestige Comparison
-
-|                          | HP 12c                        | HP 12c Platinum/Prestige                       |
-| :----------------------- | ----------------------------- | ---------------------------------------------- |
-| **Display**              | 10x7-segment, single line     | 10x7-segment, single line, adjustable contrast |
-| **Entry-system logic**   | RPN                           | RPN & Algebraic                                |
-| **Internal precision**   | 12 digits                     | 15 digits                                      |
-| **Programmability**      | 99-step keystroke programming | 399-step keystroke programming                 |
-| **Size**                 | 12.9 x 8.0 x 1.52 cm          | 12.9 x 7.9 x 1.5 cm                            |
-| **Performance**          | 1x faster                     | 6x faster                                      |
-| **Memory**               | Handle up to 20 cash flows    | Handle up to 80 cash flows                     |
-| **Additional functions** | -                             | Undo, Backspace, $x^2$                         |
