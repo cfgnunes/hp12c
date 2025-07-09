@@ -185,11 +185,11 @@ Pressione as teclas:
     [R down] [x><y]    (descarta o valor de juro na base de 360 dias)
 ```
 
-O visor exibirá: 5,18 (quanto de juro ele estará lhe devendo).
+O visor exibirá: 5,25 (quanto de juro ele estará lhe devendo).
 
 Pressione a tecla: `[+]`
 
-O visor exibirá: 455,18 (montante total da dívida).
+O visor exibirá: 455,25 (montante total da dívida).
 
 ## Pagamentos únicos: investimentos
 
@@ -306,8 +306,6 @@ Pressione as teclas:
 ```
 
 O visor exibirá: 27,00 (meses para dobrar o patrimônio).
-
-**Nota:** A calculadora HP 12c retorna o valor 28, em vez de 27,005 (valor exato), porque arredonda o resultado para cima em cálculos que envolvem a determinação do número de períodos (n). Ela obtém apenas valores inteiros para n, sendo uma limitação da calculadora. Para realizar o cálculo exato, utilize o programa [Cálculo de prazo fracionário](./04-prazo-fracionario.md).
 
 **Problema: Você investe R$ 3.000,00 e o valor dobra para R$ 6.000,00 com juros de 9% ao ano. Quanto tempo levou?**
 
@@ -733,7 +731,7 @@ Pressione as teclas:
       [VF]
 ```
 
-Resposta: VF = -345.505,61 (valor na conta ao aposentar-se)
+Resposta: VF = 345.505,61 (valor na conta ao aposentar-se)
 
 Pressione as teclas:
 ```
