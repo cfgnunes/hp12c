@@ -179,8 +179,8 @@ Dados do problema:
 Pressione as teclas:
 ```
 450 [CHS] [PV]
-7         [i]
 60        [n]
+7         [i]
           [f] [INT]          (cacula os juros simples)
           [R down] [x><y]    (descarta o valor de juro na base de 360 dias)
 ```
@@ -204,9 +204,9 @@ Dados do problema:
 
 Pressione as teclas:
 ```
-8          [n]
-6          [i]
 5000 [CHS] [PV]
+6          [i]
+8          [n]
            [FV]
 ```
 
@@ -223,9 +223,9 @@ Dados do problema:
 
 Pressione as teclas:
 ```
+10000 [FV]
 5     [n]
 7     [i]
-10000 [FV]
       [PV]
 ```
 
@@ -242,9 +242,9 @@ Dados do problema:
 
 Pressione as teclas:
 ```
-4    [n]
 2000 [PV]
 2800 [FV]
+4    [n]
      [i]
 ```
 
@@ -261,9 +261,9 @@ Dados do problema:
 
 Pressione as teclas:
 ```
+1000 [FV]
 3    [n]
 4    [i]
-1000 [FV]
      [PV]
 ```
 
@@ -280,8 +280,8 @@ Dados do problema:
 
 Pressione as teclas:
 ```
-10           [n]
 613,81 [CHS] [PV]
+10           [n]
 1000         [FV]
              [i]
 ```
@@ -318,9 +318,9 @@ Dados do problema:
 
 Pressione as teclas:
 ```
-9          [i]
 3000 [CHS] [PV]
 6000       [FV]
+9          [i]
            [n]
 ```
 
@@ -339,9 +339,9 @@ Dados do problema:
 
 Pressione as teclas:
 ```
-7,2        [i]
 2000 [CHS] [PV]
 3000       [FV]
+7,2        [i]
            [n]
 ```
 
@@ -360,9 +360,9 @@ Dados do problema:
 
 Pressione as teclas:
 ```
+1000 [CHS] [PV]
 10         [n]
 5          [i]
-1000 [CHS] [PV]
            [FV]
 ```
 
@@ -379,9 +379,9 @@ Dados do problema:
 
 Pressione as teclas:
 ```
-5           [ENTER] 4 [x] [n]
-8           [ENTER] 4 [/] [i]
 10000 [CHS] [PV]
+8           [ENTER] 4 [/] [i]
+5           [ENTER] 4 [x] [n]
             [FV]
 ```
 
@@ -398,9 +398,9 @@ Dados do problema:
 
 Pressione as teclas:
 ```
+8000 [FV]
 5    [g] [12x]
 6,5  [g] [12/]
-8000 [FV]
      [PV]
 ```
 
@@ -438,9 +438,9 @@ Dados do problema:
 
 Pressione as teclas:
 ```
-3          [n]
-5          [i]
 7000 [CHS] [PV]
+5          [i]
+3          [n]
            [FV]
 ```
 
@@ -457,9 +457,9 @@ Dados do problema:
 
 Pressione as teclas:
 ```
+10000 [CHS] [FV]
 6           [n]
 4           [i]
-10000 [CHS] [FV]
             [PV]
 ```
 
@@ -476,9 +476,9 @@ Dados do problema:
 
 Pressione as teclas:
 ```
-2          [n]
 1500       [PV]
 1800 [CHS] [FV]
+2          [n]
            [i]
 ```
 
@@ -495,9 +495,9 @@ Dados do problema:
 
 Pressione as teclas:
 ```
-8          [i]
 5000       [PV]
 6000 [CHS] [FV]
+8          [i]
            [n]
 ```
 
@@ -516,9 +516,9 @@ Dados do problema:
 
 Pressione as teclas:
 ```
-1          [g] [12x]
-4,3        [g] [12/]
 1500 [CHS] [PV]
+4,3        [g] [12/]
+1          [g] [12x]
            [FV]
            [RCL] [PV]
            [+]
@@ -538,9 +538,9 @@ Dados do problema:
 
 Pressione as teclas:
 ```
+600        [PV]
+2400 [CHS] [FV]
 2          [g] [12x]
-600  [CHS] [PV]
-2400       [FV]
            [i]
 12         [x]
 ```
@@ -563,9 +563,9 @@ Dados do problema:
 Resolvendo o problema com a convenção exponencial. Pressione as teclas:
 ```
       [STO] [EEX]    (pressionar até aparecer o símbolo 'C' no visor)
+50000 [i]
 3,5   [n]
 22    [i]
-50000 [i]
       [FV]
 ```
 
@@ -574,9 +574,9 @@ Resposta: FV = -100.283,48
 Resolvendo o problema com a convenção linear. Pressione as teclas:
 ```
       [STO] [EEX]    (pressionar até apagar o símbolo 'C' no visor)
+50000 [i]
 3,5   [n]
 22    [i]
-50000 [i]
       [FV]
 ```
 
@@ -595,9 +595,9 @@ Dados do problema:
 
 Pressione as teclas:
 ```
+22000 [CHS] [PMT]
 7           [n]
 6           [i]
-22000 [CHS] [PMT]
             [FV]
 ```
 
@@ -614,9 +614,9 @@ Dados do problema:
 
 Pressione as teclas:
 ```
+1200 [CHS] [PMT]
 10         [ENTER] 4 [x] [n]
 8          [ENTER] 4 [/] [i]
-1200 [CHS] [PMT]
            [FV]
 ```
 
@@ -672,9 +672,9 @@ Dados do problema:
 Pressione as teclas:
 ```
        [g] [BEG]    (pagamentos feitos no início dos períodos)
-5      [g] [12x]
 0,75   [i]
 100000 [FV]
+5      [g] [12x]
        [PMT]
 ```
 
@@ -692,9 +692,9 @@ Dados do problema:
 Pressione as teclas:
 ```
    [g] [BEG]    (pagamentos feitos no início dos períodos)
-20 [g] [12x]
 1  [i]
 1  [EEX] 6 [FV]
+20 [g] [12x]
    [PMT]
 ```
 
@@ -712,9 +712,9 @@ Dados do problema:
 Pressione as teclas:
 ```
           [g] [BEG]    (pagamentos feitos no início dos períodos)
+500 [CHS] [PMT]
 7         [ENTER] 4 [x] [n]
 12        [ENTER] 4 [/] [i]
-500 [CHS] [PMT]
           [FV]
 ```
 
@@ -761,7 +761,7 @@ Pressione as teclas:
            [PV]
 ```
 
-Resposta: PV = 25,301,17 (compensa comprar até esse preço, comprando a vista)
+Resposta: PV = 25.301,17 (compensa comprar até esse preço, comprando a vista)
 
 **Problema 40: Um empréstimo de R$ 20.000,00 é concedido para pagamento em 5 prestações mensais, iguais e sucessivas de $ 4.300,00. Calcular o custo mensal deste empréstimo.**
 
@@ -793,9 +793,9 @@ Dados do problema:
 
 Pressione as teclas:
 ```
+190 [EEX] 3 [PV]
 30  [g] [12x]
 7   [g] [12/]
-190 [EEX] 3 [PV]
     [PMT]
 ```
 
@@ -812,9 +812,9 @@ Dados do problema:
 
 Pressione as teclas:
 ```
-48    [n]
-4     [g] [12/]
 28000 [PV]
+4     [g] [12/]
+48    [n]
       [PMT]
 ```
 
@@ -904,7 +904,7 @@ Pressione as teclas:
 [PMT]
 ```
 
-Resposta: PMT = -1.308,48 (novo valor da parcela após amortização por parcela).
+Resposta: PMT = -1.308,44 (novo valor da parcela após amortização por parcela).
 
 **Problema 45: Após uma consideração cuidadosa de suas finanças você decidiu que o pagamento máximo mensal que pode assumir é de R$ 630,00. Você pode dar uma entrada de R$ 12.000,00 e a taxa nominal de juro está fixada em 11,5% ao ano. Se você fizer um financiamento de 30 anos, qual será o valor máximo da compra que você poderá fazer?**
 
@@ -919,9 +919,9 @@ Dados do problema:
 
 Pressione as teclas:
 ```
-30         [g] [12x]
-11,5       [g] [12/]
 630  [CHS] [PMT]
+11,5       [g] [12/]
+30         [g] [12x]
            [PV]
 ```
 
@@ -950,9 +950,9 @@ Dados do problema:
 
 Pressione as teclas:
 ```
+1000 [PMT]
 5    [n]
 6    [i]
-1000 [PMT]
      [PV]
 ```
 
@@ -969,9 +969,9 @@ Dados do problema:
 
 Pressione as teclas:
 ```
-15     [n]
-6      [i]
 200000 [PV]
+6      [i]
+15     [n]
        [PMT]
 ```
 
@@ -979,7 +979,7 @@ Resposta: PMT = -20.592,55
 
 ## Arrendamento
 
-**Problema 48: Um carro novo que custa R$ 13.500,00 pode ser adquirido através de um *leasing*[^11] de 3 anos, com a opção de compra ao final do período por R$ 7.500,00. Se a financeira quiser obter um rendimento anual nominal de 14%, qual deverá ser o valor dos pagamentos mensais, com um pagamento antecipado? Calcule o valor do pagamento sob o ponto de vista da financeira. Utilize o modo início (BEGIN), porque o primeiro pagamento é devido na assinatura do contrato.**
+**Problema 48: Um carro novo que custa R$ 13.500,00 pode ser adquirido através de um *leasing*[^11] de 3 anos, com a opção de compra ao final do período por R$ 7.500,00. Se a financeira quiser obter um rendimento anual nominal de 14%, qual deverá ser o valor dos pagamentos mensais, com um pagamento antecipado? Calcule o valor do pagamento mensal sob o ponto de vista da financeira. Utilize o modo início (BEGIN), porque o primeiro pagamento é devido na assinatura do contrato.**
 
 Dados do problema:
 - n = 3 x 12
@@ -991,14 +991,14 @@ Dados do problema:
 Pressione as teclas:
 ```
              [g] [BEG]    (pagamentos feitos no início dos períodos)
+135000       [PMT]
 3            [g] [12x]
+7500   [CHS] [FV]
 14           [g] [12/]
-135000 [CHS] [PMT]
-7500         [FV]
              [PMT]
 ```
 
-Resposta: PMT = 289,19
+Resposta: PMT = -289,19
 
 ## Anuidade com carência: financiamentos e empréstimos
 
@@ -1059,8 +1059,8 @@ Dados do problema:
 Pressione as teclas:
 ```
 12        [n]
-0,7       [i]
 130 [CHS] [PMT]
+0,7       [i]
           [PV]
 ```
 
@@ -1068,8 +1068,7 @@ O visor exibirá: 1491,28 (valor presente das parcelas)
 
 Para saber a diferença entre o valor à vista e o valor presente das parcelas, pressione as teclas:
 ```
-1560
-[x><y] [-]
+1560 [x><y] [-]
 ```
 
 O visor exibirá: 68,72 (diferença entre o valor à vista e o valor presente das parcelas)
@@ -1087,8 +1086,8 @@ Dados do problema:
 
 Pressione as teclas:
 ```
-3          [n]
 1300       [PV]
+3          [n]
 456  [CHS] [PMT]
            [i]
 ```
@@ -1713,7 +1712,7 @@ Pressione a tecla: `[+]`
 
 O visor exibirá: -416.000,00 (total pago até a 13ª parcela).
 
-**Problema 82: Considere um empréstimo no valor de R$350.000,00, com taxa de juros de 1% ao mês e prazo de 35 meses. Com base nesses dados, determine os juros pagos especificamente na 28ª parcela, bem como o valor total dessa parcela. Considere o Sistema de Amortização Constante (SAC).**
+**Problema 82: Considere um empréstimo no valor de R$ 350.000,00, com taxa de juros de 1% ao mês e prazo de 35 meses. Com base nesses dados, determine os juros pagos especificamente na 28ª parcela, bem como o valor total dessa parcela. Considere o Sistema de Amortização Constante (SAC).**
 
 Acumule as amortizações até a 27ª parcela, pressionando as teclas:
 ```
@@ -1755,7 +1754,7 @@ Pressione a tecla: `[+]`
 
 O visor exibirá: -526.400,00 (total pago em parcelas ao longo de todo o financiamento).
 
-**Problema 84: Considere um empréstimo no valor de R$260.000,00, com taxa de juros de 4% ao mês e prazo total de 38 meses. Com base nessas condições, calcule, para o período entre a 16ª e a 27ª parcela: o total de juros pagos, o total de amortizações realizadas e o valor total desembolsado com o pagamento dessas parcelas. Considere o Sistema de Amortização Constante (SAC).**
+**Problema 84: Considere um empréstimo no valor de R$ 260.000,00, com taxa de juros de 4% ao mês e prazo total de 38 meses. Com base nessas condições, calcule, para o período entre a 16ª e a 27ª parcela: o total de juros pagos, o total de amortizações realizadas e o valor total desembolsado com o pagamento dessas parcelas. Considere o Sistema de Amortização Constante (SAC).**
 
 Primeiro, amortize até a 15ª parcela, pressionando as teclas:
 ```
