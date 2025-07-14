@@ -1166,11 +1166,11 @@ Resposta: TIR = 2,47% ao mês.
 
 Pressione as teclas:
 ```
-5000 [CHS] [g] [CFo]    (CF0 = -5.000)
-1500       [g] [CFj]    (CF1 = 1.500)
-1600       [g] [CFj]    (CF2 = 1.600)
+5000       [g] [CFo]    (CF0 = -5.000)
+1500 [CHS] [g] [CFj]    (CF1 = 1.500)
+1600 [CHS] [g] [CFj]    (CF2 = 1.600)
 2          [g] [Nj]     (indica que CF2 se repete 2 vezes)
-1700       [g] [CFj]    (CF3 = 1.700)
+1700 [CHS] [g] [CFj]    (CF3 = 1.700)
            [f] [IRR]    (calcula a TIR)
 ```
 
@@ -1258,7 +1258,7 @@ Pressione as teclas:
               [f] [IRR]    (calcula a TIR)
 ```
 
-Resposta: TIR = 0,47% (taxa interna de retorno mensal)
+Resposta: TIR = 0,46% (taxa interna de retorno mensal)
 
 **Problema 62: (Valor futuro com pagamentos irregulares) Um investidor realiza 5 depósitos mensais consecutivos em uma aplicação financeira que rende 1% ao mês, com capitalização mensal. Cada pagamento é feito ao final de cada mês conforme os dados abaixo. Calcule o valor futuro total acumulado ao final do período, após o último depósito.**
 
@@ -1285,7 +1285,7 @@ Pressione as teclas:
           [FV]
 ```
 
-Resposta: R$ 2.035,22
+Resposta: R$ 2.255,57
 
 **Uma empresa avalia um investimento de R$ 20.000,00 que gera os seguintes fluxos de caixa ao longo de 4 anos, com uma taxa mínima de atratividade de 10% ao ano, e deseja saber qual é a Série Uniforme Líquida[^4] (*Net Uniform Series*) equivalente.**
 
@@ -1300,7 +1300,7 @@ Resposta: R$ 2.035,22
 
 Pressione as teclas:
 ```
-20000 [CHS] [g] [CFj]
+20000 [CHS] [g] [CFo]
 5000        [g] [CFj]
 6000        [g] [CFj]
 7000        [g] [CFj]
@@ -1311,7 +1311,7 @@ Pressione as teclas:
             [PMT]
 ```
 
-Resposta: R$ 71,75
+Resposta: R$ -71,75
 
 ## Cálculo de depreciação
 
@@ -1320,12 +1320,12 @@ Resposta: R$ 71,75
 Pressione as teclas:
 ```
 120000 [PV]
-12000  [FV]
 6      [n]
+12000  [FV]
 4      [f] [DEPREC. SL]
 ```
 
-O visor exibirá: R$ 18.000,00 (depreciação correspondente ao terceiro ano).
+O visor exibirá: R$ 18.000,00 (depreciação correspondente ao quarto ano).
 
 Pressione as teclas:
 ```
@@ -1334,15 +1334,15 @@ Pressione as teclas:
 [+]
 ```
 
-O visor exibirá: R$ 48.000,00 (valor estimado do bem ao final do terceiro ano).
+O visor exibirá: R$ 48.000,00 (valor estimado do bem ao final do quarto ano de uso).
 
 **Problema 64: Uma empresa adquiriu um veículo de entrega por R$ 100.000,00 com vida útil estimada de 8 anos e valor residual de R$ 40.000,00. Deseja-se calcular, utilizando o método da soma dos dígitos dos anos, o valor da depreciação correspondente ao terceiro ano de uso, bem como o valor de revenda do veículo ao final desse ano.**
 
 Pressione as teclas:
 ```
 100000 [PV]
-40000  [FV]
 8      [n]
+40000  [FV]
 3      [f] [DEPREC. SOYD]
 ```
 
@@ -1364,8 +1364,8 @@ O visor exibirá: R$ 65.000,00 (valor de revenda do veículo ao final desse ano)
 Pressione as teclas:
 ```
 12000 [PV]
-500   [FV]
 10    [n]
+500   [FV]
 4     [f] [DEPREC. SOYD]
 ```
 
@@ -1378,10 +1378,10 @@ O visor exibirá: R$ 1.463,64 (depreciação no quarto ano).
 Pressione as teclas:
 ```
 10000 [PV]
-500   [FV]
 5     [n]
+500   [FV]
 200   [i]
-2     [f] [DEPREC. DB]
+3     [f] [DEPREC. DB]
 ```
 
 O visor exibirá: R$ 1.440,00 (depreciação no terceiro ano).
@@ -1555,7 +1555,7 @@ Pressione as teclas:
 
 O visor exibirá: 5,74 (taxas de juros anual, capitalizada mensalmente).
 
-**Problema 75: Um aplicação financeira promete pagar 42% ao ano de juros. Sendo de um mês o prazo da aplicação, pede-se determinar a sua rentabilidade efetiva considerando os juros de 42% a. a. como taxa efetiva e taxa nominal.**
+**Problema 75: Um aplicação financeira promete pagar 42% ao ano de juros. Sendo de um mês o prazo da aplicação, pede-se determinar a sua rentabilidade efetiva considerando os juros de 42% a.a. como taxa efetiva e taxa nominal.**
 
 Considerando 42% a.a. como taxa efetiva, pressione as teclas:
 ```
@@ -1573,7 +1573,7 @@ Considerando 42% a.a. como taxa nominal, pressione as teclas:
 12 [/]
 ```
 
-O visor exibirá: 2,97 (taxa ao mês).
+O visor exibirá: 3,50 (taxa ao mês).
 
 **Problema 76: Você considera abrir uma conta de poupança em um destes três bancos. Qual deles lhe oferece a melhor taxa de juros?**
 
