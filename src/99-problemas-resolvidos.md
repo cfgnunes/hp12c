@@ -1607,7 +1607,7 @@ Para obter a taxa efetiva anual do Banco C, pressione as teclas:
 ```
 1    [ENTER]
 6,65 [%]
-     [e^x]
+     [g] [e^x]
 1    [-]
 100  [x]
 ```
@@ -1653,9 +1653,9 @@ Dados do problema:
 
 Pressione as teclas:
 ```
+30000 [PV]
 30    [g] [12x]
 12    [g] [12/]
-30000 [PV]
       [PMT]        (encontra o valor das parcelas fixas)
 ```
 
@@ -1668,8 +1668,8 @@ Resposta: PMT = -308,58 (valor das parcelas fixas).
 Pressione as teclas:
 ```
 25    [g] [12x]
-13,8  [g] [12/]
 75250 [PV]
+13,8  [g] [12/]
       [PMT]          (encontra o valor das parcelas fixas)
 48    [f] [AMORT]    (amortização de 48 meses)
       [RCL] [PV]     (exibe o saldo devedor)
@@ -1677,13 +1677,13 @@ Pressione as teclas:
 
 Resposta: R$ 73.408,83 (valor da liquidação ao final de quatro anos, saldo devedor)
 
-**Nota:** Como alternativa, você pode usar o programa [Sistema de Amortização Francês (SAF) - Tabela Price](./02-tabela-price.md). Diferentemente da função AMORT da HP 12c, este programa calcula o valor exato sem realizar iterações, evitando erros de arredondamento. Além disso, não é necessário informar o valor das parcelas (PMT). Confira o procedimento a seguir:
+**Nota:** Como alternativa, você pode usar o programa [Sistema de Amortização Francês (SAF) - Tabela Price](./02-tabela-price.md). Diferentemente da função AMORT da HP 12c, este programa calcula o valor exato, evitando erros de arredondamento. Além disso, não é necessário informar o valor das parcelas (PMT). Confira o procedimento a seguir:
 
 Pressione as teclas:
 ```
 25    [g] [12x]
-13,8  [g] [12/]
 75250 [PV]
+13,8  [g] [12/]
 48                   (amortização de 48 meses)
       [R/S]          (executa o programa)
       [RCL] [PV]     (exibe o saldo devedor)
