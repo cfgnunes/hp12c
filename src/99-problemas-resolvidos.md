@@ -326,7 +326,7 @@ Pressione as teclas:
 
 Resposta: n = 8,04 (anos).
 
-**Nota:** A calculadora HP 12c retorna o valor 9, em vez de 8,04 (valor exato), porque arredonda o resultado para cima em cálculos que envolvem a determinação do número de períodos (n). Ela obtém apenas valores inteiros para n, sendo uma limitação da calculadora. Para realizar o cálculo exato, utilize o programa [Cálculo de prazo fracionário](./04-prazo-fracionario.md).
+**Nota:** A calculadora HP 12c retorna o valor 9, em vez de 8,04 (valor exato), porque arredonda o resultado para cima em cálculos que envolvem a determinação do número de períodos (n). Ela obtém apenas valores inteiros para n, sendo uma limitação da calculadora. Para realizar o cálculo exato, utilize o programa [Cálculo de prazo fracionário (Programa 004)](./04-prazo-fracionario.md).
 
 **Problema 19: Você deposita R$ 2.000,00 em uma conta de poupança que rende 7,2% de juros anuais, compostos anualmente. Se você não fizer nenhum outro depósito nesta conta, em quanto tempo você terá R$ 3.000,00?**
 
@@ -347,7 +347,7 @@ Pressione as teclas:
 
 Resposta: n = 5,83 (anos)
 
-**Nota:** A calculadora HP 12c retorna o valor 6, em vez de 5,83 (valor exato), porque arredonda o resultado para cima em cálculos que envolvem a determinação do número de períodos (n). Ela obtém apenas valores inteiros para n, sendo uma limitação da calculadora. Para realizar o cálculo exato, utilize o programa [Cálculo de prazo fracionário](./04-prazo-fracionario.md).
+**Nota:** A calculadora HP 12c retorna o valor 6, em vez de 5,83 (valor exato), porque arredonda o resultado para cima em cálculos que envolvem a determinação do número de períodos (n). Ela obtém apenas valores inteiros para n, sendo uma limitação da calculadora. Para realizar o cálculo exato, utilize o programa [Cálculo de prazo fracionário (Programa 004)](./04-prazo-fracionario.md).
 
 **Problema 20: Você aplica R$ 1.000,00 por 10 anos em um banco que paga 5% ao ano, com pagamento no final do período. Quanto terá ao final?**
 
@@ -503,7 +503,7 @@ Pressione as teclas:
 
 Resposta: n = 2,37 (anos).
 
-**Nota:** A calculadora HP 12c retorna o valor 3, em vez de 2,37 (valor exato), porque arredonda o resultado para cima em cálculos que envolvem a determinação do número de períodos (n). Ela obtém apenas valores inteiros para n, sendo uma limitação da calculadora. Para realizar o cálculo exato, utilize o programa [Cálculo de prazo fracionário](./04-prazo-fracionario.md).
+**Nota:** A calculadora HP 12c retorna o valor 3, em vez de 2,37 (valor exato), porque arredonda o resultado para cima em cálculos que envolvem a determinação do número de períodos (n). Ela obtém apenas valores inteiros para n, sendo uma limitação da calculadora. Para realizar o cálculo exato, utilize o programa [Cálculo de prazo fracionário (Programa 004)](./04-prazo-fracionario.md).
 
 **Problema 28: Se João empresta R$ 1.500,00 a um amigo com taxa de 4,3% ao ano, capitalizada mensalmente, quanto de juros terá ao final de um ano?**
 
@@ -1507,7 +1507,7 @@ O visor exibirá: 209,44 (aluguel médio mensal).
 
 ## Taxas equivalentes
 
-**Nota:** Para os exercícios a seguir, utilize o programa [Conversão entre taxas equivalentes](./01-taxas-equivalentes.md).
+**Nota:** Para os exercícios a seguir, utilize o programa [Conversão entre taxas equivalentes (Programa 001)](./01-taxas-equivalentes.md).
 
 **Problema 72: Você possui uma taxa de 1% ao mês e deseja saber qual é a taxa anual equivalente.**
 
@@ -1618,7 +1618,7 @@ Os cálculos mostram que o Banco C oferece a taxa mais favorável (maior taxa).
 
 ## Taxa real
 
-**Nota:** Para os exercícios a seguir, utilize o programa [Cálculo de rentabilidade real](./05-rentabilidade-real.md).
+**Nota:** Para os exercícios a seguir, utilize o programa [Cálculo de rentabilidade real (Programa 005)](./05-rentabilidade-real.md).
 
 **Problema 77: Determinar a variação real do poder aquisitivo de um assalariado que obtém, em determinado semestre, um reajuste salarial de 12%, admitindo que a inflação do período tenha atingido a 8%.**
 
@@ -1677,7 +1677,7 @@ Pressione as teclas:
 
 Resposta: R$ 73.408,83 (valor da liquidação ao final de quatro anos, saldo devedor)
 
-**Nota:** Como alternativa, você pode usar o programa [Sistema de Amortização Francês (SAF) - Tabela Price](./02-tabela-price.md). Diferentemente da função AMORT da HP 12c, este programa calcula o valor exato, evitando erros de arredondamento. Além disso, não é necessário informar o valor das parcelas (PMT). Confira o procedimento a seguir:
+**Nota:** Como alternativa, você pode usar o programa [Sistema de Amortização Francês (SAF) - Tabela Price (Programa 002)](./02-tabela-price.md). Diferentemente da função AMORT da HP 12c, este programa calcula o valor exato, evitando erros de arredondamento. Além disso, não é necessário informar o valor das parcelas (PMT). Confira o procedimento a seguir:
 
 Pressione as teclas:
 ```
@@ -1693,7 +1693,7 @@ Resposta: R$ 73.408,78 (valor da liquidação ao final de quatro anos, saldo dev
 
 ## Financiamentos e empréstimos com o Sistema de Amortização Constante (SAC)
 
-**Nota:** Para os exercícios a seguir, utilize o programa [Sistema de Amortização Constante (SAC)](./03-tabela-sac.md).
+**Nota:** Para os exercícios a seguir, utilize o programa [Sistema de Amortização Constante (SAC) (Programa 003)](./03-tabela-sac.md).
 
 **Problema 81: Considere um empréstimo de R$ 500.000,00, com taxa de juros de 2% ao mês e prazo total de 20 meses. Com base nessas condições, calcule o total de juros pagos até a 13ª parcela, bem como o valor total pago até essa mesma parcela. Considere o Sistema de Amortização Constante (SAC).**
 
