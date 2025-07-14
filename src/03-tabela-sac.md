@@ -114,7 +114,7 @@ Pressione as teclas:
 [RCL] [PMT]
 ```
 
-O visor exibirá: -10.800,00 (valor da 28ª parcela).
+O visor exibirá: -1.800,00 (valor da 28ª parcela).
 
 **Problema: Considere um empréstimo no valor de R$ 320.000,00, com taxa de juros de 3% ao mês e prazo total de 42 meses. Com base nessas condições, calcule o total de juros pagos ao longo de todo o financiamento, assim como o valor total desembolsado com o pagamento das parcelas durante todo o período.**
 
