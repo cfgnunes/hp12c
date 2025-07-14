@@ -1825,9 +1825,9 @@ Dados do problema:
 
 Pressione as teclas:
 ```
-10        [n]
-8         [i]
 100 [CHS] [PV]
+8         [i]
+10        [n]
           [FV]
 ```
 
@@ -1847,9 +1847,9 @@ Dados do problema:
 Pressione as teclas:
 ```
      [g] [BEG]    (pagamentos feitos no início dos períodos)
+5000 [PMT]
 5    [g] [12x]
 1    [i]
-5000 [PMT]
      [PV]
 ```
 
@@ -1873,7 +1873,7 @@ Pressione as teclas:
          [PMT]
 ```
 
-Resposta: R$ 711,53 (depositar cada mês para poder custear as despesas com a universidade da filha)
+Resposta: R$ -711,53 (depositar cada mês para poder custear as despesas com a universidade da filha)
 
 ## Utilização da pilha como constante
 
@@ -1881,7 +1881,7 @@ Resposta: R$ 711,53 (depositar cada mês para poder custear as despesas com a un
 
 Pressione as teclas:
 ```
-2     [ENTER] [ENTER] [ENTER]    (preenche toda a pilha com o valor 2)
+2 [ENTER] [ENTER] [ENTER]    (preenche toda a pilha com o valor 2)
 84000 [x]
 ```
 
